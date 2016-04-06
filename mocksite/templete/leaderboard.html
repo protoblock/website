@@ -1,0 +1,38 @@
+<div class='container'>
+
+<div class="jumbotron col-md-12">
+  <h1>Leaderboard</h1>
+
+  <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+
+  <p><a id='test' class="btn btn-primary btn-lg">Learn more</a></p>
+  <form role="form">
+    <div class="form-group">
+        <input id="searchinput" class="form-control" type="search" placeholder="Search Leaderboard..." />
+    </div>
+  <div id="toLeader" class="list-group"></div>
+ </form>
+
+
+<script>
+    $('#toLeader').btsListFilter('#searchinput', {itemChild: 'span'});
+
+$( document).ready(function(){
+    $.get( "json/leaders.json", function( data ) {
+    var item = JSON.stringify(data)
+    var list = JSON.parse(item)
+        for (var i in list) {
+$('#toLeader').append(            
+"<div class='list-group-item'><div class='row-picture'><img class='circle' src='https://raw.githubusercontent.com/google/material-design-icons/master/action/ios/ic_account_circle.imageset/ic_account_circle_3x.png' alt='icon'></div><div class='row-content'><h4 class='list-group-item-heading'><span>"+list[i].name+"</span></h4><p class='list-group-item-text'>"+list[i].score+"</p></div></div>"
+            );
+            }
+    })
+
+})
+
+
+
+
+
+
+</script>

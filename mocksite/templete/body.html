@@ -1,0 +1,142 @@
+<script type="text/javascript">
+$( document ).ready(function(){
+    $("#loader").hide().load("templete/main.html").fadeIn(1200);
+    animateLoader()
+    $.material.ripples();
+    $.material.init();
+
+    
+    
+
+});
+
+
+
+$( '#homeIcon' ).click(function(){ $('#loader').hide().load("templete/main.html").fadeIn(1200); });
+// $( '#home' ).click(function(){ $('#loader').hide().load("templete/main.html").fadeIn(1200); });
+$( '#desc' ).click(function(){ $('#loader').hide().load("templete/desc.html").fadeIn(1200); });
+$( '#tutorials' ).click(function(){ $('#loader').hide().load("templete/tutorials.html").fadeIn(1200); });
+$( '#leaderboard' ).click(function(){ $('#loader').hide().load("templete/leaderboard.html").fadeIn(1200); });
+$( '#about' ).click(function(){ $('#loader').hide().load("templete/about.html").fadeIn(1200); });
+$( '#team' ).click(function(){ $('#loader').hide().load("templete/team.html").fadeIn(1200); });
+$( '#faqs' ).click(function(){ $('#loader').hide().load("templete/faqs.html").fadeIn(1200); });
+$( '#pressPack' ).click(function(){ $('#loader').hide().load("templete/presspack.html").fadeIn(1200); });
+$( '#recentNews' ).click(function(){ $('#loader').hide().load("templete/recentnews.html").fadeIn(1200); });
+$( '#contact' ).click(function(){ $('#loader').hide().load("templete/contact.html").fadeIn(1200); });
+$( '#chat' ).click(function(){ $('#loader').hide().load("templete/chat.html").fadeIn(1200) });
+
+
+
+
+
+
+function animateLoader(){
+    $('.footer').hide().fadeIn(1200);
+    $('.nav').hide().fadeIn(1200);
+}
+</script>
+
+
+<style>
+
+
+.navbar.navbar-inverse {
+    background-color: #c7c7c7;
+    color: black;
+}
+.navbar .container { height: 2em; }
+
+}
+
+
+</style>
+<!-- Menu -->
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <a><img class="navbar-brand"  id='homeIcon' src="artwork/icon_withWords.png" ></a>
+
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+<!--               <a id='homeIcon' class="navbar-brand" href="#">ProtoBlock</a> -->
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+   <!--           <li><a id='home'>Home</a></li>-->
+              
+              
+              
+              
+              
+              
+              <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ProRoto 2016 <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a id='desc' href="#">Desctipion</a></li>
+                    <li><a id='tutorials' href="#">Tutorials</a></li>
+                    <li><a id='leaderboard' href="#">Leaderboard</a></li>
+                  </ul>
+                </li>
+
+              
+              
+              
+              
+              <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Company <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a id='about' href="#">About</a></li>
+                    <li><a id='team' href="#">Team</a></li>
+                    <li><a id='faqs' href="#">FAQs</a></li>
+                  </ul>
+                </li>
+
+                
+                
+              <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">News <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Blog</a></li>
+                    <li><a id='pressPack' href="#">Press Pack</a></li>
+                    <li><a id='recentNews' href="#">Recent News</a></li>
+                  </ul>
+                </li>
+              
+                
+              <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Support <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Fourm</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a id='contact' href="#">Contact</a></li> 
+                    <li><a id='chat'>Chat</a></li>
+                  </ul>
+                </li>
+              
+                
+                
+                
+                
+                
+                
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+    <!-- Menu -->
+<!--This also ends in the footer file -->
+<div id="loader" class="col-md-12">
+
+
+
+
+
+
