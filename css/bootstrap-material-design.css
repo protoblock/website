@@ -2220,7 +2220,7 @@ legend {
 }
 .navbar .navbar-brand {
   position: relative;
-  height: 60px;
+  height: 70px;
   line-height: 30px;
   color: inherit;
 }
@@ -2236,7 +2236,7 @@ legend {
 }
 .navbar .navbar-nav > li > a {
   color: inherit;
-  padding-top: 20px;
+  padding-top: 30px;
   padding-bottom: 20px;
 }
 .navbar .navbar-nav > li > a:hover,

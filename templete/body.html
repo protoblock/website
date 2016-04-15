@@ -1,125 +1,152 @@
-<script type="text/javascript">
-$( document ).ready(function(){
-    $("#loader").hide().load("templete/main.html").fadeIn(1200);
-    animateLoader()
-    $.material.ripples();
-    $.material.init();
-
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta content="" name="description">
+    <meta content="" name="author">
+	<!--<link rel="icon" href="../../favicon.ico">-->
+    <title id='mainTtitle'>ProtoBlock | Legitimize the game you love</title>
+	
+	<!-- CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet" type='text/css'>
+    <link href="../css/bootstrap-material-datetimepicker.css" rel="stylesheet">
+    <link href="../css/animate.css" rel="stylesheet">
+    <link href="../css/retina.css" media="only screen and (-webkit-min-device-pixel-ratio: 2)" rel="stylesheet">
+	<!-- Material Design fonts -->
+    <link href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
+	<!-- Font Awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+	<!-- Bootstrap Material Design -->
+    <link href="../css/bootstrap-material-design.css" rel="stylesheet" type="text/css">
+    <link href="../css/ripples.min.css" rel="stylesheet" type="text/css">
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
+	
+	<!--js -->
+    <script src="../js/jquery.min.js" type="text/javascript"></script>
+    <script src='../js/tablesort.min.js' type="text/javascript"></script>
+    <script src='../js/tablesort.number.js' type="text/javascript"></script>
+    <script src='../js/tablesort.date.js' type="text/javascript"></script>
+    <script src="../js/moment-with-locales.js" type="text/javascript"></script>
+    <script src="../js/moment.js" type="text/javascript"></script>
+    <script src="../js/bootstrap/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../js/bootstrap/holder.js" type="text/javascript"></script>
+    <script src="../js/bootstrap/bootstrap-list-filter.js" type="text/javascript"></script>
+    <script src="../js/material.min.js" type="text/javascript"></script>
+    <script src="../js/ripples.js" type="text/javascript"></script>
+    <script src="../js/showOnScroll.js" type="text/javascript"></script>
+    <script src="../js/bootstrap-material-datetimepicker.js" type="text/javascript"></script>
     
-    
 
-});
-
+</head>
 
 
-$( '#homeIcon' ).click(function(){ $('#loader').hide().load("templete/main.html").fadeIn(1200); });
-$( '#desc' ).click(function(){ $('#loader').hide().load("templete/desc.html").fadeIn(1200); });
-$( '#tutorials' ).click(function(){ $('#loader').hide().load("templete/tutorials.html").fadeIn(1200); });
-$( '#leaderboard' ).click(function(){ $('#loader').hide().load("templete/leaderboard.html").fadeIn(1200); });
-$( '#about' ).click(function(){ $('#loader').hide().load("templete/about.html").fadeIn(1200); });
-$( '#team' ).click(function(){ $('#loader').hide().load("templete/team.html").fadeIn(1200); });
-$( '#faqs' ).click(function(){ $('#loader').hide().load("templete/faqs.html").fadeIn(1200); });
-$( '#pressPack' ).click(function(){ $('#loader').hide().load("templete/presspack.html").fadeIn(1200); });
-$( '#recentNews' ).click(function(){ $('#loader').hide().load("templete/recentnews.html").fadeIn(1200); });
-$( '#contact' ).click(function(){ $('#loader').hide().load("templete/contact.html").fadeIn(1200); });
-$( '#chat' ).click(function(){ $('#loader').hide().load("templete/chat.html").fadeIn(1200) });
-
-
-
-
-
-
-function animateLoader(){
-    $('.footer').hide().fadeIn(3000);
-    $('.nav').hide().fadeIn(3000);
-
-}
-</script>
-
-<!-- Menu -->
-        <nav class="navbar navbar-inverse navbar-static-top">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a id='homeIcon' class="navbar-brand" href="#">ProtoBlock</a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
-                <li><a id='home' >Home</a></li>
-              
-              
-              
-              
-              
-              
-              <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ProRoto 2016 <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a id='desc' href="#">Desctipion</a></li>
-                    <li><a id='tutorials' href="#">Tutorials</a></li>
-                    <li><a id='leaderboard' href="#">Leaderboard</a></li>
-                  </ul>
-                </li>
-
-              
-              
-              
-              
-              <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Company <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a id='about' href="#">About</a></li>
-                    <li><a id='team' href="#">Team</a></li>
-                    <li><a id='faqs' href="#">FAQs</a></li>
-                  </ul>
-                </li>
-
-                
-                
-              <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">News <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Blog</a></li>
-                    <li><a id='pressPack' href="#">Press Pack</a></li>
-                    <li><a id='recentNews' href="#">Recent News</a></li>
-                  </ul>
-                </li>
-              
-                
-              <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Support <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Fourm</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a id='contact' href="#">Contact</a></li> 
-                    <li><a id='chat'>Chat</a></li>
-                  </ul>
-                </li>
-              
-                
-                
-                
-                
-                
-                
-              </ul>
-            </div>
-          </div>
-        </nav>
-
-      </div>
-    </div>
+<body>
     <!-- Menu -->
-<!--This also ends in the footer file -->
-<div id="loader" class="col-md-12">
-
-
-
-
-
-
+    <nav class="navbar navbar-default navbar-fixed-top animated fadeInDown" role="navigation" style="-webkit-animation-delay:1.6s;animation-delay:1.6s;">
+        <div class="container">
+            <a href='../index.html'> <img class="navbar-brand" id='homeIcon' src="../artwork/icon_withWords.png"></a>
+            <div class="navbar-header">
+                <button aria-controls="navbar" aria-expanded="false" class="navbar-toggle collapsed" data-target="#navbar" data-toggle="collapse" type="button"><span class="sr-only">Toggle
+                navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
+            </div>
+            <div class="navbar-collapse collapse" id="navbar">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">Fantastybit <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="../templete/desc.html" id='desc'>Desctipion</a>
+                            </li>
+                            <li>
+                                <a href="../templete/tutorials.html" id='tutorials'>Tutorials</a>
+                            </li>
+                            <li>
+                                <a href="../templete/leaderboard.html" id='leaderboard'>Leaderboard</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="../templete/about.html" id='about'>About</a>
+                    </li>
+                    <li class="dropdown">
+                        <a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">News <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#">Blog</a>
+                            </li>
+                            <li>
+                                <a href="../templete/presspack.html" id='pressPack'>Press Pack</a>
+                            </li>
+                            <li>
+                                <a href="../templete/recentnews.html" id='recentNews'>Recent News</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">Support <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#">Fourm</a>
+                            </li>
+                            <li>
+                                <a href="#">Blog</a>
+                            </li>
+                            <li>
+                                <a href="../templete/contact.html" id='contact'>Contact</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+	<!-- End Menu -->
+	
+	
+	
+	
+	<!--
+	
+	
+	
+	
+	
+	This is where content goes
+	
+	
+	
+	
+	
+	
+	
+	-->
+	
+	
+	<!-- footer -->
+    <div class="row" id="footer">
+        <div class="col-md-12 text-center slide">
+            <div class="col-xs-4 hideme fiu">
+                <a data-toggle="modal" href="#licenseModal">LICENSE</a>
+            </div>
+            <div class="col-xs-4 hideme fiu" style="-webkit-animation-delay:0.2s;animation-delay:0.2s;">
+                <a data-toggle="modal" href="#faqModal">FAQ</a>
+            </div>
+            <div class="col-xs-4 hideme fiu" style="-webkit-animation-delay:0.4s;animation-delay:0.4s;">
+                <a href="/templete/about.html" target="_blank">ABOUT</a>
+            </div>
+        </div>
+        <div class="caz-logo slide">
+            <div class="hideme fi" style="-webkit-animation-delay:.6s;animation-delay:.6s;">
+                <img height="70px" src='/artwork/icon_withWords.png' style='margin-left: -200px' width="800px"><a href="artwork/icon_only.png"></a>
+            </div>
+        </div>
+		<!-- Footer Ends -->
+    </div>
+</body>
+</html>
+	
+	
