@@ -291,8 +291,7 @@ window.onload = function() {
     loadTracker();
     
     switch(pathname){
-        case "/index.html":
-	case "/":
+        case "/index.html" || "/":
             //HOMEPAGE CRAP
             $('#myquotes').empty()
            $('#myquotes').append("<h4 class='animated fadeInDown' style='-webkit-animation-delay:.7s;animation-delay:.7s;display:inline-block;'><i class='fa fa-quote-left animated fadeInUp' style='-webkit-animation-delay:.7s;animation-delay:.7sl; display:inline-block;'></i>" + " " + quote[myInt]+ "<i class='fa fa-quote-right animated fadeInUp' style='-webkit-animation-delay:.7s;animation-delay:.7s ;display:inline-block;'></i> </h4>")
