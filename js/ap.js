@@ -11,6 +11,9 @@
 */
 
 
+
+
+
 // Comming later elevation of cards
 // move to page when ready
 $( '.badCard' ).mouseover(function(){
@@ -72,13 +75,13 @@ function car(){
  * 
  */
 // freeman
-var url='../simple.php?url=https://trading.football:4545/fantasy/nfl/1036/week/'
+var url='/php/simple.php?url=https://app.trading.football:4545/fantasy/nfl/1036/week/'
 var weeks=16
 var currentWeek = 1;  
 
 // ap
-var thePlayerSet = "/simple.php?url=https://api.trading.football:4545/ticks/1384/week/16";
-var theUpSide = '/simple.php?url=https://api.trading.football:4545/l1snap/1384';
+var thePlayerSet = "/php/simple.php?url=https://app.trading.football:4545/ticks/1384/week/16";
+var theUpSide = '/php/simple.php?url=https://app.trading.football:4545/l1snap/1384';
 
 
 
@@ -148,12 +151,12 @@ function filltheUpSide(upside) {
     if (upside[i].updownind === '1')
     {
       //up
-      $('#upOrDown').append("<img src='/artwork/opensource/circle-icons/one-color/png/64px/arrow-up.png' class='img-responsive' alt='Player Up'>");
+      $('#upOrDown').append("<img src='/artwork/circle-icons/one-color/png/64px/arrow-up.png' class='img-responsive' alt='Player Up'>");
     }
     else if (upside[i].updownind === '-1')
     {
       //down
-      $('#upOrDown').append("<img src='/artwork/opensource/circle-icons/one-color/png/64px/arrow-down.png' class='img-responsive' alt='Player Down'>");
+      $('#upOrDown').append("<img src='/artwork/circle-icons/one-color/png/64px/arrow-down.png' class='img-responsive' alt='Player Down'>");
     }      
 }
 
@@ -228,8 +231,39 @@ function loadChat(){
 
 function loadNav(){
     //The Navagation bar
-    $('body').append("<!-- Menu --> <nav class='navbar navbar-default navbar-fixed-top animated fadeInDown' role='navigation' style='-webkit-animation-delay:.6s;animation-delay:.6s;'> <div class='container'> <a href='/index.html'> <img class='navbar-brand' id='homeIcon' src='/artwork/inhouse/logoFinal.png'></a> <div class='navbar-header'> <button aria-controls='navbar' aria-expanded='false' class='navbar-toggle collapsed' data-target='#navbar' data-toggle='collapse' type='button'><span class='sr-only'>Toggle navigation</span> <span class='icon-bar'></span> <span class='icon-bar'></span> <span class='icon-bar'></span></button> </div> <div class='navbar-collapse collapse' id='navbar'> <ul class='nav navbar-nav  navbar-right'> <li> <a href='/templete/about.html' id='about'>About</a> </li> </ul> </div> </div> <div class='col-md-12' id='navbarBottom'></div> </nav><!-- Menu -->"
-    );        
+    $('body').append("<!-- Menu -->\
+<nav class='navbar navbar-default navbar-fixed-top animated fadeInDown' role='navigation' style='-webkit-animation-delay:.6s;animation-delay:.6s;'>\
+    <div class='container'> <a href='/index.html'> <img class='navbar-brand' id='homeIcon' src='/artwork/inhouse/logoFinal.png'></a> <div class='navbar-header'>\
+        <button aria-controls='navbar' aria-expanded='false' class='navbar-toggle collapsed' data-target='#navbar' data-toggle='collapse' type='button'>\
+        <span class='sr-only'>Toggle navigation</span>\
+        <span class='icon-bar'></span>\
+        <span class='icon-bar'></span>\
+        <span class='icon-bar'></span>\
+        </button>\
+    </div>\
+    <div class='navbar-collapse collapse' id='navbar'>\
+        <ul class='nav navbar-nav  navbar-right'>\
+            <li> <a href='/template/download.html' id='App'>App</a> </li>\
+            <li> <a href='http://blog.protoblock.com/' id='raffle'>Raffle</a> </li>\
+            <li> <a href='http://blog.protoblock.com' id='blog'>Blog</a> </li>\
+            <li class='dropdown'>\
+                <a href='#' class='dropdown-toggle' data-toggle='dropdown' role='button' aria-haspopup='true' aria-expanded='false'>\
+                Leaderboard\
+                <span class='caret'></span>\
+                </a>\
+                <ul class='dropdown-menu'>\
+                    <li> <a href='/template/leaderboard.html'>2015 Projections</a> </li>\
+                    <li> <a href='/template/pnl.html'>2015 Trading</a> </li>\
+                </ul>\
+            </li>\
+            <li> <a href='/template/about.html' id='about'>About</a> </li>\
+        </ul>\
+    </div>\
+    </div>\
+    <div class='col-md-12' id='navbarBottom'>\
+</nav>\
+<!-- Menu -->\
+");
 
     $.material.ripples();
     $.material.init();
@@ -281,7 +315,10 @@ function setUpScroll(){
 
 //init 
 window.onload = function() {
+
+
     //GLOBALS
+    
     var pathname = window.location.pathname; // Returns path only
     var url = window.location.href;
     var homePath = window.location.host
@@ -308,7 +345,7 @@ window.onload = function() {
         break;
             
             
-        case "/templete/desc.html" || "/":
+        case "/template/desc.html" || "/":
             //DESC
             setUPChart();
             setUpSide();
@@ -320,13 +357,15 @@ window.onload = function() {
             // CLICK EVENTS
             $( "#weekButton" ).on('click','#m_weekButton', function(){ 
                 // reload the table
-        
+            console.log(currentWeek + " " +$(this).text())
             if ($(this).text() === currentWeek) {
                     return false;
             }
             else
             { 
+                var url='/php/simple.php?url=https://app.trading.football:4545/fantasy/nfl/1036/week/'
                 currentWeek = $(this).text();
+                console.log(currentWeek + " " + $(this).text() )
                 $('#statsRow').empty()
                 $('#theWeekText').text(currentWeek)
                 $.getJSON(url+currentWeek,function(result){
