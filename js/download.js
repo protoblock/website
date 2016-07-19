@@ -119,7 +119,7 @@ function setEx(){
 		ex = "exe"
 		break
 		case "MacOS":
-		ex = "pkg"
+		ex = "dmg"
 		break;
 		case "Android":
 		ex = "apk"
@@ -215,26 +215,27 @@ function getPackageManger(){
 	this is the init function that is called to start looking for Host OS things
 */
 function init(){
-	mFile=setDownloadLink();
 	var OS=getOS();
-	if ( OS === "Android"){
-		setButtons("Android")
-	}
-	else if(OS === "iPad" || OS === "iPhone")
-	{
-		setButtons(OS);
-	}
-	else
-	{
-		$.get(mFile)
-		.done(function() { 
-			setButtons(OS)
-
-		}).fail(function() {
-			openErrorModal();
-		})
-	}
 	setButtons(OS);
+	// mFile=setDownloadLink();
+	// var OS=getOS();
+	// if ( OS === "Android"){
+	// 	setButtons("Android")
+	// }
+	// else if(OS === "iPad" || OS === "iPhone")
+	// {
+	// 	setButtons(OS);
+	// }
+	// else
+	// {
+	// 	$.get(mFile)
+	// 	.done(function() { 
+	// 		setButtons(OS)
+	// 	}).fail(function() {
+	// 		openErrorModal();
+	// 	})
+	// }
+	// setButtons(OS);
 }
 
 $(document).ready(function(){
