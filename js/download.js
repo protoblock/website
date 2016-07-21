@@ -96,6 +96,7 @@ function setButtons(stringer){
 		$('#test').attr("href",DLLInk);
 	}
 	$('#theOS').text('Download Protoblock for ' + stringer)
+	$('#theOS').attr("href",DLLInk)
 }
 
 /*
