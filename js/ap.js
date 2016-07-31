@@ -56,12 +56,7 @@ function car(){
     if( myInt > realName.length){
         myInt = 0;
     }
-//    console.log(quote[myInt ])
     $('#myquotes').empty()
-//    $('#myquotes').append("<i class='fa fa-quote-left animated fadeInUp' style='-webkit-animation-delay:.7s;animation-delay:.7sl; display:inline-block;'></i>")
-//    $('#myquotes').append("<h3 class='animated fadeInDown' style='-webkit-animation-delay:.7s;animation-delay:.7s;display: inline-block;'>  " +  quote[myInt ]+ "  </h3>")
-
-//    $(	'#myquotes').append("<i class='fa fa-quote-right animated fadeInUp' style='-webkit-animation-delay:.7s;animation-delay:.7s ;display:inline-block;'></i>")
     $('#myquotes').append("<h4 class='animated fadeInDown' style='-webkit-animation-delay:.7s;animation-delay:.7s;display:inline-block;'><i class='fa fa-quote-left animated fadeInUp' style='-webkit-animation-delay:.7s;animation-delay:.7sl; display:inline-block;'></i>" + " " + quote[myInt]+ "  <i class='fa fa-quote-right animated fadeInUp' style='-webkit-animation-delay:.7s;animation-delay:.7s ;display:inline-block;'></i> </h4>")
     $('#myquotes').append("<h4 class='animated fadeInUp'><b>"+realName[myInt]+" ~ "+fantasyName[myInt]+"</b></h4>" )
   
@@ -223,47 +218,53 @@ function filltheModel(parsedJson) {
 }
 
 
-    
-    // Chat Program
-function loadChat(){
-    $('body').append("<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/m2cai6kj';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>")    
-}
 
 function loadNav(){
     //The Navagation bar
     $('body').append("<!-- Menu -->\
-<nav class='navbar navbar-default navbar-fixed-top animated fadeInDown' role='navigation' style='-webkit-animation-delay:.6s;animation-delay:.6s;'>\
-    <div class='container'> <a href='/index.html'> <img class='navbar-brand' id='homeIcon' src='/artwork/inhouse/logoFinal.png'></a> <div class='navbar-header'>\
-        <button aria-controls='navbar' aria-expanded='false' class='navbar-toggle collapsed' data-target='#navbar' data-toggle='collapse' type='button'>\
-        <span class='sr-only'>Toggle navigation</span>\
-        <span class='icon-bar'></span>\
-        <span class='icon-bar'></span>\
-        <span class='icon-bar'></span>\
-        </button>\
-    </div>\
-    <div class='navbar-collapse collapse' id='navbar'>\
-        <ul class='nav navbar-nav  navbar-right'>\
-            <li> <a href='/template/download.html' id='App'>App</a> </li>\
-            <li> <a href='http://blog.protoblock.com/' id='raffle'>Raffle</a> </li>\
-            <li> <a href='http://blog.protoblock.com' id='blog'>Blog</a> </li>\
-            <li class='dropdown'>\
-                <a href='#' class='dropdown-toggle' data-toggle='dropdown' role='button' aria-haspopup='true' aria-expanded='false'>\
-                Leaderboard\
-                <span class='caret'></span>\
-                </a>\
-                <ul class='dropdown-menu'>\
-                    <li> <a href='/template/leaderboard.html'>2015 Projections</a> </li>\
-                    <li> <a href='/template/pnl.html'>2015 Trading</a> </li>\
+        <nav class='navbar navbar-default navbar-fixed-top animated fadeInDown' role='navigation' style='-webkit-animation-delay:.6s;animation-delay:.6s;'>\
+            <div class='container'> <a href='/index.html'> <img class='navbar-brand' id='homeIcon' src='/artwork/inhouse/logoFinal.png'></a> <div class='navbar-header'>\
+                <button aria-controls='navbar' aria-expanded='false' class='navbar-toggle collapsed' data-target='#navbar' data-toggle='collapse' type='button'>\
+                <span class='sr-only'>Toggle navigation</span>\
+                <span class='icon-bar'></span>\
+                <span class='icon-bar'></span>\
+                <span class='icon-bar'></span>\
+                </button>\
+            </div>\
+            <div class='navbar-collapse collapse' id='navbar'>\
+                <ul class='nav navbar-nav  navbar-right'>\
+                    <li> <a href='/template/download.html' id='App'>App</a> </li>\
+                    <li> <a href='http://blog.protoblock.com/' id='raffle'>Raffle</a> </li>\
+                    <li> <a href='http://blog.protoblock.com' id='blog'>Blog</a> </li>\
+                    <li class='dropdown'>\
+                        <a href='#' class='dropdown-toggle' data-toggle='dropdown' role='button' aria-haspopup='true' aria-expanded='false'>\
+                        Leaderboard\
+                        <span class='caret'></span>\
+                        </a>\
+                        <ul class='dropdown-menu'>\
+                            <li> <a href='/template/leaderboard.html'>2015 Projections</a> </li>\
+                            <li> <a href='/template/pnl.html'>2015 Trading</a> </li>\
+                        </ul>\
+                    </li>\
+                    <!--li class='dropdown'>\
+                        <a href='#' class='dropdown-toggle' data-toggle='dropdown' role='button' aria-haspopup='true' aria-expanded='false'>\
+                        About\
+                        <span class='caret'></span>\
+                        </a>\
+                        <ul class='dropdown-menu'>\
+                            <li><a href='/template/about.html' id='about'>About Protoblock</a></li> \
+                            <li> <a href='/template/projections.html'>Projections</a> </li> \
+                            <li> <a href='/template/trading.html'>Trading</a> </li> \
+                            <li> <a href='/template/scoringsystem.html'>Scoring System</a> </li> \
+                        </ul>\
+                    </li-->\
                 </ul>\
-            </li>\
-            <li> <a href='/template/about.html' id='about'>About</a> </li>\
-        </ul>\
-    </div>\
-    </div>\
-    <div class='col-md-12' id='navbarBottom'>\
-</nav>\
-<!-- Menu -->\
-");
+            </div>\
+            </div>\
+            <div class='col-md-12' id='navbarBottom'>\
+        </nav>\
+        <!-- Menu -->\
+    ");
 
     $.material.ripples();
     $.material.init();
@@ -271,9 +272,22 @@ function loadNav(){
 
 function loadFooter(){
     //The Footer
-    $('#theFooter').append("<!-- footer --> <div id='footerTopbar' class='col-md-12 animated fadeInUp'  style='-webkit-animation-delay:.6s;animation-delay:.6s;'> </div> <div id='footerBackground' class='col-md-12'> <div class='row' id='footer'> <div id='footerIconHolder' class='col-md-12 hideme'><a href='/index.html'> <img class='img-responsive animated fadeInUp col-md-12' style='-webkit-animation-delay:1.6s;animation-delay:1.6s;' src='/artwork/inhouse/logoWtm.png'> </a> </img> <h3 id='footerCopy'>© Protoblock, LLC</h3></div> </div> </div> </div>     <!-- Footer Ends --> "
-        
-    );
+    $('#theFooter').append(" \
+        <!-- footer --> \
+        <div id='footerTopbar' class='col-md-12 animated fadeInUp'  style='-webkit-animation-delay:.6s;animation-delay:.6s;'></div> \
+            <div id='footerBackground' class='col-md-12'> \
+                <div class='row' id='footer'> \
+                    <div id='footerIconHolder' class='col-md-12 hideme'> \
+                        <a href='/index.html'> \
+                        <img class='img-responsive animated fadeInUp col-md-12' style='-webkit-animation-delay:1.6s;animation-delay:1.6s;' src='/artwork/inhouse/logoWtm.png'> \
+                        </a> </img> \
+                         <p id='footerCopy'>© Protoblock, LLC</p> \
+                    </div> \
+                </div> \
+            </div> \
+        </div> \
+        <!-- Footer Ends --> \
+        ");
 }
 
 function loadTracker() {
@@ -309,9 +323,6 @@ function addAnimationAbout(){
     $.material.init();
 }
 
-function setUpScroll(){
-
-}
 
 //init 
 window.onload = function() {
@@ -323,8 +334,7 @@ window.onload = function() {
     var url = window.location.href;
     var homePath = window.location.host
     loadNav();
-    loadFooter();
-    loadChat(); 
+    loadFooter(); 
     loadTracker();
     
     switch(pathname){
@@ -344,11 +354,9 @@ window.onload = function() {
             addAnimationAbout()
         break;
             
-            
-        case "/template/desc.html" || "/":
+            // "/template/desc.html" || 
+        case "/template/projections.html":
             //DESC
-            setUPChart();
-            setUpSide();
             initFreeman();
             
             for (var i = 1; i <= 16 ; i++){
@@ -375,6 +383,10 @@ window.onload = function() {
                 });
             }
             });
+        break;
+        case "/template/trading.html":
+            setUPChart();
+            setUpSide();
         break;
     }//switch
     
