@@ -246,18 +246,18 @@ function loadNav(){
                             <li> <a href='/template/pnl.html'>2015 Trading</a> </li>\
                         </ul>\
                     </li>\
-                    <!--li class='dropdown'>\
+                    <li class='dropdown'>\
                         <a href='#' class='dropdown-toggle' data-toggle='dropdown' role='button' aria-haspopup='true' aria-expanded='false'>\
                         About\
                         <span class='caret'></span>\
                         </a>\
                         <ul class='dropdown-menu'>\
                             <li><a href='/template/about.html' id='about'>About Protoblock</a></li> \
-                            <li> <a href='/template/projections.html'>Projections</a> </li> \
-                            <li> <a href='/template/trading.html'>Trading</a> </li> \
-                            <li> <a href='/template/scoringsystem.html'>Scoring System</a> </li> \
+                            <li> <a href='/template/projections.html'>About Projections Game</a> </li> \
+                            <!--li> <a href='/template/trading.html'>Trading</a> </li--> \
+                            <!--li> <a href='/template/scoringsystem.html'>Scoring System</a> </li--> \
                         </ul>\
-                    </li-->\
+                    </li>\
                 </ul>\
             </div>\
             </div>\
@@ -339,7 +339,7 @@ window.onload = function() {
     
     switch(pathname){
         case "/index.html":
-	case "/":
+    case "/":
             //HOMEPAGE CRAP
             $('#myquotes').empty()
            $('#myquotes').append("<h4 class='animated fadeInDown' style='-webkit-animation-delay:.7s;animation-delay:.7s;display:inline-block;'><i class='fa fa-quote-left animated fadeInUp' style='-webkit-animation-delay:.7s;animation-delay:.7sl; display:inline-block;'></i>" + " " + quote[myInt]+ "<i class='fa fa-quote-right animated fadeInUp' style='-webkit-animation-delay:.7s;animation-delay:.7s ;display:inline-block;'></i> </h4>")
