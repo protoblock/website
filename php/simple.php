@@ -7,7 +7,7 @@ $valid_url_regex = '/.*/';
 $url = $_GET['url'];
 // stupid encode bug
 $url = str_replace( " " , "%20", $url);
-$url = str_replace( "&", "%26" , $url);
+// $url = str_replace( "&", "%26" , $url);
 
 if ( !$url ) {
   
@@ -53,7 +53,7 @@ if ( !$url ) {
   curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
   // curl_setopt( $ch, CURLOPT_FOLLOWLOCATION ,true);
   // curl_setopt( $ch, CURLOPT_USERAGENT ,"spider");
-  // curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+  curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
   // curl_setopt($ch, CURLOPT_VERBOSE, TRUE);
   
   curl_setopt( $ch, CURLOPT_USERAGENT, $_GET['user_agent'] ? $_GET['user_agent'] : $_SERVER['HTTP_USER_AGENT'] );
@@ -87,6 +87,7 @@ if ( $_GET['mode'] == 'native' ) {
   }
   
   print $contents;
+  print 'head' + $header;
   
 } else {
   

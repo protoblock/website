@@ -49,7 +49,7 @@ function parseLevelThree(d){
 						<h4 class='list-group-item-heading'>\
 						<span id='theName'>"+d.data[i].FANTASYNAME+"</span>\
 						</h4>\
-						<p class='list-group-item-text'>Projection "+d.data[i].PROJECTION + " Award: "+d.data[i].AWARD +"</p>\
+						<p class='list-group-item-text'>Projection: "+d.data[i].PROJECTION + " Award: "+d.data[i].AWARD +"</p>\
 					</div>\
 				</div>"
 		);
@@ -124,9 +124,9 @@ function parseAward(d){
 				 	</div>\
 					<div class='row-content'>\
 						<h4 class='list-group-item-heading'>\
-						<span id='theName'>"+d.data[i].FIRSTNAME+ " " +d.data[i].LASTNAME+"</span>\
+						<span id='theName'>"+d.data[i].FIRSTNAME+ " " +d.data[i].LASTNAME+ " Week " + d.data[i].WEEK + "</span>\
 						</h4>\
-						<p class='list-group-item-text'>Projection "+d.data[i].PROJECTION + " Result: "+d.data[i].RESULT +"</p>\
+						<p class='list-group-item-text'>Projection: "+d.data[i].PROJECTION + " Result: "+d.data[i].RESULT +"</p>\
 						<p id='playerHelper' pos='"+ d.data[i].POS+"' res='"+d.data[i].RESULT+"' >Award: "+d.data[i].AWARD+"</p>\
 					</div>\
 				</div>"
@@ -165,16 +165,16 @@ function fillPickers(){
 	checkDefaultWeek();
 	$('#selWeek').empty();
 	$('#selPos').empty();
-	for (var i=1; i<=17;i++ ){
-		if (i !== 17){
+	for (var i=1; i<=4;i++ ){
+		if (i !== 4){
 			$('#selWeek').append('<option>'+i+'</option>')
 		}else{
 			$('#selWeek').append('<option>'+defaultWeek+'</option>')
 		}
 	}
-	for (var i=0; i < postions.length;i++){
-		$('#selPos').append('<option>'+postions[i]+'</option>')
-	}
+	// for (var i=0; i < postions.length;i++){
+	// 	$('#selPos').append('<option>'+postions[i]+'</option>')
+	// }
 
 	$('#selPos').val('all positions');
 	$('#selWeek').val(defaultWeek);
@@ -188,18 +188,26 @@ function fillPickers(){
 function setLeaderbordUrl(){
 var tr = $('#selPos').val();
 postion = $('#selPos').val();
+week = $('#selWeek').val();
 console.log(tr)
 
 if (REFREASHTYPE === 0 ){
 	if( tr === "all positions" ){
-		awardsCall = ApiUrl + 'fantasy/leaders?week=' + week
+		if ( week === "all weeks")
+				awardsCall = ApiUrl + 'fantasy/leaders'
+		else
+				awardsCall = ApiUrl + 'fantasy/leaders?week=' + week
 	}
 	else
 	{
-		awardsCall = ApiUrl + 'fantasy/leaders&week=' + week +'position=' + postion 
+		awardsCall = ApiUrl + 'fantasy/leaders?week=' + week +'&position=' + postion 
 	}
 }else{
-	awardsCall = awardsCallApiUrl + 'fantasy/players/' + fnName + '/awards?position=' + postion + '&week=' + week
+	if ( week === "all weeks")
+			awardsCall = ApiUrl + 'fantasy/players/' + fnName + '/awards'
+	else
+			awardsCall = ApiUrl + 'fantasy/players/' + fnName + '/awards?week=' + week
+
 }
 	 REFREASHTYPE === 0 ? getLeaderBoard(awardsCall) : refillAwards()
 }
@@ -217,6 +225,11 @@ $( document ).ready(function(){
 	$('#selWeek').change(function(){
 		week = $(this).val();
 	    postion = $( '#selPos' ).val();
+
+	    REFREASHTYPE === 0 ? awardsCall = ApiUrl + 'fantasy/leaders?week=' + week 
+	    //+'&position=' + postion 
+		: awardsCall = ApiUrl + 'fantasy/players/' + fnName + '/awards?week=' + week
+		//'/awards?position=' + postion + '&week=' + week
 		REFREASHTYPE === 0 ? setLeaderbordUrl() : refillAwards() ;
 	});
 
@@ -236,7 +249,7 @@ $( document ).ready(function(){
 		playerIdInFocusWeek = $(this).attr('week')
 
    		$('#fnPlayerInFocus').text('Player Name: ' + $('#theName',this).text()  + ' ('+  $('#playerHelper',this).attr('pos')  +") "+ $(this).attr('team')   );
-    	$('#headerSubText').text("Results: " + $('#playerHelper',this).attr('res') );
+    	$('#headerSubText').text("Week: " + playerIdInFocusWeek + " Fantasy Points: " + $('#playerHelper',this).attr('res') );
 
 		$('#toLeader').empty();
 		fillLevelThree();
@@ -247,9 +260,13 @@ $( document ).ready(function(){
     	$('#fnPlayerInFocus').text('Fantasy Name: ' + fnName   );
     	$('#headerSubText').text("Balance: " + $('#score',this).text() );
     	REFREASHTYPE = 1;
-    	resetPickers();
-    	awardsCall = ApiUrl + 'fantasy/players/' + fnName + '/awards?week=' + week  +'&position=' + postion;
+    	// resetPickers();
+    	postion = $( '#selPos' ).val();
+		week = $('#selWeek').val();
+    	awardsCall = ApiUrl + 'fantasy/players/' + fnName + '/awards?week=' + week  
+    	//+'&position=' + postion;
 
+		setLeaderbordUrl();
     	refillAwards();
 	});
 });
