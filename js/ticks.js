@@ -72,6 +72,8 @@ function parseTheTicks(d){
         }]
 
     }
+    $("#canvas").remove();
+    $("#chartContainer").append("<canvas style='background: rgb(16, 53, 88) ;width:100%' id='canvas' ></canvas>");
     var ctx = document.getElementById("canvas").getContext("2d");
     window.myLine = new Chart(ctx).Line(lineChartData, {
         animation: true,
@@ -149,26 +151,23 @@ function fillRight(){
 
 function parseLeftTable(d){
 
-    if ($_GET['playerid']){
-      playerInView = $_GET['playerid'];
-      console.log("loading player"+$_GET['playerid']);
-    }else {
 
-      if (isFirst===true ){
+
+      if (isFirst===true && !$_GET['playerid']){
       playerInView = d[0].playerid
        $('#rightTitle').append("\
           <h2 style='color:#333!important; text-align: center;'><b>"
           + d[0].firstname + " " +  d[0].lastname  + " </b></h2>");
        }
-    }
+
      // $('#upOrDown').append("\
      //    \
      //    \
      //    ")
-    fillRight();
+    if (isFirst) { fillRight(); }
     for (var i=0; i < d.length; i ++) {
 
-        if ($_GET['playerid'] == d[i].playerid){
+        if ($_GET['playerid'] == d[i].playerid && isFirst){
           $('#rightTitle').append("\
              <h2 style='color:#333!important; text-align: center;'><b>"
              + d[i].firstname + " " +  d[i].lastname  + " </b></h2>");
@@ -229,8 +228,15 @@ $( document ).ready(function(){
             var list = JSON.parse(item)
             parseLeftTable(list);
         });
+
+
     });
 
     fillLeftTable();
+    if ($_GET['playerid']){
+      playerInView = $_GET['playerid'];
+      fillRight();
+    }
+
 
 });
