@@ -167,9 +167,8 @@ function parseLeftTable(d){
      //    ")
     fillRight();
     for (var i=0; i < d.length; i ++) {
-      console.log( d[i].playerid  )
+
         if ($_GET['playerid'] == d[i].playerid){
-          console.log('found player')
           $('#rightTitle').append("\
              <h2 style='color:#333!important; text-align: center;'><b>"
              + d[i].firstname + " " +  d[i].lastname  + " </b></h2>");
