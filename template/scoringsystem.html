@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta content="" name="description">
+    <meta content="" name="author"><!--<link rel="icon" href="../../favicon.ico">-->
+    <title id='mainTtitle'>ProtoBlock | Legitimize the game you love</title><!-- CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet" type='text/css'>
+    <link href="../css/bootstrap-material-datetimepicker.css" rel="stylesheet">
+    <link href="../css/animate.css" rel="stylesheet">
+    <link href="../css/retina.css" media="only screen and (-webkit-min-device-pixel-ratio: 2)" rel="stylesheet"><!-- Material Design fonts -->
+    <link href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css"><!-- Font Awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"><!-- Bootstrap Material Design -->
+    <link href="../css/bootstrap-material-design.css" rel="stylesheet" type="text/css">
+    <link href="../css/ripples.min.css" rel="stylesheet" type="text/css">
+    <link href="../css/style.css" rel="stylesheet" type="text/css"><!--js -->
+
+    <script src="../js/jquery.min.js" type="text/javascript">
+    </script>
+    <script src='../js/tablefilter/tablesort.min.js' type="text/javascript">
+    </script>
+    <script src='../js/tablefilter/tablesort.number.js' type="text/javascript">
+    </script>
+    <script src='../js/tablefilter/tablesort.date.js' type="text/javascript">
+    </script>
+    <script src="../js/material/moment-with-locales.js" type="text/javascript">
+    </script>
+    <script src="../js/material/moment.js" type="text/javascript">
+    </script>
+    <script src="../js/bootstrap/bootstrap.min.js" type="text/javascript">
+    </script>
+    <script src="../js/bootstrap/holder.js" type="text/javascript">
+    </script>
+    <script src="../js/bootstrap/bootstrap-list-filter.js" type="text/javascript">
+    </script>
+    <script src="../js/material/material.min.js" type="text/javascript">
+    </script>
+    <script src="../js/material/ripples.js" type="text/javascript">
+    </script>
+<!--     // <script src="../js/showOnScroll.js" type="text/javascript">
+</script> -->
+    <script src="../js/bootstrap-material-datetimepicker.js" type="text/javascript">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
+    <script src='/js/ap.js'></script>
+
+<style>
+.card {
+    margin: 10px;
+    -webkit-animation-delay:.2s;
+    animation-delay:.2s;
+}
+#aboutMainImg{
+    margin: 10px;   
+}
+#player{
+    width: auto!IMPORTANT 
+}
+</style>
+
+</head>
+
+
+<body>
+    <!-- Menu -->
+    <!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-K2DDJH"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-K2DDJH');</script>
+    <!-- End Google Tag Manager -->
+    
+    <!--container-->
+    <div id='page-container'>
+        <div id='about-container' class="container">
+            <div class="col-md-12">
+                <h1 class="centerIn"> <b> Protoblock Scoring System </b> </h1>
+                <table class="table table-condensed table-striped table-hover tablesorter table-responsive" id='statsTable'>
+                    <tbody>
+                        <tr style='background-color: blue; color:white'><td>Offence</td><td></td></tr>
+                        <tr>
+                            <td>Passing Yards</td> 
+                            <td>0.5 points per yard</td> 
+                        </tr>
+                        <tr>
+                            <td>Passing TD</td> 
+                            <td>4 points</td> 
+                        </tr>
+                        <tr>
+                            <td>Passing Interceptions</td>
+                             <td>-1 point</td>
+                        </tr>
+                        <tr>
+                            <td>Rushing Yards</td>
+                            <td>.1 point per yard</td>
+                        </tr>
+                        <tr>
+                            <td>Rushing TD</td> 
+                            <td>6 points</td>
+                        </tr>
+                        <tr>
+                            <td>Reciving Yards</td> 
+                            <td>.1 point per yard</td>
+                        </tr>
+                        <tr>
+                            <td>Reciving TD</td> 
+                            <td>6 points</td>
+                        </tr>
+                        <tr>
+                            <td>Reception</td>
+                            <td>1 point per reception</td>
+                        </tr>
+                        <tr>
+                            <td>Two point conversion</td> 
+                            <td>2 points per passer,runner or catcher</td>
+                        </tr>
+
+                        <tr style='background-color: blue; color:white'><td>Kicking</td><td></td></tr>
+                        <tr>
+                            <td>PAT Kick</td> 
+                            <td>1 point</td>
+                        </tr>
+                        <tr>
+                            <td>Field Goal</td> 
+                            <td>3 points for 1-30 yards, .1 point for each yard after</td>
+                        </tr>
+                        <tr style='background-color: blue; color:white'><td>Defence</td><td></td></tr>
+                        <tr>
+                            <td>Sack</td> 
+                            <td>1 point</td>
+                        </tr>
+                        <tr>
+                            <td>Takeaway (int,fumble recovery,special teams takeaway)</td>
+                            <td>2 points</td> 
+                        </tr>
+                        <tr>
+                            <td>Defensive TD</td> 
+                            <td>6 points</td>
+                        </tr>
+                        <tr>
+                            <td>Saftey</td>
+                            <td>5 points</td> 
+                        </tr>
+                        <tr>
+                            <td>Shutout</td>
+                            <td>12 points</td>
+                        </tr>
+                        <tr>
+                            <td>1-6 points allowed</td>
+                            <td>10 points</td> 
+                        </tr>
+                        <tr>
+                            <td>7-10 points allowed</td> 
+                            <td>8 points</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>	
+    </div>
+    <div class='col-md-12' id='theFooter'></div>
+    </body>
+</html> 
