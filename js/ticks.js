@@ -182,7 +182,12 @@ function parseLeftTable(d){
                 </td>\
                 "
         );
+
     }
+    $("#upSideTable").tablesorter();
+    $("#upSideTable th").addClass("headerSortUp");
+    $("#upSideTable th").addClass("headerSortDown");
+
 }
 
 function fillLeftTable(){
