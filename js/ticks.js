@@ -98,7 +98,7 @@ function fillChart(){
 
 
         var outGoingUrl = ApiUrl+'ticks/'+playerInView+'/week/'+weekList.week;
-        console.log(outGoingUrl);
+        //console.log(outGoingUrl);
         $.ajax({
             url: outGoingUrl,
         }).done(function(data) {
