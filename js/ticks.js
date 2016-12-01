@@ -87,7 +87,9 @@ function parseTheTicks(d){
 }
 
 function fillChart(){
+
     var outgoingWeekUrl = ApiUrl+"week";
+
     $.ajax({
         url: outgoingWeekUrl,
     }).done(function(data) {

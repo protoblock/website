@@ -235,7 +235,7 @@ function loadNav(){
                 <ul class='nav navbar-nav  navbar-right'>\
                     <li> <a href='/template/download.html' id='App'>Download App</a> </li>\
                     <li> <a href='/template/leaderboard.html'>Leaderboard</a> </li>\
-                    <li> <a href='/template/about.html' id='about'>About Protoblock</a></li> \
+                    <li> <a href='/Protoblock-Mobile-Quick-Start-Guide.pdf' id='quick'>Quick Start PDF</a></li> \
                 </ul>\
             </div>\
             </div>\
