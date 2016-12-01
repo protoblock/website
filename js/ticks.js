@@ -164,7 +164,7 @@ function parseLeftTable(d){
      //    \
      //    \
      //    ")
-    if (isFirst) { fillRight(); }
+    if (isFirst && !$_GET['playerid']) { fillRight(); }
     for (var i=0; i < d.length; i ++) {
 
         if ($_GET['playerid'] == d[i].playerid && isFirst){
@@ -225,14 +225,14 @@ $( document ).ready(function(){
 
         fillRight();
         // $('#leftTable').empty()
-        var outGoingUrl = ApiUrl+'playerquotes'
+        /*var outGoingUrl = ApiUrl+'playerquotes'
         $.ajax({
             url: outGoingUrl,
         }).done(function(data) {
             var item = JSON.stringify(data.contents)
             var list = JSON.parse(item)
             parseLeftTable(list);
-        });
+        });*/
 
 
     });
