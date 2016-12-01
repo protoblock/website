@@ -87,14 +87,27 @@ function parseTheTicks(d){
 }
 
 function fillChart(){
-    var outGoingUrl = ApiUrl+'ticks/'+playerInView+'/week/16'
+    var outgoingWeekUrl = ApiUrl+"week";
     $.ajax({
-        url: outGoingUrl,
+        url: outgoingWeekUrl,
     }).done(function(data) {
-        var item = JSON.stringify(data.contents)
-        var list = JSON.parse(item)
-        parseTheTicks(list);
+        var weekItem = JSON.stringify(data.contents)
+        var weekList = JSON.parse(weekItem)
+
+
+        var outGoingUrl = ApiUrl+'ticks/'+playerInView+'/week/'+weekList.week;
+        console.log(outGoingUrl);
+        $.ajax({
+            url: outGoingUrl,
+        }).done(function(data) {
+            var item = JSON.stringify(data.contents)
+            var list = JSON.parse(item)
+            parseTheTicks(list);
+        });
     });
+
+
+
 }
 
 
