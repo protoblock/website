@@ -1,22 +1,26 @@
 /*
 
-88""Yb 88""Yb  dP"Yb  888888  dP"Yb  88""Yb 88      dP"Yb   dP""b8 88  dP 
-88__dP 88__dP dP   Yb   88   dP   Yb 88__dP 88     dP   Yb dP   `" 88odP  
-88"""  88"Yb  Yb   dP   88   Yb   dP 88""Yb 88  .o Yb   dP Yb      88"Yb  
-88     88  Yb  YbodP    88    YbodP  88oodP 88ood8  YbodP   YboodP 88  Yb                                                                                                                       '                   
+88""Yb 88""Yb  dP"Yb  888888  dP"Yb  88""Yb 88      dP"Yb   dP""b8 88  dP
+88__dP 88__dP dP   Yb   88   dP   Yb 88__dP 88     dP   Yb dP   `" 88odP
+88"""  88"Yb  Yb   dP   88   Yb   dP 88""Yb 88  .o Yb   dP Yb      88"Yb
+88     88  Yb  YbodP    88    YbodP  88oodP 88ood8  YbodP   YboodP 88  Yb                                                                                                                       '
 080 114 111 116 111 098 108 111 099 107
 01010000 01110010 01101111 01110100 01101111 01000010 01101100 01101111 01100011 01101011
 
  contact@protoblock.com
 
 */
-     
+
     var postion='all positions'
     var postions=['QB','RB','WR','TE','K','DEF','all positions']
     var ApiUrl='/php/simple.php?url=https://158.222.102.83:4545/'
     var fnName = ''
     var playerIdInFocus, playerIdInFocusWeek;
-	
+    var levelOneUrl;
+    var levelTwoUrl;
+    var levelTwoName;
+    var levelTwoSubhead;
+
 	// 	Leaderboard: 0,
     // 	award: 1
     var REFREASHTYPE = 0
@@ -26,7 +30,7 @@
     // var APIRunning=false
     var awardsCall;
 
-    
+
 function getCurrentWeek(){
     $.get( ApiUrl+"week", function( data ) {
         console.log(data)
@@ -35,11 +39,11 @@ function getCurrentWeek(){
         return list.week
     })
 }
-    
-    
+
+
 function parseLevelThree(d){
 	//$('#fnPlayerInFocus').text(d.data[0].FIRST + " " +d.data[0].LAST + " Result: "+d.data[0].RESULT  );
-	for (var i=0; i < d.data.length; i ++) { 
+	for (var i=0; i < d.data.length; i ++) {
 		$('#toLeader').append("\
 			<div class='list-group-item btn btn-raised'>\
 				<div class='row-picture'>\
@@ -53,7 +57,7 @@ function parseLevelThree(d){
 					</div>\
 				</div>"
 		);
-	$('#loader').hide(); 
+	$('#loader').hide();
 }
 
 }
@@ -68,8 +72,16 @@ function fillLevelThree(){
         url: outGoingUrl,
     }).done(function(data) {
         var item = JSON.stringify(data.contents)
-        var list = JSON.parse(item)       
+        var list = JSON.parse(item)
 		parseLevelThree(list);
+
+    //Back Button
+		$("#backButton").remove();
+		$("#toLeader").prepend("<a href='#' id='backButton'>Back</a>");
+		$('#backButton').click(function(){
+			refillAwards();
+		});
+
     });
 }
 
@@ -88,10 +100,10 @@ function parseLeaderboard(d){
 				</div>\
 			</div>"
 		);
-	}   
-	$('#loader').hide(); 
+	}
+	$('#loader').hide();
 }
-    
+
 function removeSpaces(str){
 	return str.replace(/\s/g, "")
 }
@@ -101,22 +113,24 @@ function replaceAmp(str){
 
 }
 function getLeaderBoard(ur){
+  console.log(ur);
     $('#toLeader').empty()
     $('#loader').show();
     $.ajax({
         url: ur,
     }).done(function(data) {
         var item = JSON.stringify(data.contents)
-        var list = JSON.parse(item)       
+        var list = JSON.parse(item)
+
 		parseLeaderboard(list);
     });
-} 
-    
+}
+
 
 
 
 function parseAward(d){
-	for (var i=0; i < d.data.length; i ++) { 
+	for (var i=0; i < d.data.length; i ++) {
 		$('#toLeader').append("\
 				<div id='pnlPlayerName' class='list-group-item btn btn-raised' alt='"+d.data[i].PLAYERID +"' week='"+ d.data[i].WEEK +"' team='"+d.data[i].TEAM + "'  >\
 					<div class='row-picture'>\
@@ -146,22 +160,38 @@ function resetPickers(){
 
 function refillAwards(){
     var changeName = $('#theName',this).text()
+
+    $('#fnPlayerInFocus').text(levelTwoName  );
+    $('#headerSubText').text(levelTwoSubhead);
+
     $('#toLeader').empty();
     $('#loader').show();
     // awards?week=16&position=TE
-    
+
     $.ajax({
         url: awardsCall,
     }).done(function(data) {
         var item = JSON.stringify(data.contents)
         var list = JSON.parse(item)
         parseAward(list);
+
+        //Back Button
+    		$("#backButton").remove();
+    		$("#toLeader").prepend("<a href='#' id='backButton'>Back</a>");
+    		$('#backButton').click(function(){
+          fillLeaderboard();
+    			//fillPickers();
+    		});
+
     })
 }
-    
+
 
 
 function fillPickers(){
+
+  $("#backButton").remove();
+
 	checkDefaultWeek();
 	$('#selWeek').empty();
 	$('#selPos').empty();
@@ -200,7 +230,7 @@ if (REFREASHTYPE === 0 ){
 	}
 	else
 	{
-		awardsCall = ApiUrl + 'fantasy/leaders?week=' + week +'&position=' + postion 
+		awardsCall = ApiUrl + 'fantasy/leaders?week=' + week +'&position=' + postion
 	}
 }else{
 	if ( week === "all weeks")
@@ -212,22 +242,26 @@ if (REFREASHTYPE === 0 ){
 	 REFREASHTYPE === 0 ? getLeaderBoard(awardsCall) : refillAwards()
 }
 
+function fillLeaderboard(){
+  $('#fnPlayerInFocus').empty();
+  $('#headerSubText').empty();
+
+
+  getLeaderBoard(levelOneUrl);
+}
+
 $( document ).ready(function(){
-
-
-    var outGoingUrl = ApiUrl+'fantasy/leaders?position='+postion+'&week='+week
-
-
-	$('#toLeader').btsListFilter('#searchinput', {itemChild: 'span'});
-	fillPickers();
-	getLeaderBoard(outGoingUrl);
+  levelOneUrl = ApiUrl+'fantasy/leaders?position='+postion+'&week='+week;
+  $('#toLeader').btsListFilter('#searchinput', {itemChild: 'span'});
+  fillPickers();
+  fillLeaderboard();
 
 	$('#selWeek').change(function(){
 		week = $(this).val();
 	    postion = $( '#selPos' ).val();
 
-	    REFREASHTYPE === 0 ? awardsCall = ApiUrl + 'fantasy/leaders?week=' + week 
-	    //+'&position=' + postion 
+	    REFREASHTYPE === 0 ? awardsCall = ApiUrl + 'fantasy/leaders?week=' + week
+	    //+'&position=' + postion
 		: awardsCall = ApiUrl + 'fantasy/players/' + fnName + '/awards?week=' + week
 		//'/awards?position=' + postion + '&week=' + week
 		REFREASHTYPE === 0 ? setLeaderbordUrl() : refillAwards() ;
@@ -237,7 +271,7 @@ $( document ).ready(function(){
       	postion = $( this ).val();
       	week = $('#selWeek').val();
 
-		REFREASHTYPE === 0 ? awardsCall = ApiUrl + 'fantasy/leaders?week=' + week +'&position=' + postion 
+		REFREASHTYPE === 0 ? awardsCall = ApiUrl + 'fantasy/leaders?week=' + week +'&position=' + postion
 		: awardsCall = ApiUrl + 'fantasy/players/' + fnName + '/awards?position=' + postion + '&week=' + week
 
 		REFREASHTYPE === 0 ? setLeaderbordUrl() : refillAwards();
@@ -257,18 +291,17 @@ $( document ).ready(function(){
 
 	$('#toLeader').on('click','#fnPlayerName',function() {
     	fnName = $('#theName',this).text();
-    	$('#fnPlayerInFocus').text('Fantasy Name: ' + fnName   );
-    	$('#headerSubText').text("Balance: " + $('#score',this).text() );
+      levelTwoName = 'Fantasy Name: ' + fnName;
+      levelTwoSubhead = "Balance: " + $('#score',this).text();
+
     	REFREASHTYPE = 1;
     	// resetPickers();
     	postion = $( '#selPos' ).val();
 		week = $('#selWeek').val();
-    	awardsCall = ApiUrl + 'fantasy/players/' + fnName + '/awards?week=' + week  
+    	awardsCall = ApiUrl + 'fantasy/players/' + fnName + '/awards?week=' + week
     	//+'&position=' + postion;
 
 		setLeaderbordUrl();
     	refillAwards();
 	});
 });
-
-
