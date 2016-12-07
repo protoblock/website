@@ -195,8 +195,8 @@ function fillPickers(){
 	checkDefaultWeek();
 	$('#selWeek').empty();
 	$('#selPos').empty();
-	for (var i=1; i<=14;i++ ){
-		if (i !== 14){
+	for (var i=1; i<=15;i++ ){
+		if (i !== 15){
 			$('#selWeek').append('<option>'+i+'</option>')
 		}else{
 			$('#selWeek').append('<option>'+defaultWeek+'</option>')
