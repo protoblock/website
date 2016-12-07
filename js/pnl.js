@@ -172,7 +172,7 @@ $( document ).ready(function(){
 	$('#pickers').hide();
 
 
-	$('#toLeader').on('click','#levelTwo',function() {
+	/*$('#toLeader').on('click','#levelTwo',function() {
 		nflPlayer = $('#playersName' ,this).text() + " " + $('#playersName',this).attr('team')
 		playerIDInFocus = $(this).attr('alt')
 		currentWeekInFocus = $(this).attr('week')
@@ -181,7 +181,7 @@ $( document ).ready(function(){
 
 		$('#toLeader').empty();
 		fillLevelThree();
-	});
+	});*/
 
 
 	$('#toLeader').on('click','#levelOne',function() {
