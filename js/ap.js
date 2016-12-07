@@ -245,7 +245,7 @@ function loadNav(){
                         </ul>\
                     </li>\
                     <li> <a href='/template/ticks.html'>Ticker</a> </li>\
-                    <li> <a href='/Protoblock-Mobile-Quick-Start-Guide.pdf' id='quick'>Quick Start PDF</a></li> \
+                    <li> <a href='/Protoblock-Quick-Start-Guide.pdf' id='quick'>Quick Start PDF</a></li> \
                 </ul>\
             </div>\
             </div>\
