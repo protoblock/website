@@ -180,7 +180,7 @@ function refillAwards(){
     		$("#toLeader").prepend("<a href='#' id='backButton'>Back</a>");
     		$('#backButton').click(function(){
           fillLeaderboard();
-    			//fillPickers();
+    			fillPickers();
     		});
 
     })
