@@ -233,6 +233,7 @@ function loadNav(){
             </div>\
             <div class='navbar-collapse collapse' id='navbar'>\
                 <ul class='nav navbar-nav  navbar-right'>\
+                    <li> <a href='http://blog.protoblock.com/' target='_blank'>Blog</a> </li>\
                     <li> <a href='/template/download.html' id='App'>Download App</a> </li>\
                     <li class='dropdown'>\
                         <a href='#' class='dropdown-toggle' data-toggle='dropdown' role='button' aria-haspopup='true' aria-expanded='false'>\
