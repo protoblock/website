@@ -1,9 +1,9 @@
 /*
 
-88""Yb 88""Yb  dP"Yb  888888  dP"Yb  88""Yb 88      dP"Yb   dP""b8 88  dP 
-88__dP 88__dP dP   Yb   88   dP   Yb 88__dP 88     dP   Yb dP   `" 88odP  
-88"""  88"Yb  Yb   dP   88   Yb   dP 88""Yb 88  .o Yb   dP Yb      88"Yb  
-88     88  Yb  YbodP    88    YbodP  88oodP 88ood8  YbodP   YboodP 88  Yb                                                                                                                       '                   
+88""Yb 88""Yb  dP"Yb  888888  dP"Yb  88""Yb 88      dP"Yb   dP""b8 88  dP
+88__dP 88__dP dP   Yb   88   dP   Yb 88__dP 88     dP   Yb dP   `" 88odP
+88"""  88"Yb  Yb   dP   88   Yb   dP 88""Yb 88  .o Yb   dP Yb      88"Yb
+88     88  Yb  YbodP    88    YbodP  88oodP 88ood8  YbodP   YboodP 88  Yb                                                                                                                       '
 080 114 111 116 111 098 108 111 099 107
 01010000 01110010 01101111 01110100 01101111 01000010 01101100 01101111 01100011 01101011
 
@@ -13,12 +13,12 @@
 
 var postion='all positions'
 var postions=['QB','RB','WR','TE','K','DEF','all positions']
-var ApiUrl='/php/simple.php?url=https://158.222.102.83:4545/'   
+var ApiUrl='/php/simple.php?url=https://158.222.102.83:4545/'
 var REFREASHTYPE=0
 var playerNameInFocus,playerIDInFocus,currentWeekInFocus,nflPlayer;
 
 function parseLevelThree(d){
-	for (var i=0; i < d.data.length; i ++) { 
+	for (var i=0; i < d.data.length; i ++) {
 		$('#toLeader').append("\
 				<div id='levelThree' class='list-group-item btn btn-rasied'' alt='"+d.data[i].PLAYERID +"' week='"+ d.data[i].WEEK +"'  >\
 					<div class='row-picture'>\
@@ -47,14 +47,22 @@ function fillLevelThree(){
         url: outGoingUrl,
     }).done(function(data) {
         var item = JSON.stringify(data.contents)
-        var list = JSON.parse(item)       
+        var list = JSON.parse(item)
 		parseLevelThree(list);
+
+		//Back Button
+		$("#backButton").remove();
+		$("#toLeader").prepend("<a href='#' id='backButton'>Back</a>");
+		$('#backButton').click(function(){
+			fillLevelTwo();
+		});
+
     });
 }
 
 
 function parseLevelTwo(d){
-	for (var i=0; i < d.data.length; i ++) { 
+	for (var i=0; i < d.data.length; i ++) {
 		$('#toLeader').append("\
 				<div id='levelTwo' class='list-group-item btn btn-rasied' alt='"+d.data[i].PLAYERID +"' week='"+ d.data[i].WEEK +"' >\
 					<div class='row-picture'>\
@@ -81,8 +89,16 @@ function fillLevelTwo(){
         url: outGoingUrl,
     }).done(function(data) {
         var item = JSON.stringify(data.contents)
-        var list = JSON.parse(item)       
+        var list = JSON.parse(item)
 		parseLevelTwo(list);
+
+		//Back Button
+		$("#backButton").remove();
+		$("#toLeader").prepend("<a href='#' id='backButton'>Back</a>");
+		$('#backButton').click(function(){
+			fillLevelOne();
+		});
+
     });
 }
 
@@ -101,11 +117,13 @@ function parseLevelOne(d)
 				</div>\
 			</div>"
 		);
-	}   
-	$('#loader').hide(); 
+	}
+	$('#loader').hide();
 }
 
 function fillLevelOne(){
+	$("#fnPlayerInFocus").empty();
+	$('#weekInFocus').empty();
 	$('#toLeader').empty()
     $('#loader').show();
     var outGoingUrl = ApiUrl+'trading/leaders'
@@ -113,7 +131,7 @@ function fillLevelOne(){
         url: outGoingUrl,
     }).done(function(data) {
         var item = JSON.stringify(data.contents)
-        var list = JSON.parse(item)       
+        var list = JSON.parse(item)
 		parseLevelOne(list);
     });
 }
@@ -154,19 +172,20 @@ $( document ).ready(function(){
 	$('#pickers').hide();
 
 
-	$('#toLeader').on('click','#levelTwo',function() {
+	/*$('#toLeader').on('click','#levelTwo',function() {
 		nflPlayer = $('#playersName' ,this).text() + " " + $('#playersName',this).attr('team')
-		playerIDInFocus = $(this).attr('alt') 
+		playerIDInFocus = $(this).attr('alt')
 		currentWeekInFocus = $(this).attr('week')
 		$("#fnPlayerInFocus").text("Players Name: " + nflPlayer)
 		$('#weekInFocus').text("Week : " + currentWeekInFocus + " Results: " + $('#resHelper',this).attr('alt') )
 
 		$('#toLeader').empty();
 		fillLevelThree();
-	});
+	});*/
 
 
 	$('#toLeader').on('click','#levelOne',function() {
+
 		playerNameInFocus = $('#theName',this).text()
 		currentWeekInFocus =  $('#theScore',this).text()
 

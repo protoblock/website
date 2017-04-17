@@ -72,6 +72,8 @@ function parseTheTicks(d){
         }]
 
     }
+    $("#canvas").remove();
+    $("#chartContainer").append("<canvas style='background: rgb(16, 53, 88) ;width:100%' id='canvas' ></canvas>");
     var ctx = document.getElementById("canvas").getContext("2d");
     window.myLine = new Chart(ctx).Line(lineChartData, {
         animation: true,
@@ -85,14 +87,29 @@ function parseTheTicks(d){
 }
 
 function fillChart(){
-    var outGoingUrl = ApiUrl+'ticks/'+playerInView+'/week/16'
+
+    var outgoingWeekUrl = ApiUrl+"week";
+
     $.ajax({
-        url: outGoingUrl,
+        url: outgoingWeekUrl,
     }).done(function(data) {
-        var item = JSON.stringify(data.contents)
-        var list = JSON.parse(item)
-        parseTheTicks(list);
+        var weekItem = JSON.stringify(data.contents)
+        var weekList = JSON.parse(weekItem)
+
+
+        var outGoingUrl = ApiUrl+'ticks/'+playerInView+'/week/'+weekList.week;
+        //console.log(outGoingUrl);
+        $.ajax({
+            url: outGoingUrl,
+        }).done(function(data) {
+            var item = JSON.stringify(data.contents)
+            var list = JSON.parse(item)
+            parseTheTicks(list);
+        });
     });
+
+
+
 }
 
 
@@ -149,41 +166,43 @@ function fillRight(){
 
 function parseLeftTable(d){
 
-    if ($_GET['playerid']){
-      playerInView = $_GET['playerid'];
-      console.log("loading player"+$_GET['playerid']);
-    }else {
 
-      if (isFirst===true ){
+
+      if (isFirst===true && !$_GET['playerid']){
       playerInView = d[0].playerid
        $('#rightTitle').append("\
           <h2 style='color:#333!important; text-align: center;'><b>"
-          + d[0].firstname + " " +  d[0].lastname  + " </b></h2>");
+          + d[0].firstname + " " +  d[0].lastname + " (" +  d[0].team   + ", " + d[0].pos + ")"  + " </b></h2>");
        }
-    }
+
      // $('#upOrDown').append("\
      //    \
      //    \
      //    ")
-    fillRight();
+    if (isFirst && !$_GET['playerid']) { fillRight(); }
     for (var i=0; i < d.length; i ++) {
 
-        if ($_GET['playerid'] == d[i].playerid){
+        if ($_GET['playerid'] == d[i].playerid && isFirst){
           $('#rightTitle').append("\
              <h2 style='color:#333!important; text-align: center;'><b>"
-             + d[i].firstname + " " +  d[i].lastname  + " </b></h2>");
+             + d[i].firstname + " " +  d[i].lastname + " (" +  d[i].team   + ", " + d[i].pos + ")"  + " </b></h2>");
 
         }
         $('#leftTable').append("\
                 <tr id='playerToFocus' alt='" +d[i].playerid+ "'>\
-                    <td id='firstRowPlayer' alt='"+d[i].firstname + " " +  d[i].lastname +"'>"+ d[i].firstname + " " +  d[i].lastname + " ( " +  d[i].team   + ", " + d[i].pos + " ) </td>\
+                    <td id='firstRowPlayer' alt='"+d[i].firstname + " " +  d[i].lastname + " (" +  d[i].team   + ", " + d[i].pos + ")" +"'>"+ d[i].firstname + " " +  d[i].lastname + " ( " +  d[i].team   + ", " + d[i].pos + " ) </td>\
                     <td>"+ d[i].last+" </td>\
                     <td>"+ d[i].volume+" </td>\
                     <td>"+ d[i].change+" </td>\
                 </td>\
                 "
         );
+
     }
+    $("#upSideTable").tablesorter();
+    $("#upSideTable th").addClass("headerSortUp");
+    $("#upSideTable th").addClass("headerSortDown");
+
 }
 
 function fillLeftTable(){
@@ -221,16 +240,23 @@ $( document ).ready(function(){
 
         fillRight();
         // $('#leftTable').empty()
-        var outGoingUrl = ApiUrl+'playerquotes'
+        /*var outGoingUrl = ApiUrl+'playerquotes'
         $.ajax({
             url: outGoingUrl,
         }).done(function(data) {
             var item = JSON.stringify(data.contents)
             var list = JSON.parse(item)
             parseLeftTable(list);
-        });
+        });*/
+
+
     });
 
     fillLeftTable();
+    if ($_GET['playerid']){
+      playerInView = $_GET['playerid'];
+      fillRight();
+    }
+
 
 });

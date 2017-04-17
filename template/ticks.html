@@ -27,17 +27,16 @@
 
     <!--<link rel="icon" href="../../favicon.ico">-->
 
-    <title id='mainTtitle'>ProtoBlock | Legitimize the game you love</title><!-- CSS -->
+    <title id='mainTtitle'>Protoblock</title><!-- CSS -->
 
-    <!-- Twitter and Open Graph meta tags -->
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@nytimesbits" />
-    <meta name="twitter:creator" content="@nickbilton" />
-    <meta property="og:url" content="http://protoblock.com/template/ticks.html/" />
-    <meta property="og:title" content="Protoblock Trading Ticker" />
-    <meta property="og:description" content="The Protoblock Trading Game is a new ongoing futures exchange for NFL player value that doesn't end with the season. The Trading Game provides a way to use ƑɃ to play leveraged positions on individual players and hedge other season-long positions." />
-    <meta property="og:image" content="http://protoblock.com/protoblock-logo.png" />
+    <!-- Twitter and Open Graph meta tags 
 
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@protoblock">
+    <meta name="twitter:creator" content="@protoblock">
+    <meta name="twitter:title" content="Protoblock Trading Ticker">
+    <meta name="twitter:description" content="The Protoblock Trading Game is a new ongoing futures exchange for NFL player value that doesn't end with the season. The Trading Game provides a way to use ƑɃ to play leveraged positions on individual players and hedge other season-long positions." />
+    <meta name="twitter:image" content="http://protoblock.com/protoblock-logo.png"-->
 
     <!-- CSS -->
     <link href="/css/bootstrap.min.css" rel="stylesheet" type='text/css'>
@@ -51,6 +50,7 @@
     <!-- Bootstrap Material Design -->
     <link href="/css/bootstrap-material-design.css" rel="stylesheet" type="text/css">
     <link href="/css/ripples.min.css" rel="stylesheet" type="text/css">
+    <link href="/css/tablesorter.css" rel="stylesheet" type="text/css">
     <link href="/css/style.css" rel="stylesheet" type="text/css">
 
     <!-- JS  -->
@@ -61,6 +61,8 @@
     <script src="/js/material/material.min.js" type="text/javascript"></script>
     <script src="/js/material/ripples.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
+    <script src="/js/jquery.metadata.js" type="text/javascript"></script>
+    <script src="/js/jquery.tablesorter.min.js" type="text/javascript"></script>
     <script src="/js/ap.js" type="text/javascript"></script>
     <script src="/js/ticks.js" type="text/javascript"></script>
     <style>
@@ -109,7 +111,7 @@
                     <div class='col-md-12'>
                         <div class='col-md-12' id='resultsHolder'></div>
                     </div>
-                    <table class="table table-condensed table-striped table-hover tablesorter table-responsive" id='upSideTable'>
+                    <table class="table table-condensed table-striped table-hover table-responsive" id=''>
                         <thead>
                             <tr>
                                 <th>Bid Size</th>
@@ -128,7 +130,7 @@
                     </div>
                     <!-- <p style="text-align: center">Volume: 3</p> -->
                     <!-- <p style="text-align: center">Move from open: -16</p> -->
-                    <canvas style='background: rgb(16, 53, 88) ;width:100%' id="canvas" ></canvas>
+                    <div id="chartContainer"><canvas style='background: rgb(16, 53, 88) ;width:100%' id="canvas" ></canvas></div>
                 </div>
             </div>
         </div>
