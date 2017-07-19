@@ -180,29 +180,35 @@ function parseLeftTable(d){
 
 
 
-      if (isFirst===true && !$_GET['symbol']){
-      playerInView = d[0].symbol
-       $('#rightTitle').append("\
+     if (isFirst===true && !$_GET['symbol']){
+        var team = d[0].team
+        if ( team === "") team = "FA"
+
+        playerInView = d[0].symbol
+        $('#rightTitle').append("\
           <h2 style='color:#333!important; text-align: center;'><b>"
-          + d[0].firstname + " " +  d[0].lastname + " (" +  d[0].team   + ", " + d[0].pos + ")"  + " </b></h2>");
-       }
+          + d[0].firstname + " " +  d[0].lastname + " (" +  team  + ", " + d[0].pos + ")"  + " </b></h2>")
+    }
 
      // $('#upOrDown').append("\
      //    \
      //    \
      //    ")
     if (isFirst && !$_GET['symbol']) { fillRight(); }
+
     for (var i=0; i < d.length; i ++) {
+        var team = d[i].team
+        if ( team == "") team = "FA"
 
         if ($_GET['symbol'] == d[i].symbol && isFirst){
           $('#rightTitle').append("\
              <h2 style='color:#333!important; text-align: center;'><b>"
-             + d[i].firstname + " " +  d[i].lastname + " (" +  d[i].team   + ", " + d[i].pos + ")"  + " </b></h2>");
+             + d[i].firstname + " " +  d[i].lastname + " (" +  team   + ", " + d[i].pos + ")"  + " </b></h2>");
 
         }
         $('#leftTable').append("\
                 <tr id='playerToFocus' alt='" +d[i].symbol+ "'>\
-                    <td id='firstRowPlayer' alt='"+d[i].firstname + " " +  d[i].lastname + " (" +  d[i].team   + ", " + d[i].pos + ")" +"'>"+ d[i].firstname + " " +  d[i].lastname + " ( " +  d[i].team   + ", " + d[i].pos + " ) </td>\
+                    <td id='firstRowPlayer' alt='"+d[i].firstname + " " +  d[i].lastname + " (" +  team  + ", " + d[i].pos + ")" +"'>"+ d[i].firstname + " " +  d[i].lastname + " ( " +  team   + ", " + d[i].pos + " ) </td>\
                     <td>"+ d[i].last+" </td>\
                     <td>"+ d[i].volume+" </td>\
                     <td>"+ d[i].change+" </td>\
@@ -225,6 +231,7 @@ function fillLeftTable(){
     }).done(function(data) {
         var item = JSON.stringify(data.contents)
         var list = JSON.parse(item)
+        console.log(list)
         parseLeftTable(list);
     });
 }
