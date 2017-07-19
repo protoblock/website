@@ -28,13 +28,21 @@ document.location.search.replace(/\??(?:([^=]+)=([^&]*)&?)/g, function () {
 });
 
 function toJSDate (dateTime) {
+    console.log(dateTime);
   var dateTime = dateTime.substring(0,dateTime.lastIndexOf('.'));
   var dateTime = dateTime.split("T");
   var date = dateTime[0].split("-");
   var time = dateTime[1].split(":");
+  // console.log(dateTime);
+  // console.log(date);
+  // console.log(time);
   //(year, month, day, hours, minutes, seconds, milliseconds)
-  var jsDate = new Date(date[0], date[1], date[2], time[0], time[1], time[2], 0);
-  return jsDate.toLocaleDateString() + " " + jsDate.toLocaleTimeString();
+  // var jsDate = new Date(date[0], date[1], date[2], time[0], time[1], time[2], 0);
+  // jsDate = new Date(dateTime)
+  // console.log(jsDate);
+  //return jsDate.toLocaleDateString() + " " + jsDate.toLocaleTimeString();
+  return date[1] / 1 + "/" + date[2];
+  // return jsDate.toString();
 }
 
 
@@ -48,6 +56,7 @@ function parseTheTicks(d){
         priceSet.push(d[i].price)
     }
     var lineChartData = {
+
         labels: ticSet,
         datasets: [{
             label: "My First dataset",
@@ -59,17 +68,20 @@ function parseTheTicks(d){
             pointHighlightStroke: "rgba(220,220,220,1)",
             data: priceSet
             //[randomScalingFactor(), randomScalingFactor(), randomScalingFactor(), randomScalingFactor(), randomScalingFactor(), randomScalingFactor(), randomScalingFactor()]
-        }, {
-            label: "My Second dataset",
-            fillColor: "rgba(151,187,205,0.2)",
-            strokeColor: "rgba(151,187,205,1)",
-            pointColor: "rgba(151,187,205,1)",
-            pointStrokeColor: "#fff",
-            pointHighlightFill: "#fff",
-            pointHighlightStroke: "rgba(151,187,205,1)",
-            data: priceSet
-            //[randomScalingFactor(), randomScalingFactor(), randomScalingFactor(), randomScalingFactor(), randomScalingFactor(), randomScalingFactor(), randomScalingFactor()]
-        }]
+        }
+        //, 
+        // {
+        //     label: "My Second dataset",
+        //     fillColor: "rgba(151,187,205,0.2)",
+        //     strokeColor: "rgba(151,187,205,1)",
+        //     pointColor: "rgba(151,187,205,1)",
+        //     pointStrokeColor: "#fff",
+        //     pointHighlightFill: "#fff",
+        //     pointHighlightStroke: "rgba(151,187,205,1)",
+        //     data: priceSet
+        //     //[randomScalingFactor(), randomScalingFactor(), randomScalingFactor(), randomScalingFactor(), randomScalingFactor(), randomScalingFactor(), randomScalingFactor()]
+        // }
+        ]
 
     }
     $("#canvas").remove();
@@ -168,8 +180,8 @@ function parseLeftTable(d){
 
 
 
-      if (isFirst===true && !$_GET['playerid']){
-      playerInView = d[0].playerid
+      if (isFirst===true && !$_GET['symbol']){
+      playerInView = d[0].symbol
        $('#rightTitle').append("\
           <h2 style='color:#333!important; text-align: center;'><b>"
           + d[0].firstname + " " +  d[0].lastname + " (" +  d[0].team   + ", " + d[0].pos + ")"  + " </b></h2>");
@@ -179,17 +191,17 @@ function parseLeftTable(d){
      //    \
      //    \
      //    ")
-    if (isFirst && !$_GET['playerid']) { fillRight(); }
+    if (isFirst && !$_GET['symbol']) { fillRight(); }
     for (var i=0; i < d.length; i ++) {
 
-        if ($_GET['playerid'] == d[i].playerid && isFirst){
+        if ($_GET['symbol'] == d[i].symbol && isFirst){
           $('#rightTitle').append("\
              <h2 style='color:#333!important; text-align: center;'><b>"
              + d[i].firstname + " " +  d[i].lastname + " (" +  d[i].team   + ", " + d[i].pos + ")"  + " </b></h2>");
 
         }
         $('#leftTable').append("\
-                <tr id='playerToFocus' alt='" +d[i].playerid+ "'>\
+                <tr id='playerToFocus' alt='" +d[i].symbol+ "'>\
                     <td id='firstRowPlayer' alt='"+d[i].firstname + " " +  d[i].lastname + " (" +  d[i].team   + ", " + d[i].pos + ")" +"'>"+ d[i].firstname + " " +  d[i].lastname + " ( " +  d[i].team   + ", " + d[i].pos + " ) </td>\
                     <td>"+ d[i].last+" </td>\
                     <td>"+ d[i].volume+" </td>\
@@ -253,8 +265,8 @@ $( document ).ready(function(){
     });
 
     fillLeftTable();
-    if ($_GET['playerid']){
-      playerInView = $_GET['playerid'];
+    if ($_GET['symbol']){
+      playerInView = $_GET['symbol'];
       fillRight();
     }
 
