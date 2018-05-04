@@ -181,6 +181,7 @@ function refillAwards(){
     		$('#backButton').click(function(){
           fillLeaderboard();
     			fillPickers();
+    			//fillPickers();
     		});
 
     })
@@ -195,8 +196,8 @@ function fillPickers(){
 	checkDefaultWeek();
 	$('#selWeek').empty();
 	$('#selPos').empty();
-	for (var i=1; i<=15;i++ ){
-		if (i !== 15){
+	for (var i=1; i<=16;i++ ){
+		if (i !== 16){
 			$('#selWeek').append('<option>'+i+'</option>')
 		}else{
 			$('#selWeek').append('<option>'+defaultWeek+'</option>')
