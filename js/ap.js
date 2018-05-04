@@ -235,16 +235,7 @@ function loadNav(){
                 <ul class='nav navbar-nav  navbar-right'>\
                     <li> <a href='http://blog.protoblock.com/' target='_blank'>Blog</a> </li>\
                     <li> <a href='/template/download.html' id='App'>Download App</a> </li>\
-                    <li class='dropdown'>\
-                        <a href='#' class='dropdown-toggle' data-toggle='dropdown' role='button' aria-haspopup='true' aria-expanded='false'>\
-                        Leaderboard\
-                        <span class='caret'></span>\
-                        </a>\
-                        <ul class='dropdown-menu'>\
-                            <li> <a href='/template/leaderboard.html'>2016 Projections</a> </li>\
-                            <li> <a href='/template/pnl.html'>2016 Trading</a> </li>\
-                        </ul>\
-                    </li>\
+                    <li> <a href='/template/leaderboard.html' id='App'>2017 Leaderboard</a> </li>\
                     <li> <a href='/template/ticks.html'>Ticker</a> </li>\
                     <li> <a href='/Protoblock-Quick-Start-Guide.pdf' id='quick'>Quick Start PDF</a></li> \
                 </ul>\
