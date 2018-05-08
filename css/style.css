@@ -18,7 +18,7 @@ deep turquois to pale blue
 
 /* z-index */
 
-.nav {
+.nav-sm {
 	z-index: 2;
 }
 
@@ -87,6 +87,14 @@ p {
 	display: inline;
 }
 
+.pf,.qsg {
+	padding: 30px 10px 30px 10px;
+}
+
+.tab-pane {
+	padding: 10px 10px;
+}
+
 
 /* style */
 
@@ -137,9 +145,25 @@ footer i {
 	margin: 10px 15%;
 }
 
+.qsg {
+	background-image: linear-gradient(to right top, #009688, #00838b, #006f86, #085a7a, #274667);
+}
+
+.qsg a {
+	text-decoration: none;
+}
+
+.panel, .panel-group .panel-heading+.panel-collapse>.panel-body{
+  border: none;
+}
 
 
-.nav {
+
+
+
+
+
+.nav-sm {
 	right: 25px; 
   top: 25px;
 	float: right;
@@ -147,7 +171,7 @@ footer i {
   display: inline-block;
 }
 
-.nav:hover .ddmenu {
+.nav-sm:hover .ddmenu {
     display: block;
 }
 
@@ -184,3 +208,5 @@ footer i {
 	background-color: #5bafa3;
 	text-decoration: none;
 }
+
+
