@@ -1,7 +1,8 @@
+/*
 .card {
   font-size: .875rem;
   font-weight: normal; }
-
+*/
 /*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -37,7 +38,7 @@
   --breakpoint-xl: 1200px;
   --font-family-sans-serif: "Roboto", "Helvetica", "Arial", sans-serif;
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
-
+/*
 *,
 *::before,
 *::after {
@@ -644,7 +645,7 @@ pre {
 
 .offset-11 {
   margin-left: 91.66667%; }
-
+*/
 @media (min-width: 576px) {
   .col-sm {
     flex-basis: 0;
@@ -1044,7 +1045,7 @@ pre {
     margin-left: 83.33333%; }
   .offset-xl-11 {
     margin-left: 91.66667%; } }
-
+/*
 .table {
   width: 100%;
   max-width: 100%;
@@ -1204,6 +1205,7 @@ pre {
     background-color: rgba(255, 255, 255, 0.05); }
   .table-dark.table-hover tbody tr:hover {
     background-color: rgba(255, 255, 255, 0.075); }
+*/
 
 @media (max-width: 575.98px) {
   .table-responsive-sm {
@@ -1244,7 +1246,7 @@ pre {
     -ms-overflow-style: -ms-autohiding-scrollbar; }
     .table-responsive-xl > .table-bordered {
       border: 0; } }
-
+/*
 .table-responsive {
   display: block;
   width: 100%;
@@ -1580,7 +1582,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
 
 .was-validated .custom-file-input:invalid:focus ~ .custom-file-label, .custom-file-input.is-invalid:focus ~ .custom-file-label {
   box-shadow: 0 0 0 0.2rem rgba(244, 67, 54, 0.25); }
-
+*/
 .form-inline {
   display: flex;
   flex-flow: row wrap;
@@ -1623,7 +1625,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
       justify-content: center; }
     .form-inline .custom-control-label {
       margin-bottom: 0; } }
-
+/*
 .btn, .custom-file-control::before {
   display: inline-block;
   font-weight: 500;
@@ -2803,7 +2805,7 @@ tbody.collapse.show {
   content: "";
   background: no-repeat center center;
   background-size: 100% 100%; }
-
+*/
 @media (max-width: 575.98px) {
   .navbar-expand-sm > .container,
   .navbar-expand-sm > .container-fluid {
@@ -2931,7 +2933,7 @@ tbody.collapse.show {
     .navbar-expand-xl .dropup .dropdown-menu {
       top: auto;
       bottom: 100%; } }
-
+/*
 .navbar-expand {
   flex-flow: row nowrap;
   justify-content: flex-start; }
@@ -3184,6 +3186,7 @@ tbody.collapse.show {
 
 .card-columns .card {
   margin-bottom: 0.75rem; }
+*/
 
 @media (min-width: 576px) {
   .card-columns {
@@ -3192,7 +3195,7 @@ tbody.collapse.show {
     .card-columns .card {
       display: inline-block;
       width: 100%; } }
-
+/*
 .breadcrumb {
   display: flex;
   flex-wrap: wrap;
@@ -11163,7 +11166,7 @@ h6 {
   opacity: 1;
   transition: transform 0.25s cubic-bezier(0, 0, 0.2, 1), opacity 0s 0s, max-height 0.25s;
   transform: translateY(0%); }
-
+*/
 @media (min-width: 576px) {
   #snackbar-container {
     right: 1rem;

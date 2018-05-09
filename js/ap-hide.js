@@ -15,7 +15,7 @@
 
 
 
-
+/*
 // Comming later elevation of cards
 // move to page when ready
 $( '.badCard' ).mouseover(function(){
@@ -26,7 +26,7 @@ $( '.badCard' ).mouseover(function(){
     $(this).addClass( "badCard" ).delay(1200).fadeIn();
 });
 
-/*
+
  *  HOMEPAGE
 */ 
 
