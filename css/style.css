@@ -95,7 +95,7 @@ a:hover {
 	text-align: center;
 }
 
-.card {
+.pbindex .card {
 	padding: 10px;
 	max-width: 480px;
 	align-items: center;
@@ -106,22 +106,22 @@ a:hover {
   flex-flow: wrap;
 }
 
-.card-img-top {
+.pbindex .card-img-top {
 	padding: 20px;
 }
 
-.card-body {
+.pbindex .card-body {
 	max-width: 480px;
 
 }
 
-.card-title,
-.card-text {
+.pbindex .card-title,
+.pbindex .card-text {
 	padding: 10px 20px 10px 20px;
 
 }
 
-.card-body a {
+.pbindex .card-body a {
 	display: flex;
 	justify-content: center;
 	padding: : 20px;
@@ -297,7 +297,7 @@ ul {
 
 .faq {
 	background-color: #75a4b1;
-
+	color: #effbf9;
 }
 
 
@@ -324,10 +324,14 @@ ul {
 
 footer {
 	background-color: #31708f;
-	padding: 30px;
 	text-align: center;
 	color: #effbf9;
 }
+
+footer div {
+	padding: 20px;
+}
+
 
 .imgmax {
 	max-width: 100px;
@@ -335,14 +339,17 @@ footer {
 	margin: auto;
 }
 
-footer div {
-	margin: auto;
-  padding: 10px;
+
+.social-networks {
+	font-size: 20px;
 }
 
 
+/* leaderboard */
 
-
+.leaderboard {
+	.margin: auto;
+}
 
 
 
