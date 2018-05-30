@@ -1,0 +1,394 @@
+/* table of contents */
+/* 
+  base rules
+
+*/
+
+/* colors
+pale blue to creamy navy
+#effbf9, #bdd8d9, #8cb5bd, #5e92a5, #31708f
+deep turquois to navy
+#009688, #00838b, #006f86, #085a7a, #274667
+deep turquois to pale blue
+#009688, #5bafa3, #8fc8bf, #bfe2dc, #effbf9
+creamy nacy to deep turquois
+#31708f, #157a94, #008494, #008d90, #009688
+mid to creamy navy
+#bdd8d9, #98bec4, #75a4b1, #538aa0, #31708f
+*/
+
+/* z-index */
+
+
+/* base rules */
+a,
+a:hover {
+	color: inherit;
+	text-decoration: inherit;
+}
+
+
+/* font */
+
+@font-face {
+	font-family: 'Arcon-Regular';
+	src: url (http://website/fonts/Arcon-Regular.otf);
+}
+
+body {
+	font-family: 'Arcon-Regular'
+}
+
+
+/* grid rules */
+
+.row {
+	margin-top: 0;
+	margin-bottom: 0;
+	max-width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.row> [class^="col-"],
+.row> [class*=" col-"] {
+	margin-top: 0;
+	margin-bottom: 0;
+	max-width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* positioning rules */
+
+.centerfp {
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+	align-items: center;
+	align-content: center;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  flex-flow: wrap;
+}
+
+.centerfp p,h1, h2, h3, h4, h5, h6{
+	text-align: center;
+	flex-basis: 100%;
+	margin: 0;
+	line-height: 1.7em;
+}
+/*
+\
+
+.navbar {
+	margin-bottom: 0px;
+	border: none;
+}
+
+.navbar-inner {
+    background:transparent;
+}
+
+/* repeated elements */
+
+.logo {
+	height: 30px;
+	width: auto;
+}
+
+.section-head {
+	padding-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.section-head p {
+	text-align: center;
+}
+
+.pbindex .card {
+	padding: 10px;
+	max-width: 480px;
+	align-items: center;
+	align-content: center;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  flex-flow: wrap;
+}
+
+.pbindex .card-img-top {
+	padding: 20px;
+}
+
+.pbindex .card-body {
+	max-width: 480px;
+
+}
+
+.pbindex .card-title,
+.pbindex .card-text {
+	padding: 10px 20px 10px 20px;
+
+}
+
+.pbindex .card-body a {
+	display: flex;
+	justify-content: center;
+	padding: : 20px;
+	margin: 10px 10px 30px 10px;
+}
+
+.nav-tabs > li, .nav-pills > li {
+	float:none;
+	display:inline-block;
+	margin: 5px;
+	*display:inline; /* ie7 fix */
+	zoom:1; /* hasLayout ie7 trigger */
+}
+
+.nav-tabs, .nav-pills {
+  text-align:center;
+  margin: 10px;
+}
+
+.pbcolor > li.active > a, 
+.pbcolor > li.active > a:hover,
+.pbcolor > li.active > a:focus {
+  color:#effbf9;
+  background-color: #8cb5bd;
+}
+
+.pbcolor > li > a:hover {
+	color:#effbf9;
+  background-color: #5e92a5;
+}
+
+.pbcolor a {
+  color: #effbf9;
+  background-color: #31708f;
+}
+
+.tab-pane {
+	padding: 30px;
+	min-height: 300px;
+  background-color: rgb(250, 250, 250, 0.2)
+}
+
+.panel, .panel-group .panel-heading+.panel-collapse>.panel-body{
+  border: none;
+}
+
+.panel-group {
+	padding-bottom: 30px;
+  background-color: rgb(250, 250, 250, 0.1);
+  border-radius: 5px;
+}
+
+.panel-body {
+	padding: 10px;
+	min-height: 200px;
+	max-width: 600px;
+  display: flex;
+  margin: auto;
+  flex-flow: wrap;
+  background-color: rgb(250, 250, 250, 0.2);
+}
+
+button {
+	margin: 10px;
+}
+
+ul {
+	list-style-type: none;
+  padding-left: 0;
+}
+
+/* nav bar
+//css framework provided by Samuel Marchal at https://work.smarchal.com/twbscolor
+*/
+/*
+.navbar-default {
+  background-color: #103558;
+  border-color: #017ea7;
+}
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ffffff;
+}
+.navbar-default .navbar-text {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #017ea7;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #ffffff;
+  background-color: #017ea7;
+}
+.navbar-default .navbar-toggle {
+  border-color: #017ea7;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #017ea7;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-link {
+  color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+  color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #017ea7;
+  }
+}
+*/
+
+
+/* landing page */
+
+.lp {
+	background-image: linear-gradient(to right bottom, #009688, #00838b, #006f86, #085a7a, #274667);
+	height: 100vh;
+	color: #effbf9;
+}
+
+
+/* intro */
+
+.intro {
+	background-color: #E6F4F1;
+	color: #31708f;
+}
+
+
+.intro > .pbcolor > .card > a {
+	color:#effbf9;
+  background-color: #5e92a5;
+}
+
+
+
+/* platform features */
+
+.pf {
+	background-color: #bdd8d9;
+}
+
+
+
+/* quick start guide */
+
+.qsg ul{
+	padding: 30px 30px;
+}
+
+.qsg {
+	background-color: #98bec4;
+	padding: 30px 10px 30px 10px;
+}
+
+.qsg a {
+	text-decoration: none;
+}
+
+
+/* faq */
+
+.faq {
+	background-color: #75a4b1;
+	color: #effbf9;
+}
+
+
+/* community */
+
+.community {
+	background-color: #538aa0;
+	text-align: center;
+	color: #effbf9;
+}
+
+.community ul {
+	display: inline;
+}
+
+.community .social-networks {
+	font-size: 100px;
+}
+
+
+
+
+/* footer */
+
+footer {
+	background-color: #31708f;
+	text-align: center;
+	color: #effbf9;
+}
+
+footer div {
+	padding: 20px;
+}
+
+
+.imgmax {
+	max-width: 100px;
+	max-height: auto;
+	margin: auto;
+}
+
+
+.social-networks {
+	font-size: 20px;
+}
+
+
+/* leaderboard */
+
+.leaderboard {
+	.margin: auto;
+}
+
+
+
+
