@@ -8,11 +8,10 @@
 080 114 111 116 111 098 108 111 099 107
 01010000 01110010 01101111 01110100 01101111 01000010 01101100 01101111 01100011 01101011
 
-contact@protoblock.com
+ contact@protoblock.com
 
 -->
 <html>
-
 <head>
   <meta charset="utf-8">
   <meta content="IE=edge" http-equiv="X-UA-Compatible">
@@ -21,9 +20,13 @@ contact@protoblock.com
 
   <link rel="shortcut icon" href="/images/logo-little-500.png">
   <title>Protoblock - Proof of Skill</title>
-  <meta name="description" content="Protoblock is a blockchain community driven by NFL statics and a new consensus algorithm, Proof of Skill.">
+  <meta name="description" content="Protoblock is a blockchain community driven by NFL statistics and a new consensus algorithm, Proof of Skill.">
   <meta name="keywords" content="proof of skill, fantasy football, fantasy football mobile app, blockchain, bitcoin, proof of stake, daily fantasy sports, trading">
   <meta name="wot-verification" content="f21923b4364041de3dc2">
+
+
+  <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   <!-- Fonts -->
   <link href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" type="text/css">
@@ -32,84 +35,60 @@ contact@protoblock.com
 
   <!-- CSS -->
   <link href="/styles/bootstrap.css" rel="stylesheet" type='text/css'>
-  <link href="/styles/bootstrap.min.css" rel="stylesheet" type='text/css'>
   <link href="/styles/style.css" rel="stylesheet" type="text/css">
   
   <!-- JS  -->
   <script src="/scripts/jquery-3.3.1.min.js"></script>
   <script src="/scripts/popper.min.js"></script>
   <script src="/scripts/bootstrap.min.js" type="text/javascript"></script>
+  <script src="/scripts/download.js" type="text/javascript"></script>
 
   <!-- Google Tracker -->
   <div id='theTracker'></div>
-
-  <!-- Google Tag Manager -->
-  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-K2DDJH"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-K2DDJH');</script>
 </head>
 <body>
-  <div id='about-container' class='container'>
-    <div id='firstCont' class="card col-md-12">
 
-      <div class="centerIn">
-        <div class='col-md-12'>
-          <a id='test' class="btn btn-raised btn-info"> </a>
-        </div>
+<div class="container ac">
+  <a id='resp-download' class="btn btn-info"></a>
 
-
-        <div class="col-md-12">
-          <br />
-          <a class='btn btn-raised btn-info' data-toggle="modal" data-target="#otherDL">
-          Not the Right Platform ?
-          Download Protoblock for another platform
-          </a>
-        </div>
-
+  <button type="button" class="btn btn-info" data-toggle="modal" data-target="#downloadbox">
+    Not the Right Platform?</br>
+    Download Protoblock for another platform
+  </button>
 </div>
-</div>
-</div>
+<!-- Download Box -->
 
-
-<!-- Pop up -->
-<div id="otherDL" class="modal">
-  <div class="modal-dialog modal-lg">
+<div class="modal fade" id="downloadbox" tabindex="-1" role="dialog" araia-labelledby="DownloadBox" aria-hidden="true">
+  <div class="modal-dialog" role="document">
     <div class="modal-content">
+
       <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-        <h2 class="modal-title">Download Protoblock</h2>
+        <h5 class="modal-title" id="downloadboxtitle">Download Protoblock</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>          
       </div>
-      <div class="modal-body">
-        <div class='col-md-6 centerIn'>
-    <h4>Download for phone or tablet</h4>
-    <a class="btn btn-raised btn-info" href='https://play.google.com/store/apps/details?id=org.proto.protoblock'>Google Play</a>
-      <a class="btn btn-raised btn-info" href='/Downloads/Android/arm/protoblock.apk'>Android APK</a>
-        <br />
-    <a class="btn btn-raised btn-info" href='https://itunes.apple.com/us/app/protoblock-2016/id1133758199?ls=1&mt=8'>Iphones and IPads</a>
-    <br />
-    <!-- <a href=''>iOS</a> -->
-    <h4>Download for another desktop OS</h4>
-    <a class="btn btn-raised btn-info" href='/Downloads/Windows/64/protoblock.exe'>Windows</a>
-    <br />
-    <a class="btn btn-raised btn-info" href='/Downloads/MacOS/64/protoblock.dmg'>MacOSX</a>
-    <br/><br/>
-      <!-- <li><a>Linux</a></li> -->
+
+
+      <div class="modal-body ac">
+        <h4>Download for phone or tablet</h4>
+        <a class="btn btn-raised btn-info" href='https://play.google.com/store/apps/details?id=org.proto.protoblock'>Google Play</a>
+        <a class="btn btn-raised btn-info" href='/Downloads/Android/arm/protoblock.apk'>Android APK</a>
+        <br/>
+        <a class="btn btn-raised btn-info" href='https://itunes.apple.com/us/app/protoblock-2016/id1133758199?ls=1&mt=8'>iPhones and iPads</a>
+        <br/>
+        <h4>Download for desktop</h4>
+        <a class="btn btn-raised btn-info" href='/Downloads/Windows/64/protoblock.exe'>Windows</a>
+        <a class="btn btn-raised btn-info" href='/Downloads/MacOS/64/protoblock.dmg'>MacOSX</a>
       </div>
-      <div class='col-md-6'>
-        <img class='animated fadeIn img-responsive' style="-webkit-animation-delay:.30s;animation-delay:.30s;" src="/artwork/download/download-popup.jpg" />
-      </div>
-      </div>
+
       <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
       </div>
+
     </div>
   </div>
 </div>
-
-
 
 
 </body>
