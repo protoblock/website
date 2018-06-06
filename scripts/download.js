@@ -82,7 +82,7 @@ function getMacVersion(){
 */
 function setButtons(stringer){
   var DLLInk=setDownloadLink();
-  $('#resp-download').text('Download Protoblock for ' + stringer)
+  $('#resp-download').text('Download for ' + stringer)
   if ( stringer === "Android") {
     $('#resp-download').attr("href","https://play.google.com/store/apps/details?id=org.proto.protoblock");
   }
@@ -95,7 +95,7 @@ function setButtons(stringer){
   else {
     $('#resp-download').attr("href",DLLInk);
   }
-  $('#theOS').text('Download Protoblock for ' + stringer)
+  $('#theOS').text('Download for ' + stringer)
   $('#theOS').attr("href",DLLInk)
 }
 

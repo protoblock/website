@@ -25,12 +25,8 @@ contact@protoblock.com
   <meta name="keywords" content="proof of skill, fantasy football, fantasy football mobile app, blockchain, bitcoin, proof of stake, daily fantasy sports, trading">
   <meta name="wot-verification" content="f21923b4364041de3dc2">
 
-
-  <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
   <!-- Fonts -->
-  <link href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Muli:300,400,600,700|Open+Sans:300,400,600,700" rel="stylesheet">
   <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
@@ -38,6 +34,7 @@ contact@protoblock.com
   <link href="/styles/bootstrap.css" rel="stylesheet" type='text/css'>
   <link href="/styles/bootstrap.min.css" rel="stylesheet" type='text/css'>
   <link href="/styles/style.css" rel="stylesheet" type="text/css">
+
   
   <!-- JS  -->
   <script src="/scripts/jquery-3.3.1.min.js"></script>
@@ -49,354 +46,305 @@ contact@protoblock.com
   <div id='theTracker'></div>
 </head>
 <body>
+
 <!-- Header -->
 <header>
-<div class="top-sticky centervh">
-  <a href="/pages/downloads.html" target="coins"><span>Download the App</span></a>
-</div>
-<!-- Top Spaceholder -->
-<div class="container topsh">
-  <div class="row">
-    <div class="col-xs-12 col-md-12">
-    </div>
-  </div>
+<div class="top-sticky stickycolor centervh fixed-top text-center">
+  <a class="ac" href="/pages/downloads.html" target="coins"><span>Download the App</span></a>
 </div>
 </header>
 
-
 <!-- Navigation -->
-<nav class="navbar navbar-light bg-custom fixed-top">
-  <a class="navbar-brand" href="#"><img class="logo" src="images/logotext-500.png" alt="protoblock logo"></a>
-  <button class="navbar-toggler ml-auto" type="button" data-toggle="dropdown" data-target="#pbnav" aria-controls="protoblock-navigation" aria-expanded="false" aria-label="toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+<nav>
+  <div class="pb-navtop centervh fixed-top">
+    <a class="pb-navbt ar" href="#" data-target="#sidebar" data-toggle="collapse"><i class="fa fa-navicon fa-2x py-2 p-1"></i></a>
+  </div>
+  <div class="d-flex">
+    <div class="row fixed-top">
+      <div class="col-xs-12 col-sm-6 col-lg-4 collapse pb-nav text-right" id="sidebar">
+        <span class="pb-navtopin"><a class="pb-navbt pb-navbttop" href="#" data-target="#sidebar" data-toggle="collapse"><i class="fa fa-navicon fa-2x py-2 p-1"></i></a></span>
 
-  <div class="collapse navbar-collapse" id="pbnav">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#protoblock-core">Protoblock<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/pages/downloads.html">Downloads</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#quickstartguide">Quick Start Guide</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#quickstartguide">FAQ</a>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link" href="/pages/ticker.html">Ticker</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/pages/leaderboard.html">Leaderboard</a>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link" href="/docs/pbwhitepaper.pdf">White Paper</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="http://blog.protoblock.com/">Blog</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Forum</a>
-      </li>
-    </ul>
+        <div class="pb-navlist text-center text-sm-left">
+          <hr class="pb-navdiv">  
+          <a class="pb-navlink ahover" href="/pages/downloads.html"><h5>Downloads</h5></a>
+          <hr class="pb-navdiv">
+          <a class="pb-navlink ahover" href="/pages/faq.html"><h5>FAQ</h5></a>
+          <a class="pb-navlink ffhover" href="#guide"><h5>Play Guide</h5></a>
+          <a class="pb-navlink bchover" href="/docs/pbwhitepaper.pdf"><h5>White Paper</h5></a>
+          <hr class="pb-navdiv">
+          <a class="pb-navlink ffhover" href="/pages/ticker.html"><h5>Ticker</h5></a>
+          <a class="pb-navlink ffhover" href="/pages/leaderboard.html"><h5>Leaderboard</h5></a>
+          <hr class="pb-navdiv">
+          <a class="pb-navlink bchover" href="http://blog.protoblock.com/"><h5>Blog</h5></a>
+          <a class="pb-navlink bchover" href="#"><h5>Forum</h5></a>
+          <hr class="pb-navdiv">
+          <div class="pb-navsocnet">
+            <a class="pb-navsn telegram bchover" href="https://t.me/protoblock"><i class="fa fa-telegram"></i></a>
+            <a class="pb-navsn twitter ffhover" href="https://twitter.com/protoblock"><i class="fa fa-twitter"></i></a>
+            <a class="pb-navsn github bchover" href="https://github.com/protoblock/"><i class="fa fa-github"></i></a>
+            <a class="pb-navsn youtube ahover" href="https://www.youtube.com/user/protolock"><i class="fa fa-youtube-play"></i></a>
+            <a class="pb-navsn facebook ahover" href="https://www.facebook.com/protoblock/"><i class="fa fa-facebook"></i></a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
   </div>
 </nav>
 
 <main>
-<div class="container-fluid landingpageout">
-<!-- Landing Page -->
-<div class="container landingpagein">
-  <div class="row">
+<div class="container">
 
-<!-- Tagline -->
-    <div class="col-xs-12 col-md-6">
-      <div class="tagline ac">
-        <h3>
-          Fantasy Football Meets Blockchain
-        </h3>
-      </div>
-
-<!-- AWEBER -->
-      <div class="aweber">
-        <form method="post" class="af-form-wrapper" accept-charset="UTF-8" action="https://www.aweber.com/scripts/addlead.pl" >
-          <div id="af-form-451745103" class="af-form">
-            <div id="af-body-451745103" class="af-body af-standards">
-              <input type="hidden" name="meta_web_form_id" value="451745103"/>
-              <input type="hidden" name="meta_split_id" value=""/>
-              <input type="hidden" name="listname" value="awlist4263557"/>
-              <input type="hidden" name="redirect" value="" id="redirect_f432f02a3ee39813b8f1bdd555ecae3d"/>
-              <input type="hidden" name="meta_adtracking" value="My_Web_Form"/>
-              <input type="hidden" name="meta_message" value="1"/>
-              <input type="hidden" name="meta_required" value="email"/>
-              <input type="hidden" name="meta_tooltip" value=""/>
-            </div>
-          </div>
-          <div class="aweber-form ac">
-            <input style="color: white;" class="text email-form" placeholder=" Enter Your Email" id="awf_field-82128068" type="text" name="email" value="" tabindex="501" onfocus=" if (this.value == '') { this.value = ''; }" onblur="if (this.value == '') { this.value='';}">
-            </br>
-            <input class="email-button" type="submit" name="submit" value="Join the Community">
-          </div>
-        </form>
-      </div>
-
-
+<!-- Tagline --> 
+<div class="row landingpage">
+<div class="lpleft d-flex flex-column flex-wrap col-xs-12 col-md-6 text-center">
+  <div class="tagline flex-fill">
+    <h3>
+      Fantasy Football Meets Blockchain
+    </h3>
+  </div>
 <!-- Call for Action -->
-      <div class="cfaction ac">
-        <a id='resp-download' class="btn btn-raised btn-info"></a>
-      </div>
-
-      <div class="cfaction ac">
-        <a href="#"><button type="button" class="btn btn-info">Learn More</button></a>
-      </div>
-    </div>
-
-<!-- Video -->
-    <div class="col-xs-12 col-md-6 video centervh">
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/ntIJT_uHMBs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  <div class="cfaction flex-fill">
+    <div class="my-4 btn pb-btn rdl-btn"><a id='resp-download'></a></div>
+  </div>
+<!-- AWEBER -->
+  <div class="aweber flex-fill ">
+    <form method="post" accept-charset="UTF-8" action="https://www.aweber.com/scripts/addlead.pl" >
+      <div id="af-form-451745103">
+        <div id="af-body-451745103">
+          <input type="hidden" name="meta_web_form_id" value="451745103"/>
+          <input type="hidden" name="meta_split_id" value=""/>
+          <input type="hidden" name="listname" value="awlist4263557"/>
+          <input type="hidden" name="redirect" value="" id="redirect_f432f02a3ee39813b8f1bdd555ecae3d"/>
+          <input type="hidden" name="meta_adtracking" value="My_Web_Form"/>
+          <input type="hidden" name="meta_message" value="1"/>
+          <input type="hidden" name="meta_required" value="email"/>
+          <input type="hidden" name="meta_tooltip" value=""/>
         </div>
+      </div>
+      <div class="aweber-form d-block flex-wrap centerh">
+        <input style="color: white;" class="text email-form" placeholder=" Enter Your Email" id="awf_field-82128068" type="text" name="email" value="" tabindex="501" onfocus=" if (this.value == '') { this.value = ''; }" onblur="if (this.value == '') { this.value='';}">
+        <input class="pb-btn email-btn" type="submit" name="submit" value="Join the Community">
+      </div>
+    </form>
+  </div>
+</div>
+<!-- Video -->
+<div class="lpright d-flex flex-row flex-wrap justify-content-center align-items-center col-xs-12 col-md-6 ">
+  <div class="video flex-grow-1">
+    <div class=" embed-responsive embed-responsive-16by9 ">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/ntIJT_uHMBs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
-
   </div>
 </div>
 </div>
 
 <!-- Core Section -->
-<div class="container-fluid coreout">
-  <div class="container corein">
-    <div class="row">
-
-      <div class="col-xs-12 col-md-6 core-illust">
-        <img class="img-fluid ar" src="images/placeholder-illustration.png">
-      </div>
-
-      <div class="col-xs-12 col-md-6 core-text">
-        <h3>What is Protoblock?</h3>
-        <h5>Protoblock is a blockchain community driven by NFL statistics and a new consensus algorithm named Proof of Skill. Protoblock was founded in 2014 and has been active since the 2014 NFL season. Protoblock offers an inherently-fair and decentralized platform for playing Fantasy Football. </h5>
-      </div>
-
-    </div>
-  </div>
+<div class="row core">
+<div class="core-illust col-xs-12 col-md-6 centervh">
+  <img class="img-fluid" src="images/placeholder-illustration.png">
 </div>
 
-  <!-- Features Section -->
-  <div class="container-fluid platformout">
-    <div class="container platformin">
-      <div class="row">
-
-        <div class="col-xs-12 col-sm-6 col-lg-3">   
-          <div class="card">
-            <img class="card-img-top" src="images/placeholder-illustration.png" alt="core-1">
-            <div class="card-body">
-              <h5 class="card-title">Feature 1</h5>
-              <p class="card-text">Text</p>
-              <a href="#" class="card-link">Link</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-xs-12 col-sm-6 col-lg-3">   
-          <div class="card">
-            <img class="card-img-top" src="images/placeholder-illustration.png" alt="core-1">
-            <div class="card-body">
-              <h5 class="card-title">Feature 2</h5>
-              <p class="card-text">Text</p>
-              <a href="#" class="card-link">Link</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-xs-12 col-sm-6 col-lg-3">   
-          <div class="card">
-            <img class="card-img-top" src="images/placeholder-illustration.png" alt="core-1">
-            <div class="card-body">
-              <h5 class="card-title">Feature 3</h5>
-              <p class="card-text">Text</p>
-              <a href="#" class="card-link">Link</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-xs-12 col-sm-6 col-lg-3">   
-          <div class="card">
-            <img class="card-img-top" src="images/placeholder-illustration.png" alt="core-1">
-            <div class="card-body">
-              <h5 class="card-title">Feature 4</h5>
-              <p class="card-text">Text</p>
-              <a href="#" class="card-link">Link</a>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
+<div class="d-flex flex-column flex-wrap align-content-sm-start col-xs-12 col-md-6 core-text">
+  <div class="align-self-md-start col-xs-12 core-phil">
+    <h3>Protoblock Mission</h3>
+    <h5> </h5>
   </div>
+
+<div class="align-self-md-end col-xs-12 core-innov">
+  <h3>Innovation</h3>
+  <h5>Protoblock is a blockchain community driven by NFL statistics and a new consensus algorithm named Proof of Skill. Protoblock was founded in 2014 and has been active since the 2014 NFL season. Protoblock offers an inherently-fair and decentralized platform for playing Fantasy Football. </h5>
+</div>
+</div>
 </div>
 
 
-
-<!-- Quick Start Guide Section -->
-<div class="container-fluid qsgout">
-  <div class="container qsgin">
-    <div class="row">
-
-      <div class="col-xs-12">
-        <div id="qsguide">
-
-          <div class="card">
-            <div class="card-header" id="guidetitle1" >
-              <h5 class="mb-0">
-                <button class="btn btn-link" data-toggle="collapse" data-target="#guide1" aria-expanded="true" aria-controls="guide1">
-                  Introduction                  
-                </button>
-              </h5>
-            </div>
-
-            <div id="guide1" class="collapse show" aria-labelledby="guide1" data-parent="qsguide">
-              <div class="card-body">
-                Protoblock protocol uses the randomness of Fantasy Football statistics to generate 100 FantasyBits (ƑɃ) and FantasySkills (ƑɃskill) for each Fantasy Football point (PPR). ƑɃ and ƑɃskill are distributed to players based on the accuracy of their projections. (How to make projections - one sentence) The distribution algorithm can be found here. The players with most ƑɃskill will be celebrated on the Leaderboard. Every NFL season, approximately 5 million ƑɃ and ƑɃskill are generated from Week 1 to Week 16. No coins are generated during off-season, when no statistics are generated from NFL games. To date, 20,461,100 ƑɃ and ƑɃskill have been generated using this protocol. 
-              </div>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card-header" id="guidetitle2" >
-              <h5 class="mb-0">
-                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#guide2" aria-expanded="true" aria-controls="guide2">
-                  Claim Your Name              
-                </button>
-              </h5>
-            </div>
-
-            <div id="guide2" class="collapse" aria-labelledby="guide2" data-parent="qsguide">
-              <div class="card-body">
-                Claim your name to start playing or generating coins. Here's how.
-              </div>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card-header" id="guidetitle3" >
-              <h5 class="mb-0">
-                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#guide3" aria-expanded="true" aria-controls="guide3">
-                  Projections            
-                </button>
-              </h5>
-            </div>
-
-            <div id="guide3" class="collapse" aria-labelledby="guide3" data-parent="qsguide">
-              <div class="card-body">
-                This is projections.
-              </div>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card-header" id="guidetitle4" >
-              <h5 class="mb-0">
-                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#guide4" aria-expanded="true" aria-controls="guide4">
-                  Trading        
-                </button>
-              </h5>
-            </div>
-
-            <div id="guide4" class="collapse" aria-labelledby="guide4" data-parent="qsguide">
-              <div class="card-body">
-                This is trading.
-              </div>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card-header" id="guidetitle5" >
-              <h5 class="mb-0">
-                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#guide5" aria-expanded="true" aria-controls="guide5">
-                  Ticker         
-                </button>
-              </h5>
-            </div>
-
-            <div id="guide5" class="collapse" aria-labelledby="guide5" data-parent="qsguide">
-              <div class="card-body">
-                This is ticker
-              </div>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card-header" id="guidetitle6" >
-              <h5 class="mb-0">
-                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#guide6" aria-expanded="true" aria-controls="guide6">
-                  Block Explorer           
-                </button>
-              </h5>
-            </div>
-
-            <div id="guide6" class="collapse" aria-labelledby="guide6" data-parent="qsguide">
-              <div class="card-body">
-                This is the block explorer.
-              </div>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card-header" id="guidetitle7" >
-              <h5 class="mb-0">
-                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#guide7" aria-expanded="true" aria-controls="guide7">
-                  Wallet      
-                </button>
-              </h5>
-            </div>
-
-            <div id="guide7" class="collapse" aria-labelledby="guide7" data-parent="qsguide">
-              <div class="card-body">
-                This is the wallet.
-              </div>
-            </div>
-          </div>
-
-          </div>
+<!-- Features -->
+<div class="row features">
+    <div class=" col-xs-12 col-sm-6 col-lg-3">   
+      <div class="card">
+        <img class="card-img-top" src="images/placeholder-illustration.png" alt="core-1">
+        <div class="card-body">
+          <h5 class="card-title">Feature 1</h5>
+          <p class="card-text">Text</p>
+          <a href="#" class="card-link">Link</a>
         </div>
       </div>
     </div>
+
+    <div class="col-xs-12 col-sm-6 col-lg-3">   
+      <div class="card">
+        <img class="card-img-top" src="images/placeholder-illustration.png" alt="core-1">
+        <div class="card-body">
+          <h5 class="card-title">Feature 2</h5>
+          <p class="card-text">Text</p>
+          <a href="#" class="card-link">Link</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-6 col-lg-3">   
+      <div class="card">
+        <img class="card-img-top" src="images/placeholder-illustration.png" alt="core-1">
+        <div class="card-body">
+          <h5 class="card-title">Feature 3</h5>
+          <p class="card-text">Text</p>
+          <a href="#" class="card-link">Link</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-6 col-lg-3">   
+      <div class="card">
+        <img class="card-img-top" src="images/placeholder-illustration.png" alt="core-1">
+        <div class="card-body">
+          <h5 class="card-title">Feature 4</h5>
+          <p class="card-text">Text</p>
+          <a href="#" class="card-link">Link</a>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+<!-- Guide Section -->
+<div class="row guide py-3">
+  <div class="card">
+    <div class="card-header" id="guidetitle1" >
+      <h5 class="mb-0">
+        <button class="guide-btn" data-toggle="collapse" data-target="#guide1" aria-expanded="true" aria-controls="guide1">
+          Introduction                  
+        </button>
+      </h5>
+    </div>
+
+    <div id="guide1" class="collapse show" aria-labelledby="guide1" data-parent="qsguide">
+      <div class="card-body">
+        Protoblock protocol uses the randomness of Fantasy Football statistics to generate 100 FantasyBits (ƑɃ) and FantasySkills (ƑɃskill) for each Fantasy Football point (PPR). ƑɃ and ƑɃskill are distributed to players based on the accuracy of their projections. (How to make projections - one sentence) The distribution algorithm can be found here. The players with most ƑɃskill will be celebrated on the Leaderboard. Every NFL season, approximately 5 million ƑɃ and ƑɃskill are generated from Week 1 to Week 16. No coins are generated during off-season, when no statistics are generated from NFL games. To date, 20,461,100 ƑɃ and ƑɃskill have been generated using this protocol. 
+      </div>
+    </div>
   </div>
+
+  <div class="card">
+    <div class="card-header" id="guidetitle2" >
+      <h5 class="mb-0">
+        <button class="guide-btn collapsed" data-toggle="collapse" data-target="#guide2" aria-expanded="true" aria-controls="guide2">
+          Claim Your Name              
+        </button>
+      </h5>
+    </div>
+
+    <div id="guide2" class="collapse" aria-labelledby="guide2" data-parent="qsguide">
+      <div class="card-body">
+        Claim your name to start playing or generating coins. Here's how.
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="guidetitle3" >
+      <h5 class="mb-0">
+        <button class="guide-btn collapsed" data-toggle="collapse" data-target="#guide3" aria-expanded="true" aria-controls="guide3">
+          Projections            
+        </button>
+      </h5>
+    </div>
+
+    <div id="guide3" class="collapse" aria-labelledby="guide3" data-parent="qsguide">
+      <div class="card-body">
+        This is projections.
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="guidetitle4" >
+      <h5 class="mb-0">
+        <button class="guide-btn collapsed" data-toggle="collapse" data-target="#guide4" aria-expanded="true" aria-controls="guide4">
+          Trading        
+        </button>
+      </h5>
+    </div>
+
+    <div id="guide4" class="collapse" aria-labelledby="guide4" data-parent="qsguide">
+      <div class="card-body">
+        This is trading.
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="guidetitle5" >
+      <h5 class="mb-0">
+        <button class="guide-btn collapsed" data-toggle="collapse" data-target="#guide5" aria-expanded="true" aria-controls="guide5">
+          Ticker         
+        </button>
+      </h5>
+    </div>
+
+    <div id="guide5" class="collapse" aria-labelledby="guide5" data-parent="qsguide">
+      <div class="card-body">
+        This is ticker
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="guidetitle6" >
+      <h5 class="mb-0">
+        <button class="guide-btn collapsed" data-toggle="collapse" data-target="#guide6" aria-expanded="true" aria-controls="guide6">
+          Block Explorer           
+        </button>
+      </h5>
+    </div>
+
+    <div id="guide6" class="collapse" aria-labelledby="guide6" data-parent="qsguide">
+      <div class="card-body">
+        This is the block explorer.
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="guidetitle7" >
+      <h5 class="mb-0">
+        <button class="guide-btn collapsed" data-toggle="collapse" data-target="#guide7" aria-expanded="true" aria-controls="guide7">
+          Wallet      
+        </button>
+      </h5>
+    </div>
+
+    <div id="guide7" class="collapse" aria-labelledby="guide7" data-parent="qsguide">
+      <div class="card-body">
+        This is the wallet.
+      </div>
+    </div>
+  </div>
+
 </div>
 
 
 <!-- FAQ Section -->
-<div class="container-fluid faqout">
-  <div class="container faqin">
-    <div class="row">
-      <div class="col-xs-12 marv ac">
-        <h1>FAQ</h1>
-      </div>
-    </div>
-  </div>
+<div class="row faq" >
+<div class="col-xs-12 marv ac">
+      <h1>FAQ</h1>
+</div>
 </div>
 
 
 <!-- Community Section -->
-<div class="container-fluid comout">
-  <div class="container comin">
-    <div class="row">
-      <div class="col-xs-12 ac">
-        <h3>
-          <a href="https://twitter.com/protoblock" class="twitter"><i class="fa fa-twitter"></i></a>
-          <a href="https://github.com/protoblock/" class="github"><i class="fa fa-github"></i></a>
-          <a href="https://t.me/protoblock" class="telegram"><i class="fa fa-telegram"></i></a>
-          <a href="https://www.youtube.com/user/protolock" class="youtube"><i class="fa fa-youtube"></i></a>
-        </h3>
-      </div>
-    </div>
-  </div>
+
+<div class="row comm d-flex flex-wrap justify-content-around align-items-center">
+<div class="comm-icons col-xs-12 d-flex flex-wrap justify-content-around align-items-center">
+    <div class="p-2"><a href="https://twitter.com/protoblock" class="twitter"><i class="fa fa-twitter"></i></a></div>
+    <div class="p-2"><a href="https://github.com/protoblock/" class="github"><i class="fa fa-github"></i></a></div>
+    <div class="p-2"><a href="https://t.me/protoblock" class="telegram"><i class="fa fa-telegram"></i></a></div>
+    <div class="p-2"><a href="https://www.youtube.com/user/protolock" class="youtube"><i class="fa fa-youtube"></i></a></div>
+</div>
+</div>
+
 </div>
 </main>
-
-
 
 <!-- Footer -->
 <footer>
