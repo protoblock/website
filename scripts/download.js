@@ -24,7 +24,10 @@ function setDownloadLink(){
   var folder,distro;
 
   // for non linux based os 
-  if(OS === "MacOS" || OS === "Windows") {
+  if(OS === "Mac" )  {
+    folder="/Downloads/MacOS/"+CPU+"/protoblock."+setEx()
+  }
+  else if ( OS === "Windows") {
     folder="/Downloads/"+OS+"/"+CPU+"/protoblock."+setEx()
   }
   else if (OS === "Android") {
@@ -82,7 +85,7 @@ function getMacVersion(){
 */
 function setButtons(stringer){
   var DLLInk=setDownloadLink();
-  $('#resp-download').text('Download for ' + stringer)
+  $('#resp-download').text(stringer + ' Download')
   if ( stringer === "Android") {
     $('#resp-download').attr("href","https://play.google.com/store/apps/details?id=org.proto.protoblock");
   }
@@ -95,7 +98,7 @@ function setButtons(stringer){
   else {
     $('#resp-download').attr("href",DLLInk);
   }
-  $('#theOS').text('Download for ' + stringer)
+  $('#theOS').text(stringer + ' Download')
   $('#theOS').attr("href",DLLInk)
 }
 
@@ -119,7 +122,7 @@ function setEx(){
     case "Windows":
     ex = "exe"
     break
-    case "MacOS":
+    case "Mac":
     ex = "dmg"
     break;
     case "Android":
@@ -138,7 +141,7 @@ function setEx(){
 function getOS(){
   var OSName="Unknown OS";
   if (navigator.appVersion.indexOf("Win")!=-1) OSName="Windows";
-  if (navigator.appVersion.indexOf("Mac")!=-1) OSName="MacOS";
+  if (navigator.appVersion.indexOf("Mac")!=-1) OSName="Mac";
   if (navigator.appVersion.indexOf("X11")!=-1) OSName="Unix";
   if (navigator.appVersion.indexOf("Linux")!=-1) OSName="Linux";
   if( navigator.userAgent.indexOf("Android")!=-1) OSName="Android";
@@ -164,6 +167,9 @@ function getCPU(){
     case "Win32":
       arch="64";
     break;
+    case "Win64":
+      arch="64";
+    break;
     case "Linux i686":
       arch="32";
     break;
@@ -177,8 +183,8 @@ function getCPU(){
     case "iPhone":
       arch=""
     break
-    default : 
-      arch =window.navigator.platform
+    default: 
+      arch = "64";
     break;
   }
   return arch;

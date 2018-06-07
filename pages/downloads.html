@@ -25,9 +25,6 @@
   <meta name="wot-verification" content="f21923b4364041de3dc2">
 
 
-  <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
   <!-- Fonts -->
   <link href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" type="text/css">
   <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
@@ -48,7 +45,61 @@
 </head>
 <body>
 
+<!-- Header -->
+<header class="centerh">
+<div class="top-sticky pb-colorchange centervh fixed-top text-center">
+  <a class="ac" href="/pages/downloads.html" target="coins"><span>Download the App</span></a>
+</div>
+<div class="container logo-home d-flex align-items-center py-2">
+  <a href="/index.html"><img class="img-fluid" src="/images/logo-transptext-500.png"></a>
+</div>
+</header>
+<!-- End Header -->
+<!-- Navigation -->
+<nav>
+  <div class="pb-navtop centervh fixed-top">
+    <a class="pb-navbt ar" href="#" data-target="#sidebar" data-toggle="collapse"><i class="fa fa-navicon fa-2x py-2 p-1"></i></a>
+  </div>
+
+  <div class="d-flex">
+    <div class="row fixed-top">
+      <div class="pb-nav col-12 col-sm-6 col-lg-4 collapse shadow text-right" id="sidebar">
+        <span class="pb-navtopin"><a class="pb-navbt pb-navbttop" href="#" data-target="#sidebar" data-toggle="collapse"><i class="fa fa-navicon fa-2x py-2 p-1"></i></a></span>
+
+        <div class="pb-navlist text-center text-sm-left">
+          <hr class="pb-navdiv">  
+          <a class="pb-navlink ahover" href="/pages/downloads.html"><h5>Downloads</h5></a>
+          <hr class="pb-navdiv">
+          <a class="pb-navlink ahover" href="/pages/faq.html"><h5>FAQ</h5></a>
+          <a class="pb-navlink ahover" href="#guide"><h5>Play Guide</h5></a>
+          <a target="_blank" class="pb-navlink bchover" href="/docs/whitepaper-2014.pdf"><h5>White Paper</h5></a>
+          <hr class="pb-navdiv">
+          <a class="pb-navlink ahover" href="/pages/ticker.html"><h5>Ticker</h5></a>
+          <a class="pb-navlink ahover" href="/pages/leaderboard.html"><h5>Leaderboard</h5></a>
+          <hr class="pb-navdiv">
+          <a target="_blank" class="pb-navlink ahover" href="http://blog.protoblock.com/"><h5>Blog</h5></a>
+          <a target="_blank" class="pb-navlink ahover" href="#"><h5>Forum</h5></a>
+          <hr class="pb-navdiv">
+          <div class="pb-navsocnet">
+            <a target="_blank" class="pb-navsn telegram bchover" href="https://t.me/protoblock"><i class="fa fa-telegram"></i></a>
+            <a target="_blank" class="pb-navsn twitter ahover" href="https://twitter.com/protoblock"><i class="fa fa-twitter"></i></a>
+            <a target="_blank" class="pb-navsn github bchover" href="https://github.com/protoblock/"><i class="fa fa-github"></i></a>
+            <a target="_blank" class="pb-navsn youtube ahover" href="https://www.youtube.com/c/protoblock"><i class="fa fa-youtube-play"></i></a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- End Navigation -->
+
+
+<!-- Main Body--> 
+<main>
 <div class="container ac">
+  <div class="row dlpage">
+    <div class="col-12 centervh">
   <a id='resp-download' class="btn btn-info"></a>
 
   <button type="button" class="btn btn-info" data-toggle="modal" data-target="#downloadbox">
@@ -89,7 +140,71 @@
     </div>
   </div>
 </div>
+</div>
+</div>
+</main>
+<!-- End Main Body -->
 
+
+<!-- Footer -->
+<footer class="footer">
+<div class="container-fluid">
+<!-- AWEBER -->
+<div class="email-list">
+  <button type="button" class="btn pb-btn e-btn" data-toggle="modal" data-target="#email-list">
+  Join Our Email List
+  </button>
+
+  <div class="modal" id="email-list" tabindex="-1" role="dialog" aria-labelledby="Email-List" aria-hidden="true">
+  <div class="e-box d-flex align-content-center justify-content-center">
+  <div class="modal-content">
+    <div class="modal-body">
+      <button type="button" class="close e-close-btn" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+      <div class="e-list-content align-middle">
+        <div class="filler"></div>
+        <h3>Join Our Email List</h3>
+        <div class="filler"></div>
+      </div>
+      <!-- AWEBER FORM ***NOT WORKING*** 
+      <div class="aweber flex-fill ">
+        <form method="post" accept-charset="UTF-8" action="https://www.aweber.com/scripts/addlead.pl" >
+          <div id="af-form-451745103">
+            <div id="af-body-451745103">
+              <input type="hidden" name="meta_web_form_id" value="451745103"/>
+              <input type="hidden" name="meta_split_id" value=""/>
+              <input type="hidden" name="listname" value="awlist4263557"/>
+              <input type="hidden" name="redirect" value="" id="redirect_f432f02a3ee39813b8f1bdd555ecae3d"/>
+              <input type="hidden" name="meta_adtracking" value="My_Web_Form"/>
+              <input type="hidden" name="meta_message" value="1"/>
+              <input type="hidden" name="meta_required" value="email"/>
+              <input type="hidden" name="meta_tooltip" value=""/>
+            </div>
+          </div>
+          <div class="aweber-form d-block flex-wrap centerh">
+            <input style="color: white;" class="text email-form" placeholder=" Enter Your Email" id="awf_field-82128068" type="text" name="email" value="" tabindex="501" onfocus=" if (this.value == '') { this.value = ''; }" onblur="if (this.value == '') { this.value='';}">
+            <input class="pb-btn email-btn" type="submit" name="submit" value="Join the Community">
+          </div>
+        </form>
+      </div> -->
+    </div>
+  </div>
+  </div>
+  </div>
+</div>
+<!-- Community -->
+<div class="comm-box d-flex flex-wrap justify-content-around align-items-center">
+  <div class="community col-12 d-flex flex-wrap justify-content-around align-items-center">
+    <a target="_blank" class="pb-navsn comm-icon telegram bchover" href="https://t.me/protoblock"><i class="fa fa-telegram"></i></a>
+    <a target="_blank" class="pb-navsn comm-icon twitter ahover" href="https://twitter.com/protoblock"><i class="fa fa-twitter"></i></a>
+    <a target="_blank" class="pb-navsn comm-icon github bchover" href="https://github.com/protoblock/"><i class="fa fa-github"></i></a>
+    <a target="_blank" class="pb-navsn comm-icon youtube ahover" href="https://www.youtube.com/c/protoblock"><i class="fa fa-youtube-play"></i></a>
+  </div>
+</div>
+</div>
+</footer>
+<!-- End Footer -->
 
 </body>
 </html>
