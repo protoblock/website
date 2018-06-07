@@ -39,6 +39,7 @@ contact@protoblock.com
   <script src="/scripts/ticker.js" type="text/javascript"></script>
   <script src="/scripts/popper.min.js"></script>
   <script src="/scripts/bootstrap.min.js" type="text/javascript"></script>
+  <script src="/scripts/jquery.tablesorter.min.js" type="text/javascript"></script>
 </head>
 <body>
 
@@ -94,61 +95,64 @@ contact@protoblock.com
 
 <!-- Main Body--> 
 <main>
-  <div id='about-container' class='container'>
-    <div class="row ticker py-4">
-      <div id='firstCont' class="card col-12 py-3">
-       <h1>Ticker</h1>
-       <hr></hr>
-       <h2 id='fnPlayerInFocus'></h2>
-       <div class='col-md-12'>
-           <div class='row'>
-            <div class='col-md-6'>
-                <table class="table table-condensed table-striped table-hover tablesorter table-responsive" id='upSideTable'>
-                    <thead>
-                        <tr>
-                            <th>Players Name</th>
-                            <th>Price</th>
-                            <th>Volume</th>
-                            <th>Change</th>
-                        </tr>
-                    </thead>
-                    <tbody id='leftTable'></tbody>
-                </table>
-            </div>
-            <div class='col-md-6'>
-                <div class='col-md-12'>
-                    <div id='rightTitle' class='col-md-12'></div>
-                </div>
-                <div class='col-md-12'>
-                    <div class='col-md-12' id='resultsHolder'></div>
-                </div>
-                <table class="table table-condensed table-striped table-hover table-responsive" id=''>
-                    <thead>
-                        <tr>
-                            <th>Bid Size</th>
-                            <th>Bid</th>
-                            <th>Ask</th>
-                            <th>AskSize</th>
-                            <th>Last</th>
-                            <th>Last Size</th>
-                        </tr>
-                    </thead>
-                    <tbody id='upsideRow'></tbody>
-                </table>
-                <div class='col-md-12'>
-                    <div class='col-md-6' id='volHolder'></div>
-                    <div class='col-md-6' id='openHolder'></div>
-                </div>
-                <!-- <p style="text-align: center">Volume: 3</p> -->
-                <!-- <p style="text-align: center">Move from open: -16</p> -->
-                <div id="chartContainer"><canvas style='background: rgb(16, 53, 88) ;width:100%' id="canvas" ></canvas></div>
-            </div>
-        </div>
+<div id='about-container' class='container'>
+<div class="ticker py-4">
+<div id='firstCont' class="card col-12 py-3 text-center">
+  <div class="row">
+    <div class="col-12">
+      <h1>Ticker</h1>
+      <hr></hr>
+      <h2 id='fnPlayerInFocus'></h2>
     </div>
+  </div>
+
+  <div class='row'>
+    <div class='col-6 px-5'>
+      <table class="table table-condensed table-striped table-hover tablesorter table-responsive" id='upSideTable'>
+        <thead>
+            <tr>
+                <th>Players Name</th>
+                <th>Price</th>
+                <th>Volume</th>
+                <th>Change</th>
+            </tr>
+        </thead>
+        <tbody id='leftTable'></tbody>
+      </table>
+    </div>
+
+    <div class='col-6 px-5'>
+      <div id='rightTitle'></div>
+      <div id='resultsHolder'></div>
+      <table class="table table-condensed table-striped table-hover table-responsive" id=''>
+        <thead>
+            <tr>
+                <th>Bid Size</th>
+                <th>Bid</th>
+                <th>Ask</th>
+                <th>AskSize</th>
+                <th>Last</th>
+                <th>Last Size</th>
+            </tr>
+        </thead>
+        <tbody id='upsideRow'></tbody>
+      </table>
+      <div class="row">
+        <div class='col-6' id='volHolder'></div>
+        <div class='col-6' id='openHolder'></div>
+      </div>
+        <!-- <p style="text-align: center">Volume: 3</p> -->
+        <!-- <p style="text-align: center">Move from open: -16</p> -->
+      <div id="chartContainer">
+        <canvas style='background: rgb(16, 53, 88) ;width:100%' id="canvas" ></canvas>
+      </div>
+    </div>
+  </div>
   </div>
 </div>
 </div>
 </main>
+
 <!-- End Main Body -->
 
 
