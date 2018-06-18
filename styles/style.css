@@ -638,5 +638,15 @@ footer .container-fluid {
   max-width: 750px;
 }
 
+/* coins */
+
+.coins-dl{
+  text-decoration: underline;
+} 
+
+.coins-dir {
+  color: #017ea7;
+}
+
 
 
