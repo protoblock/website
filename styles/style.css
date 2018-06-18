@@ -345,8 +345,8 @@ footer .pb-colorchange {
     border: 0;
     height: 1vh;
     background: white;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
     width: 90%;
 }
 
@@ -644,9 +644,45 @@ footer .container-fluid {
   text-decoration: underline;
 } 
 
-.coins-dir {
-  color: #017ea7;
+.coins-dir ol {
+    counter-reset:li; /* Initiate a counter */
+    padding-left: 0.5em;
 }
 
+.coins-dir ol > li {
+  position:relative; /* Create a positioning context */
+  margin:0 0 6px 2em; /* Give each list item a left margin to make room for the numbers */
+  padding:4px 8px; /* Add some spacing around the content */
+  list-style:none; /* Disable the normal item numbering */
+  border-top:1.5px solid #ffb400;
+}
+
+.coins-dir ol > li:before {
+    content:counter(li); /* Use the counter as content */
+    counter-increment:li; /* Increment the counter by 1 */
+    /* Position and style the number */
+    position:absolute;
+    left:-2.5em;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    width:2em;
+    /* Some space between the number and the content in browsers that support
+       generated content but not positioning it (Camino 2 is one example) */
+    margin-right:30px;
+    padding:4px;
+    color:#103558;
+    background:#ffb400;
+    font-weight:bold;
+    text-align:center;
+    border-radius:30px;
+}
+li ol,
+li ul {margin-top:6px;}
+ol ol li:last-child {margin-bottom:0;}
 
 
+.coins-twit {
+  margin-left: -3.5em;
+
+}
