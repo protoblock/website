@@ -149,7 +149,7 @@ a:hover {
 
 .pb-div {
     border: 0;
-    height: 1px;
+    height: 2px;
     background-color: #FFB400;
     margin-top: 3vh;
     margin-bottom: 5vh;
@@ -622,7 +622,7 @@ footer .container-fluid {
 /* vote */
 
 .vote-box {
-  height: 2200px;
+  height: 2000px;
   overflow:visible;
       padding-right: 0px;
     padding-left: 0px;
@@ -644,6 +644,10 @@ footer .container-fluid {
   text-decoration: underline;
 } 
 
+.coins-dir h4 {
+  margin-top: 7px;
+}
+
 .coins-dir ol {
     counter-reset:li; /* Initiate a counter */
     padding-left: 0.5em;
@@ -651,7 +655,7 @@ footer .container-fluid {
 
 .coins-dir ol > li {
   position:relative; /* Create a positioning context */
-  margin:0 0 6px 2em; /* Give each list item a left margin to make room for the numbers */
+  margin:10px 0 6px 2em; /* Give each list item a left margin to make room for the numbers */
   padding:4px 8px; /* Add some spacing around the content */
   list-style:none; /* Disable the normal item numbering */
   border-top:1.5px solid #ffb400;
@@ -662,6 +666,7 @@ footer .container-fluid {
     counter-increment:li; /* Increment the counter by 1 */
     /* Position and style the number */
     position:absolute;
+    top: 10px;
     left:-2.5em;
     -moz-box-sizing:border-box;
     -webkit-box-sizing:border-box;
@@ -671,8 +676,8 @@ footer .container-fluid {
        generated content but not positioning it (Camino 2 is one example) */
     margin-right:30px;
     padding:4px;
-    color:#103558;
-    background:#ffb400;
+    color:white;
+    background:#103558;
     font-weight:bold;
     text-align:center;
     border-radius:30px;
@@ -682,7 +687,47 @@ li ul {margin-top:6px;}
 ol ol li:last-child {margin-bottom:0;}
 
 
-.coins-twit {
-  margin-left: -3.5em;
-
+.coins-tweet {
+  color: #107ea7;
 }
+
+
+.ticker {
+  font-size: 0.8em;
+}
+
+.badge {
+  left: 10px;
+}
+
+#theName {
+      margin-left: auto;
+    margin-right: auto;
+}
+
+#theName p {
+  margin-bottom: 0px!important;
+}
+
+.intro-4 {
+  max-width: 200px;
+      margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
+}
+
+.fas {
+  font-size: 2em;
+}
+
+.tweet-btn {
+  background-color: #107ea7;
+  color: white;
+}
+
+.coins-dir .rdl-btn {
+  background-color: #107ea7;
+}
+
+
+

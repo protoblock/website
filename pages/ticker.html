@@ -112,20 +112,50 @@ contact@protoblock.com
     </div>
   </div>
 </div>
-<div id='about-container' class='container'>
+<div id='about-container' class='container-fluid'>
 <div class="ticker py-4">
-<div id='firstCont' class="card col-12 py-3 text-center">
+<div id='firstCont' class="col-12 text-center">
   <div class="row">
     <div class="col-12">
       <h1>Ticker</h1>
-      <hr></hr>
+      <div class="pb-div"></div>
       <h2 id='fnPlayerInFocus'></h2>
     </div>
   </div>
 
   <div class='row'>
     <div class='col-12 col-md-6'>
-      <table class="table table-condensed table-striped table-hover tablesorter table-responsive" id='upSideTable'>
+
+      <div id='rightTitle'></div>
+      <div id='resultsHolder' class="table-responsive"></div>
+        <table class="table table-condensed table-striped table-hover" id=''>
+          <thead>
+              <tr>
+                  <th>Bid Size</th>
+                  <th>Bid</th>
+                  <th>Ask</th>
+                  <th>AskSize</th>
+                  <th>Last</th>
+                  <th>Last Size</th>
+              </tr>
+          </thead>
+          <tbody id='upsideRow'></tbody>
+        </table>
+
+
+      <div class="row">
+        <div class='col-12 col-md-6 ' id='volHolder'></div>
+        <div class='col-12 col-md-6 ' id='openHolder'></div>
+      </div>
+
+      <div id="chartContainer">
+        <canvas style='background: rgb(16, 53, 88) ;width:100%' id="canvas" ></canvas>
+      </div>
+
+    </div>
+
+    <div class='col-12 col-md-6 table-responsive'>
+      <table class="table table-condensed table-striped table-hover tablesorter" id='upSideTable'>
         <thead>
             <tr>
                 <th>Players Name</th>
@@ -138,32 +168,6 @@ contact@protoblock.com
       </table>
     </div>
 
-    <div class='col-12 col-md-6'>
-      <div id='rightTitle'></div>
-      <div id='resultsHolder'></div>
-      <table class="table table-condensed table-striped table-hover table-responsive" id=''>
-        <thead>
-            <tr>
-                <th>Bid Size</th>
-                <th>Bid</th>
-                <th>Ask</th>
-                <th>AskSize</th>
-                <th>Last</th>
-                <th>Last Size</th>
-            </tr>
-        </thead>
-        <tbody id='upsideRow'></tbody>
-      </table>
-      <div class="row">
-        <div class='col-12 col-md-6 ' id='volHolder'></div>
-        <div class='col-12 col-md-6 ' id='openHolder'></div>
-      </div>
-        <!-- <p style="text-align: center">Volume: 3</p> -->
-        <!-- <p style="text-align: center">Move from open: -16</p> -->
-      <div id="chartContainer">
-        <canvas style='background: rgb(16, 53, 88) ;width:100%' id="canvas" ></canvas>
-      </div>
-    </div>
   </div>
   </div>
 </div>

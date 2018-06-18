@@ -45,16 +45,14 @@ function parseLevelThree(d){
 	//$('#fnPlayerInFocus').text(d.data[0].FIRST + " " +d.data[0].LAST + " Result: "+d.data[0].RESULT  );
 	for (var i=0; i < d.data.length; i ++) {
 		$('#toLeader').append("\
-			<div class='list-group-item btn btn-raised'>\
-				<div class='row-picture'>\
+			<div class='list-group-item d-flex justify-content-between align-items-center'>\
+				<span class='badge'>\
 					<img class='circle' src='https://raw.githubusercontent.com/google/material-design-icons/master/action/ios/ic_account_circle.imageset/ic_account_circle_3x.png' alt='icon'>\
-				</div>\
-					<div class='row-content'>\
+				</span>\
 						<h4 class='list-group-item-heading'>\
 						<span id='theName'>"+d.data[i].FANTASYNAME+"</span>\
 						</h4>\
 						<p class='list-group-item-text'>Projection: "+d.data[i].PROJECTION + " Award: "+d.data[i].AWARD +"</p>\
-					</div>\
 				</div>"
 		);
 	$('#loader').hide();
@@ -90,14 +88,12 @@ function fillLevelThree(){
 function parseLeaderboard(d){
 	for (var i in d) {
 		$('#toLeader').append("\
-			<div id='fnPlayerName' class='list-group-item btn btn-raised'>\
-				<div class='row-picture'>\
+			<div class='list-group-item d-flex justify-content-center align-items-center'>\
+        <span class='badge'>\
 					<img class='circle' src='https://raw.githubusercontent.com/google/material-design-icons/master/action/ios/ic_account_circle.imageset/ic_account_circle_3x.png' alt='icon'>\
-				</div>\
-				<div class='row-content'><h4 class='list-group-item-heading'>\
-					<span id='theName'>"+d[i].name+"</span>\
-					</h4><p id='score' class='list-group-item-text'>"+d[i].score+"</p></h4>\
-				</div>\
+				</span>\
+					<span id='theName'>"+d[i].name+"\
+					</h4><p id='score' class='list-group-item-text'>"+d[i].score+"</p></h4>\</span>\
 			</div>"
 		);
 	}
