@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta content="" name="description">
+    <meta content="" name="author"><!--<link rel="icon" href="../../favicon.ico">-->
+    <title id='mainTtitle'>ProtoBlock | Manage Fantasy Football Risk</title><!-- CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet" type='text/css'>
+    <link href="../css/bootstrap-material-datetimepicker.css" rel="stylesheet">
+    <link href="../css/animate.css" rel="stylesheet">
+    <link href="../css/retina.css" media="only screen and (-webkit-min-device-pixel-ratio: 2)" rel="stylesheet"><!-- Material Design fonts -->
+    <link href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css"><!-- Font Awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"><!-- Bootstrap Material Design -->
+    <link href="../css/bootstrap-material-design.css" rel="stylesheet" type="text/css">
+    <link href="../css/ripples.min.css" rel="stylesheet" type="text/css">
+    <link href="../css/style.css" rel="stylesheet" type="text/css"><!--js -->
+
+    <script src="../js/jquery.min.js" type="text/javascript">
+    </script>
+    <script src='../js/tablefilter/tablesort.min.js' type="text/javascript">
+    </script>
+    <script src='../js/tablefilter/tablesort.number.js' type="text/javascript">
+    </script>
+    <script src='../js/tablefilter/tablesort.date.js' type="text/javascript">
+    </script>
+    <script src="../js/material/moment-with-locales.js" type="text/javascript">
+    </script>
+    <script src="../js/material/moment.js" type="text/javascript">
+    </script>
+    <script src="../js/bootstrap/bootstrap.min.js" type="text/javascript">
+    </script>
+    <script src="../js/bootstrap/holder.js" type="text/javascript">
+    </script>
+    <script src="../js/bootstrap/bootstrap-list-filter.js" type="text/javascript">
+    </script>
+    <script src="../js/material/material.min.js" type="text/javascript">
+    </script>
+    <script src="../js/material/ripples.js" type="text/javascript">
+    </script>
+<!--     // <script src="../js/showOnScroll.js" type="text/javascript">
+</script> -->
+    <script src="../js/bootstrap-material-datetimepicker.js" type="text/javascript">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
+    <script src='/js/ap.js'></script>
+
+<style>
+.card {
+    margin: 10px;
+    -webkit-animation-delay:.2s;
+    animation-delay:.2s;
+}
+#aboutMainImg{
+    margin: 10px;   
+}
+#player{
+    width: auto!IMPORTANT 
+}
+</style>
+
+</head>
+
+
+<body>
+    <!-- Menu -->
+    <!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-K2DDJH"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-K2DDJH');</script>
+    <!-- End Google Tag Manager -->
+    
+    <!--container-->
+    <div id='page-container'>
+        <div id='about-container' class="container">
+               
+  
+    <div class='col-md-12 card'>
+    <h1 class="centerIn"><b>Trading</b></h1>   
+   <div class='col-md-12 '  style="margin-top: 1em;">    
+        <p>
+        Trading in Protoblock is a little bit more complex then <a>projections</a>. Trading is based on the stock exchange and how trading is done there. For a better idea lets take a look at Adrian Peterson on week 16 of 2015.
+        </p>
+        <p>
+        Lets us say that we think that Adrian Peterson is going to score 25 fantasy point. Now lets say that there is a offer to <b>buy</b> Adrian Peterson at 11 points. Meaning that another protoblock player is <b>asking</b> 11 fantasy bits for a Adrian Peterson contract. 
+        </p>
+        <p>
+        You as a protoblock player could put in a <b>buy</b> order for Adrian Peterson at 11 points at any time. In a buy order you must also set your <b>bid size</b> (number of contracts). A bid size is how many times you would like to <b>buy</b> Adrian Peterson at your <b>buy</b> price. Be careful with how many <b>bid sizes</b> you use as this could mean that you could owe someone a lot of fantasy bits at the end of the week (weekly trading).  
+        </p>
+        <p>
+        After putting in your buy order Protoblocks matching engine takes care of matching you up with a good seller that fits your needs. 
+        </p>
+
+        <p> The roles of a <b>Seller</b> are much like the roles of a buyer except you are selling contracts of a nfl player and not buying them. 
+        </p>
+
+        <p class="centerIn"><i>For more details see the Details section below</i></p>
+
+        <div class='row' style="margin-top: 1em;">
+            <!--Right   -->
+            <div class='col-md-6'>    
+                <div class='col-md-12'>
+                    <div class='row'>
+                        <div class='col-md-8'>
+                            <h2 style='color:#333!important; text-align: center;'><b>Adrian Peterson MIN RB</b></h2>   
+                        </div>
+                        <div class='col-xs-2'></div>   
+                        <div class=col-xs-2 id='upOrDown'></div>    
+                    </div>
+                </div>  
+
+            <div class='col-md-12'>
+                <div class='col-md-6'><h3 style='color:#333!important; text-align: center;'><b>Week:</b> 16</h3></div>
+                <div class='col-md-6' id='resultsHolder'></div>
+            </div>            
+
+            <div class='col-md-12'>
+                <table class="table table-condensed table-striped table-hover tablesorter table-responsive" id='upSideTable'>
+                    <thead>
+                        <tr>    
+                            <th>Bid Size</th>
+                            <th>Bid</th>
+                            <th>Ask</th>
+                            <th>AskSize</th>
+                            <th>Last</th>
+                            <th>Last Size</th>
+                        </tr>
+                    </thead>
+                    <tbody id='upsideRow'></tbody>
+                </table>
+            </div>
+
+
+
+            <div class='col-md-12'>
+                <div class='col-md-6' id='volHolder'></div>
+                <div class='col-md-6' id='openHolder'></div>
+            </div>
+            </div><!-- end right -->
+            <!--Left-->
+            <div class='col-md-5'>
+                <canvas style='background: rgb(16, 53, 88)' id="canvas"></canvas>
+            </div>
+        </div>
+    </div>
+        
+    </div>
+
+
+    <div class='col-md-12'></div>
+    
+    
+        
+    <div class='col-md-12 card' style="margin-bottom: 1em;">
+             <h3>Trading Details</h3>     
+        <div class="media">
+            <div class="media-left">
+                <a href="#">
+                    <img class="media-object" src="/artwork/circle-icons/full-color/png/64px/quote.png">
+                </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">What is a <b>Bid Size</b> ?</h4>
+                 The number of shares being offered for purchase at a specified bid price,
+                 that a fantasy player (buyer) is willing to purchase at that bid price.
+                 For example, if an fantasy player (investor) wants to buy 200 contracts of Adrian Peterson at 10 per share,
+                 the bid size is 200 shares. The exchange would then quote this bid size in the hundreds,
+                 so the bid size for Adrian Peterson would be two.
+                 If the bid size was 500 shares, the bid size quote would be five.
+                 <br />
+                 <b>BREAKING DOWN 'Bid Size'</b>
+                 <br />
+                 Bid size is the opposite of ask size. Ask size is the amount of a security that a fantasy player is offering to
+                 sale. Bid size and ask size are thought to have a relationship which imply that if bid sizes are higher than ask
+                 sizes, then there may be a high demand for the players stock.
+            </div>
+        </div>
+    <hr></hr>
+
+        <div class="media">
+            <div class="media-left">
+                <a href="#">
+                    <img class="media-object" src="/artwork/circle-icons/full-color/png/64px/money.png">
+                </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">What is a <b>Bid</b> ?</h4>
+                 A bid price is the price a fantasy player is willing to pay for a player.
+                 This is one part of the bid with the other being the bid size, which details the amount of shares the
+                 fantasy player is willing to purchase at the bid price.
+                 The opposite of the bid is the ask price, which is the price a fantasy player (seller) is looking to get
+                 for his or her shares of a player.
+                 <br />
+                 <b>BREAKING DOWN 'Bid Price'</b>
+                 </br>
+                The use of bid and ask is a fundamental part of fantasybits market system, as it details the exact amount that
+                a fantasy player could buy or sell at any point in time. Remember that the current price is not the price for
+                which you can purchase the player (nfl player), but the price at which the player (nfl player) shares last
+                traded hands. If you want to get an idea of the price for which you can buy a nfl players security, you need to
+                look at the bid and ask prices because they will often differ from the current price.
+            </div>
+        </div>
+
+        <hr></hr>
+        <div class="media">
+            <div class="media-left">
+                <a href="#">
+                    <img class="media-object" src="/artwork/circle-icons/full-color/png/64px/bolt.png">
+                </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">What is a <b>Ask</b> ?</h4>
+                 'Ask' is the price a fantasy player (seller) is willing to accept for a player, also known as the offer price.
+                 Along with the price, the ask quote will generally also stipulate the amount of the player (nfl player) willing to be sold
+                 at that price.
+                 <br />
+                 <b>BREAKING DOWN 'Ask'</b>
+                This is the opposite of bid, which is the price a fantasy player (buyer) is willing to pay for a nfl players security,
+                and the ask will always be higher than the bid. The terms "bid" and "ask" are used in nearly every financial
+                market in the world covering stocks, bonds, currency and derivatives.
+                An example of an ask in the fantasybit market would be $5.24 fantasybits x 1,000 which means that someone is offering to sell
+                1,000 shares for $5.24 fantasy bits.
+            </div>
+        </div>
+
+        <hr></hr>
+        <div class="media">
+            <div class="media-left">
+                <a href="#">
+                    <img class="media-object" src="/artwork/circle-icons/full-color/png/64px/quote.png">
+                </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">What is <b>Ask Size</b> ?</h4>
+                 The ask size is the amount of a security that a market maker is offering to sell at the ask price.
+                 The higher the ask size, the more supply there is that people want to sell.
+                 When a fantasy player (buyer) seeks to purchase a security, he or she can accept the ask price
+                 and buy up to the ask size amount at that price.
+                 If the fantasy player (buyer) wishes to acquire more of the security over the current ask size,
+                 he or she may have to pay a slightly higher price to the next available fantasy player (seller) .
+                <br />
+                <b>BREAKING DOWN 'Ask Size'</b>
+                <br />
+                All fantasy players are the ones who offer to buy and sell securities.
+                The fantasy player must state the price it is asking for a given player (the ask price)
+                and the amount it is willing to sell at that price (the ask size).
+                Also, the fantasy player must state the price at which he or she is willing to buy the security (the bid price)
+                and the amount of securities he or she is willing to buy (the bid size).
+                When a customer order comes to the exchange, the order is filled by the fantasy player with the lowest ask price
+                (for buy orders) or the highest bid price (for sell orders).
+            
+            </div>
+        </div>
+
+        <hr></hr>
+        <div class="media">
+            <div class="media-left">
+                <a href="#">
+                    <img class="media-object" src="/artwork/circle-icons/full-color/png/64px/hourglass.png">
+                </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">What is <b>Last</b> ?</h4>
+                 This is the greatest number that is in the matching engine has to offer.  In other words it is the best offer that is on the table. This is very simalar to ask.
+            </div>
+        </div>
+        
+        <hr></hr>
+        <div class="media">
+            <div class="media-left">
+                <a href="#">
+                    <img class="media-object" src="/artwork/circle-icons/full-color/png/64px/stack.png">
+                </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">What is <b>Last Size</b> ?</h4>
+                 This is the final number contract that is placed between two or more fantasy players. In other words right before the game starts.
+            </div>
+        </div>
+        <hr></hr>
+    </div> 
+
+
+
+       
+        
+    
+ 
+
+
+
+            
+        </div>	
+    </div>
+    <div class='col-md-12' id='theFooter'></div>
+    
+
+    <script type="text/javascript">
+        
+
+    </script>
+
+
+
+
+
+    </body>
+</html> 

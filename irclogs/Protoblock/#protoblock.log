@@ -1,0 +1,1675 @@
+--- Log opened Sat Jul 09 23:54:22 2016
+23:54 -!- m_jimmerMain [~m_jimmer@ip158-222-102-84.pbiaas.com] has joined #protoblock
+23:54 -!- ServerMode/#protoblock [+nt] by org.protoblock.com
+23:54 -!- Irssi: #protoblock: Total of 1 nicks [1 ops, 0 halfops, 0 voices, 0 normal]
+23:54 -!- Irssi: Join to #protoblock was synced in 2 secs
+23:55 -!- fantasyUse|77105 [32003241@m-c.clients.kiwiirc.com] has joined #protoblock
+23:55 < fantasyUse|77105> Here is a test to make sure that the logs are wrote
+23:56 -!- fantasyUse|77105 is now known as somethingElse
+23:58 < somethingElse> more tests
+23:58 -!- somethingElse is now known as m_jimmer
+23:59 -!- m_jimmer [32003241@m-c.clients.kiwiirc.com] has quit [Quit: ]
+--- Day changed Sun Jul 10 2016
+03:52 -!- nmarstobowl [631064d3@m-c.clients.kiwiirc.com] has joined #protoblock
+03:53 < nmarstobowl> whats up all
+03:55 -!- m_jimmer [631064d3@m-b.clients.kiwiirc.com] has joined #protoblock
+03:55 < m_jimmer> hey there nmarstobowl hows it going ?
+03:56 < nmarstobowl> ok Just looking to make my predictions but can not find out how.
+03:57 < m_jimmer> cool this is coming soon. did you register your name on twitter and get you chance at 250,000 in prizes ?
+03:57 < nmarstobowl> no I don't care about that. I just want to play the game. I like games is this a game
+03:57 < nmarstobowl> ?
+03:58 < m_jimmer> yes but you must wait a little bit
+03:59 < m_jimmer> the projections and trading are to come. We hope to get them by preseason
+03:59 < nmarstobowl> I don't care at all about ffpc... in fact they suck ! I thought that I could make projections
+04:00 < m_jimmer> soon nmarstobowl
+04:00 < m_jimmer> I take it that you are on our site and not in the app
+04:01 < nmarstobowl> yeah I am I downloaded the app and hit skip and the ui was real nice but there is no logic
+04:01 < m_jimmer> are you a developer ?
+04:01 < nmarstobowl> no
+04:02 < m_jimmer> if you sign up to our mailing list you can learn all about the things that are going to happen real soon
+04:02 < nmarstobowl> so are yu guys developing or looking only for new users ?
+04:02 < nmarstobowl> new users I take it !
+04:03 < m_jimmer> a little of both TBH. I am just a UI/UX guy that is trying to get the app out
+04:03 < nmarstobowl> well if you are the UI guy . good job
+04:03 < nmarstobowl> but when are the real things gonna happen
+04:04 < m_jimmer> that is hard to say. but soon we all hope
+04:04 < nmarstobowl> so you are not a backend guy
+04:04 < m_jimmer> yeah I am but there is only so much one can do.  Others are on the 1700 $$ twitter thing
+04:05 < nmarstobowl> fuck twitter
+04:05 < m_jimmer> lol
+04:05 < nmarstobowl> anyways I want to make my projections
+04:05 < m_jimmer> So sign up and aka cliam your name
+04:05 < m_jimmer> it will all come soon
+04:06 < nmarstobowl> cool will do G2G
+04:06 < m_jimmer> cya
+04:06 -!- nmarstobowl [631064d3@m-c.clients.kiwiirc.com] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+04:33 -!- clarity [~clarity@c-24-4-144-11.hsd1.ca.comcast.net] has joined #protoblock
+04:33 -!- clarity [~clarity@c-24-4-144-11.hsd1.ca.comcast.net] has quit [Quit: ]
+04:35 -!- jaybny [1804900b@m-b.clients.kiwiirc.com] has joined #protoblock
+04:36 < m_jimmer> hey ja
+04:36 < m_jimmer> jaybny:  *
+04:36 < jaybny> hey man
+04:36 < m_jimmer> where you nmarstobowl ?
+04:36 < m_jimmer> were*
+04:36 < jaybny> i am on the website - so anyone can say they are jaybny - be careful ..
+04:36 < jaybny> no
+04:36 < jaybny> I was not
+04:37 < m_jimmer> NOT if you reister
+04:37 < m_jimmer> register *
+04:37 < jaybny> can yo tell if its from teh app or from the website?
+04:37 < jaybny> register where?
+04:37 < m_jimmer> your keys
+04:37 < jaybny> kiwi ?
+04:38 < m_jimmer> no this is on the site and on the app
+04:38 < m_jimmer> should not be able to take the name jaybny if he is registered and also has passwd
+04:38 -!- clarity [~clarity@c-24-4-144-11.hsd1.ca.comcast.net] has joined #protoblock
+04:38 < jaybny> how and where do I register?
+04:38 < m_jimmer> like slack
+04:39 < m_jimmer> you ask
+04:39 < clarity> can you tell if im on the app or site?
+04:39 < m_jimmer> https://thepb.in/p/y8h6PmKrnVwhO
+04:39 < m_jimmer> clarity [clarity!~clarity@c-24-4-144-11.hsd1.ca.comcast.net] * clarity
+04:40 < m_jimmer> Connected to server: org.protoblock.com A chat server for fantasy football fans
+04:40 < jaybny> is this name anyway ties to fantasyname from teh app?
+04:40 < m_jimmer> actually using host
+04:40 < m_jimmer> clarity:  IS USING APP
+04:40 < m_jimmer> aybny [jaybny!1804900b@m-b.clients.kiwiirc.com] * jaybny
+04:40 < m_jimmer> ^^ site
+04:40 -!- jaybny [1804900b@m-b.clients.kiwiirc.com] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+04:41 -!- protoblock [1804900b@m-c.clients.kiwiirc.com] has joined #protoblock
+04:42 < m_jimmer> protoblock [protoblock!1804900b@m-c.clients.kiwiirc.com] * clarity 
+04:42 < m_jimmer>  protoblock [protoblock!1804900b@m-c.clients.kiwiirc.com] * clarity 
+04:42 < m_jimmer>  protoblock [protoblock!1804900b@m-c.clients.kiwiirc.com] * clarity
+04:42 < m_jimmer> same ip
+04:42 < protoblock> anyways - we need to be careful not oto assume who we are talking to. anyone can use nick jaybny through the site
+04:43 < m_jimmer> register it with nickserv
+04:43 < m_jimmer> should already do that on app
+04:43 < protoblock> where is nick serve running?
+04:44 < m_jimmer> on the ... no for public
+04:44 < protoblock> would need to make users sign with keys on app for registering a FanatsyName
+04:44 < m_jimmer> that is what libcommuni does
+04:45 < m_jimmer> or at least is suppost to do
+04:45 < protoblock> how do i register?
+04:45 < m_jimmer> you cliam a name
+04:45 < protoblock> no
+04:45 < protoblock> i chatting as protoblock - that name is claimed and thats not me
+04:46  * m_jimmer thinks that that is because you are not using app and out not logged in.  but that can be fixed
+04:46 -!- clarity [~clarity@c-24-4-144-11.hsd1.ca.comcast.net] has quit [Quit: Fantasy Just Got Real]
+04:46 -!- protoblock is now known as clarity
+04:47 < clarity> test proto
+04:47 < clarity> [21:47:03] [433] clarity Nickname is already in use.
+04:47 < clarity> [21:47:03] [451] You have not registered
+04:47 < m_jimmer> and your point is what
+04:47 < clarity> from the app - the real clarity can not chat
+04:47 < clarity> im a fake clarity
+04:47 < m_jimmer> at least it works unlike other things
+04:47 < clarity> yes - it great
+04:47 < m_jimmer> in fact that is a trending thing
+04:48 < clarity> just makeing note - not to assume anything based on nick
+04:48 < m_jimmer> I should fix all that you are righ
+04:48 < m_jimmer> tight *
+04:48 < m_jimmer> errr
+04:48 < m_jimmer> right *
+04:48 < clarity> no need to fix it.. its not even a bug
+04:49 < clarity> its just random chat for now...
+04:49 < m_jimmer> need to send auto cmd on join to server
+04:49 < clarity> who controls nick server?
+04:49 < m_jimmer> but need o get ssl and other up
+04:49 < clarity> m_jimmer exactly not a priority
+04:50 < m_jimmer> m_jimmerMain
+04:50 < m_jimmer> well as of like 4 or 5 hours ago
+04:50 < clarity> im working on blockchain block signer selection algo for proof-of-skill
+04:50 < m_jimmer> he is the logger
+04:50 < m_jimmer> cool get to it that is what i want to hear
+04:51 < m_jimmer> http://protoblock.com/irclogs/Protoblock/%23protoblock.log
+04:51 < clarity> ok - the way this would work would be that must sign a message when creating nick, then i guess you can generate a password - so if someone comes from the web.. any knows fantasynames cannot be used as nick...
+04:51 < clarity> but again this is way int feature creep land
+04:52 < m_jimmer> that is not how nickserv works
+04:52 < clarity> they do somthing like that in #bitcoin-otc
+04:53 < clarity> where you "auth" the nick with a signature
+04:53 < clarity> "verisign" or something "clearsign"
+04:53 < clarity> https://wiki.bitcoin-otc.com/wiki/Beginners_Guide
+04:54 < clarity> https://wiki.bitcoin-otc.com/wiki/Beginners_Guide#Registration.2C_authentication.2C_and_validation
+04:54 < m_jimmer> yeah that is just a hack
+04:54 < clarity> thats gribble
+04:54 < m_jimmer> look at the real old school people
+04:54 < m_jimmer> gribble is a hack
+04:55 < m_jimmer> look at like oftc and freenode and darknet
+04:55 < m_jimmer> http://www.irchelp.org/irchelp/networks/servers/
+04:55 < clarity> well thats all ive used.. - fits in our case - ;;bcregister <wot name> <btc address> or ;;btcregister <wot name> <btc address> Initiate registration of a WOT name using a Bitcoin address. To complete this registration, you will need to SIGN a One Time Password (OTP) that gribble gives you (COPY THE ENTIRE TEXT including the leading "freenode:#bitco
+04:55 < clarity> in-otc:" portion) and use this value with the ;;bcverify command. Bitcoin address signing is supported in the base client wallet ("Satoshi") and some other wallet software and some online wallets. The function to sign is usually found in the "Receive Coins" page. Be sure to use the same address to sign that you register with.
+04:55 < clarity> ;;bcregister <wot name> <btc address> or ;;btcregister <wot name> <btc address> Initiate registration of a WOT name using a Bitcoin address. To complete this registration, you will need to SIGN a One Time Password (OTP) that gribble gives you (COPY THE ENTIRE TEXT including the leading "freenode:#bitcoin-otc:" portion) and use this value with the ;
+04:55 < clarity> ;bcverify command. Bitcoin address signing is supported in the base client wallet ("Satoshi") and some other wallet software and some online wallets. The function to sign is usually found in the "Receive Coins" page. Be sure to use the same address to sign that you register with.
+04:55 < clarity> ;;bcregister <wot name> <btc address> or ;;btcregister <wot name> <btc address> Initiate registration of a WOT name using a Bitcoin address. To complete this registration, you will need to SIGN a One Time Password (OTP) that gribble gives you (COPY THE ENTIRE TEXT including the leading "freenode:#bitcoin-otc:" portion) and use this value with the ;
+04:55 < clarity> ;bcverify command. Bitcoin address signing is supported in the base client wallet ("Satoshi") and some other wallet software and some online wallets. The function to sign is usually found in the "Receive Coins" page. Be sure to use the same address to sign that you register with.
+04:55 < clarity> sorry
+04:55 < clarity> etf
+04:55 < clarity> wtf
+04:56 < clarity> can i delete that msg ?
+04:57 < m_jimmer> br b I am just a user and no control at all
+04:57 -!- clarity is now known as mikeclaynfl
+04:57 < m_jimmer> brb *
+04:58 -!- clarity [~clarity@c-24-4-144-11.hsd1.ca.comcast.net] has joined #protoblock
+05:01 -!- mikeclaynfl is now known as Windo
+05:17 -!- Windo [1804900b@m-c.clients.kiwiirc.com] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+05:19 -!- clarity [~clarity@c-24-4-144-11.hsd1.ca.comcast.net] has quit [Ping timeout: 240 seconds]
+06:55 -!- m_jimmer [631064d3@m-b.clients.kiwiirc.com] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+11:54 -!- m_jimmer [631064d3@m-c.clients.kiwiirc.com] has joined #protoblock
+16:57 -!- fantasyfreak [~fantasyfr@156.red-81-35-55.dynamicip.rima-tde.net] has joined #protoblock
+16:57 -!- fantasyfreak [~fantasyfr@156.red-81-35-55.dynamicip.rima-tde.net] has quit [Quit: ]
+17:23 -!- fantasyUse|23145 [5123379c@m-c.clients.kiwiirc.com] has joined #protoblock
+19:19 -!- fantasyUse|23145 [5123379c@m-c.clients.kiwiirc.com] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+20:13 -!- m_jimmer [631064d3@m-c.clients.kiwiirc.com] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+20:54 -!- fantasyfreak [~fantasyfr@156.red-81-35-55.dynamicip.rima-tde.net] has joined #protoblock
+21:01 -!- fantasyfreak [~fantasyfr@156.red-81-35-55.dynamicip.rima-tde.net] has quit [Quit: Fantasy Just Got Real]
+21:01 -!- fantasyfreak [~fantasyfr@156.red-81-35-55.dynamicip.rima-tde.net] has joined #protoblock
+21:10 -!- fantasyfreak [~fantasyfr@156.red-81-35-55.dynamicip.rima-tde.net] has quit [Quit: Fantasy Just Got Real]
+--- Day changed Mon Jul 11 2016
+03:25 -!- clarity [~clarity@c-24-4-144-11.hsd1.ca.comcast.net] has joined #protoblock
+03:35 -!- clarity [~clarity@c-24-4-144-11.hsd1.ca.comcast.net] has quit [Ping timeout: 240 seconds]
+15:38 -!- fantasyfreak [~fantasyfr@156.red-81-35-55.dynamicip.rima-tde.net] has joined #protoblock
+15:38 -!- fantasyfreak [~fantasyfr@156.red-81-35-55.dynamicip.rima-tde.net] has quit [Quit: ]
+16:10 -!- fantasyfreak [~fantasyfr@156.red-81-35-55.dynamicip.rima-tde.net] has joined #protoblock
+16:10 -!- fantasyfreak [~fantasyfr@156.red-81-35-55.dynamicip.rima-tde.net] has quit [Quit: ]
+16:39 -!- JayBNY [~JayBNY@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+16:48 -!- JayBNY [~JayBNY@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Quit: Fantasy Just Got Real]
+17:26 -!- fantasyfreak [~fantasyfr@156.red-81-35-55.dynamicip.rima-tde.net] has joined #protoblock
+17:26 -!- fantasyfreak [~fantasyfr@156.red-81-35-55.dynamicip.rima-tde.net] has quit [Quit: ]
+18:45 -!- Protoblockiphone [~Protobloc@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+18:45 < Protoblockiphone> Hello
+18:45 < Protoblockiphone> Another text message
+18:48 -!- Protoblockiphone [~Protobloc@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+18:52 -!- Protoblockiphone [~Protobloc@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+18:52 < Protoblockiphone> Hhhhhh
+18:52 -!- Protoblockiphone [~Protobloc@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Quit: ]
+20:00 -!- fantasyUse|13134 [180fab0c@m-c.clients.kiwiirc.com] has joined #protoblock
+20:00 < fantasyUse|13134> Hi i have downloaded the app but i keep getting an error that it quits unexpectedly
+20:17 -!- JayBNY [~JayBNY@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+20:19 < JayBNY> hello
+20:32 -!- fantasyUse|13134 [180fab0c@m-c.clients.kiwiirc.com] has left #protoblock []
+20:38 -!- JayBNY [~JayBNY@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Quit: Fantasy Just Got Real]
+--- Day changed Tue Jul 12 2016
+00:04 -!- fantasyfreak [~fantasyfr@156.red-81-35-55.dynamicip.rima-tde.net] has joined #protoblock
+00:11 -!- fantasyfreak [~fantasyfr@156.red-81-35-55.dynamicip.rima-tde.net] has quit [Quit: Fantasy Just Got Real]
+17:14 -!- JayBNY [~JayBNY@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+17:18 -!- JayBNY [~JayBNY@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Quit: ]
+18:18 -!- fantasyfreak [~fantasyfr@156.red-81-35-55.dynamicip.rima-tde.net] has joined #protoblock
+18:18 < fantasyfreak> What do you guys think of my team?
+18:53 -!- fantasyfreak [~fantasyfr@156.red-81-35-55.dynamicip.rima-tde.net] has quit [Ping timeout: 240 seconds]
+23:32 -!- JayBNY [~JayBNY@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+23:59 -!- JayBNY [~JayBNY@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Quit: Fantasy Just Got Real]
+--- Day changed Wed Jul 13 2016
+00:02 -!- fantasyfreak [~fantasyfr@156.red-81-35-55.dynamicip.rima-tde.net] has joined #protoblock
+00:02 -!- fantasyfreak [~fantasyfr@156.red-81-35-55.dynamicip.rima-tde.net] has quit [Quit: ]
+02:48 -!- JayBNY [~JayBNY@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+02:50 -!- fantasyfoo [32003241@m-c.clients.kiwiirc.com] has joined #protoblock
+02:50 < JayBNY> protoblock chat windows desktop
+02:50 < fantasyfoo> hey jay - who do u like 1.01
+02:51 < JayBNY> A Brown for sure
+02:51 -!- JayBNY [~JayBNY@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Quit: ]
+05:21 -!- fantasyfoo [32003241@m-c.clients.kiwiirc.com] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+09:39 -!- fantasyfreak [~fantasyfr@156.red-81-35-55.dynamicip.rima-tde.net] has joined #protoblock
+09:39 -!- fantasyfreak [~fantasyfr@156.red-81-35-55.dynamicip.rima-tde.net] has quit [Quit: ]
+16:19 -!- fantasyfreak [~fantasyfr@156.red-81-35-55.dynamicip.rima-tde.net] has joined #protoblock
+16:19 -!- fantasyfreak [~fantasyfr@156.red-81-35-55.dynamicip.rima-tde.net] has quit [Quit: ]
+19:01 -!- fantasyfreak [~fantasyfr@156.red-81-35-55.dynamicip.rima-tde.net] has joined #protoblock
+19:02 -!- fantasyfreak [~fantasyfr@156.red-81-35-55.dynamicip.rima-tde.net] has quit [Quit: ]
+20:25 -!- fantasyfreak [~fantasyfr@156.red-81-35-55.dynamicip.rima-tde.net] has joined #protoblock
+20:25 -!- fantasyfreak [~fantasyfr@156.red-81-35-55.dynamicip.rima-tde.net] has quit [Quit: ]
+21:18 -!- fantasyfreak [~fantasyfr@156.red-81-35-55.dynamicip.rima-tde.net] has joined #protoblock
+21:18 -!- fantasyfreak [~fantasyfr@156.red-81-35-55.dynamicip.rima-tde.net] has quit [Quit: ]
+22:37 -!- protblockUser38971 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+22:38 -!- protblockUser38971 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Quit: ]
+22:38 -!- protblockUser25891 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+22:39 -!- protblockUser25891 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+22:39 -!- protblockUser22311 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+22:41 -!- protblockUser22311 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Quit: ]
+22:41 -!- protblockUser49811 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+22:41 -!- protblockUser49811 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+22:45 -!- protblockUser34581 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+22:49 -!- protblockUser34581 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+22:50 -!- protblockUser29641 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+22:50 -!- protblockUser29641 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+22:50 -!- protblockUser33261 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+22:51 -!- protblockUser33261 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+22:51 -!- protblockUser2721 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+22:52 -!- protblockUser2721 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+22:52 -!- protblockUser4361 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+22:52 -!- protblockUser4361 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+22:53 -!- protblockUser14441 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+22:53 -!- protblockUser14441 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+22:53 -!- protblockUser4481 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+22:54 -!- protblockUser4481 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+22:54 -!- protblockUser45811 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+22:54 < protblockUser45811> dsj
+22:54 < protblockUser45811> fdjkl
+22:54 < protblockUser45811> fjdkl
+22:54 < protblockUser45811> fjdl
+22:54 < protblockUser45811> fjdl
+22:54 < protblockUser45811> fjdl
+22:54 < protblockUser45811> fjdl
+22:54 < protblockUser45811> d
+22:54 < protblockUser45811> d
+22:55 < protblockUser45811> d
+22:55 < protblockUser45811> d
+22:55 < protblockUser45811> d
+22:55 < protblockUser45811> d
+22:55 < protblockUser45811> d
+22:55 < protblockUser45811> d
+22:55 < protblockUser45811> d
+22:55 < protblockUser45811> d
+22:55 < protblockUser45811> d
+22:55 < protblockUser45811> d
+22:55 < protblockUser45811> d
+22:55 < protblockUser45811> d
+22:55 < protblockUser45811> d
+22:55 < protblockUser45811> d
+22:55 < protblockUser45811> d
+22:55 < protblockUser45811> d
+22:55 < protblockUser45811> d
+22:55 < protblockUser45811> d
+22:55 < protblockUser45811> d
+22:55 < protblockUser45811> d
+22:55 < protblockUser45811> d
+22:55 < protblockUser45811> d
+22:55 < protblockUser45811> d
+22:55 < protblockUser45811> d
+22:55 < protblockUser45811> d
+22:55 < protblockUser45811> d
+22:55 < protblockUser45811> d
+22:55 < protblockUser45811> d
+22:55 < protblockUser45811> d
+22:55 -!- protblockUser45811 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+22:55 -!- protblockUser13851 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+22:55 < protblockUser13851> s
+22:55 < protblockUser13851> s
+22:55 < protblockUser13851> s
+22:55 < protblockUser13851> s
+22:55 < protblockUser13851> s
+22:55 < protblockUser13851> s
+22:55 < protblockUser13851> s
+22:55 < protblockUser13851> s
+22:55 < protblockUser13851> s
+22:55 < protblockUser13851> s
+22:55 < protblockUser13851> s
+22:55 < protblockUser13851> s
+22:55 < protblockUser13851> s
+22:55 < protblockUser13851> s
+22:55 < protblockUser13851> s
+22:55 < protblockUser13851> s
+22:55 < protblockUser13851> s
+22:56 < protblockUser13851> s
+22:56 < protblockUser13851> s
+22:56 < protblockUser13851> s
+22:56 < protblockUser13851> s
+22:56 < protblockUser13851> s
+22:56 < protblockUser13851> s
+22:56 < protblockUser13851> s
+22:56 < protblockUser13851> s
+22:56 < protblockUser13851> s
+22:56 < protblockUser13851> s
+22:56 < protblockUser13851> s
+22:56 < protblockUser13851> s
+22:56 < protblockUser13851> s
+22:56 < protblockUser13851> s
+22:56 -!- protblockUser13851 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+22:56 -!- protblockUser14671 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+22:57 -!- protblockUser14671 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+22:57 -!- protblockUser15571 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+22:57 < protblockUser15571> a
+22:57 < protblockUser15571> a
+22:58 -!- protblockUser15571 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+22:58 -!- protblockUser5871 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+23:00 -!- protblockUser5871 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+23:00 -!- protblockUser24721 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+23:01 -!- protblockUser24721 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+23:01 -!- protblockUser37841 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+23:01 < protblockUser37841> a
+23:01 < protblockUser37841> a
+23:01 < protblockUser37841> a
+23:01 < protblockUser37841> a
+23:01 < protblockUser37841> a
+23:01 < protblockUser37841> a
+23:01 < protblockUser37841> a
+23:01 < protblockUser37841> a
+23:01 < protblockUser37841> a
+23:01 < protblockUser37841> a
+23:01 < protblockUser37841> a
+23:01 < protblockUser37841> a
+23:01 < protblockUser37841> a
+23:01 < protblockUser37841> a
+23:01 < protblockUser37841> a
+23:01 < protblockUser37841> a
+23:01 < protblockUser37841> a
+23:01 < protblockUser37841> a
+23:01 < protblockUser37841> a
+23:01 -!- protblockUser37841 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+23:02 -!- protblockUser2261 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+23:02 -!- protblockUser2261 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+23:02 -!- protblockUser39551 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+23:03 -!- protblockUser39551 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+23:03 -!- protblockUser30131 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+23:04 -!- protblockUser30131 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+23:04 -!- protblockUser37131 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+23:05 -!- protblockUser37131 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+23:05 -!- protblockUser49971 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+23:07 -!- protblockUser49971 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+23:07 -!- protblockUser11141 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+23:10 -!- protblockUser11141 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+23:11 -!- protblockUser12781 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+23:11 < protblockUser12781> test
+23:12 -!- protblockUser12781 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+23:13 -!- protblockUser15761 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+23:15 -!- protblockUser15761 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+23:16 -!- protblockUser6981 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+23:18 -!- protblockUser6981 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+23:18 -!- protblockUser48331 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+23:19 -!- protblockUser48331 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Quit: ]
+23:19 -!- protblockUser22541 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+23:19 -!- protblockUser22541 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+23:20 -!- protblockUser37181 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+23:20 -!- protblockUser37181 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+23:20 -!- protblockUser24041 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+23:22 -!- protblockUser24041 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+23:25 -!- protblockUser41501 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+23:25 -!- protblockUser41501 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+23:26 -!- protblockUser47001 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+23:26 < protblockUser47001> cool am I lazy ?
+23:27 -!- protblockUser47001 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+23:27 -!- protblockUser19541 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+23:27 < protblockUser19541> check azy again
+23:29 -!- protblockUser19541 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+23:29 -!- protblockUser26751 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+23:29 < protblockUser26751> lazt
+23:30 -!- protblockUser26751 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+23:30 -!- protblockUser21191 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+23:30 < protblockUser21191> in
+23:33 -!- protblockUser21191 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+23:33 -!- protblockUser35401 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+23:33 -!- protblockUser35401 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+23:34 -!- protblockUser24411 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+23:34 -!- protblockUser24411 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+23:34 -!- protblockUser8131 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+23:38 -!- protblockUser8131 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+23:38 -!- protblockUser37581 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+23:38 -!- protblockUser37581 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+23:39 -!- protblockUser43161 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+23:40 -!- protblockUser43161 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+23:41 -!- protblockUser46511 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+23:43 -!- protblockUser46511 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+23:44 -!- protblockUser8071 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+23:44 -!- protblockUser8071 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+23:45 -!- protblockUser191 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+23:45 < protblockUser191> hello
+23:46 -!- protblockUser191 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+23:46 -!- protblockUser26911 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+23:46 < protblockUser26911> a
+23:47 -!- protblockUser26911 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+23:47 -!- protblockUser23301 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+23:47 < protblockUser23301> josph
+23:49 -!- protblockUser23301 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+23:50 -!- protblockUser4191 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+23:50 < protblockUser4191> jd
+23:51 -!- protblockUser4191 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+--- Day changed Thu Jul 14 2016
+09:00 -!- fantasyfreak [~fantasyfr@156.red-81-35-55.dynamicip.rima-tde.net] has joined #protoblock
+09:00 -!- fantasyfreak [~fantasyfr@156.red-81-35-55.dynamicip.rima-tde.net] has quit [Quit: ]
+15:25 -!- protblockUser32011 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+15:28 -!- protblockUser32011 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+15:28 -!- protblockUser38521 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+15:30 -!- protblockUser38521 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+15:34 -!- protblockUser44341 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+15:34 -!- protblockUser44341 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+15:35 -!- protblockUser47641 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+15:36 -!- protblockUser47641 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+15:36 -!- protblockUser15281 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+15:36 -!- protblockUser15281 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+15:37 -!- protblockUser30611 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+15:39 < protblockUser30611> here is some text,
+15:40 < protblockUser30611> test
+15:40 < protblockUser30611> ok then
+15:41 -!- protblockUser30611 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+15:44 -!- protblockUser21351 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+15:49 -!- protblockUser21351 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+15:52 -!- protblockUser3661 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+15:53 -!- protblockUser3661 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+15:53 -!- protblockUser19381 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+15:54 -!- protblockUser19381 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+15:54 -!- protblockUser46551 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+16:00 -!- protblockUser46551 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+16:00 -!- protblockUser24501 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+16:17 -!- protblockUser24501 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+16:22 -!- protblockUser42321 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+16:27 -!- protblockUser42321 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+16:28 -!- protblockUser27401 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+16:32 -!- protblockUser27401 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+16:32 -!- protblockUser6751 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+16:37 -!- protblockUser6751 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+16:45 -!- protblockUser13161 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+16:51 -!- protblockUser13161 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+17:28 -!- protblockUser35841 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+17:28 -!- protblockUser35841 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+17:55 -!- protblockUser35391 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+17:55 < protblockUser35391> Gregg
+17:57 -!- protblockUser35391 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+17:57 -!- protblockUser5441 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+18:00 -!- protblockUser5441 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+18:01 -!- protblockUser30841 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+18:01 < protblockUser30841> Giggles
+18:04 -!- protblockUser30841 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+18:45 -!- protblockUser14941 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+18:46 -!- protblockUser14941 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+18:48 -!- JayBNY [~JayBNY@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+18:49 -!- JayBNY [~JayBNY@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Quit: ]
+22:25 -!- protblockUser34541 [~protblock@166.177.248.211] has joined #protoblock
+22:26 -!- protblockUser34541 [~protblock@166.177.248.211] has quit [Remote host closed the connection]
+--- Day changed Fri Jul 15 2016
+00:14 -!- JayBNY [~JayBNY@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+00:14 -!- JayBNY is now known as Satoshi
+00:18 -!- JayBNY [~JayBNY@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+00:18 -!- JayBNY [~JayBNY@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Quit: ]
+00:21 < Satoshi> dsfsd
+00:21 < Satoshi> sdfsdfs
+00:21 -!- Satoshi is now known as JayBNY
+00:22 < JayBNY> sfdsdfsf
+00:22 < JayBNY> sdfsdf
+00:22 < JayBNY> sfd
+00:23 -!- JayBNY [~JayBNY@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+07:52 -!- protblockUser30501 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+07:52 < protblockUser30501> Again on old iPhone
+07:54 -!- protblockUser30501 is now known as Fantasydom
+07:57 -!- Fantasydom [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+11:05 -!- clarity [~clarity@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+11:05 -!- clarity [~clarity@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+12:42 -!- clarity [~clarity@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+12:45 -!- clarity [~clarity@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+19:04 -!- fantasyfreak [~fantasyfr@156.red-81-35-55.dynamicip.rima-tde.net] has joined #protoblock
+19:04 -!- fantasyfreak [~fantasyfr@156.red-81-35-55.dynamicip.rima-tde.net] has quit [Quit: ]
+21:14 -!- protblockUser48791 [~protblock@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has joined #protoblock
+21:15 -!- protblockUser48791 [~protblock@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has quit [Remote host closed the connection]
+22:27 -!- fantasyUse|62163 [171ce946@m-c.clients.kiwiirc.com] has joined #protoblock
+22:28 -!- fantasyUse|62163 [171ce946@m-c.clients.kiwiirc.com] has quit [Quit: ]
+--- Day changed Sat Jul 16 2016
+23:21 -!- JayBNY [~JayBNY@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+--- Day changed Sun Jul 17 2016
+01:11 -!- JayBNY [~JayBNY@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Quit: Fantasy Just Got Real]
+02:19 -!- Skilldrafting [~Skilldraf@99-129-250-186.lightspeed.gdrpmi.sbcglobal.net] has joined #protoblock
+02:22 -!- Skilldrafting is now known as bgskilldrafting
+02:23 -!- bgskilldrafting [~Skilldraf@99-129-250-186.lightspeed.gdrpmi.sbcglobal.net] has quit [Remote host closed the connection]
+--- Day changed Mon Jul 18 2016
+03:33 -!- protblockUser29351 [~protblock@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has joined #protoblock
+03:33 -!- protblockUser29351 [~protblock@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has quit [Remote host closed the connection]
+12:56 -!- clarity [~clarity@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+12:57 -!- clarity [~clarity@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+13:16 -!- ZeroWR [~ZeroWR@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+15:15 -!- ZeroWR [~ZeroWR@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Read error: Connection reset by peer]
+17:49 -!- ZeroWR [~ZeroWR@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+17:49 -!- ZeroWR [~ZeroWR@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+--- Day changed Tue Jul 19 2016
+18:51 -!- ZeroWR [~ZeroWR@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+18:51 -!- ZeroWR [~ZeroWR@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Quit: ]
+--- Day changed Wed Jul 20 2016
+18:51 -!- protblockUser24391 [~protblock@73.98.171.125] has joined #protoblock
+18:57 -!- protblockUser24391 [~protblock@73.98.171.125] has quit [Remote host closed the connection]
+20:53 -!- protblockUser37021 [~protblock@73.98.171.125] has joined #protoblock
+20:54 -!- protblockUser37021 [~protblock@73.98.171.125] has quit [Remote host closed the connection]
+21:00 -!- protblockUser21431 [~protblock@73.98.171.125] has joined #protoblock
+21:01 -!- protblockUser21431 [~protblock@73.98.171.125] has quit [Remote host closed the connection]
+21:01 -!- protblockUser7141 [~protblock@73.98.171.125] has joined #protoblock
+21:03 -!- protblockUser7141 [~protblock@73.98.171.125] has quit [Remote host closed the connection]
+--- Day changed Thu Jul 21 2016
+01:06 -!- protblockUser15781 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+01:14 -!- protblockUser15781 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+02:47 -!- protblockUser24831 [~protblock@74-80-249-32.ic2net.net] has joined #protoblock
+03:01 -!- protblockUser24831 [~protblock@74-80-249-32.ic2net.net] has quit [Remote host closed the connection]
+04:25 -!- protblockUser20731 [~protblock@74-80-249-32.ic2net.net] has joined #protoblock
+04:25 -!- protblockUser20731 [~protblock@74-80-249-32.ic2net.net] has quit [Remote host closed the connection]
+04:27 -!- ZeroWR [~ZeroWR@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+04:28 -!- ZeroWR [~ZeroWR@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+05:36 -!- fantasyUse|97712 [4a50f920@m-c.clients.kiwiirc.com] has joined #protoblock
+05:36 -!- fantasyUse|97712 [4a50f920@m-c.clients.kiwiirc.com] has quit [Quit: ]
+17:51 -!- protblockUser18351 [~protblock@166.170.36.253] has joined #protoblock
+17:51 -!- protblockUser18351 [~protblock@166.170.36.253] has quit [Remote host closed the connection]
+21:03 -!- Drumpf [~Drumpf@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+21:14 -!- Drumpf [~Drumpf@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+22:07 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+22:08 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+22:17 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+22:17 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+22:25 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+22:26 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+22:28 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+22:30 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+22:37 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+22:42 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+23:33 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+23:34 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+23:53 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+23:54 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+23:58 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+--- Day changed Fri Jul 22 2016
+00:03 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+00:17 -!- protblockUser40661 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+00:25 -!- protblockUser40661 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+04:33 -!- protblockUser31741 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+04:34 -!- protblockUser31741 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+05:43 -!- protblockUser15921 [~protblock@167.sub-70-197-13.myvzw.com] has joined #protoblock
+05:46 -!- protblockUser15921 [~protblock@167.sub-70-197-13.myvzw.com] has quit [Remote host closed the connection]
+06:40 -!- protblockUser38311 [~protblock@167.sub-70-197-13.myvzw.com] has joined #protoblock
+06:49 -!- protblockUser38311 [~protblock@167.sub-70-197-13.myvzw.com] has quit [Remote host closed the connection]
+06:50 -!- protblockUser41281 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+06:51 -!- protblockUser41281 is now known as hollyFF
+06:53 < hollyFF> sdsffs
+07:00 -!- protblockUser13351 [~protblock@167.sub-70-197-13.myvzw.com] has joined #protoblock
+07:04 -!- JayBNY [~JayBNY@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+07:04 < JayBNY> dl;sflsd
+07:04 < JayBNY> sdfsdfsf
+07:04 < hollyFF> sdfsfds
+07:04 -!- JayBNY [~JayBNY@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Quit: ]
+07:04 -!- JayBNY [~JayBNY@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+07:05 -!- JayBNY [~JayBNY@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Quit: ]
+07:05 -!- JayBNY [~JayBNY@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+07:06 -!- JayBNY [~JayBNY@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Quit: ]
+07:06 -!- protblockUser18651 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+07:07 < protblockUser18651> Gggg
+07:07 < protblockUser18651> Hhg
+07:07 < hollyFF> sdfsdf
+07:09 < hollyFF> sfdgdfsgsfdg
+07:11 -!- protblockUser18651 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Ping timeout: 240 seconds]
+07:21 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+07:25 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+07:26 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+07:29 -!- protblockUser13351 [~protblock@167.sub-70-197-13.myvzw.com] has quit [Ping timeout: 240 seconds]
+07:34 -!- hollyFF [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Read error: Connection reset by peer]
+07:35 -!- protblockUser2071 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+07:35 < protblockUser2071> fghdt
+07:41 -!- protblockUser2071 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Read error: Connection reset by peer]
+07:44 -!- protblockUser2071 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+07:45 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Ping timeout: 240 seconds]
+08:53 -!- protblockUser2071 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Read error: Connection reset by peer]
+11:36 -!- protblockUser33111 [~protblock@167.sub-70-197-13.myvzw.com] has joined #protoblock
+11:40 -!- protblockUser33111 [~protblock@167.sub-70-197-13.myvzw.com] has quit [Remote host closed the connection]
+17:19 -!- hollyFF [~hollyFF@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+17:19 -!- hollyFF [~hollyFF@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+18:10 -!- protblockUser32441 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+18:10 -!- protblockUser32441 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+19:38 -!- clarity [~clarity@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+19:52 -!- m_android [~m_android@172.58.32.187] has joined #protoblock
+19:53 < m_android> Test
+19:57 -!- m_android [~m_android@172.58.32.187] has quit [Ping timeout: 240 seconds]
+19:58 -!- jayjay [32003241@m-c.clients.kiwiirc.com] has joined #protoblock
+20:11 -!- clarity [~clarity@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+21:11 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+21:13 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+21:30 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+21:32 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+21:38 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+21:40 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+21:41 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+21:41 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+21:46 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+21:47 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+21:50 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+21:54 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+21:55 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+21:55 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+21:57 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+22:07 -!- housesarebig is now known as tomawesome
+22:07 -!- jayjay [32003241@m-c.clients.kiwiirc.com] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+22:10 -!- fantasyUse|14214 [32003241@m-c.clients.kiwiirc.com] has joined #protoblock
+22:39 -!- tomawesome [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+22:42 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+22:44 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+22:45 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+22:46 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+22:46 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+22:50 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+22:51 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+22:52 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+22:53 -!- fantasyUse|14214 [32003241@m-c.clients.kiwiirc.com] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+23:13 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+23:13 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+23:14 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+23:15 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+23:29 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+23:30 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+23:33 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+23:39 < housesarebig> this ksk
+23:39 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+23:41 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+23:43 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+23:51 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+23:52 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+--- Day changed Sat Jul 23 2016
+00:00 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+00:16 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+00:16 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+00:18 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+00:18 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+00:20 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+00:24 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+00:25 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+00:32 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+00:32 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+00:33 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+00:33 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+00:35 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+00:37 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+01:04 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+01:05 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+01:08 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+01:11 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+02:44 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+02:44 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+02:45 -!- jaybny [~JayBNY@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+03:36 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+03:37 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+04:59 -!- housesarebig [~housesare@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has joined #protoblock
+05:02 -!- housesarebig [~housesare@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has quit [Remote host closed the connection]
+05:43 -!- jaybny [~JayBNY@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+06:59 -!- housesarebig [~housesare@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has joined #protoblock
+07:05 -!- housesarebig [~housesare@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has quit [Remote host closed the connection]
+07:13 -!- housesarebig [~housesare@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has joined #protoblock
+07:16 -!- housesarebig [~housesare@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has quit [Remote host closed the connection]
+07:58 -!- housesarebig [~housesare@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has joined #protoblock
+08:01 -!- housesarebig [~housesare@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has quit [Remote host closed the connection]
+08:11 -!- housesarebig [~housesare@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has joined #protoblock
+08:34 -!- housesarebig [~housesare@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has quit [Ping timeout: 240 seconds]
+15:49 -!- joncollinsFSLR [~joncollin@173-11-48-114-Minnesota.hfc.comcastbusiness.net] has joined #protoblock
+17:45 -!- joncollinsFSLR [~joncollin@173-11-48-114-Minnesota.hfc.comcastbusiness.net] has quit [Ping timeout: 240 seconds]
+19:32 -!- jay [32003241@m-b.clients.kiwiirc.com] has joined #protoblock
+22:36 -!- JayBNY [~JayBNY@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+--- Day changed Sun Jul 24 2016
+01:17 -!- housesarebig [~housesare@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has joined #protoblock
+01:21 -!- housesarebig [~housesare@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has quit [Remote host closed the connection]
+01:39 -!- housesarebig [~housesare@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has joined #protoblock
+01:39 -!- housesarebig [~housesare@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has quit [Remote host closed the connection]
+01:40 -!- tomawesome [~tomawesom@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has joined #protoblock
+02:00 -!- tomawesome [~tomawesom@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has quit [Remote host closed the connection]
+04:50 -!- hollyFF [~hollyFF@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+04:50 -!- hollyFF [~hollyFF@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+04:55 -!- JayBNY [~JayBNY@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Read error: Connection reset by peer]
+04:55 -!- jay [32003241@m-b.clients.kiwiirc.com] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+06:41 -!- clarity [~clarity@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+06:41 -!- clarity [~clarity@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+23:57 -!- housesarebig [~housesare@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has joined #protoblock
+--- Day changed Mon Jul 25 2016
+00:00 -!- housesarebig [~housesare@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has quit [Read error: Connection reset by peer]
+00:03 -!- housesarebig [~housesare@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has joined #protoblock
+00:07 -!- housesarebig [~housesare@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has quit [Remote host closed the connection]
+00:08 -!- housesarebig [~housesare@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has joined #protoblock
+00:10 -!- housesarebig [~housesare@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has quit [Remote host closed the connection]
+00:11 -!- housesarebig [~housesare@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has joined #protoblock
+00:18 -!- housesarebig [~housesare@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has quit [Remote host closed the connection]
+00:19 -!- housesarebig [~housesare@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has joined #protoblock
+00:19 -!- housesarebig [~housesare@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has quit [Remote host closed the connection]
+00:20 -!- housesarebig [~housesare@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has joined #protoblock
+00:20 -!- housesarebig [~housesare@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has quit [Remote host closed the connection]
+00:20 -!- housesarebig [~housesare@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has joined #protoblock
+00:24 -!- housesarebig [~housesare@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has quit [Remote host closed the connection]
+00:24 -!- housesarebig [~housesare@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has joined #protoblock
+00:29 -!- housesarebig [~housesare@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has quit [Remote host closed the connection]
+00:29 -!- housesarebig [~housesare@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has joined #protoblock
+00:43 -!- housesarebig [~housesare@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has quit [Remote host closed the connection]
+00:43 -!- housesarebig [~housesare@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has joined #protoblock
+00:46 -!- housesarebig [~housesare@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has quit [Remote host closed the connection]
+00:47 -!- housesarebig [~housesare@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has joined #protoblock
+00:47 -!- housesarebig [~housesare@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has quit [Remote host closed the connection]
+00:48 -!- housesarebig [~housesare@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has joined #protoblock
+00:48 -!- housesarebig [~housesare@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has quit [Remote host closed the connection]
+00:48 -!- housesarebig [~housesare@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has joined #protoblock
+00:49 -!- housesarebig [~housesare@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has quit [Remote host closed the connection]
+00:50 -!- housesarebig [~housesare@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has joined #protoblock
+00:50 -!- housesarebig [~housesare@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has quit [Remote host closed the connection]
+00:51 -!- housesarebig [~housesare@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has joined #protoblock
+00:52 -!- housesarebig [~housesare@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has quit [Remote host closed the connection]
+00:52 -!- housesarebig [~housesare@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has joined #protoblock
+00:55 -!- housesarebig [~housesare@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has quit [Remote host closed the connection]
+00:56 -!- housesarebig [~housesare@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has joined #protoblock
+01:01 -!- Jolly [~Jolly@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+01:01 -!- Jolly is now known as clarity
+01:02 -!- clarity is now known as Jolly
+01:08 -!- Jolly is now known as RGIII
+01:20 -!- RGIII [~Jolly@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+01:36 -!- nflsup [~supybot@ip158-222-102-84.pbiaas.com] has joined #protoblock
+01:39 -!- fantasyUse|49976 [631064d3@m-b.clients.kiwiirc.com] has joined #protoblock
+01:39 < fantasyUse|49976> !nflsup
+01:39 < nflsup> fantasyUse|49976: Error: "nflsup" is not a valid command.
+01:39 < fantasyUse|49976> !hello
+01:39 < nflsup> fantasyUse|49976: Error: "hello" is not a valid command.
+01:39 < fantasyUse|49976> !help
+01:39 < nflsup> fantasyUse|49976: (help [<plugin>] [<command>]) -- This command gives a useful description of what <command> does. <plugin> is only necessary if the command is in more than one plugin.
+01:43 -!- nflsup [~supybot@ip158-222-102-84.pbiaas.com] has quit [Quit: Ctrl-C at console.]
+01:46 -!- fantasyUse|49976 [631064d3@m-b.clients.kiwiirc.com] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+01:47 -!- fantasyUse|49976 [631064d3@m-c.clients.kiwiirc.com] has joined #protoblock
+01:47 -!- nflsup [~supybot@ip158-222-102-84.pbiaas.com] has joined #protoblock
+01:47 -!- housesarebig [~housesare@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has quit [Read error: Connection reset by peer]
+01:48 -!- housesarebig [~housesare@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has joined #protoblock
+01:51 -!- housesarebig [~housesare@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has quit [Read error: Connection reset by peer]
+02:01 -!- fantasyUse|49976 [631064d3@m-c.clients.kiwiirc.com] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+02:13 -!- nflsup [~supybot@ip158-222-102-84.pbiaas.com] has quit [Quit: Ctrl-C at console.]
+02:16 -!- clarity [~clarity@247.sub-70-197-5.myvzw.com] has joined #protoblock
+02:20 -!- clarity [~clarity@247.sub-70-197-5.myvzw.com] has quit [Ping timeout: 240 seconds]
+02:21 -!- jaybny [1804900b@m-b.clients.kiwiirc.com] has joined #protoblock
+02:32 -!- RGIII [~RGIII@c-24-4-144-11.hsd1.ca.comcast.net] has joined #protoblock
+02:50 -!- jaybny [1804900b@m-b.clients.kiwiirc.com] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+02:51 -!- RGIII [~RGIII@c-24-4-144-11.hsd1.ca.comcast.net] has quit [Ping timeout: 240 seconds]
+04:31 -!- fantasyUse|66452 [ac382642@m-c.clients.kiwiirc.com] has joined #protoblock
+08:58 -!- gn [~gn@c-24-4-144-11.hsd1.ca.comcast.net] has joined #protoblock
+09:05 -!- gn [~gn@c-24-4-144-11.hsd1.ca.comcast.net] has quit [Remote host closed the connection]
+09:09 -!- gn [~gn@c-24-4-144-11.hsd1.ca.comcast.net] has joined #protoblock
+09:17 -!- gn [~gn@c-24-4-144-11.hsd1.ca.comcast.net] has quit [Remote host closed the connection]
+09:21 -!- gn [~gn@c-24-4-144-11.hsd1.ca.comcast.net] has joined #protoblock
+09:21 -!- gn [~gn@c-24-4-144-11.hsd1.ca.comcast.net] has quit [Remote host closed the connection]
+09:27 -!- gn [~gn@c-24-4-144-11.hsd1.ca.comcast.net] has joined #protoblock
+09:42 -!- gn [~gn@c-24-4-144-11.hsd1.ca.comcast.net] has quit [Remote host closed the connection]
+09:42 -!- gn [~gn@c-24-4-144-11.hsd1.ca.comcast.net] has joined #protoblock
+09:42 -!- gn [~gn@c-24-4-144-11.hsd1.ca.comcast.net] has quit [Remote host closed the connection]
+12:26 -!- fantasyUse|66452 [ac382642@m-c.clients.kiwiirc.com] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+19:58 -!- jay [32003241@m-b.clients.kiwiirc.com] has joined #protoblock
+20:43 -!- jay [32003241@m-b.clients.kiwiirc.com] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+22:26 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+22:28 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+23:20 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+23:20 -!- housesarebig is now known as m_jimmer
+23:21 -!- m_jimmer [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+23:31 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+23:31 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+23:34 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+23:36 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+23:36 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+23:36 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+23:37 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+23:38 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+23:38 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+23:39 -!- housesarebig is now known as m_jimmer
+23:39 -!- m_jimmer [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+23:40 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+23:42 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+--- Day changed Tue Jul 26 2016
+00:03 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+00:06 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+01:08 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+01:10 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+01:48 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+01:50 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+01:59 -!- HoHummersnGooseEggs [~HoHummers@c-68-60-39-3.hsd1.mi.comcast.net] has joined #protoblock
+01:59 -!- HoHummersnGooseEggs [~HoHummers@c-68-60-39-3.hsd1.mi.comcast.net] has quit [Remote host closed the connection]
+02:10 -!- Monuet [~Monuet@pool-108-6-122-75.nycmny.fios.verizon.net] has joined #protoblock
+02:10 -!- Monuet [~Monuet@pool-108-6-122-75.nycmny.fios.verizon.net] has quit [Remote host closed the connection]
+08:29 -!- Reddit [a6d89e96@m-c.clients.kiwiirc.com] has joined #protoblock
+08:29 -!- Reddit [a6d89e96@m-c.clients.kiwiirc.com] has quit [Quit: ]
+15:38 -!- ShanePHallam [~ShanePHal@pool-100-6-131-93.pitbpa.fios.verizon.net] has joined #protoblock
+15:51 -!- ShanePHallam [~ShanePHal@pool-100-6-131-93.pitbpa.fios.verizon.net] has quit [Remote host closed the connection]
+19:29 -!- Radzak10 [~Radzak10@10G-CCNI-Static-7-203.ctcinet.com] has joined #protoblock
+19:39 -!- Radzak10 [~Radzak10@10G-CCNI-Static-7-203.ctcinet.com] has quit [Ping timeout: 240 seconds]
+23:12 -!- jay [32003241@m-c.clients.kiwiirc.com] has joined #protoblock
+23:19 -!- joncollinsFSLR [~joncollin@184-94-25-130.dedicated.allstream.net] has joined #protoblock
+23:20 -!- joncollinsFSLR is now known as jc
+23:20 -!- jc is now known as joncollinsFSLR
+23:20 -!- JayBNY [~JayBNY@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+23:20 -!- JayBNY is now known as hollyFF
+23:20 -!- hollyFF is now known as JayBNY
+23:20 < jay> hu
+23:20 < jay> hi
+23:25 -!- joncollinsFSLR [~joncollin@184-94-25-130.dedicated.allstream.net] has quit [Remote host closed the connection]
+--- Day changed Wed Jul 27 2016
+01:21 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+01:23 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+01:23 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+01:30 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+01:34 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+01:34 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+01:34 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+01:46 -!- housesarebig [~housesare@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+02:32 -!- JayBNY [~JayBNY@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+04:20 -!- jay [32003241@m-c.clients.kiwiirc.com] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+--- Day changed Thu Jul 28 2016
+02:31 -!- what [~what@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+02:31 -!- what [~what@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+03:16 -!- strenchi [~strenchi@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+03:17 -!- strenchi [~strenchi@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+04:17 -!- Ajstans23 [~Ajstans23@97-88-157-146.dhcp.mrqt.mi.charter.com] has joined #protoblock
+04:21 -!- Ajstans23 [~Ajstans23@97-88-157-146.dhcp.mrqt.mi.charter.com] has quit [Ping timeout: 240 seconds]
+06:10 -!- jay [1804900b@m-b.clients.kiwiirc.com] has joined #protoblock
+06:10 -!- jay [1804900b@m-b.clients.kiwiirc.com] has quit [Quit: ]
+06:23 -!- strenchi [~strenchi@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+06:25 -!- strenchi [~strenchi@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+17:01 -!- jaybny [~JayBNY@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+22:40 -!- jaybny [~JayBNY@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+--- Day changed Fri Jul 29 2016
+01:14 -!- strenchi [~strenchi@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has joined #protoblock
+01:20 -!- strenchi [~strenchi@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has quit [Remote host closed the connection]
+02:05 -!- strenchi [~strenchi@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has joined #protoblock
+02:05 -!- strenchi [~strenchi@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has quit [Remote host closed the connection]
+03:35 -!- strenchi [~strenchi@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has joined #protoblock
+03:35 -!- strenchi [~strenchi@99-16-100-211.lightspeed.snrsca.sbcglobal.net] has quit [Remote host closed the connection]
+03:40 -!- what [~what@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+06:26 -!- what is now known as Satoshi
+06:29 -!- Satoshi [~what@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+13:20 -!- jaybny [32003241@m-c.clients.kiwiirc.com] has joined #protoblock
+16:42 -!- jaybny [32003241@m-c.clients.kiwiirc.com] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+--- Day changed Sun Jul 31 2016
+02:13 -!- A [~A@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+02:14 -!- A [~A@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+02:56 -!- strenchi [~strenchi@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+02:56 -!- strenchi is now known as Joseph_test
+02:56 -!- Joseph_test is now known as strenchi
+02:58 -!- strenchi [~strenchi@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+02:59 -!- A [~A@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+02:59 -!- A [~A@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+03:00 -!- A [~A@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+03:00 -!- A [~A@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+03:10 -!- A [~A@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+03:10 -!- A [~A@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+03:11 -!- strenchi [~strenchi@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+03:12 -!- strenchi [~strenchi@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+--- Day changed Mon Aug 01 2016
+22:51 -!- protblockUser28971 [~protblock@str-bb-occam-4-ws-224.dsl.airstreamcomm.net] has joined #protoblock
+22:58 -!- protblockUser28971 [~protblock@str-bb-occam-4-ws-224.dsl.airstreamcomm.net] has quit [Remote host closed the connection]
+23:03 -!- Superboys [d09db6e1@m-b.clients.kiwiirc.com] has joined #protoblock
+23:05 < Superboys> Tried to apply for the ffpc 2016 raffle.  Not sure if I got registered?
+23:07 < Superboys> I downloaded the app.  Didn't allow me to change my team nickname.
+23:08 -!- Superboys [d09db6e1@m-b.clients.kiwiirc.com] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+--- Day changed Tue Aug 02 2016
+08:39 -!- MikeClayNFL [~MikeClayN@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+08:45 -!- MikeClayNFL [~MikeClayN@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Read error: Connection reset by peer]
+23:48 -!- A [~A@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+23:49 -!- A [~A@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+23:50 -!- A [~A@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+23:51 -!- A [~A@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+23:51 -!- A [~A@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+--- Day changed Wed Aug 03 2016
+00:10 -!- A [~A@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Ping timeout: 240 seconds]
+10:17 -!- Lupe [~Lupe@c-24-4-144-11.hsd1.ca.comcast.net] has joined #protoblock
+10:25 -!- Lupe [~Lupe@c-24-4-144-11.hsd1.ca.comcast.net] has quit [Ping timeout: 240 seconds]
+10:33 -!- RGIII [~RGIII@c-24-4-144-11.hsd1.ca.comcast.net] has joined #protoblock
+10:33 -!- RGIII [~RGIII@c-24-4-144-11.hsd1.ca.comcast.net] has quit [Remote host closed the connection]
+10:34 -!- RGIII [~RGIII@c-24-4-144-11.hsd1.ca.comcast.net] has joined #protoblock
+10:35 -!- RGIII [~RGIII@c-24-4-144-11.hsd1.ca.comcast.net] has quit [Remote host closed the connection]
+--- Day changed Thu Aug 04 2016
+08:02 -!- protblockUser12951 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+08:03 -!- protblockUser12951 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Read error: Connection reset by peer]
+--- Day changed Fri Aug 05 2016
+05:54 -!- jay [32003241@m-c.clients.kiwiirc.com] has joined #protoblock
+18:03 -!- jay [32003241@m-c.clients.kiwiirc.com] has quit [Ping timeout: 240 seconds]
+--- Day changed Sat Aug 06 2016
+00:01 -!- MikeClayNFL [~MikeClayN@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+00:01 -!- MikeClayNFL is now known as qqqq
+00:01 -!- qqqq is now known as MikeClayNFL
+01:01 -!- MikeClayNFL [~MikeClayN@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Read error: Connection reset by peer]
+21:00 -!- clarity [~clarity@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+21:07 -!- clarity [~clarity@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Read error: Connection reset by peer]
+--- Day changed Sun Aug 07 2016
+01:47 -!- clarity [~clarity@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+01:48 -!- clarity [~clarity@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+05:39 -!- clarity [~clarity@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+05:43 -!- clarity [~clarity@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+05:47 -!- Jets [~Jets@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+05:48 -!- Jets is now known as MikeClayNFL
+05:48 -!- MikeClayNFL [~Jets@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+06:06 -!- Jets [~Jets@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+06:48 -!- Jets [~Jets@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+07:03 -!- Jets [~Jets@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+07:04 -!- Jets [~Jets@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+07:16 -!- Jets [~Jets@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+07:17 -!- Jets [~Jets@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+07:41 -!- MikeClayNFL [~MikeClayN@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+07:42 -!- MikeClayNFL is now known as strenchi
+07:42 -!- strenchi [~MikeClayN@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+--- Day changed Mon Aug 08 2016
+11:21 -!- A [~A@c-24-4-144-11.hsd1.ca.comcast.net] has joined #protoblock
+11:21 -!- A [~A@c-24-4-144-11.hsd1.ca.comcast.net] has quit [Remote host closed the connection]
+22:37 -!- rtrtrt [~rtrtrt@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+22:38 -!- rtrtrt [~rtrtrt@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Read error: Connection reset by peer]
+22:40 -!- rtrtrt [~rtrtrt@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+22:42 -!- rtrtrt [~rtrtrt@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Read error: Connection reset by peer]
+22:58 -!- rtrtrt [~rtrtrt@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+22:58 -!- rtrtrt [~rtrtrt@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+--- Day changed Tue Aug 09 2016
+20:44 -!- A [~A@c-24-4-144-11.hsd1.ca.comcast.net] has joined #protoblock
+20:45 -!- A [~A@c-24-4-144-11.hsd1.ca.comcast.net] has quit [Remote host closed the connection]
+--- Day changed Wed Aug 10 2016
+04:57 -!- fantasyUse|90457 [32003241@m-c.clients.kiwiirc.com] has joined #protoblock
+04:57 -!- fantasyUse|90457 [32003241@m-c.clients.kiwiirc.com] has quit [Quit: ]
+21:26 -!- Demo [~Demo@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+21:27 -!- Demo is now known as bla
+21:28 -!- fantasyUse|46457 [32003241@m-b.clients.kiwiirc.com] has joined #protoblock
+21:28 < fantasyUse|46457> hi
+21:29 -!- fantasyUse|46457 [32003241@m-b.clients.kiwiirc.com] has quit [Quit: ]
+21:30 -!- bla [~Demo@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+21:35 -!- protblockUser19491 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+21:36 -!- protblockUser19491 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+--- Day changed Thu Aug 11 2016
+09:37 -!- fantasyUse|51481 [32003241@m-c.clients.kiwiirc.com] has joined #protoblock
+09:39 -!- fantasyUse|51481 [32003241@m-c.clients.kiwiirc.com] has quit [Quit: ]
+11:03 -!- rtrtrt [~rtrtrt@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+11:07 -!- rtrtrt [~rtrtrt@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+11:42 -!- rtrtrt [~rtrtrt@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+11:48 -!- rtrtrt [~rtrtrt@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Read error: Connection reset by peer]
+11:57 -!- Demo [~Demo@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+12:15 -!- Demo [~Demo@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+--- Day changed Fri Aug 12 2016
+21:50 -!- clarity [~clarity@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+21:52 -!- clarity [~clarity@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+--- Day changed Sat Aug 13 2016
+03:34 -!- Demo [~Demo@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+04:02 -!- Demo [~Demo@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+14:29 -!- Wade [~Wade@c-71-195-176-13.hsd1.ca.comcast.net] has joined #protoblock
+14:30 -!- Wade [~Wade@c-71-195-176-13.hsd1.ca.comcast.net] has quit [Remote host closed the connection]
+--- Day changed Sun Aug 14 2016
+10:03 -!- protblockUser7271 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+10:04 -!- protblockUser7271 [~protblock@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+17:31 -!- Grizz875 [~Grizz875@67.237.23.232] has joined #protoblock
+17:31 -!- Grizz875 [~Grizz875@67.237.23.232] has quit [Remote host closed the connection]
+--- Day changed Mon Aug 15 2016
+19:04 -!- FFTrophyHunter [~FFTrophyH@64.208.40.74] has joined #protoblock
+19:09 -!- FFTrophyHunter [~FFTrophyH@64.208.40.74] has quit [Remote host closed the connection]
+--- Day changed Tue Aug 16 2016
+19:09 -!- fantasyUse|27233 [32003241@m-b.clients.kiwiirc.com] has joined #protoblock
+19:10 -!- fantasyUse|27233 [32003241@m-b.clients.kiwiirc.com] has quit [Quit: ]
+21:28 -!- JayBNY [~JayBNY@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+21:40 -!- JayBNY [~JayBNY@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Ping timeout: 240 seconds]
+--- Day changed Wed Aug 17 2016
+04:08 -!- BadGimp [~BadGimp@c-73-231-59-166.hsd1.ca.comcast.net] has joined #protoblock
+04:15 -!- BadGimp [~BadGimp@c-73-231-59-166.hsd1.ca.comcast.net] has quit [Ping timeout: 240 seconds]
+21:50 -!- gimmee [~gimmee@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+22:07 -!- gimmee is now known as JayBNY
+--- Day changed Thu Aug 18 2016
+20:37 -!- JayBNY [~gimmee@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+--- Day changed Fri Aug 19 2016
+02:43 -!- JayBNY [~JayBNY@50-0-50-65.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+02:48 -!- JayBNY [~JayBNY@50-0-50-65.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+05:24 -!- strenchi [~strenchi@c-24-4-144-11.hsd1.ca.comcast.net] has joined #protoblock
+05:24 -!- strenchi [~strenchi@c-24-4-144-11.hsd1.ca.comcast.net] has quit [Remote host closed the connection]
+07:06 -!- A [~A@c-24-4-144-11.hsd1.ca.comcast.net] has joined #protoblock
+07:07 -!- A [~A@c-24-4-144-11.hsd1.ca.comcast.net] has quit [Remote host closed the connection]
+07:19 -!- A [~A@c-24-4-144-11.hsd1.ca.comcast.net] has joined #protoblock
+07:19 -!- A [~A@c-24-4-144-11.hsd1.ca.comcast.net] has quit [Remote host closed the connection]
+07:43 -!- A [~A@c-24-4-144-11.hsd1.ca.comcast.net] has joined #protoblock
+07:43 -!- A [~A@c-24-4-144-11.hsd1.ca.comcast.net] has quit [Remote host closed the connection]
+10:14 -!- DFF_TJ [~DFF_TJ@cpe-108-184-179-215.socal.res.rr.com] has joined #protoblock
+10:15 -!- DFF_TJ [~DFF_TJ@cpe-108-184-179-215.socal.res.rr.com] has quit [Remote host closed the connection]
+19:24 -!- FFTrophyHunter [~FFTrophyH@64.208.40.74] has joined #protoblock
+19:28 -!- FFTrophyHunter [~FFTrophyH@64.208.40.74] has quit [Ping timeout: 240 seconds]
+--- Day changed Sun Aug 21 2016
+06:51 -!- clarity [~clarity@50-0-50-243.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+06:51 -!- clarity [~clarity@50-0-50-243.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+07:54 -!- clarity [~clarity@50-0-50-243.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+07:54 -!- clarity [~clarity@50-0-50-243.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+--- Day changed Wed Aug 24 2016
+21:57 -!- clarity [~clarity@50-0-50-243.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+22:19 -!- clarity [~clarity@50-0-50-243.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+22:30 -!- protblockUser35891 [~protblock@50-0-50-243.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+22:30 -!- protblockUser35891 [~protblock@50-0-50-243.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+23:19 -!- LionSlappy [~LionSlapp@166.176.251.194] has joined #protoblock
+23:24 -!- LionSlappy [~LionSlapp@166.176.251.194] has quit [Remote host closed the connection]
+--- Day changed Thu Aug 25 2016
+07:46 -!- Priest [~Priest@c-24-4-144-11.hsd1.ca.comcast.net] has joined #protoblock
+07:46 -!- Priest [~Priest@c-24-4-144-11.hsd1.ca.comcast.net] has quit [Remote host closed the connection]
+--- Log closed Thu Aug 25 14:10:41 2016
+--- Log opened Thu Aug 25 14:26:01 2016
+14:26 -!- m_jimmerMain [~m_jimmer@ip158-222-102-84.pbiaas.com] has joined #protoblock
+14:26 -!- ServerMode/#protoblock [+nt] by org.protoblock.com
+14:26 -!- Irssi: #protoblock: Total of 1 nicks [1 ops, 0 halfops, 0 voices, 0 normal]
+14:26 -!- Irssi: Join to #protoblock was synced in 2 secs
+--- Day changed Fri Aug 26 2016
+02:55 -!- no [~no@50-0-50-243.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+14:56 -!- no [~no@50-0-50-243.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+--- Day changed Mon Aug 29 2016
+05:58 -!- Mitch_weinstein [~Mitch_wei@ip68-108-96-185.lv.lv.cox.net] has joined #protoblock
+06:02 -!- Mitch_weinstein [~Mitch_wei@ip68-108-96-185.lv.lv.cox.net] has quit [Ping timeout: 240 seconds]
+--- Day changed Wed Aug 31 2016
+16:24 -!- debowne [~debowne@38.99.50.82] has joined #protoblock
+17:27 -!- fantasyUse|48091 [4490c132@m-b.clients.kiwiirc.com] has joined #protoblock
+17:29 < fantasyUse|48091> Hello I am trying to download Protoblock for Linux - the link doesn't seem to work?
+17:29 -!- fantasyUse|48091 [4490c132@m-b.clients.kiwiirc.com] has quit [Quit: ]
+17:41 -!- debowne [~debowne@38.99.50.82] has quit [Ping timeout: 240 seconds]
+--- Day changed Thu Sep 01 2016
+22:59 -!- JayBNY [~JayBNY@50-0-50-243.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+--- Day changed Fri Sep 02 2016
+02:34 -!- JayBNY [~JayBNY@50-0-50-243.dsl.dynamic.fusionbroadband.com] has quit [Ping timeout: 240 seconds]
+02:34 -!- Ramish [~Ramish@pool-100-33-158-103.nycmny.fios.verizon.net] has joined #protoblock
+02:36 -!- Ramish [~Ramish@pool-100-33-158-103.nycmny.fios.verizon.net] has quit [Remote host closed the connection]
+12:55 -!- JayBNY [~JayBNY@50-0-50-243.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+--- Day changed Sat Sep 03 2016
+00:27 -!- JayBNY [~JayBNY@50-0-50-243.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+--- Day changed Sun Sep 04 2016
+02:36 -!- clarity [~clarity@50-0-50-243.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+03:00 -!- clarity [~clarity@50-0-50-243.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+23:31 -!- protblockUser20121 [~protblock@50-0-50-243.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+23:32 -!- protblockUser20121 [~protblock@50-0-50-243.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+--- Day changed Tue Sep 06 2016
+15:16 -!- protblockUser48881 [~protblock@50-0-50-243.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+15:16 -!- protblockUser48881 [~protblock@50-0-50-243.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+18:50 -!- FFTrophyHunter [~FFTrophyH@64.208.40.74] has joined #protoblock
+18:54 -!- FFTrophyHunter [~FFTrophyH@64.208.40.74] has quit [Ping timeout: 240 seconds]
+21:06 -!- clarity [~clarity@50-0-50-243.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+21:06 -!- clarity [~clarity@50-0-50-243.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+21:43 -!- HoHummersnGooseEggs [~HoHummers@c-68-60-39-3.hsd1.mi.comcast.net] has joined #protoblock
+21:45 -!- HoHummersnGooseEggs [~HoHummers@c-68-60-39-3.hsd1.mi.comcast.net] has quit [Remote host closed the connection]
+--- Day changed Wed Sep 07 2016
+02:46 -!- Rcamp [~Rcamp@166.170.40.145] has joined #protoblock
+02:47 < Rcamp> Hey
+02:47 < Rcamp> This app is very buggy
+02:51 -!- Rcamp [~Rcamp@166.170.40.145] has quit [Remote host closed the connection]
+11:38 -!- protblockUser6821 [~protblock@50-0-50-243.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+11:39 -!- protblockUser6821 [~protblock@50-0-50-243.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+15:22 -!- GoBlue [~GoBlue@c-73-15-75-172.hsd1.ca.comcast.net] has joined #protoblock
+15:23 -!- GoBlue [~GoBlue@c-73-15-75-172.hsd1.ca.comcast.net] has quit [Remote host closed the connection]
+22:56 -!- Czclown [~Czclown@pool-108-28-252-149.washdc.fios.verizon.net] has joined #protoblock
+22:58 -!- Czclown [~Czclown@pool-108-28-252-149.washdc.fios.verizon.net] has quit [Remote host closed the connection]
+--- Day changed Thu Sep 08 2016
+13:36 -!- strenchi [~strenchi@50-0-50-243.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+13:36 < strenchi> test
+15:14 -!- iknownothing [~iknownoth@c-107-3-176-206.hsd1.ca.comcast.net] has joined #protoblock
+15:47 -!- iknownothing [~iknownoth@c-107-3-176-206.hsd1.ca.comcast.net] has quit [Ping timeout: 240 seconds]
+17:25 -!- clarity [~clarity@74-80-249-32.ic2net.net] has joined #protoblock
+17:26 -!- clarity [~clarity@74-80-249-32.ic2net.net] has quit [Remote host closed the connection]
+17:49 -!- strenchi [~strenchi@50-0-50-243.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+--- Day changed Fri Sep 09 2016
+19:37 -!- fantasyUse|42279 [320032f3@m-c.clients.kiwiirc.com] has joined #protoblock
+19:38 -!- fantasyUse|42279 [320032f3@m-c.clients.kiwiirc.com] has quit [Quit: ]
+--- Day changed Sat Sep 10 2016
+04:22 -!- Crak [~Crak@pool-173-68-95-146.nycmny.fios.verizon.net] has joined #protoblock
+04:23 -!- Crak [~Crak@pool-173-68-95-146.nycmny.fios.verizon.net] has quit [Remote host closed the connection]
+--- Day changed Sun Sep 11 2016
+15:21 -!- protblockUser24901 [~protblock@cpe-76-174-34-125.socal.res.rr.com] has joined #protoblock
+15:22 -!- protblockUser24901 [~protblock@cpe-76-174-34-125.socal.res.rr.com] has quit [Remote host closed the connection]
+16:14 -!- Touchdown [~Touchdown@cpe-76-174-34-125.socal.res.rr.com] has joined #protoblock
+16:24 -!- Touchdown is now known as FantasyFootball
+16:44 -!- FantasyFootball is now known as Ogelive
+16:50 -!- Ogelive is now known as Copy2
+16:51 -!- Copy2 is now known as FUBM
+17:07 -!- FUBM [~Touchdown@cpe-76-174-34-125.socal.res.rr.com] has quit [Remote host closed the connection]
+19:20 -!- ryanspeer2001 [~ryanspeer@c-24-4-144-11.hsd1.ca.comcast.net] has joined #protoblock
+19:20 -!- ryanspeer2001 is now known as JayBNY
+19:45 -!- JayBNY [~ryanspeer@c-24-4-144-11.hsd1.ca.comcast.net] has quit [Ping timeout: 240 seconds]
+--- Day changed Tue Sep 13 2016
+15:09 -!- ryanspeer2001 [~ryanspeer@c-24-4-144-11.hsd1.ca.comcast.net] has joined #protoblock
+15:11 -!- ryanspeer2001 [~ryanspeer@c-24-4-144-11.hsd1.ca.comcast.net] has quit [Remote host closed the connection]
+--- Day changed Wed Sep 14 2016
+17:44 -!- protblockUser29521 [~protblock@c-107-3-176-206.hsd1.ca.comcast.net] has joined #protoblock
+17:45 -!- protblockUser29521 [~protblock@c-107-3-176-206.hsd1.ca.comcast.net] has quit [Remote host closed the connection]
+--- Day changed Thu Sep 15 2016
+20:09 -!- My [~My@50-0-50-243.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+20:09 -!- My is now known as Prestige
+--- Day changed Fri Sep 16 2016
+17:38 -!- Prestige [~My@50-0-50-243.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+--- Day changed Sat Sep 17 2016
+23:44 -!- protblockUser29691 [~protblock@astound-69-42-6-206.ca.astound.net] has joined #protoblock
+23:50 -!- protblockUser29691 [~protblock@astound-69-42-6-206.ca.astound.net] has quit [Ping timeout: 240 seconds]
+--- Day changed Sun Sep 18 2016
+05:03 -!- fantasyUse|38725 [4490c132@m-c.clients.kiwiirc.com] has joined #protoblock
+05:04 -!- fantasyUse|38725 [4490c132@m-c.clients.kiwiirc.com] has quit [Quit: ]
+--- Day changed Tue Sep 20 2016
+04:10 -!- fantasyUse|48452 [771e2ddf@m-c.clients.kiwiirc.com] has joined #protoblock
+04:10 -!- fantasyUse|48452 [771e2ddf@m-c.clients.kiwiirc.com] has quit [Quit: ]
+18:51 -!- protblockUser38571 [~protblock@99-136-81-115.lightspeed.rcsntx.sbcglobal.net] has joined #protoblock
+18:52 -!- protblockUser38571 [~protblock@99-136-81-115.lightspeed.rcsntx.sbcglobal.net] has quit [Remote host closed the connection]
+--- Log opened Wed Sep 21 12:10:10 2016
+12:10 -!- m_jimmerMain [~m_jimmer@ip158-222-102-84.pbiaas.com] has joined #protoblock
+12:10 -!- ServerMode/#protoblock [+nt] by org.protoblock.com
+12:10 -!- Irssi: #protoblock: Total of 1 nicks [1 ops, 0 halfops, 0 voices, 0 normal]
+12:10 -!- Irssi: Join to #protoblock was synced in 3 secs
+--- Day changed Thu Sep 22 2016
+17:13 -!- clarity [~clarity@74-80-249-32.ic2net.net] has joined #protoblock
+17:14 -!- clarity [~clarity@74-80-249-32.ic2net.net] has quit [Remote host closed the connection]
+20:09 -!- Fire [~Fire@cpe-76-90-33-50.socal.res.rr.com] has joined #protoblock
+20:25 -!- Fire [~Fire@cpe-76-90-33-50.socal.res.rr.com] has quit [Ping timeout: 240 seconds]
+--- Day changed Fri Sep 23 2016
+01:14 -!- OjaiMahon [~OjaiMahon@mobile-166-176-56-170.mycingular.net] has joined #protoblock
+01:14 -!- OjaiMahon [~OjaiMahon@mobile-166-176-56-170.mycingular.net] has quit [Remote host closed the connection]
+--- Day changed Tue Sep 27 2016
+18:08 -!- Jaybny [320032f3@m-c.clients.kiwiirc.com] has joined #protoblock
+18:36 -!- Jaybny [320032f3@m-c.clients.kiwiirc.com] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+18:50 -!- Jaybny [320032f3@m-b.clients.kiwiirc.com] has joined #protoblock
+--- Day changed Wed Sep 28 2016
+02:57 -!- Jaybny [320032f3@m-b.clients.kiwiirc.com] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+--- Day changed Thu Sep 29 2016
+22:38 -!- mb41407 [~mb41407@176.sub-70-197-2.myvzw.com] has joined #protoblock
+22:38 -!- mb41407 [~mb41407@176.sub-70-197-2.myvzw.com] has quit [Remote host closed the connection]
+23:11 -!- WeCode [~WeCode@50-254-135-242-static.hfc.comcastbusiness.net] has joined #protoblock
+23:18 -!- WeCode [~WeCode@50-254-135-242-static.hfc.comcastbusiness.net] has quit [Ping timeout: 240 seconds]
+--- Day changed Fri Sep 30 2016
+16:17 -!- protblockUser4241 [~protblock@173-13-170-49-sfba.hfc.comcastbusiness.net] has joined #protoblock
+16:24 -!- protblockUser4241 [~protblock@173-13-170-49-sfba.hfc.comcastbusiness.net] has quit [Remote host closed the connection]
+17:37 -!- fantasyUse|72415 [6b4dd464@m-b.clients.kiwiirc.com] has joined #protoblock
+17:38 -!- fantasyUse|72415 [6b4dd464@m-b.clients.kiwiirc.com] has quit [Quit: ]
+21:16 -!- fantasyUse|72415 [6b4dd464@m-b.clients.kiwiirc.com] has joined #protoblock
+21:17 -!- fantasyUse|72415 [6b4dd464@m-b.clients.kiwiirc.com] has quit [Quit: ]
+--- Day changed Sun Oct 02 2016
+01:11 -!- Gurley [~protblock@50-0-50-243.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+02:43 -!- Gurley [~protblock@50-0-50-243.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+04:52 -!- FantasyFoootballNerd [~FantasyDa@50-0-50-243.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+06:53 -!- FantasyFoootballNerd [~FantasyDa@50-0-50-243.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+--- Day changed Mon Oct 03 2016
+16:46 -!- hammardDRUNK [~protblock@173-13-170-49-sfba.hfc.comcastbusiness.net] has joined #protoblock
+--- Day changed Tue Oct 04 2016
+16:52 -!- hammardDRUNK [~protblock@173-13-170-49-sfba.hfc.comcastbusiness.net] has quit [Remote host closed the connection]
+--- Day changed Wed Oct 05 2016
+14:49 -!- jaybny111 [~jaybny111@50-0-50-243.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+14:49 -!- jaybny111 [~jaybny111@50-0-50-243.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+15:14 -!- jaybny111 [~jaybny111@50-0-50-243.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+15:24 -!- jaybny111 [~jaybny111@50-0-50-243.dsl.dynamic.fusionbroadband.com] has quit [Read error: Connection reset by peer]
+22:44 -!- WeCode [~WeCode@50-254-135-242-static.hfc.comcastbusiness.net] has joined #protoblock
+--- Day changed Thu Oct 06 2016
+00:03 -!- WeCode [~WeCode@50-254-135-242-static.hfc.comcastbusiness.net] has quit [Ping timeout: 240 seconds]
+05:16 -!- Skippy [~Skippy@c-24-4-144-11.hsd1.ca.comcast.net] has joined #protoblock
+05:23 -!- Skippy [~Skippy@c-24-4-144-11.hsd1.ca.comcast.net] has quit [Remote host closed the connection]
+--- Day changed Sun Oct 09 2016
+16:08 -!- Cookie [~RGIII@50-0-50-243.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+18:03 -!- Cookie [~RGIII@50-0-50-243.dsl.dynamic.fusionbroadband.com] has quit [Ping timeout: 240 seconds]
+22:34 -!- fantasyUse|35041 [631064d3@m-b.clients.kiwiirc.com] has joined #protoblock
+22:34 -!- fantasyUse|35041 [631064d3@m-b.clients.kiwiirc.com] has quit [Quit: ]
+--- Day changed Mon Oct 10 2016
+00:50 -!- protblockUser37191 [~protblock@ool-44c50d5e.dyn.optonline.net] has joined #protoblock
+00:56 -!- protblockUser37191 [~protblock@ool-44c50d5e.dyn.optonline.net] has quit [Remote host closed the connection]
+--- Day changed Thu Oct 13 2016
+01:24 -!- protblockUser371 [~protblock@50-0-50-243.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+01:24 -!- protblockUser371 [~protblock@50-0-50-243.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+01:24 -!- protblockUser25151 [~protblock@50-0-50-243.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+01:30 -!- protblockUser25151 [~protblock@50-0-50-243.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+01:42 -!- RachelM [~RachelM@cpe-74-65-249-195.nyc.res.rr.com] has joined #protoblock
+01:42 -!- RachelM is now known as BRXWhale
+01:42 -!- BRXWhale is now known as JakeThePanda2
+01:42 < JakeThePanda2> yo
+01:47 -!- JakeThePanda2 [~RachelM@cpe-74-65-249-195.nyc.res.rr.com] has quit [Remote host closed the connection]
+20:15 -!- strenchi [~strenchi@50-0-50-243.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+20:21 -!- strenchi [~strenchi@50-0-50-243.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+--- Day changed Fri Oct 14 2016
+17:54 -!- protblockUser25271 [~protblock@ool-44c50d5e.dyn.optonline.net] has joined #protoblock
+17:54 -!- protblockUser25271 is now known as flyingeagles
+--- Day changed Sat Oct 15 2016
+00:33 -!- SweatFromMyBallz [~SweatFrom@cpe-74-65-249-195.nyc.res.rr.com] has joined #protoblock
+00:35 < SweatFromMyBallz> who's here
+00:35 < SweatFromMyBallz> talk motherfuckers
+00:36 < SweatFromMyBallz> flyingeagles, I know who you are fuck stick.
+00:38 -!- SweatFromMyBallz is now known as JakeThePanda2
+00:38 < JakeThePanda2> yo
+00:40 -!- JakeThePanda2 is now known as BRXWhale
+00:43 -!- BRXWhale is now known as Bejeezy
+00:53 -!- clarity [~clarity@c-24-4-144-11.hsd1.ca.comcast.net] has joined #protoblock
+00:53 < clarity> hi
+00:55 -!- clarity is now known as Jets
+00:55 < Jets> test
+01:06 -!- Whos [~Whos@c-24-4-144-11.hsd1.ca.comcast.net] has joined #protoblock
+01:16 -!- Bejeezy [~SweatFrom@cpe-74-65-249-195.nyc.res.rr.com] has quit [Remote host closed the connection]
+01:26 -!- Jets is now known as Jiro
+01:27 -!- Jiro is now known as Jolly
+01:27 -!- Jolly is now known as Nice
+01:27 -!- Whos [~Whos@c-24-4-144-11.hsd1.ca.comcast.net] has quit [Ping timeout: 240 seconds]
+01:27 -!- Nice is now known as RGIII
+01:29 -!- RGIII [~clarity@c-24-4-144-11.hsd1.ca.comcast.net] has quit [Remote host closed the connection]
+--- Day changed Sun Oct 16 2016
+11:03 -!- protblockUser27321 [~protblock@mm-107-76-44-37.mgts.dynamic.pppoe.byfly.by] has joined #protoblock
+11:16 -!- protblockUser27321 [~protblock@mm-107-76-44-37.mgts.dynamic.pppoe.byfly.by] has quit [Remote host closed the connection]
+11:32 -!- ffwfw [~ffwfw@mm-107-76-44-37.mgts.dynamic.pppoe.byfly.by] has joined #protoblock
+11:33 -!- ffwfw [~ffwfw@mm-107-76-44-37.mgts.dynamic.pppoe.byfly.by] has quit [Remote host closed the connection]
+12:43 -!- Juggernauts [~Juggernau@c-24-4-144-11.hsd1.ca.comcast.net] has joined #protoblock
+15:08 -!- Juggernauts [~Juggernau@c-24-4-144-11.hsd1.ca.comcast.net] has quit [Remote host closed the connection]
+--- Day changed Mon Oct 17 2016
+06:30 -!- ryanmbolin [~ryanmboli@c-76-21-32-60.hsd1.ca.comcast.net] has joined #protoblock
+06:38 -!- ryanmbolin [~ryanmboli@c-76-21-32-60.hsd1.ca.comcast.net] has quit [Remote host closed the connection]
+19:10 -!- Ggg [~Ggg@93.84.27.161] has joined #protoblock
+19:13 -!- Ggg [~Ggg@93.84.27.161] has quit [Remote host closed the connection]
+19:35 -!- Hollywood [~Hollywood@50-0-50-243.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+21:33 -!- flyingeagles [~protblock@ool-44c50d5e.dyn.optonline.net] has quit [Read error: Connection reset by peer]
+--- Day changed Tue Oct 18 2016
+15:25 -!- Ggg [~Ggg@93.84.27.161] has joined #protoblock
+15:48 -!- Ggg [~Ggg@93.84.27.161] has quit [Remote host closed the connection]
+21:39 -!- Hollywood [~Hollywood@50-0-50-243.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+--- Day changed Wed Oct 19 2016
+20:14 -!- sandy16 [~sandy16@208.87.56.173] has joined #protoblock
+20:15 -!- sandy16 [~sandy16@208.87.56.173] has quit [Remote host closed the connection]
+--- Day changed Thu Oct 20 2016
+12:18 -!- ShadyMcCoy [~ShadyMcCo@ool-44c50d5e.dyn.optonline.net] has joined #protoblock
+18:35 -!- protblockUser12601 [~protblock@176.120.49.179] has joined #protoblock
+19:31 -!- Ojai [~Ojai@cpe-76-90-55-3.socal.res.rr.com] has joined #protoblock
+19:34 -!- Ojai [~Ojai@cpe-76-90-55-3.socal.res.rr.com] has quit [Remote host closed the connection]
+--- Day changed Fri Oct 21 2016
+20:23 -!- protblockUser12601 [~protblock@176.120.49.179] has quit [Remote host closed the connection]
+--- Day changed Sat Oct 22 2016
+00:12 -!- ShadyMcCoy is now known as techbytes
+--- Day changed Mon Oct 24 2016
+02:59 -!- techbytes [~ShadyMcCo@ool-44c50d5e.dyn.optonline.net] has quit [Read error: Connection reset by peer]
+--- Day changed Wed Oct 26 2016
+06:13 -!- skiptomalou [~skiptomal@50-0-50-243.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+06:13 -!- skiptomalou [~skiptomal@50-0-50-243.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+09:16 -!- FakeGronk [~FakeGronk@c-24-4-144-11.hsd1.ca.comcast.net] has joined #protoblock
+09:29 -!- FakeGronk [~FakeGronk@c-24-4-144-11.hsd1.ca.comcast.net] has quit [Ping timeout: 240 seconds]
+--- Day changed Sat Oct 29 2016
+21:38 -!- protblockUser4671 [~protblock@50-0-50-243.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+21:38 -!- protblockUser4671 [~protblock@50-0-50-243.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+--- Day changed Sun Oct 30 2016
+04:30 -!- AKFB [~Trading.F@c-24-4-144-11.hsd1.ca.comcast.net] has joined #protoblock
+04:45 -!- AKFB [~Trading.F@c-24-4-144-11.hsd1.ca.comcast.net] has quit [Remote host closed the connection]
+--- Day changed Mon Oct 31 2016
+10:01 -!- JayBNY [~JayBNY@50-0-50-243.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+10:06 -!- JayBNY is now known as bookie
+10:07 -!- bookie [~JayBNY@50-0-50-243.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+15:37 -!- TNF [~TNF@50-0-50-243.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+16:47 -!- TNF [~TNF@50-0-50-243.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+18:37 -!- black [~TNF@50-0-50-243.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+18:48 -!- black [~TNF@50-0-50-243.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+20:34 -!- TNF [~TNF@50-0-50-243.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+20:42 -!- TNF [~TNF@50-0-50-243.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+--- Day changed Tue Nov 01 2016
+05:24 -!- protblockUser29041 [~protblock@c-24-4-144-11.hsd1.ca.comcast.net] has joined #protoblock
+05:28 -!- protblockUser29041 [~protblock@c-24-4-144-11.hsd1.ca.comcast.net] has quit [Ping timeout: 240 seconds]
+16:31 -!- FakeGronk [~FakeGronk@c-24-4-144-11.hsd1.ca.comcast.net] has joined #protoblock
+16:37 -!- FakeGronk [~FakeGronk@c-24-4-144-11.hsd1.ca.comcast.net] has quit [Ping timeout: 240 seconds]
+18:23 -!- bookie [~bookie@50-0-50-243.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+18:24 -!- bookie [~bookie@50-0-50-243.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+--- Day changed Thu Nov 03 2016
+22:13 -!- protblockUser28491 [~protblock@216.1.217.242] has joined #protoblock
+22:15 -!- protblockUser28491 is now known as dohriner1
+22:18 -!- dohriner1 [~protblock@216.1.217.242] has quit [Remote host closed the connection]
+23:02 -!- fantasyUse|27944 [6b8a9518@m-b.clients.kiwiirc.com] has joined #protoblock
+23:02 < fantasyUse|27944> hi
+23:17 -!- fantasyUse|27944 [6b8a9518@m-b.clients.kiwiirc.com] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+--- Day changed Sat Nov 05 2016
+16:10 -!- fantasyUse|27944 [6b8a9518@m-b.clients.kiwiirc.com] has joined #protoblock
+16:13 -!- fantasyUse|27944 [6b8a9518@m-b.clients.kiwiirc.com] has quit [Quit: ]
+--- Day changed Sun Nov 06 2016
+16:48 -!- fantasyUse|27944 [6b8a9518@m-b.clients.kiwiirc.com] has joined #protoblock
+16:55 -!- fantasyUse|27944 [6b8a9518@m-b.clients.kiwiirc.com] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+--- Day changed Wed Nov 09 2016
+11:41 -!- Copy4 [~Copy4@50-0-50-243.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+--- Day changed Thu Nov 10 2016
+23:35 -!- Copy4 is now known as booker
+23:35 -!- booker is now known as bookie
+23:35 -!- bookie is now known as Gurley
+23:36 -!- Gurley is now known as gimmee
+23:37 -!- gimmee is now known as my
+23:37 -!- my is now known as Priest
+--- Day changed Sat Nov 12 2016
+10:23 -!- fantasyUse|41884 [1804900b@m-b.clients.kiwiirc.com] has joined #protoblock
+10:31 -!- fantasyUse|41884 [1804900b@m-b.clients.kiwiirc.com] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+--- Day changed Sun Nov 13 2016
+10:23 -!- Priest [~Copy4@50-0-50-243.dsl.dynamic.fusionbroadband.com] has quit [Read error: Connection reset by peer]
+--- Day changed Tue Nov 15 2016
+02:33 -!- J-E-T-S [~J-E-T-S@ool-44c50d5e.dyn.optonline.net] has joined #protoblock
+14:01 -!- J-E-T-S [~J-E-T-S@ool-44c50d5e.dyn.optonline.net] has quit [Ping timeout: 240 seconds]
+--- Day changed Wed Nov 16 2016
+00:01 -!- protblockUser25071 [~protblock@rrcs-50-74-182-114.nyc.biz.rr.com] has joined #protoblock
+00:03 -!- protblockUser25071 is now known as Eisenberger
+00:08 -!- Eisenberger [~protblock@rrcs-50-74-182-114.nyc.biz.rr.com] has quit [Remote host closed the connection]
+07:32 -!- protblockUser46221 [~protblock@50-0-50-243.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+07:36 -!- protblockUser46221 [~protblock@50-0-50-243.dsl.dynamic.fusionbroadband.com] has quit [Read error: Connection reset by peer]
+23:26 -!- fantasyUse|7378 [5813b8f3@m-b.clients.kiwiirc.com] has joined #protoblock
+23:27 -!- fantasyUse|7378 [5813b8f3@m-b.clients.kiwiirc.com] has quit [Quit: ]
+--- Day changed Mon Nov 28 2016
+07:26 -!- fantasyUse|21356 [320032f3@m-c.clients.kiwiirc.com] has joined #protoblock
+07:26 -!- fantasyUse|21356 [320032f3@m-c.clients.kiwiirc.com] has quit [Quit: ]
+--- Day changed Thu Dec 01 2016
+11:55 -!- Troop [~Troop@c-24-4-144-11.hsd1.ca.comcast.net] has joined #protoblock
+11:57 -!- Troop [~Troop@c-24-4-144-11.hsd1.ca.comcast.net] has quit [Remote host closed the connection]
+16:50 -!- Troop [~Troop@50-0-50-243.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+16:50 -!- Troop [~Troop@50-0-50-243.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+--- Day changed Mon Dec 05 2016
+22:37 -!- fantasyUse|4102 [320032f3@m-c.clients.kiwiirc.com] has joined #protoblock
+22:37 -!- fantasyUse|4102 [320032f3@m-c.clients.kiwiirc.com] has quit [Quit: ]
+--- Day changed Tue Dec 06 2016
+00:31 -!- Brazo [~Brazo@cable-192.222.228.60.electronicbox.net] has joined #protoblock
+00:32 < Brazo> Hello....
+00:33 -!- Brazo [~Brazo@cable-192.222.228.60.electronicbox.net] has quit [Remote host closed the connection]
+--- Day changed Thu Dec 08 2016
+11:49 -!- Hollywood [~Hollywood@c-24-4-144-11.hsd1.ca.comcast.net] has joined #protoblock
+12:09 -!- Hollywood [~Hollywood@c-24-4-144-11.hsd1.ca.comcast.net] has quit [Ping timeout: 240 seconds]
+--- Day changed Sat Dec 17 2016
+20:52 -!- SweatFromMyBallz [~SweatFrom@cpe-74-65-249-195.nyc.res.rr.com] has joined #protoblock
+20:52 -!- SweatFromMyBallz [~SweatFrom@cpe-74-65-249-195.nyc.res.rr.com] has quit [Remote host closed the connection]
+--- Day changed Wed Dec 21 2016
+09:00 -!- Alex000666 [~Alex00066@80.92.26.37] has joined #protoblock
+22:43 -!- Alex000666 [~Alex00066@80.92.26.37] has quit [Read error: Connection reset by peer]
+--- Day changed Thu Dec 22 2016
+04:24 -!- KLESSARD [~KLESSARD@ip72-192-5-4.ri.ri.cox.net] has joined #protoblock
+04:47 -!- KLESSARD [~KLESSARD@ip72-192-5-4.ri.ri.cox.net] has quit [Remote host closed the connection]
+21:12 -!- JayBNY [~Satoshi@50-0-50-243.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+21:12 -!- JayBNY [~Satoshi@50-0-50-243.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+--- Day changed Sat Dec 24 2016
+05:42 -!- fantasyUse|81796 [b4ea216d@m-c.clients.kiwiirc.com] has joined #protoblock
+05:43 -!- fantasyUse|81796 [b4ea216d@m-c.clients.kiwiirc.com] has quit [Quit: ]
+11:22 -!- Alex000666 [~Alex00066@80.92.27.205] has joined #protoblock
+--- Day changed Sun Dec 25 2016
+02:52 -!- Alex000666 [~Alex00066@80.92.27.205] has quit [Read error: Connection reset by peer]
+18:06 -!- Alex000666 [~Alex00066@188.168.49.210] has joined #protoblock
+18:36 -!- Alex000666 is now known as Dober
+18:36 -!- Dober is now known as Alex000666
+18:37 -!- Alex000666 is now known as Dober
+18:37 -!- Dober is now known as Alex000666
+19:06 -!- Alex000666 is now known as Dober
+19:06 -!- Dober is now known as Alex000666
+--- Day changed Mon Dec 26 2016
+03:42 -!- Alex000666 [~Alex00066@188.168.49.210] has quit [Read error: Connection reset by peer]
+19:42 -!- fantasyUse|5691 [320032f3@m-c.clients.kiwiirc.com] has joined #protoblock
+19:42 -!- fantasyUse|5691 [320032f3@m-c.clients.kiwiirc.com] has quit [Quit: ]
+--- Day changed Tue Dec 27 2016
+19:12 -!- WeCode [~WeCode@c-73-202-134-81.hsd1.ca.comcast.net] has joined #protoblock
+19:12 -!- WeCode [~WeCode@c-73-202-134-81.hsd1.ca.comcast.net] has quit [Remote host closed the connection]
+--- Day changed Fri Dec 30 2016
+04:28 -!- oneyesoneno [~oneyesone@114.125.26.138] has joined #protoblock
+04:31 -!- oneyesoneno [~oneyesone@114.125.26.138] has quit [Remote host closed the connection]
+15:54 -!- bolinstyski [~bolinstys@c-73-70-212-56.hsd1.ca.comcast.net] has joined #protoblock
+17:34 -!- bolinstyski [~bolinstys@c-73-70-212-56.hsd1.ca.comcast.net] has quit [Ping timeout: 240 seconds]
+--- Day changed Wed Jan 04 2017
+20:33 -!- fantasyUse|28773 [5d55aed8@m-b.clients.kiwiirc.com] has joined #protoblock
+20:33 -!- fantasyUse|28773 [5d55aed8@m-b.clients.kiwiirc.com] has quit [Quit: ]
+20:45 -!- jaybny [320032f3@m-c.clients.kiwiirc.com] has joined #protoblock
+--- Day changed Fri Jan 06 2017
+20:57 -!- jaybny [320032f3@m-c.clients.kiwiirc.com] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+--- Day changed Mon Jan 09 2017
+20:54 -!- jaybny [320032f3@m-c.clients.kiwiirc.com] has joined #protoblock
+--- Day changed Sun Jan 15 2017
+22:03 -!- protblockUser9961 [~protblock@ip68-14-133-78.ri.ri.cox.net] has joined #protoblock
+22:04 -!- protblockUser9961 is now known as KLESSARD
+22:09 -!- KLESSARD [~protblock@ip68-14-133-78.ri.ri.cox.net] has quit [Remote host closed the connection]
+--- Day changed Tue Jan 17 2017
+06:06 -!- jaybny [320032f3@m-c.clients.kiwiirc.com] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+06:06 -!- jaybny [320032f3@m-c.clients.kiwiirc.com] has joined #protoblock
+--- Day changed Wed Jan 18 2017
+03:14 -!- jaybny [320032f3@m-c.clients.kiwiirc.com] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+--- Log closed Wed Jan 25 10:22:08 2017
+--- Log opened Wed Jan 25 10:22:27 2017
+10:22 -!- m_jimmerMain [~m_jimmer@158.222.102.84] has joined #protoblock
+10:22 -!- ServerMode/#protoblock [+nt] by org.protoblock.com
+10:22 -!- Irssi: #protoblock: Total of 1 nicks [1 ops, 0 halfops, 0 voices, 0 normal]
+10:22 -!- Irssi: Join to #protoblock was synced in 2 secs
+--- Log closed Wed Jan 25 10:29:38 2017
+--- Log opened Wed Jan 25 10:36:46 2017
+10:36 -!- m_jimmerMain [~m_jimmer@ip158-222-102-84.pbiaas.com] has joined #protoblock
+10:36 -!- ServerMode/#protoblock [+nt] by org.protoblock.com
+10:36 -!- Irssi: #protoblock: Total of 1 nicks [1 ops, 0 halfops, 0 voices, 0 normal]
+10:36 -!- Irssi: Join to #protoblock was synced in 3 secs
+--- Log closed Wed Jan 25 11:09:23 2017
+--- Log opened Wed Jan 25 11:23:42 2017
+11:23 -!- m_jimmerMain [~m_jimmer@ip158-222-102-84.pbiaas.com] has joined #protoblock
+11:23 -!- ServerMode/#protoblock [+nt] by org.protoblock.com
+11:23 -!- Irssi: #protoblock: Total of 1 nicks [1 ops, 0 halfops, 0 voices, 0 normal]
+11:23 -!- Irssi: Join to #protoblock was synced in 2 secs
+15:08 -!- zdeni82 [~zdeni82@93-86-67-76.dynamic.isp.telekom.rs] has joined #protoblock
+15:12 -!- zdeni82 [~zdeni82@93-86-67-76.dynamic.isp.telekom.rs] has quit [Remote host closed the connection]
+18:24 -!- zdeni82 [~zdeni82@93-86-67-76.dynamic.isp.telekom.rs] has joined #protoblock
+19:24 -!- zdeni82 [~zdeni82@93-86-67-76.dynamic.isp.telekom.rs] has quit [Remote host closed the connection]
+--- Day changed Sat Feb 18 2017
+20:05 -!- fantasyUse|23979 [320032d2@m-c.clients.kiwiirc.com] has joined #protoblock
+20:05 -!- fantasyUse|23979 [320032d2@m-c.clients.kiwiirc.com] has quit [Quit: ]
+--- Day changed Mon Feb 20 2017
+18:17 -!- fantasyUse|29302 [6d9473c0@m-c.clients.kiwiirc.com] has joined #protoblock
+18:17 -!- fantasyUse|29302 [6d9473c0@m-c.clients.kiwiirc.com] has quit [Quit: ]
+--- Day changed Tue Feb 28 2017
+20:35 -!- fantasyUse|92175 [32003227@m-b.clients.kiwiirc.com] has joined #protoblock
+20:35 < fantasyUse|92175> ddd
+--- Day changed Wed Mar 01 2017
+03:16 -!- fantasyUse|92175 [32003227@m-b.clients.kiwiirc.com] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+--- Day changed Wed Mar 08 2017
+16:42 -!- Alex000666 [~Alex00066@80.92.29.117] has joined #protoblock
+16:45 -!- Alex000666 is now known as Dober
+18:01 -!- Dober [~Alex00066@80.92.29.117] has quit [Remote host closed the connection]
+--- Day changed Thu Mar 16 2017
+12:29 -!- fantasyUse|83739 [18278103@m-b.clients.kiwiirc.com] has joined #protoblock
+14:37 -!- fantasyUse|83739 [18278103@m-b.clients.kiwiirc.com] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+14:39 -!- fantasyUse|83739 [18278103@m-b.clients.kiwiirc.com] has joined #protoblock
+14:51 -!- fantasyUse|83739 [18278103@m-b.clients.kiwiirc.com] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+16:17 -!- fantasyUse|83739 [18278103@m-c.clients.kiwiirc.com] has joined #protoblock
+16:23 -!- fantasyUse|83739 [18278103@m-c.clients.kiwiirc.com] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+--- Day changed Mon Mar 20 2017
+21:41 -!- HillsideSports [~HillsideS@cpe-68-172-227-202.nj.res.rr.com] has joined #protoblock
+--- Day changed Tue Mar 21 2017
+21:32 -!- HillsideSports [~HillsideS@cpe-68-172-227-202.nj.res.rr.com] has quit [Remote host closed the connection]
+--- Log opened Thu Apr 20 22:38:33 2017
+22:38 -!- m_jimmer1ain [~m_jimmer@ip158-222-102-84.pbiaas.com] has joined #protoblock
+22:38 -!- Irssi: #protoblock: Total of 2 nicks [1 ops, 0 halfops, 0 voices, 1 normal]
+22:38 -!- m_jimmerMain [~m_jimmer@ip158-222-102-84.pbiaas.com] has quit [Read error: Connection reset by peer]
+22:38 -!- Irssi: Join to #protoblock was synced in 5 secs
+--- Log closed Thu Apr 20 22:46:18 2017
+--- Log opened Thu Apr 20 22:46:19 2017
+22:46 -!- m_jimmerMain [~m_jimmer@ip158-222-102-84.pbiaas.com] has joined #protoblock
+22:46 -!- ServerMode/#protoblock [+nt] by org.protoblock.com
+22:46 -!- Irssi: #protoblock: Total of 1 nicks [1 ops, 0 halfops, 0 voices, 0 normal]
+22:46 -!- Irssi: Join to #protoblock was synced in 3 secs
+--- Day changed Mon Apr 24 2017
+05:21 -!- MileHigh [~MileHigh@c-73-3-142-37.hsd1.co.comcast.net] has joined #protoblock
+05:32 -!- MileHigh [~MileHigh@c-73-3-142-37.hsd1.co.comcast.net] has quit [Remote host closed the connection]
+--- Day changed Sun May 07 2017
+02:25 -!- Protoblock [~Protobloc@50-0-50-39.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+02:30 -!- Gravitom [~Gravitom@cpc1-dals23-2-0-cust606.20-2.cable.virginm.net] has joined #protoblock
+02:32 -!- Protoblock is now known as Trader1520
+02:43 -!- Trader1520 [~Protobloc@50-0-50-39.dsl.dynamic.fusionbroadband.com] has quit [Read error: Connection reset by peer]
+04:26 -!- Gravitom [~Gravitom@cpc1-dals23-2-0-cust606.20-2.cable.virginm.net] has quit [Ping timeout: 240 seconds]
+--- Day changed Mon May 15 2017
+17:18 -!- protblockUser43601 [~protblock@50-0-50-39.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+17:28 -!- protblockUser43601 [~protblock@50-0-50-39.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+--- Log closed Thu May 25 04:12:46 2017
+--- Log opened Thu May 25 04:12:52 2017
+04:12 -!- m_jimmerMain [~m_jimmer@ip158-222-102-84.pbiaas.com] has joined #protoblock
+04:12 -!- ServerMode/#protoblock [+nt] by org.protoblock.com
+04:12 -!- Irssi: #protoblock: Total of 1 nicks [1 ops, 0 halfops, 0 voices, 0 normal]
+04:12 -!- Irssi: Join to #protoblock was synced in 5 secs
+--- Log closed Thu May 25 05:00:07 2017
+--- Log opened Thu May 25 05:00:12 2017
+05:00 -!- m_jimmerMain [~m_jimmer@ip158-222-102-84.pbiaas.com] has joined #protoblock
+05:00 -!- ServerMode/#protoblock [+nt] by org.protoblock.com
+05:00 -!- Irssi: #protoblock: Total of 1 nicks [1 ops, 0 halfops, 0 voices, 0 normal]
+05:00 -!- Irssi: Join to #protoblock was synced in 2 secs
+--- Log closed Thu May 25 05:21:42 2017
+--- Log opened Thu May 25 05:21:43 2017
+05:21 -!- m_jimmerMain [~m_jimmer@ip158-222-102-84.pbiaas.com] has joined #protoblock
+05:21 -!- ServerMode/#protoblock [+nt] by org.protoblock.com
+05:21 -!- Irssi: #protoblock: Total of 1 nicks [1 ops, 0 halfops, 0 voices, 0 normal]
+05:21 -!- Irssi: Join to #protoblock was synced in 2 secs
+--- Day changed Sun Jun 04 2017
+20:17 -!- HillsideSports [~HillsideS@cpe-68-172-227-202.nj.res.rr.com] has joined #protoblock
+20:33 -!- HillsideSports [~HillsideS@cpe-68-172-227-202.nj.res.rr.com] has quit [Remote host closed the connection]
+--- Log closed Fri Jun 09 08:07:07 2017
+--- Log opened Fri Jun 09 08:07:14 2017
+08:07 -!- m_jimmerMain [~m_jimmer@ip158-222-102-84.pbiaas.com] has joined #protoblock
+08:07 -!- ServerMode/#protoblock [+nt] by org.protoblock.com
+08:07 -!- Irssi: #protoblock: Total of 1 nicks [1 ops, 0 halfops, 0 voices, 0 normal]
+08:07 -!- Irssi: Join to #protoblock was synced in 3 secs
+20:29 -!- protblockUser26131 [~protblock@50-0-50-39.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+20:49 -!- protblockUser26131 is now known as dubsin6
+--- Day changed Sat Jun 10 2017
+20:52 -!- dubsin6 [~protblock@50-0-50-39.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+--- Log closed Tue Jun 13 15:09:47 2017
+--- Log opened Tue Jun 13 16:16:14 2017
+16:16 -!- m_jimmerMain [~m_jimmer@ip158-222-102-84.pbiaas.com] has joined #protoblock
+16:16 -!- ServerMode/#protoblock [+nt] by org.protoblock.com
+16:16 -!- Irssi: #protoblock: Total of 1 nicks [1 ops, 0 halfops, 0 voices, 0 normal]
+16:16 -!- Irssi: Join to #protoblock was synced in 2 secs
+--- Log closed Tue Jun 13 16:52:25 2017
+--- Log opened Tue Jun 13 16:52:26 2017
+16:52 -!- m_jimmerMain [~m_jimmer@ip158-222-102-84.pbiaas.com] has joined #protoblock
+16:52 -!- ServerMode/#protoblock [+nt] by org.protoblock.com
+16:52 -!- Irssi: #protoblock: Total of 1 nicks [1 ops, 0 halfops, 0 voices, 0 normal]
+16:52 -!- Irssi: Join to #protoblock was synced in 3 secs
+--- Day changed Wed Jun 28 2017
+04:32 -!- i1i1i1ii1i1i [~i1i1i1ii1@c-24-4-144-11.hsd1.ca.comcast.net] has joined #protoblock
+04:33 < i1i1i1ii1i1i> res
+04:40 -!- i1i1i1ii1i1i [~i1i1i1ii1@c-24-4-144-11.hsd1.ca.comcast.net] has quit [Remote host closed the connection]
+08:03 -!- protblockUser46911 [~protblock@50-0-50-39.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+08:28 -!- protblockUser46911 [~protblock@50-0-50-39.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+09:11 -!- Priest [~Priest@50-0-50-39.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+09:12 -!- Priest [~Priest@50-0-50-39.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+--- Day changed Fri Jun 30 2017
+05:44 -!- protblockUser7261 [~protblock@50-0-50-39.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+05:46 -!- protblockUser7261 is now known as Satoshi
+05:46 -!- Satoshi [~protblock@50-0-50-39.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+--- Day changed Sat Jul 01 2017
+11:24 -!- Dober [~Dober@185.2.187.233] has joined #protoblock
+11:24 -!- Dober [~Dober@185.2.187.233] has quit [Read error: Connection reset by peer]
+--- Day changed Tue Jul 04 2017
+09:26 -!- ankur-maheshwari [~ankur-mah@122.175.211.92] has joined #protoblock
+09:27 -!- ankur-maheshwari [~ankur-mah@122.175.211.92] has quit [Remote host closed the connection]
+--- Day changed Mon Jul 31 2017
+20:47 -!- fantasyUse|49375 [32003227@ns3076893.ip-87-98-219.eu] has joined #protoblock
+--- Day changed Tue Aug 01 2017
+02:59 -!- fantasyUse|49375 [32003227@ns3076893.ip-87-98-219.eu] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+--- Day changed Thu Aug 10 2017
+20:13 -!- fantasyUse|79111 [32003204@ns3076893.ip-87-98-219.eu] has joined #protoblock
+20:13 -!- fantasyUse|79111 [32003204@ns3076893.ip-87-98-219.eu] has quit [Quit: ]
+21:12 -!- Newaygo [~Newaygo@c-71-56-232-179.hsd1.co.comcast.net] has joined #protoblock
+21:29 -!- Newaygo [~Newaygo@c-71-56-232-179.hsd1.co.comcast.net] has quit [Remote host closed the connection]
+--- Day changed Wed Aug 23 2017
+15:48 -!- I-Trade-Fantasy [~I-Trade-F@50-0-50-4.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+17:07 -!- I-Trade-Fantasy [~I-Trade-F@50-0-50-4.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+--- Day changed Thu Sep 07 2017
+02:45 -!- protblockUser13101 [~protblock@pool-173-52-53-248.nycmny.fios.verizon.net] has joined #protoblock
+02:50 -!- protblockUser13101 [~protblock@pool-173-52-53-248.nycmny.fios.verizon.net] has quit [Remote host closed the connection]
+--- Day changed Sat Sep 09 2017
+00:10 -!- JayBNY [32003204@ns3076893.ip-87-98-219.eu] has joined #protoblock
+00:10 < JayBNY> tester
+23:40 -!- JayBNY [32003204@ns3076893.ip-87-98-219.eu] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+--- Day changed Fri Sep 15 2017
+17:09 -!- Daks [6888cf66@ns3076893.ip-87-98-219.eu] has joined #protoblock
+17:10 < Daks> Is this support?
+17:20 -!- Daks [6888cf66@ns3076893.ip-87-98-219.eu] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+--- Day changed Sat Sep 16 2017
+04:02 -!- fantasyUse|45302 [d8c5d282@ns3076893.ip-87-98-219.eu] has joined #protoblock
+04:02 -!- fantasyUse|45302 [d8c5d282@ns3076893.ip-87-98-219.eu] has quit [Quit: ]
+13:59 -!- TallGuySK [d8c5d282@ns3076893.ip-87-98-219.eu] has joined #protoblock
+14:00 < TallGuySK> Hello?
+14:00 -!- TallGuySK [d8c5d282@ns3076893.ip-87-98-219.eu] has quit [Quit: ]
+--- Day changed Fri Sep 22 2017
+13:47 -!- zdeni [~zdeni@109-93-86-221.dynamic.isp.telekom.rs] has joined #protoblock
+14:48 -!- zdeni [~zdeni@109-93-86-221.dynamic.isp.telekom.rs] has quit [Read error: Connection reset by peer]
+--- Day changed Thu Sep 28 2017
+22:58 -!- Wrang [~Wrang@c-67-173-122-101.hsd1.in.comcast.net] has joined #protoblock
+--- Day changed Fri Sep 29 2017
+04:40 -!- Wrang [~Wrang@c-67-173-122-101.hsd1.in.comcast.net] has quit [Ping timeout: 240 seconds]
+--- Day changed Sun Oct 01 2017
+00:13 -!- Wrang [~Wrang@c-67-173-122-101.hsd1.in.comcast.net] has joined #protoblock
+03:08 -!- Wrang [~Wrang@c-67-173-122-101.hsd1.in.comcast.net] has quit [Ping timeout: 240 seconds]
+--- Day changed Tue Oct 03 2017
+04:08 -!- karel [~karel@189.149.172.33] has joined #protoblock
+04:10 -!- karel [~karel@189.149.172.33] has quit [Remote host closed the connection]
+--- Day changed Sat Oct 21 2017
+14:29 -!- TallGuySK [~TallGuySK@216-197-210-130.wybn.hsdb.sasknet.sk.ca] has joined #protoblock
+14:59 -!- TallGuySK [~TallGuySK@216-197-210-130.wybn.hsdb.sasknet.sk.ca] has quit [Remote host closed the connection]
+--- Day changed Mon Oct 30 2017
+12:35 -!- protblockUser18291 [~protblock@121.242.13.22] has joined #protoblock
+12:35 -!- protblockUser18291 is now known as KULKID
+14:13 -!- KULKID [~protblock@121.242.13.22] has quit [Ping timeout: 240 seconds]
+--- Day changed Fri Nov 10 2017
+22:29 -!- skiptomalou [~skiptomal@50-0-50-4.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+22:29 < skiptomalou> test
+22:29 < skiptomalou> help
+--- Day changed Sat Nov 11 2017
+00:54 -!- skiptomalou [~skiptomal@50-0-50-4.dsl.dynamic.fusionbroadband.com] has quit [Ping timeout: 240 seconds]
+--- Day changed Sun Nov 19 2017
+10:29 -!- Trader1600 [~Trader160@50-0-50-4.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+12:30 -!- Trader1600 [~Trader160@50-0-50-4.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+--- Day changed Thu Nov 30 2017
+00:22 -!- bch [~bch@50-0-50-4.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+23:32 -!- bch is now known as btc
+--- Day changed Fri Dec 01 2017
+21:50 -!- btc is now known as bch
+21:50 -!- bch [~bch@50-0-50-4.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+--- Day changed Fri Dec 08 2017
+04:44 -!- fantasyUse|25908 [32003204@unknownnetwork-a.clients.kiwiirc.com] has joined #protoblock
+04:45 < fantasyUse|25908> test
+04:52 -!- fantasyUse|72257 [32003204@unknownnetwork-a.clients.kiwiirc.com] has joined #protoblock
+04:52 < fantasyUse|72257> asdsdf
+04:56 -!- fantasyUse|72257 [32003204@unknownnetwork-a.clients.kiwiirc.com] has quit [Quit: ]
+05:18 -!- fantasyUse|25908 [32003204@unknownnetwork-a.clients.kiwiirc.com] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+--- Day changed Wed Dec 20 2017
+21:14 -!- fantasyUse|4513 [1804900b@unknownnetwork-a.clients.kiwiirc.com] has joined #protoblock
+--- Day changed Thu Dec 21 2017
+00:02 -!- fantasyUse|4513 [1804900b@unknownnetwork-a.clients.kiwiirc.com] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+00:30 -!- fantasyUse|4513 [1804900b@unknownnetwork-a.clients.kiwiirc.com] has joined #protoblock
+00:38 -!- fantasyUse|4513 [1804900b@unknownnetwork-a.clients.kiwiirc.com] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+--- Day changed Mon Dec 25 2017
+10:24 -!- zdeni [~zdeni@93-87-251-187.dynamic.isp.telekom.rs] has joined #protoblock
+10:25 -!- zdeni [~zdeni@93-87-251-187.dynamic.isp.telekom.rs] has quit [Remote host closed the connection]
+--- Day changed Fri Dec 29 2017
+01:22 -!- Chingbit [~Chingbit@c-73-21-210-122.hsd1.fl.comcast.net] has joined #protoblock
+01:30 -!- Chingbit [~Chingbit@c-73-21-210-122.hsd1.fl.comcast.net] has quit [Ping timeout: 240 seconds]
+--- Day changed Wed Jan 10 2018
+20:29 -!- protblockUser2371 [~protblock@50-0-50-4.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+20:39 -!- protblockUser2371 [~protblock@50-0-50-4.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+--- Day changed Fri Jan 19 2018
+02:37 -!- Waiver [~Waiver@S01069c3dcf497a01.cg.shawcable.net] has joined #protoblock
+02:37 -!- Waiver [~Waiver@S01069c3dcf497a01.cg.shawcable.net] has quit [Remote host closed the connection]
+--- Day changed Wed Jan 24 2018
+06:00 -!- protblockUser43721 [~protblock@c-24-4-144-11.hsd1.ca.comcast.net] has joined #protoblock
+06:02 -!- protblockUser43721 [~protblock@c-24-4-144-11.hsd1.ca.comcast.net] has quit [Remote host closed the connection]
+06:46 -!- m_jimmer [~m_jimmer@c-24-4-144-11.hsd1.ca.comcast.net] has joined #protoblock
+06:47 -!- m_jimmer [~m_jimmer@c-24-4-144-11.hsd1.ca.comcast.net] has quit [Remote host closed the connection]
+--- Day changed Fri Feb 02 2018
+08:02 -!- ryan [~ryan@c-73-231-170-234.hsd1.ca.comcast.net] has joined #protoblock
+08:05 -!- ryan [~ryan@c-73-231-170-234.hsd1.ca.comcast.net] has quit [Remote host closed the connection]
+--- Day changed Sat Feb 03 2018
+01:30 -!- Minnesota [~Minnesota@97-116-151-75.mpls.qwest.net] has joined #protoblock
+01:31 -!- Minnesota [~Minnesota@97-116-151-75.mpls.qwest.net] has quit [Remote host closed the connection]
+--- Day changed Sun Feb 04 2018
+21:56 -!- ryan [~ryan@c-73-231-170-234.hsd1.ca.comcast.net] has joined #protoblock
+22:09 -!- ryan [~ryan@c-73-231-170-234.hsd1.ca.comcast.net] has quit [Ping timeout: 240 seconds]
+--- Day changed Thu Feb 15 2018
+07:35 -!- tikbalangHo [~tikbalang@ool-2f1062e7.dyn.optonline.net] has joined #protoblock
+07:35 -!- tikbalangHo [~tikbalang@ool-2f1062e7.dyn.optonline.net] has quit [Remote host closed the connection]
+--- Day changed Fri Mar 09 2018
+17:22 -!- protblockUser26481 [~protblock@c-73-70-212-56.hsd1.ca.comcast.net] has joined #protoblock
+17:23 -!- protblockUser26481 is now known as bolinstyski
+17:41 -!- bolinstyski [~protblock@c-73-70-212-56.hsd1.ca.comcast.net] has quit [Ping timeout: 240 seconds]
+--- Day changed Mon Mar 12 2018
+23:25 -!- bolinstyski [~bolinstys@c-73-70-212-56.hsd1.ca.comcast.net] has joined #protoblock
+--- Day changed Tue Mar 13 2018
+01:26 -!- bolinstyski [~bolinstys@c-73-70-212-56.hsd1.ca.comcast.net] has quit [Ping timeout: 240 seconds]
+--- Day changed Thu Mar 15 2018
+20:35 -!- ryanmbolin [~ryanmboli@c-73-189-44-161.hsd1.ca.comcast.net] has joined #protoblock
+23:15 -!- ryanmbolin [~ryanmboli@c-73-189-44-161.hsd1.ca.comcast.net] has quit [Ping timeout: 240 seconds]
+--- Day changed Tue Mar 27 2018
+18:55 -!- fantasyUse|97611 [32003204@unknownnetwork-a.clients.kiwiirc.com] has joined #protoblock
+19:00 -!- fantasyUse|21103 [632ebf49@unknownnetwork-a.clients.kiwiirc.com] has joined #protoblock
+19:00 -!- fantasyUse|21103 [632ebf49@unknownnetwork-a.clients.kiwiirc.com] has quit [Quit: ]
+19:15 -!- fantasyUse|97611 [32003204@unknownnetwork-a.clients.kiwiirc.com] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+--- Day changed Wed Mar 28 2018
+19:53 -!- protblockUser10411 [~protblock@c-67-188-19-198.hsd1.ca.comcast.net] has joined #protoblock
+20:22 -!- protblockUser10411 [~protblock@c-67-188-19-198.hsd1.ca.comcast.net] has quit [Remote host closed the connection]
+--- Day changed Sun Apr 01 2018
+23:10 -!- blfr439 [~nodfmg@177.128.146.169] has joined #protoblock
+23:11 < blfr439> ##llamas on irc.freenode.net is offering a 2 for 1 fried chicken nigger special. JOIN ##LLAMAS FOR MORE INFORMATION!! ASK FOR LETTY FOR DETAILS!!
+23:11 < blfr439> m_jimmerMain
+23:11 -!- blfr439 [~nodfmg@177.128.146.169] has left #protoblock []
+--- Day changed Mon Apr 02 2018
+22:50 -!- protblockUser18991 [~protblock@198.180.182.192] has joined #protoblock
+23:01 -!- protblockUser18991 is now known as test1
+23:02 -!- test1 [~protblock@198.180.182.192] has quit [Remote host closed the connection]
+--- Day changed Tue Apr 03 2018
+18:40 -!- grypsyk [~hlbqpu@node-zzc.pool-118-172.dynamic.totbb.net] has joined #protoblock
+18:40 < grypsyk> ARE YOU BORED ON FRIDAY NIGHTS?? HAVE NO LIFE AND YOU GETTING PUSSY IS JUST A DREAM?? L0DE RADIO HOUR AIRS ON FRIDAYS!! COME TO IRC.EFNET.ORG #LRH FOR MORE INFORMATION!!
+18:41 < grypsyk> m_jimmerMain
+18:41 -!- grypsyk [~hlbqpu@node-zzc.pool-118-172.dynamic.totbb.net] has left #protoblock []
+--- Day changed Thu Apr 12 2018
+19:25 -!- protblockUser9841 [~protblock@50-0-50-206.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+19:50 -!- protblockUser9841 [~protblock@50-0-50-206.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+--- Day changed Sun Apr 15 2018
+20:19 -!- zdeni [~zdeni@91-150-124-144.dynamic.isp.telekom.rs] has joined #protoblock
+20:23 -!- zdeni [~zdeni@91-150-124-144.dynamic.isp.telekom.rs] has quit [Remote host closed the connection]
+--- Day changed Mon Apr 16 2018
+20:58 -!- protblockUser11951 [~protblock@50-0-50-206.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+20:58 -!- protblockUser11951 [~protblock@50-0-50-206.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+21:03 -!- JayBNY [~JayBNY@50-0-50-206.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+21:18 -!- protblockUser13891 [~protblock@50-0-50-206.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+21:20 -!- protblockUser13891 [~protblock@50-0-50-206.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+21:57 -!- JayBNY [~JayBNY@50-0-50-206.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+--- Day changed Tue Apr 17 2018
+22:47 -!- penguin [~penguin@50-0-50-206.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+22:48 -!- penguin [~penguin@50-0-50-206.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+--- Day changed Wed Apr 18 2018
+18:11 -!- lenaryoo [~lenaryoo@50-0-50-206.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+20:11 -!- lenaryoo [~lenaryoo@50-0-50-206.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]
+--- Day changed Wed May 30 2018
+23:05 -!- wislan [b959d9ac@unknownnetwork-a.clients.kiwiirc.com] has joined #protoblock
+23:08 -!- wislan [b959d9ac@unknownnetwork-a.clients.kiwiirc.com] has quit [Quit: ]
+--- Day changed Thu May 31 2018
+19:14 -!- noob [~noob@196.247.56.22] has joined #protoblock
+19:56 -!- noob [~noob@196.247.56.22] has quit [Remote host closed the connection]
+--- Day changed Thu Jun 07 2018
+23:39 -!- sandyjune18 [~sandyjune@50-0-50-206.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+--- Day changed Mon Jun 11 2018
+19:16 -!- sandyjune18 [~sandyjune@50-0-50-206.dsl.dynamic.fusionbroadband.com] has quit [Ping timeout: 240 seconds]
+--- Day changed Wed Jun 13 2018
+12:07 -!- protblockUser9341 [~protblock@50-0-50-150.dsl.dynamic.fusionbroadband.com] has joined #protoblock
+12:10 -!- protblockUser9341 [~protblock@50-0-50-150.dsl.dynamic.fusionbroadband.com] has quit [Remote host closed the connection]

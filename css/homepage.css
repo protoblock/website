@@ -1,0 +1,255 @@
+body{
+    color:white;
+}
+
+h1{
+    color:#FFF!IMPORTANT; 
+    font-weight:700;
+}
+h2,h3,h4,h5,h6{
+    color:#FFF!IMPORTANT; 
+}
+
+.page-container{
+    overflow-x:hidden;
+    margin: 0px;
+}
+
+a, button{
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.displace {
+	position: absolute;
+	left: -5000px;
+}
+/*-----------------------------------------------------------------------------------*/
+/*	Blocks
+/*-----------------------------------------------------------------------------------*/
+
+
+.block{
+    padding:100px 0;
+    text-align: center;
+}
+.buy-block{
+    padding:150px 0;
+    text-align: center;
+}
+ .white{
+    background:#fff; 
+ }
+.grey{
+    background:#333333;
+}
+
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	Header
+/*-----------------------------------------------------------------------------------*/
+
+
+.header-block{
+    padding: 3% 0 0;
+    text-align: center;
+    background-color: rgba(16,51,88,.9);
+}
+.header-container h1{
+    font-size:135px;
+    text-shadow:0 1px 2px #5A8DA9;
+    margin-bottom: 0;
+}
+.tag-line{
+    font-size:20px;
+    color: white!IMPORTANT;
+}
+
+.jetpack-container{
+    max-width:500px;
+    margin:30px auto 0;  
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/* Misc
+/*-----------------------------------------------------------------------------------*/
+
+
+/*
+    Remove Horrible Chrome button border
+*/
+button:focus{
+	outline:none!important;
+}
+
+
+
+
+
+
+#playerCard #playerName{
+/*     color: #464448; */
+}
+
+#teamGradient{
+    /* IE10+ */ 
+    background-image: -ms-linear-gradient(left, #BD0D18 0%, #BD0D18 50%, #000000 100%);
+
+    /* Mozilla Firefox */ 
+    background-image: -moz-linear-gradient(left, #BD0D18 0%, #BD0D18 50%, #000000 100%);
+
+    /* Opera */ 
+    background-image: -o-linear-gradient(left, #BD0D18 0%, #BD0D18 50%, #000000 100%);
+
+    /* Webkit (Safari/Chrome 10) */ 
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #BD0D18), color-stop(50, #BD0D18), color-stop(100, #000000));
+
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-linear-gradient(left, #BD0D18 0%, #BD0D18 50%, #000000 100%);
+
+    /* W3C Markup */ 
+    background-image: linear-gradient(to right, #BD0D18 0%, #BD0D18 50%, #000000 100%);
+    height: 210px;
+    width: 100%;
+
+}
+
+#playerImage{
+    margin-top:20px;
+}
+
+
+.custom .optin_form input {
+    padding: 10px;
+    margin-bottom: 1em;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Nav
+/*-----------------------------------------------------------------------------------*/
+
+.navbar, .navbar.navbar-default {
+    background-color: #EFF6F9;
+    color: #313133;
+    width: 100%;
+}
+#navbarBottom{
+    max-height: .3em;
+    height: .3em;
+    background-color: #103558; 
+}
+
+
+
+/*-----------------------------------------------------------------------------------*/
+/*  Responsive styling
+/*-----------------------------------------------------------------------------------*/
+
+
+@media (max-width: 780px){
+    .modal-video {
+       width: 740px;
+       padding:30px;
+    }
+    .video-frame{
+       width:640px;
+       height:360px
+    }
+}
+@media (max-width: 680px){
+    
+    .video-frame{
+       width:220px;
+       height:124px
+    }
+    .modal-video{
+       width:320px;
+       height:304px;
+    }
+    .header-container h1{
+        font-size: 115px;
+    }
+}
+@media (max-width: 500px){
+    .jetpack-container{
+        margin-top:0;
+    }
+    .ps-version{
+        margin:-70px auto 80px;
+    }
+    .feat-block {
+        max-width: 100%;
+        margin: 50px auto 100px;
+    }
+    .feat-last{
+        margin: 50px auto 50px;
+    }
+    .col-md-12,.container,.col-sm-6{
+        padding-left:5px;
+        padding-right:5px;
+    }
+    .col-xs-6{
+        width:100%;
+    }
+    .vert-split{
+       border-right:none;   
+       border-bottom:2px dotted #c2c2c2;    
+       margin-bottom:20px;
+       padding-bottom:20px;
+    }
+    .block,.buy-block{
+        padding:50px
+    }
+    .header-container h1 {
+        font-size: 90px;
+    }
+    .tag-line{
+        font-size: 15px;
+    }
+    .demo-video{
+        width: 100%;
+        max-width: 80px;
+        height: 80px;
+        background: url("img/play-symbol.gif") no-repeat center center;
+        background-size: 80px 80px;
+        margin: -60px auto 40px;
+    }
+    .demo-video:hover{
+        background-size: 80px 80px;
+    }
+    #footer a{
+       font-size:12px;
+        margin:10px;
+    }
+}
+@media (max-width: 400px){
+    .logo-ring{
+        margin-top:-420px!important; 
+    }
+    .header-block {
+        padding: 40px 0 0;
+    }
+    .ps-version{
+        font-size:12px;
+        width:220px;
+        margin-top:-65px;
+    }
+    .header-container h1 {
+        font-size: 70px;
+    }
+    .buy-block .btn{
+        font-size:16px;
+        padding:12px 40px 10px;
+    }
+    #footer a{
+       font-size:10px;
+        margin:6px;
+    }
+
+}
