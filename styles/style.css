@@ -456,7 +456,9 @@ footer .pb-colorchange {
 }
 
 
-
+video {
+  pointer-events: none;
+}
 
 
 /* core section */
