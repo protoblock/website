@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<!--
+
+88""Yb 88""Yb  dP"Yb  888888  dP"Yb  88""Yb 88      dP"Yb   dP""b8 88  dP
+88__dP 88__dP dP   Yb   88   dP   Yb 88__dP 88     dP   Yb dP   `" 88odP
+88"""  88"Yb  Yb   dP   88   Yb   dP 88""Yb 88  .o Yb   dP Yb      88"Yb
+88     88  Yb  YbodP    88    YbodP  88oodP 88ood8  YbodP   YboodP 88  Yb                                                                                                                       '
+080 114 111 116 111 098 108 111 099 107
+01010000 01110010 01101111 01110100 01101111 01000010 01101100 01101111 01100011 01101011
+
+ contact@protoblock.com
+
+-->
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="google-site-verification" content="7rZRzwP4OghEFh8wjcM2I59-RMs8sqMa7CjXrm3NexY">
+
+  <link rel="shortcut icon" href="/images/logolittle-square-500.png">
+  <title>Protoblock - Proof of Skill</title>
+  <meta name="description" content="Protoblock is a blockchain community driven by NFL statistics and a new consensus algorithm, Proof of Skill.">
+  <meta name="keywords" content="proof of skill, fantasy football, fantasy football mobile app, blockchain, bitcoin, proof of stake, daily fantasy sports, trading">
+  <meta name="wot-verification" content="f21923b4364041de3dc2">
+
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Muli:300,400,600|Open+Sans:300,400,600" rel="stylesheet" type="text/css">
+  <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+
+  <!-- CSS -->
+  <link href="/styles/bootstrap.css" rel="stylesheet" type='text/css'>
+  <link href="/styles/style.css" rel="stylesheet" type="text/css">
+  
+  <!-- JS  -->
+  <script src="/scripts/jquery-3.3.1.min.js"></script>
+  <script src="/scripts/popper.min.js"></script>
+  <script src="/scripts/bootstrap.min.js" type="text/javascript"></script>
+  <script src="/scripts/download.js" type="text/javascript"></script>
+  <script src="/scripts/app.js"></script>
+
+  <!-- Google Tracker -->
+  <div id='theTracker'></div>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg justify-content-center text-monospace text-uppercase">
+  <a class="navbar-brand d-flex w-50 mr-auto toplogo" href="/index.html">
+    <img class="toplogoimg">
+  </a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="navbar-collapse collapse w-100" id="navbar">
+
+    <ul class="navbar-nav w-100 justify-content-center">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-nowrap" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Apps</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="/ticker/">Ticker</a>
+          <a class="dropdown-item" href="/leaderboard/">Leaderboard</a>
+        </div>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-nowrap" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item text-nowrap" target="_blank" href="/docs/whitepaper-2014.pdf">White Paper</a>
+          <a class="dropdown-item text-nowrap" target="_blank" href="/Protoblock-Quick-Start-Guide.pdf">Play Guide</a>
+        </div>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="/faq/">FAQ</a>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-nowrap" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Community</a>
+        <div class="dropdown-menu text-nowrap text-center list-inline my-1" aria-labelledby="navbarDropdown">
+          <ul>
+            <li class="list-inline-item p-1">
+              <a class="sm-drop sm-icon" target="_blank" href="https://t.me/protoblock"><i class="fab fa-telegram-plane text-center"></i></a>
+            </li>
+            <li class="list-inline-item p-1">
+              <a class="sm-drop sm-icon" target="_blank" href="https://www.reddit.com/r/Protoblock/"><i class="fab fa-reddit-alien text-center"></i></a>
+            </li>
+            <li class="list-inline-item p-1">
+              <a class="sm-drop sm-icon" target="_blank" href="https://twitter.com/protoblock"><i class="fab fa-twitter text-center"></i></a>
+            </li><br/>
+            <li class="list-inline-item p-1">
+              <a class="sm-drop sm-icon" target="_blank" href="https://github.com/protoblock/"><i class="fab fa-github-alt text-center"></i></a>
+            </li>
+            <li class="list-inline-item p-1">
+              <a class="sm-drop sm-icon" target="_blank" href="https://www.youtube.com/c/protoblock"><i class="fab fa-youtube text-center"></i></a>
+            </li>
+            <li class="list-inline-item p-1">
+              <a class="sm-drop sm-icon" target="_blank" href="https://www.facebook.com/protoblock/"><i class="fab fa-facebook-f text-center"></i></a>
+            </li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+    
+    <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+      <li class="nav-item my-3">
+        <button type="button" class="pb-button">
+          <a class="text-uppercase" href="/pages/downloads.html">Download</a>
+        </button>        
+      </li>
+    </ul>
+
+  </div>
+</nav>
+<!-- End Navigation -->
+
+
+<!-- Main Body--> 
+<main>
+
+<div class="container faq">
+<div class="row my-5 text-center">
+  <div class="col-12 my-5 text-uppercase">
+    <h1>Frequently Asked Questions</h1>
+  </div>
+</div>
+
+<div class="row mt-3 mb-5">
+<div class="col-12 px-3 mb-5">
+  <div class="accordion" id="faq">
+    <ul class="faq-items">
+
+      <li class="faq-item">
+        <div class="faq-title">
+          <a class="collapsed centerv" href="#faq-1" data-toggle="collapse" aria-expanded="true" aria-controls="faq-1">
+            <p><i class="fas fa-chevron-up"></i> What is Protoblock?</p>
+          </a>
+        </div>
+
+        <div id="faq-1" class="faq-content collapse" aria-labelledby="faqt-1" data-parent="#faq">
+          <p>Protoblock is a public blockchain driven by decentralized consensus on professional sports results. Protoblock offers a platform for monetizing professional sports knowledge by making projections and trading forwards contracts. Protoblock harnesses the value of knowledge by combining blockchain technology, professional sports, and futures trading.</p>
+        </div>
+      </li>
+
+      <li class="faq-item">
+        <div class="faq-title">
+          <a class="collapsed centerv" href="#faq-2" data-toggle="collapse" aria-expanded="true" aria-controls="faq-2">
+            <p><i class="fas fa-chevron-up"></i> Why is blockchain technology?</p>
+          </a>
+        </div>
+
+        <div id="faq-2" class="faq-content collapse" aria-labelledby="faqt-2" data-parent="#faq">
+          <p>To put it simply, blockchain technology solves the impossible problem of reaching distributed consensus named The Byzantine Generals Problem proposed by computer scientists in 1982. Geographically distributed generals are unable to reach consensus on the time of attack on an enemy city without a centralized authority (AKA oracle) in an event of a traitor among them. A successful case of blockchain is the ability to agree on ‘the time’ without an oracle to ‘announce’ the time. Instead, the generals would be able to communicate with each other through messengers and agree on the time, even if there was a traitor among them. Blockchain technology solves this problem probabilistically with a consensus algorithm, called Proof-of-Work.</p>
+        </div>
+      </li>
+
+      <li class="faq-item">
+       <div class="faq-title">
+          <a class="collapsed centerv" href="#faq-3" data-toggle="collapse" aria-expanded="true" aria-controls="faq-3">
+            <p><i class="fas fa-chevron-up"></i> How does professional sports work with blockchain technology?</p>
+          </a>
+        </div>
+
+        <div id="faq-3" class="faq-content collapse" aria-labelledby="faqt-3" data-parent="#faq">
+          <p>In the case of Proof-of-Work, the network comes to a distributed consensus by using SHA-256. Once the needle in the haystack is found, anyone can independently verify its legitimacy by putting it through SHA-256. Protoblock replaces SHA-256 with professional sports. Users make projections on professional sports and the generation and distribution of token is based on the results of the game. Once the game ends, anyone can watch the game and independently verify the results without a centralized authority. The results of the game is comparable to SHA-256 output. Similar to SHA-256, the security of the blockchain relies on the fact that the output, or the result, cannot be predicted easily in professional sports. In Proof-of-Work system, more computing power means you have a better chance at finding the output. In Proof-of-Skill system, more professional sports knowledge means you have a better chance at accurately predicting the results. We consider this knowledge ‘skill,’ hence the name, Proof-of-Skill.</p>
+          <p>By using professional sports, Protoblock provides an energy-saving alternative to Proof-of-Work systems. In addition, the reliability of professional sports has been demonstrated. Not only has humanity been coming to consensus about the results of professional sports results since the Roman times, the phenomenon of professional sports has already been harnessed by the 70-Billion Fantasy Football industry since the 1960s. Billions of dollars have been distributed according to the rules of each league based on the results of the game without an centralized authority. Protoblock is modernizing the industry by utilizing blockchain technology.</p>
+        </div>
+      </li>
+
+      <li class="faq-item">
+        <div class="faq-title">
+          <a class="collapsed centerv" href="#faq-4" data-toggle="collapse" aria-expanded="true" aria-controls="faq-4">
+            <p><i class="fas fa-chevron-up"></i> Why is it necessary for Protoblock to use blockchain technology?</p>
+          </a>
+        </div>
+
+        <div id="faq-4" class="faq-content collapse" aria-labelledby="faqt-4" data-parent="#faq">
+          <p>Distributed network protects against vulnerabilities of having an oracle. Since there is no head to cut off, the network is resilient against attacks and traitors. Fantasy Football community already reflects a distributed network, as many leagues exist without a central authority.</p>
+        </div>
+      </li>
+
+      <li class="faq-item">
+        <div class="faq-title">
+          <a class="collapsed centerv" href="#faq-5" data-toggle="collapse" aria-expanded="true" aria-controls="faq-5">
+            <p><i class="fas fa-chevron-up"></i> What are forwards contracts?</p>
+          </a>
+        </div>
+
+        <div id="faq-5" class="faq-content collapse" aria-labelledby="faqt-5" data-parent="#faq">
+          <p>A forwards contract is a smart contract, with two parties. The Writer and the Holder. The one who writes the contact, does this by “Selling” to to the “Buyer” who will hold it till expiration.</p>
+          <p>At expiration the Buyer must pay the Seller Fantasybit and the Seller must deliver the asset detailed in the Forwards contract. In our case, the contract are “cash” settled, so the asset is Fantasybits.</p>
+        </div>
+      </li>
+
+      <li class="faq-item">
+        <div class="faq-title">
+          <a class="collapsed centerv" href="#faq-6" data-toggle="collapse" aria-expanded="true" aria-controls="faq-6">
+            <p><i class="fas fa-chevron-up"></i> How are forwards contracts same or different than stock trading?</p>
+          </a>
+        </div>
+
+        <div id="faq-6" class="faq-content collapse" aria-labelledby="faqt-6" data-parent="#faq">
+          <p>When you buy a stock you are actually buying something and have to pay for it up front. Even when you get margin, you are still borrowing to pay for the stock. With Forwards, there is nothing to buy, you are just agreeing to make a transaction in the future. No margin is required, only a good faith deposit.</p>
+          <p>Another difference is that the Seller is Forards is not technically “Shorting”, he is just on the side of the contract that agrees to sell something in the future at a price we agree on now. Going long and going short with forwards, are exactly the same.</p>
+        </div>
+      </li>
+
+    </ul>
+    
+  </div>
+</div>
+</div>
+
+</div>
+
+</div>
+</main>
+<!-- End Main Body -->
+
+
+<!-- Footer -->
+<footer class="footer">
+<div class="container-fluid">
+  <div class="row centerh py-3">
+    
+    <div class="col-12 my-3">
+      <h3>Join The First Decentralized Fantasy Football Community</h3>
+    </div>
+
+    <div class="col-12 my-3">
+      <div class="email-text centervh my-1 px-3">
+        <p>Subscribe to our newsletter to stay updated</p>
+      </div>
+
+<!-- AWEBER FORM -->
+      <div class="aweber centervh">
+        <form method="post" accept-charset="UTF-8" action="https://www.aweber.com/scripts/addlead.pl" >
+          <div id="af-form-451745103">
+            <div id="af-body-451745103">
+              <input type="hidden" name="meta_web_form_id" value="451745103"/>
+              <input type="hidden" name="meta_split_id" value=""/>
+              <input type="hidden" name="listname" value="awlist4263557"/>
+              <input type="hidden" name="redirect" value="" id="redirect_f432f02a3ee39813b8f1bdd555ecae3d"/>
+              <input type="hidden" name="meta_adtracking" value="My_Web_Form"/>
+              <input type="hidden" name="meta_message" value="1"/>
+              <input type="hidden" name="meta_required" value="email"/>
+              <input type="hidden" name="meta_tooltip" value=""/>
+            </div>
+          </div>
+          <div class="aweber-form">
+            <input class="text email-form" placeholder=" Enter Your Email" id="awf_field-82128068" type="text" name="email" value="" tabindex="501" onfocus=" if (this.value == '') { this.value = ''; }" onblur="if (this.value == '') { this.value='';}"><br/>
+            <input class="pb-button email-btn my-3" type="submit" name="submit" value="Subscribe">
+          </div>
+        </form>
+      </div> 
+    </div>
+
+    <div class="col-12 my-3 px-2">
+      <ul class="list-inline">
+        <li class="list-inline-item p-2">
+          <a class="sm-drop sm-icon-lg" target="_blank" href="https://t.me/protoblock"><i class="fab fa-telegram-plane text-center"></i></a>
+        </li>
+        <li class="list-inline-item p-2">
+          <a class="sm-drop sm-icon-lg" target="_blank" href="https://www.reddit.com/r/Protoblock/"><i class="fab fa-reddit-alien text-center"></i></a>
+        </li>
+        <li class="list-inline-item p-2">
+          <a class="sm-drop sm-icon-lg" target="_blank" href="https://twitter.com/protoblock"><i class="fab fa-twitter text-center"></i></a>
+        </li>
+        <li class="list-inline-item p-2">
+          <a class="sm-drop sm-icon-lg" target="_blank" href="https://github.com/protoblock/"><i class="fab fa-github-alt text-center"></i></a>
+        </li>
+        <li class="list-inline-item p-2">
+          <a class="sm-drop sm-icon-lg" target="_blank" href="https://www.youtube.com/c/protoblock"><i class="fab fa-youtube text-center"></i></a>
+        </li>
+        <li class="list-inline-item p-2">
+          <a class="sm-drop sm-icon-lg" target="_blank" href="https://www.facebook.com/protoblock/"><i class="fab fa-facebook-f text-center"></i></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+</footer>
+<!-- End Footer -->
+
+</body>
+</html>

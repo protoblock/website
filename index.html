@@ -25,9 +25,9 @@ contact@protoblock.com
   <meta name="wot-verification" content="f21923b4364041de3dc2">
 
   <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Muli:300,400,600,700|Open+Sans:300,400,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:300,400,600|Open+Sans:300,400,600" rel="stylesheet" type="text/css">
   <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
 
   <!-- CSS -->
   <link href="/styles/bootstrap.css" rel="stylesheet" type='text/css'>
@@ -46,75 +46,80 @@ contact@protoblock.com
 </head>
 <body>
 
-<!-- Header -->
-<header class="centerh">
-<div class="top-sticky centervh fixed-top text-center">
-  <a class="ac" href="/pages/downloads.html" target="coins"><h5>Download the App</h5></a>
-</div>
-</header>
-<!-- End Header -->
 <!-- Navigation -->
-<nav>
-  <div class="container">
-    <div class="row pb-navtop centervh d-flex justify-content-end fixed-top">
-      <div class="col-2 d-flex justify-content-end">
-        <a class="pb-navbt" href="#" data-target="#sidebar" data-toggle="collapse">
-          <div id="pb-navbtn" class="pb-navbtn">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </a>
-      </div>
-    </div>
-  </div>
-  <div class=" d-flex">
-    <div class="row fixed-top">
-      <div class="pb-nav col-12 col-sm-6 col-lg-4 collapse shadow text-right" id="sidebar">
-        <div class="pb-navlist text-center text-sm-left">
-          <hr class="pb-navdiv">  
-          <hr class="pb-navdiv">  
-          <hr class="pb-navdiv">  
-          <a class="pb-navlink ahover" href="/pages/downloads.html"><h5>Downloads</h5></a>
-          <hr class="pb-navdiv">
-          <a class="pb-navlink ahover" href="/docs/PlayGuide.pdf"><h5>Play Guide</h5></a>
-          <a target="_blank" class="pb-navlink bchover" href="/docs/whitepaper-2014.pdf"><h5>White Paper</h5></a>
-          <hr class="pb-navdiv">
-          <a class="pb-navlink ahover" href="/pages/ticker.html"><h5>Ticker</h5></a>
-          <a class="pb-navlink ahover" href="/pages/leaderboard.html"><h5>Leaderboard</h5></a>
-          <hr class="pb-navdiv">
-          <a target="_blank" class="pb-navlink ahover" href="http://blog.protoblock.com/"><h5>Blog</h5></a>
-          <hr class="pb-navdiv">
-          <div class="pb-navsocnet">
-            <a target="_blank" class="pb-navsn telegram bchover" href="https://t.me/protoblock"><i class="fab fa-telegram-plane"></i></a>
-            <a target="_blank" class="pb-navsn twitter ahover" href="https://twitter.com/protoblock"><i class="fab fa-twitter"></i></a>
-            <a target="_blank" class="pb-navsn github bchover" href="https://github.com/protoblock/"><i class="fab fa-github"></i></a>
-            <a target="_blank" class="pb-navsn youtube ahover" href="https://www.youtube.com/c/protoblock"><i class="fab fa-youtube"></i></a>
-          </div>
+<nav class="navbar navbar-expand-lg justify-content-center text-monospace text-uppercase">
+  <a class="navbar-brand d-flex w-50 mr-auto toplogo" href="/index.html">
+    <img class="toplogoimg">
+  </a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="navbar-collapse collapse w-100" id="navbar">
+
+    <ul class="navbar-nav w-100 justify-content-center">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-nowrap" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Apps</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="/ticker/">Ticker</a>
+          <a class="dropdown-item" href="/leaderboard/">Leaderboard</a>
         </div>
-        
-      </div>
-    </div>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-nowrap" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item text-nowrap" target="_blank" href="/docs/whitepaper-2014.pdf">White Paper</a>
+          <a class="dropdown-item text-nowrap" target="_blank" href="/Protoblock-Quick-Start-Guide.pdf">Play Guide</a>
+        </div>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="/faq/">FAQ</a>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-nowrap" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Community</a>
+        <div class="dropdown-menu text-nowrap text-center list-inline my-1" aria-labelledby="navbarDropdown">
+          <ul>
+            <li class="list-inline-item p-1">
+              <a class="sm-drop sm-icon" target="_blank" href="https://t.me/protoblock"><i class="fab fa-telegram-plane text-center"></i></a>
+            </li>
+            <li class="list-inline-item p-1">
+              <a class="sm-drop sm-icon" target="_blank" href="https://www.reddit.com/r/Protoblock/"><i class="fab fa-reddit-alien text-center"></i></a>
+            </li>
+            <li class="list-inline-item p-1">
+              <a class="sm-drop sm-icon" target="_blank" href="https://twitter.com/protoblock"><i class="fab fa-twitter text-center"></i></a>
+            </li><br/>
+            <li class="list-inline-item p-1">
+              <a class="sm-drop sm-icon" target="_blank" href="https://github.com/protoblock/"><i class="fab fa-github-alt text-center"></i></a>
+            </li>
+            <li class="list-inline-item p-1">
+              <a class="sm-drop sm-icon" target="_blank" href="https://www.youtube.com/c/protoblock"><i class="fab fa-youtube text-center"></i></a>
+            </li>
+            <li class="list-inline-item p-1">
+              <a class="sm-drop sm-icon" target="_blank" href="https://www.facebook.com/protoblock/"><i class="fab fa-facebook-f text-center"></i></a>
+            </li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+    
+    <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+      <li class="nav-item my-3">
+        <button type="button" class="pb-button">
+          <a class="text-uppercase" href="/pages/downloads.html">Download</a>
+        </button>        
+      </li>
+    </ul>
+
   </div>
 </nav>
 <!-- End Navigation -->
-
 <!-- Main Body--> 
 <main>
-<!-- Top Logo-->
-<div class="container-fluid top-logo-bg">
-<div class="row">
-  <div class="container">
-    <div class="row">
-  <div class="col-12 d-flex align-items-center">
-    <div class="top-logo align-self-start centerh">
-      <a class="toplogo" href="/index.html"><img class="img-fluid" src="/images/logo-whitetext-500.png"></a>
-    </div>
-  </div>
-</div>
-</div>
-</div>
-</div>
+
 <!-- Landing Page -->
 <div class="container-fluid lp-bg">
   <div class="row">
