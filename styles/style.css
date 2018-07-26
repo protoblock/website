@@ -24,6 +24,20 @@ mid to creamy navy
 #bdd8d9, #98bec4, #75a4b1, #538aa0, #31708f
 */
 
+/* media queries
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
 /* custom fonts */
 @font-face {
   font-family: "Arcon";
@@ -80,6 +94,7 @@ mid to creamy navy
 /* repeated elements *******************************************************************************/
 body {
   font-family: 'Muli', sans-serif;
+  font-weight: 300;
   color:#103558;
 }
 
@@ -277,11 +292,11 @@ footer .pb-colorchange {
   transition-timing-function: ease-out;
 }
 
-/*** page sections in order *******************************************************************************/
+/*** page sections in order *****************************************************/
 
 /*
 
-  bootstrap 4 navbar 
+  bootstrap 4 navbar *****************************************************
 
 */
 
@@ -310,9 +325,9 @@ footer .pb-colorchange {
 .navbar {
   background-color: #103558;
   font-family: Muli, sans-serif;
-  font-weight: 300;
   padding-top: 0px!important;
   padding-bottom: 0px!important;
+  z-index: 100;
 }
 .navbar .navbar-brand {
   color: #ffffff;
@@ -469,48 +484,62 @@ footer .pb-colorchange {
   .navbar .navbar-nav .dropdown-item{
     text-align: center;
   }
+
+  .coin-button-top {
+    margin-top: 1em;
+    margin-bottom: .5em;
+  }
+
+  .dl-button-top {
+    margin-top: .5em;
+    margin-bottom: 1.5em;
+  }
 }
 
+@media (min-width: 992px) {
+  .dl-button-top-box {
+    max-width: 175px;
+  }
+}
 
+/* coins button */
+.coin-button-top {
+  color: #ffb400;
+  border-color: #ffb400;
+}
 
 /* download button */
-.navbar .pb-button {
+.dl-button-top {
   color: white;
   border-color: white;
 }
 
-/* landing page section*/
-/*
-.top-logo {
-  margin-top: 5vh;
-  z-index: 2001;
-  height: 7vh;
+/* 
+
+landing page section *****************************************************
+
+*/
+
+.lp {
+  z-index: -3;
 }
-
-.top-logo-bg{
-  background-color: transparent;
-}
-
-
-.toplogo {
-  margin-top: auto;
-  margin-bottom: auto;
-} */
-
 
 .video-box {
+  background-color: #103558;
   top: 0;
   bottom: 0;
   width: 100%;
   height: 100%; 
   overflow: hidden;
+  z-index: -1;
 }
 
 .video-ul {
   position: absolute;
   width:100vw;
-  height: 95vh;
+  height: 91vh;
   overflow: hidden;
+  z-index: -2;
 }
 
 .bg-vid {
@@ -519,30 +548,274 @@ footer .pb-colorchange {
   width: auto;
   height: auto;
   opacity: .25;
-
 }
 
-.lp-bg {
-    background-color: #103558;
-}
-
-
-.tagline {
+.lp-l {
+  height: 91vh;
   color: white;
 }
 
-.landingpage {
-  height: 95vh;
+.tagline,
+.tagline2 {
+  opacity: .9;
+  margin-left: .5em;
+  text-align: left!important;
 }
 
-.landinapge div {
-    opacity: 1.0!important;
+.lp h1,
+.lp h2,
+.lp h3 {
+  margin-bottom: 0!important;
+  letter-spacing: 2px;
 }
 
-.rdl-btn {
-  background-color: #ffb400;
+.lp h1 {  
+  font-size: 2em;
+}
+
+.lp h2 {
+  font-size: 1.75em;
+}
+
+.lp h3 {
+  font-size: 1.25em;
+}
+
+.lp h4 {
+  font-size: 1em;
+}
+
+.rdl-button,
+.lm-button {
   color: white;
+  width: 30vw;
+  min-width: 280px;
+  padding: 10px;
+  border: white solid 3px;
+  opacity: .85;
+  margin-right: auto;
+  margin-left: .5em;
 }
+
+.rdl-button {
+  background-color: #017ea7;
+}
+
+.lm-button {
+  background-color: transparent;
+}
+
+.lp-r {
+  height: 100vh;
+  color: white;
+  background-color: #103558;
+}
+
+.e-vid {
+  overflow: hidden;
+}
+
+.what-is {
+  margin-top: 8vh;
+  margin-bottom: 3vh;
+}
+
+.lm-text {
+  margin-top: 2vh;
+  padding-bottom: 3vh;
+}
+
+.lm {
+  margin-bottom: 3vh;
+}
+
+
+.lm-text,
+.lm-buttons {
+  opacity: .9;
+  z-index: 3;
+  padding-left: 2.5vw!important;
+  padding-right: 2.5vw!important;
+}
+
+
+.lp-filler {
+  height: 11vh;
+}
+
+.exp-video {
+  min-width: 280px;
+  max-width: 65vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wp-button,
+.md-button,
+.pg-button {
+  width: 80vw;
+  max-width: 50vw;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 5px;
+  margin-bottom: 1em;
+}
+
+.wp-button {
+  color: #103558;
+  background-color: white;
+  border: white solid 3px;
+}
+
+.md-button {
+  color: white;
+  background-color: transparent;
+  border: white solid 3px;
+}
+
+.pg-button {
+  color: #ffb400;
+  background-color: transparent;
+  border: #ffb400 solid 3px;
+}
+
+
+/* center at sm to md screens */
+@media (min-width: 576px) {
+  .tagline,
+  .tagline2 {
+    text-align: center!important;
+  }
+  
+  .rdl-button,
+  .lm-button {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .lp h1 {
+    font-size: 2.25rem;
+  }
+
+  .lp h2 {
+    font-size: 2rem;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .lp h1 {
+    font-size: 2.75rem;
+  }
+
+  .lp h2 {
+    font-size: 2.25rem;
+  }
+
+  .lp h3 {
+    font-size: 1.75rem;
+  }
+
+  .lp h4 {
+    font-size: 1.5rem;
+  }
+
+}
+
+@media (max-width: 992px) {
+  .lp-r {
+    background-image: linear-gradient(to bottom, #103558, #10395d, #113d62, #114267, #11466c);
+  }
+}
+
+/* align right at lg screens */
+@media (min-width: 992px) {
+  .tagline,
+  .tagline2 {
+    text-align: right!important;
+    margin-right: 2em;
+    padding-left: 3em;
+  }
+  
+  .rdl-button {
+    margin-top: 3em!important;
+    margin-right: 2em;
+    margin-left: auto;
+  }
+
+  .lm-button {
+    display: none;
+  }
+
+  .lp h1 {
+    font-size: 3rem;
+  }
+
+  .lp h2 {
+    font-size: 2.5rem;
+  }
+
+  .lp-r {
+    height: 91vh;
+  }
+
+  .lp-r.lp-filler {
+    display: none;
+  }
+
+  .lm-buttons {
+    display: flex!important;
+    flex-direction: row!important;
+    justify-content: center!important;
+  }
+
+  .wp-button,
+  .md-button,
+  .pg-button {
+    width: 130px;
+  }
+
+  .exp-video {
+    padding-right: 3em;
+    padding-left: 3em;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  .exp-video {
+    max-width: 750px;
+  }
+
+  .wp-button,
+  .md-button,
+  .pg-button {
+    width: 13vw;
+  }
+}
+
+@media (min-height: 768px) {
+  .e-vid {
+    margin-bottom: 8vh;
+  }
+
+  .what-is {
+    margin-bottom: 5vh;
+  }
+
+  .lm-text {
+    padding-bottom: 5vh;
+  }
+
+  .lm {
+    margin-bottom: 7vh;
+  }
+}
+
+
+
+
+
 
 
 
@@ -645,7 +918,7 @@ footer {
   background-color: transparent;
   border: white solid 2px;
   width: 50vw;
-  min-width: 300px;
+  min-width: 280px;
   padding: 10px 5px;
 }
 
@@ -660,7 +933,7 @@ footer {
   background-color: white;
   border: none;
   width: 50vw;
-  min-width: 300px;
+  min-width: 280px;
   padding: 10px 5px;
 }
 

@@ -71,7 +71,7 @@ contact@protoblock.com
         <a class="nav-link dropdown-toggle text-nowrap" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item text-nowrap" target="_blank" href="/docs/whitepaper-2014.pdf">White Paper</a>
-          <a class="dropdown-item text-nowrap" target="_blank" href="/Protoblock-Quick-Start-Guide.pdf">Play Guide</a>
+          <a class="dropdown-item text-nowrap" target="_blank" href="/PlayGuide.pdf">Play Guide</a>
         </div>
       </li>
 
@@ -105,10 +105,17 @@ contact@protoblock.com
         </div>
       </li>
     </ul>
-    
     <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
-      <li class="nav-item my-3">
-        <button type="button" class="pb-button">
+      <li class="nav-item">
+        <button type="button" class="pb-button coin-button-top">
+          <a class="text-uppercase text-nowrap" href="/coins/">Get Coins</a>
+        </button>        
+      </li>
+    </ul>
+
+    <ul class="nav navbar-nav ml-auto w-100 justify-content-end dl-button-top-box">
+      <li class="nav-item mx-3">
+        <button type="button" class="pb-button dl-button-top">
           <a class="text-uppercase" href="/pages/downloads.html">Download</a>
         </button>        
       </li>
@@ -121,9 +128,9 @@ contact@protoblock.com
 <main>
 
 <!-- Landing Page -->
-<div class="container-fluid lp-bg">
-  <div class="row">
+<div class="container-fluid lp">
 <!-- Video Underlay -->
+<div class="row v-underlay">
   <div class="video-ul d-flex justify-content-center align-items-center">
     <div class="video-box">
       <video class="bg-vid" muted autoplay loop>
@@ -133,22 +140,57 @@ contact@protoblock.com
       </video>
     </div>
   </div>
+</div>
 <!-- Landing Page Content -->
-  <div class="col-12 lp-content centerh">
-    <div class="landingpage d-flex flex-column flex-wrap justify-content-center align-items-center">
-  <!-- Tagline --> 
-      <div class="tagline text-center">
-        <h3>The Original Football Blockchain</h3>
-        <h5>of Fantasy Football, by Fantasy Football, for Fantasy Football</h5>
-      </div> 
-  <!-- Call for Action -->
-      <div class="cfaction">
-        <div class="my-4 btn pb-btn rdl-btn"><a id='resp-download'></a></div>
+<div class="row centervh text-center">
+
+  <div class="col-12 col-lg-5 col-xl-5 lp-l d-flex flex-column justify-content-center"">
+    <div class="text-left text-uppercase my-4 tagline">
+      <h2 class="">The Original</h2>
+      <h2 class="">Football Blockchain</h2>
+    </div>
+    <div class="text-left my-3 tagline2">
+      <h3 class="text-uppercase">Proof-of-Skill</h3>
+      <h4>The First Social Consensus Algorithm</h4>
+    </div>
+    <div class="pb-button rdl-button my-2">
+      <a class="text-uppercase" id='resp-download'></a>
+    </div>
+    <div class="pb-button lm-button mt-2">
+      <a class="text-uppercase text-nowrap" href="#exp-vid">Learn More</a>
+    </div>
+    <div class="lp-filler"></div>
+  </div>
+<!-- Explainer Video -->
+  <div class="col-12 col-lg-7 col-xl-7 lp-r d-flex flex-column justify-content-between"" id="exp-vid">
+    <div class="what-is">
+        <h1 class="text-uppercase">What is Protoblock?</h1>
       </div>
+    <div class="e-vid">
+      <div class="exp-video">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item explainervideo" width="auto" src="https://www.youtube.com/embed/ntIJT_uHMBs?modestbranding=1;controls=0;rel=0;fs=1" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="lm">
+      <h3 class="text-uppercase text-center lm-text">Learn More</h3>
+      <div class="lm-buttons">
+        <div class="pb-button md-button mt-2">
+          <a class="text-uppercase text-nowrap" href="#">Medium Post</a>
+        </div>
+        <div class="pb-button wp-button mt-2">
+          <a class="text-uppercase text-nowrap" href="/docs/whitepaper-2014.pdf">White paper</a>
+        </div>
+        <div class="pb-button pg-button mt-2">
+          <a class="text-uppercase text-nowrap" href="/docs/PlayGuide.pdf">Play Guide</a>
+        </div>
     </div>
   </div>
 </div>
 </div>
+</div>
+
 
 <div class="container intro ac">
   <div class="row  mt-5 pt-3 text-center">
@@ -196,24 +238,20 @@ contact@protoblock.com
 
 <!-- Footer -->
 <footer class="footer">
-<div class="container pt-5">
-<!-- AWEBER -->
-<div class="row centerh">
-<div class="col-12 col-md-3 email-list mt-3 mb-5 centervh">
-  <button type="button" class="btn pb-btn e-btn" data-toggle="modal" data-target="#email-list">
-  Join Our Email List
-  </button>
+<div class="container-fluid">
+  <div class="row centerh py-3">
+    
+    <div class="col-12 my-3">
+      <h3>Join The First Decentralized Fantasy Football Community</h3>
+    </div>
 
-  <div class="modal" id="email-list" tabindex="-1" role="dialog" aria-labelledby="Email-List" aria-hidden="true">
-  <div class="e-box d-flex align-content-center justify-content-center">
-  <div class="modal-content">
-    <div class="modal-body">
-      <button type="button" class="close e-close-btn" data-dismiss="modal" aria-label="Close">
-        <span aria-hidden="true">&times;</span>
-      </button>
+    <div class="col-12 my-3">
+      <div class="email-text centervh my-1 px-3">
+        <p>Subscribe to our newsletter to stay updated</p>
+      </div>
 
-      <!-- AWEBER FORM ***NOT WORKING*** -->
-      <div class="aweber flex-fill ">
+<!-- AWEBER FORM -->
+      <div class="aweber centervh">
         <form method="post" accept-charset="UTF-8" action="https://www.aweber.com/scripts/addlead.pl" >
           <div id="af-form-451745103">
             <div id="af-body-451745103">
@@ -228,31 +266,37 @@ contact@protoblock.com
             </div>
           </div>
           <div class="aweber-form">
-            <h3 class="email-text mb-5">Join Our Email List</h3>
-            <input class="text email-form mr-2" placeholder=" Enter Your Email" id="awf_field-82128068" type="text" name="email" value="" tabindex="501" onfocus=" if (this.value == '') { this.value = ''; }" onblur="if (this.value == '') { this.value='';}">
-            <input class="pb-btn email-btn pb-colorchange" type="submit" name="submit" value="Join">
+            <input class="text email-form" placeholder=" Enter Your Email" id="awf_field-82128068" type="text" name="email" value="" tabindex="501" onfocus=" if (this.value == '') { this.value = ''; }" onblur="if (this.value == '') { this.value='';}"><br/>
+            <input class="pb-button email-btn my-3" type="submit" name="submit" value="Subscribe">
           </div>
         </form>
       </div> 
     </div>
-  </div>
-  </div>
-  </div>
-</div>
-<!-- Community -->
-<div class="col-12 col-md-9">
-<div class="col-12 comm-text mb-3 px-5">
-  <h5>Join The First Decentralized Fantasy Football Community</h5>
-</div>
 
-<div class="col-12 comm-box d-flex flex-wrap justify-content-around align-items-center mb-5">
-  <div class="community col-12 d-flex flex-wrap justify-content-around align-items-center">
-    <a target="_blank" class="pb-navsn comm-icon telegram bchover" href="https://t.me/protoblock"><i class="fab fa-telegram-plane"></i></i></a>
-    <a target="_blank" class="pb-navsn comm-icon twitter ahover" href="https://twitter.com/protoblock"><i class="fab fa-twitter"></i></a>
-    <a target="_blank" class="pb-navsn comm-icon github bchover" href="https://github.com/protoblock/"><i class="fab fa-github"></i></a>
-    <a target="_blank" class="pb-navsn comm-icon youtube ahover" href="https://www.youtube.com/c/protoblock"><i class="fab fa-youtube"></i></a>
-</div>
-</div>
+    <div class="col-12 my-3 px-2">
+      <ul class="list-inline">
+        <li class="list-inline-item p-2">
+          <a class="sm-drop sm-icon-lg" target="_blank" href="https://t.me/protoblock"><i class="fab fa-telegram-plane text-center"></i></a>
+        </li>
+        <li class="list-inline-item p-2">
+          <a class="sm-drop sm-icon-lg" target="_blank" href="https://www.reddit.com/r/Protoblock/"><i class="fab fa-reddit-alien text-center"></i></a>
+        </li>
+        <li class="list-inline-item p-2">
+          <a class="sm-drop sm-icon-lg" target="_blank" href="https://twitter.com/protoblock"><i class="fab fa-twitter text-center"></i></a>
+        </li>
+        <li class="list-inline-item p-2">
+          <a class="sm-drop sm-icon-lg" target="_blank" href="https://github.com/protoblock/"><i class="fab fa-github-alt text-center"></i></a>
+        </li>
+        <li class="list-inline-item p-2">
+          <a class="sm-drop sm-icon-lg" target="_blank" href="https://www.youtube.com/c/protoblock"><i class="fab fa-youtube text-center"></i></a>
+        </li>
+        <li class="list-inline-item p-2">
+          <a class="sm-drop sm-icon-lg" target="_blank" href="https://www.facebook.com/protoblock/"><i class="fab fa-facebook-f text-center"></i></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
 </div>
 </footer>
 <!-- End Footer -->
