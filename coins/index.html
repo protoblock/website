@@ -24,16 +24,16 @@
   <meta name="keywords" content="proof of skill, fantasy football, fantasy football mobile app, blockchain, bitcoin, proof of stake, daily fantasy sports, trading">
   <meta name="wot-verification" content="f21923b4364041de3dc2">
 
-
   <!-- Fonts -->
-  <link href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Muli:200,300,400,600|Open+Sans:200,300,400,600" rel="stylesheet" type="text/css">
   <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
 
   <!-- CSS -->
   <link href="/styles/bootstrap.css" rel="stylesheet" type='text/css'>
+  <link href="/styles/bootstrap.min.css" rel="stylesheet" type='text/css'>
   <link href="/styles/style.css" rel="stylesheet" type="text/css">
-  
+
   <!-- JS  -->
   <script src="/scripts/jquery-3.3.1.min.js"></script>
   <script src="/scripts/popper.min.js"></script>
@@ -45,77 +45,91 @@
   <div id='theTracker'></div>
 </head>
 <body>
-
-<!-- Header -->
-<header class="centerh">
-<div class="top-sticky centervh fixed-top text-center">
-  <a class="ac" href="/pages/downloads.html" target="coins"><h5>Download the App</h5></a>
-</div>
-</header>
-<!-- End Header -->
 <!-- Navigation -->
-<nav>
-  <div class="container">
-    <div class="row pb-navtop centervh d-flex justify-content-end fixed-top">
-      <div class="col-2 d-flex justify-content-end">
-        <a class="pb-navbt" href="#" data-target="#sidebar" data-toggle="collapse">
-          <div id="pb-navbtn" class="pb-navbtn">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </a>
-      </div>
-    </div>
-  </div>
-  <div class=" d-flex">
-    <div class="row fixed-top">
-      <div class="pb-nav col-12 col-sm-6 col-lg-4 collapse shadow text-right" id="sidebar">
-        <div class="pb-navlist text-center text-sm-left">
-          <hr class="pb-navdiv">  
-          <hr class="pb-navdiv">  
-          <hr class="pb-navdiv">  
-          <a class="pb-navlink ahover" href="/pages/downloads.html"><h5>Downloads</h5></a>
-          <hr class="pb-navdiv">
-          <a class="pb-navlink ahover" href="/docs/PlayGuide.pdf"><h5>Play Guide</h5></a>
-          <a target="_blank" class="pb-navlink bchover" href="/docs/whitepaper-2014.pdf"><h5>White Paper</h5></a>
-          <hr class="pb-navdiv">
-          <a class="pb-navlink ahover" href="/pages/ticker.html"><h5>Ticker</h5></a>
-          <a class="pb-navlink ahover" href="/pages/leaderboard.html"><h5>Leaderboard</h5></a>
-          <hr class="pb-navdiv">
-          <a target="_blank" class="pb-navlink ahover" href="http://blog.protoblock.com/"><h5>Blog</h5></a>
-          <hr class="pb-navdiv">
-          <div class="pb-navsocnet">
-            <a target="_blank" class="pb-navsn telegram bchover" href="https://t.me/protoblock"><i class="fa fa-telegram"></i></a>
-            <a target="_blank" class="pb-navsn twitter ahover" href="https://twitter.com/protoblock"><i class="fa fa-twitter"></i></a>
-            <a target="_blank" class="pb-navsn github bchover" href="https://github.com/protoblock/"><i class="fa fa-github"></i></a>
-            <a target="_blank" class="pb-navsn youtube ahover" href="https://www.youtube.com/c/protoblock"><i class="fa fa-youtube-play"></i></a>
-          </div>
+<nav class="navbar navbar-expand-lg justify-content-center text-monospace text-uppercase">
+  <a class="navbar-brand d-flex w-50 mr-auto toplogo" href="/index.html">
+    <img class="toplogoimg">
+  </a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="navbar-collapse collapse w-100" id="navbar">
+
+    <ul class="navbar-nav w-100 justify-content-center">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-nowrap" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Apps</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="/pages/ticker.html">Ticker</a>
+          <a class="dropdown-item" href="/pages/leaderboard.html">Leaderboard</a>
         </div>
-        
-      </div>
-    </div>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-nowrap" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item text-nowrap" target="_blank" href="/docs/whitepaper-2014.pdf">White Paper</a>
+          <a class="dropdown-item text-nowrap" target="_blank" href="/docs/PlayGuide.pdf">Play Guide</a>
+        </div>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="/index.html#faq">FAQ</a>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-nowrap" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Community</a>
+        <div class="dropdown-menu text-nowrap text-center list-inline my-1" aria-labelledby="navbarDropdown">
+          <ul>
+            <li class="list-inline-item p-1">
+              <a class="sm-drop sm-icon" target="_blank" href="https://t.me/protoblock"><i class="fab fa-telegram-plane text-center"></i></a>
+            </li>
+            <li class="list-inline-item p-1">
+              <a class="sm-drop sm-icon" target="_blank" href="https://www.reddit.com/r/Protoblock/"><i class="fab fa-reddit-alien text-center"></i></a>
+            </li>
+            <li class="list-inline-item p-1">
+              <a class="sm-drop sm-icon" target="_blank" href="https://twitter.com/protoblock"><i class="fab fa-twitter text-center"></i></a>
+            </li><br/>
+            <li class="list-inline-item p-1">
+              <a class="sm-drop sm-icon" target="_blank" href="https://github.com/protoblock/"><i class="fab fa-github-alt text-center"></i></a>
+            </li>
+            <li class="list-inline-item p-1">
+              <a class="sm-drop sm-icon" target="_blank" href="https://www.youtube.com/c/protoblock"><i class="fab fa-youtube text-center"></i></a>
+            </li>
+            <li class="list-inline-item p-1">
+              <a class="sm-drop sm-icon" target="_blank" href="https://www.facebook.com/protoblock/"><i class="fab fa-facebook-f text-center"></i></a>
+            </li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+    <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+      <li class="nav-item">
+        <button type="button" class="pb-button coin-button-top">
+          <a class="text-uppercase text-nowrap" href="/coins/">Get Coins</a>
+        </button>        
+      </li>
+    </ul>
+
+    <ul class="nav navbar-nav ml-auto w-100 justify-content-end dl-button-top-box">
+      <li class="nav-item mx-3">
+        <button type="button" class="pb-button dl-button-top">
+          <a class="text-uppercase" href="/pages/downloads.html">Download</a>
+        </button>        
+      </li>
+    </ul>
+
   </div>
 </nav>
 <!-- End Navigation -->
 
-
 <!-- Main Body--> 
 <main>
-<div class="container">
-  <div class="row">
-    <div class="col-12 d-flex">
-      <div class="top-logo align-self-start centerh">
-        <a class="toplogo" href="/index.html"><img class="img-fluid" src="/images/logo-transptext-500.png"></a>
-      </div>
-    </div>
-  </div>
-</div>
-
 <div class="container-fluid py-4">
 <div class="row text-center">
   <div class="col-12 mb-5">
-    <h1>Get Coins</h1>
+    <h1 class="text-uppercase">Get Coins</h1>
   </div>
 </div>
 
@@ -124,23 +138,23 @@
   <div class="col-12 col-sm-10 col-md-8 col-lg-6">
     <div class="coins-out">
     <ol class="coins-dir">
-      <li><h4><strong>Download the App</strong></h4>
-        <div class="m-2 btn pb-btn rdl-btn"><a id='resp-download'></a></div>
+      <li><h5 class="my-2">Download the App</h5>
+        <div class="mx-2 my-4 pb-button rdl-button-coin text-center"><a id='resp-download'></a></div>
       </li>
-      <li><h4><strong>Claim Your Name on the App</strong></h4>
+      <li><h5 class="my-2">Claim Your Name on the App</h5>
       </li>
-      <li><h4><strong>Verify Your Name via Twitter</strong></h4>
-        <div class="ml-3">
-          <h5>Tweet the following:</h5>
-          <h6 class="coins-tweet">"&lt;&lt;&gt;&gt;Your Protoblock Name&lt;&lt;&gt;&gt; @protoblock"</h6>
-          <h5> by clicking below</h5>
+      <li><h5 class="my-2">Verify Your Name via Twitter</h5>
+        <div class="ml-3 mt-3 ">
+          <h6 class="my-2">Tweet the following:</h6>
+          <p class=" my-2 coins-tweet">"&lt;&lt;&gt;&gt;Your Protoblock Name&lt;&lt;&gt;&gt; @protoblock"</p>
+          <h6 class="my-2">by clicking below</h6>
         </div>
-          <div class="m-2 btn pb-btn tweet-btn"><a href="https://twitter.com/intent/tweet?text=%3C%3C%3E%3E_Your_Protoblock_Player_Name_Here_%3C%3C%3E%3E%20&via=protoblock">Quick Tweet</a></div> 
+          <div class="mx-2 my-4 pb-button tweet-button text-center"><a href="https://twitter.com/intent/tweet?text=%3C%3C%3E%3E_Your_Protoblock_Player_Name_Here_%3C%3C%3E%3E%20&via=protoblock">Quick Tweet</a></div> 
 
       </li>
-      <li><h4><strong>Follow @protoblock on Twitter</strong></h4>
+      <li><h5 class="my-2">Follow @protoblock on Twitter</h5>
       </li>
-      <li><h4><strong>Check back in 24 hours</strong></h4>
+      <li><h5 class="my-2">Check back in 24 hours</h5>
       </li>         
     </ol>
 </div>
@@ -152,25 +166,22 @@
 <!-- End Main Body -->
 
 <!-- Footer -->
-<footer class="footer">
-<div class="container pt-5">
-<!-- AWEBER -->
-<div class="row centerh">
-<div class="col-12 col-md-3 email-list mt-3 mb-5 centervh">
-  <button type="button" class="btn pb-btn e-btn" data-toggle="modal" data-target="#email-list">
-  Join Our Email List
-  </button>
+<footer class="footer" id="footer">
+<div class="container">
+  <div class="row centerh py-3">
+    
+    <div class="col-12 my-3">
+      <h3>Join The First Decentralized</h3>
+      <h3>Fantasy Football Community</h3>
+    </div>
 
-  <div class="modal" id="email-list" tabindex="-1" role="dialog" aria-labelledby="Email-List" aria-hidden="true">
-  <div class="e-box d-flex align-content-center justify-content-center">
-  <div class="modal-content">
-    <div class="modal-body">
-      <button type="button" class="close e-close-btn" data-dismiss="modal" aria-label="Close">
-        <span aria-hidden="true">&times;</span>
-      </button>
+    <div class="col-12 my-3">
+      <div class="email-text centervh my-1 px-3 pb-3">
+        <h6>Subscribe to our newsletter to stay updated</h6>
+      </div>
 
-      <!-- AWEBER FORM ***NOT WORKING*** -->
-      <div class="aweber flex-fill ">
+<!-- AWEBER FORM -->
+      <div class="aweber centervh">
         <form method="post" accept-charset="UTF-8" action="https://www.aweber.com/scripts/addlead.pl" >
           <div id="af-form-451745103">
             <div id="af-body-451745103">
@@ -185,31 +196,37 @@
             </div>
           </div>
           <div class="aweber-form">
-            <h3 class="email-text mb-5">Join Our Email List</h3>
-            <input class="text email-form mr-2" placeholder=" Enter Your Email" id="awf_field-82128068" type="text" name="email" value="" tabindex="501" onfocus=" if (this.value == '') { this.value = ''; }" onblur="if (this.value == '') { this.value='';}">
-            <input class="pb-btn email-btn pb-colorchange" type="submit" name="submit" value="Join">
+            <input class="text email-form text-uppercase" placeholder=" Enter Your Email" id="awf_field-82128068" type="text" name="email" value="" tabindex="501" onfocus=" if (this.value == '') { this.value = ''; }" onblur="if (this.value == '') { this.value='';}"><br/>
+            <input class="pb-button email-btn my-3 text-uppercase" type="submit" name="submit" value="Subscribe">
           </div>
         </form>
       </div> 
     </div>
-  </div>
-  </div>
-  </div>
-</div>
-<!-- Community -->
-<div class="col-12 col-md-9">
-<div class="col-12 comm-text mb-3 px-5">
-  <h5>Join The First Decentralized Fantasy Football Community</h5>
-</div>
 
-<div class="col-12 comm-box d-flex flex-wrap justify-content-around align-items-center mb-5">
-  <div class="community col-12 d-flex flex-wrap justify-content-around align-items-center">
-    <a target="_blank" class="pb-navsn comm-icon telegram bchover" href="https://t.me/protoblock"><i class="fa fa-telegram"></i></a>
-    <a target="_blank" class="pb-navsn comm-icon twitter ahover" href="https://twitter.com/protoblock"><i class="fa fa-twitter"></i></a>
-    <a target="_blank" class="pb-navsn comm-icon github bchover" href="https://github.com/protoblock/"><i class="fa fa-github"></i></a>
-    <a target="_blank" class="pb-navsn comm-icon youtube ahover" href="https://www.youtube.com/c/protoblock"><i class="fa fa-youtube-play"></i></a>
-</div>
-</div>
+    <div class="col-12 my-3 px-2">
+      <ul class="list-inline">
+        <li class="list-inline-item p-2">
+          <a class="sm-drop sm-icon-lg" target="_blank" href="https://t.me/protoblock"><i class="fab fa-telegram-plane text-center"></i></a>
+        </li>
+        <li class="list-inline-item p-2">
+          <a class="sm-drop sm-icon-lg" target="_blank" href="https://www.reddit.com/r/Protoblock/"><i class="fab fa-reddit-alien text-center"></i></a>
+        </li>
+        <li class="list-inline-item p-2">
+          <a class="sm-drop sm-icon-lg" target="_blank" href="https://twitter.com/protoblock"><i class="fab fa-twitter text-center"></i></a>
+        </li>
+        <li class="list-inline-item p-2">
+          <a class="sm-drop sm-icon-lg" target="_blank" href="https://github.com/protoblock/"><i class="fab fa-github-alt text-center"></i></a>
+        </li>
+        <li class="list-inline-item p-2">
+          <a class="sm-drop sm-icon-lg" target="_blank" href="https://www.youtube.com/c/protoblock"><i class="fab fa-youtube text-center"></i></a>
+        </li>
+        <li class="list-inline-item p-2">
+          <a class="sm-drop sm-icon-lg" target="_blank" href="https://www.facebook.com/protoblock/"><i class="fab fa-facebook-f text-center"></i></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
 </div>
 </footer>
 <!-- End Footer -->

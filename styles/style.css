@@ -193,7 +193,7 @@ h6 {
   }
 
   h6 {
-    font-size: 1.25em;
+    font-size: 1.5em;
   }
 }
 
@@ -209,11 +209,11 @@ h6 {
   }
 
   h3 {
-    font-size: 2em;
+    font-size: 2.5em;
   }
 
   h4 {
-    font-size: 1.75em;
+    font-size: 2.25em;
   }
 
   h5 {
@@ -221,7 +221,7 @@ h6 {
   }
 
   h6 {
-    font-size: 1.25em;
+    font-size: 1.75em;
   }
 }
 
@@ -233,15 +233,15 @@ h6 {
   }
 
   h2 {
-    font-size: 2em;
+    font-size: 3em;
   }
 
   h3 {
-    font-size: 1.75em;
+    font-size: 2.75em;
   }
 
   h4 {
-    font-size: 1.5em;
+    font-size: 2.5em;
   }
 
   h5 {
@@ -249,7 +249,7 @@ h6 {
   }
 
   h6 {
-    font-size: 1em;
+    font-size: 2em;
   }
 }
 
@@ -1104,7 +1104,8 @@ Tour Section *******************************************************
 
 */
 
-.tour {
+.tour ,
+.faq {
   padding-right: 0!important;
   padding-left: 0!important;
 }
@@ -1152,7 +1153,7 @@ Tour Section *******************************************************
   width: 2em;
   color: white;
   border-radius: 1em;
-  font-size: 4em;
+  font-size: 2.5em;
   padding-top: .5em;
 }
 
@@ -1414,6 +1415,15 @@ footer {
 }
 
 /* coins */
+
+.rdl-button-coin,
+.tweet-button {
+  padding: 5px;
+  width: 200px;
+  color: white;
+  background-color: #017ea7;
+  border: #017ea7 solid 2px;
+}
 
 .coins-dl{
   text-decoration: underline;
