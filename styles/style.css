@@ -829,8 +829,8 @@ landing page section *****************************************************
 .wp-button,
 .md-button,
 .pg-button {
-  width: 80vw;
-  max-width: 50vw;
+  width: 20vw;
+  min-width: 230px;
   margin-right: auto;
   margin-left: auto;
   padding: 5px;
@@ -966,12 +966,6 @@ landing page section *****************************************************
     display: block;
   }
 
-    .wp-button,
-  .md-button,
-  .pg-button {
-    width: 15vw;
-  }
-
 }
 
 @media (min-width: 1200px) {
@@ -1018,7 +1012,7 @@ app slider *****************************************
 */
 
 .app-slider {
-  min-height: 100vh;
+
   background-color: #3998c3;
   color: white;
 }
@@ -1148,7 +1142,7 @@ Tour Section *******************************************************
 
 
 .sm-icon-t i {
-  background-color: rgb(16, 53, 88,.75);
+  background-color: #103558 ;
   height: 2em;
   width: 2em;
   color: white;
@@ -1158,7 +1152,7 @@ Tour Section *******************************************************
 }
 
 .sm-icon-t i:hover {
-  background-color: #103558;
+  background-color: rgb(16, 53, 88,.75);
 }
 
 /*
