@@ -829,8 +829,7 @@ landing page section *****************************************************
 .wp-button,
 .md-button,
 .pg-button {
-  width: 20vw;
-  min-width: 230px;
+  width: 230px;
   margin-right: auto;
   margin-left: auto;
   padding: 5px;
