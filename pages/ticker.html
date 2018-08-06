@@ -44,6 +44,15 @@ contact@protoblock.com
 
   <!-- Google Tracker -->
   <div id='theTracker'></div>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-76493526-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-76493526-1');
+  </script>
 </head>
 <body>
 <!-- Navigation -->
@@ -60,7 +69,7 @@ contact@protoblock.com
 
     <ul class="navbar-nav w-100 justify-content-center">
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle text-nowrap" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Apps</a>
+        <a class="nav-link dropdown-toggle text-nowrap" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Live Data Feed</a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="/pages/ticker.html">Ticker</a>
           <a class="dropdown-item" href="/pages/leaderboard.html">Leaderboard</a>

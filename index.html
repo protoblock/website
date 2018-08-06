@@ -43,6 +43,15 @@ contact@protoblock.com
 
   <!-- Google Tracker -->
   <div id='theTracker'></div>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-76493526-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-76493526-1');
+  </script>
 </head>
 <body>
 <!-- Navigation -->
@@ -59,7 +68,7 @@ contact@protoblock.com
 
     <ul class="navbar-nav w-100 justify-content-center">
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle text-nowrap" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Apps</a>
+        <a class="nav-link dropdown-toggle text-nowrap" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Live Data Feed</a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="/pages/ticker.html">Ticker</a>
           <a class="dropdown-item" href="/pages/leaderboard.html">Leaderboard</a>
@@ -215,7 +224,7 @@ contact@protoblock.com
 <div class="container-fluid app-slider">
 <div class="row py-5">
   <div class="col-12 text-center text-uppercase my-4">
-    <h1>Protoblock Apps</h1>
+    <h1>Protoblock Products</h1>
   </div>
 
 <!-- App Slider Menu -->
@@ -305,16 +314,19 @@ contact@protoblock.com
     </div>
 
     <div class="col-12 col-md-6 my-2">
-      <h3 class="as-title my-3">Web Applications</h3>
+      <h3 class="as-title my-3">Live Data Feed</h3>
 
-      <p>The Protoblock Ticker and Leaderboard are available on the web.</p>
+      <p>The ticker and the leaderboard steam live data from the Protoblock blockchain. The Ticker reflects the price quotes for the Fantasy Smart Contracts in the DEX. Follow @prototicker to stay on top of the latest price changes. The leaderboard reflects current overall projection leaders.</p>
 
       <div class="as-buttons my-3">
         <div class="pb-button text-nowrap my-2">
-          <a href='/ticker/'>Ticker</a>
+          <a href='/pages/ticker.html'>Ticker</a>
         </div>
         <div class="pb-button text-nowrap my-2">
-          <a href='/leaderboard/'>Leaderboard</a>              
+          <a href='https://twitter.com/prototicker'>@prototicker</a>              
+        </div>
+        <div class="pb-button text-nowrap my-2">
+          <a href='/pages/leaderboard.html'>Leaderboard</a>
         </div>
       </div>           
     </div>
@@ -680,7 +692,7 @@ contact@protoblock.com
       <p>Distributed network protects against vulnerabilities of having an oracle. Since there is no head to cut off, the network is resilient against attacks and traitors. Fantasy Football community already reflects a distributed network, as many leagues exist without a central authority.</p>
     </div>
   </li>
-
+<!--
   <li class="faq-item">
     <div class="faq-title">
       <a class="collapsed centerv" href="#faq-5" data-toggle="collapse" aria-expanded="true" aria-controls="faq-5">
@@ -704,7 +716,7 @@ contact@protoblock.com
       <p>Another difference is that the Seller is Forards is not technically “Shorting”, he is just on the side of the contract that agrees to sell something in the future at a price we agree on now. Going long and going short with forwards, are exactly the same.</p>
     </div>
   </li>
-
+-->
 </ul>
   
 </div>
