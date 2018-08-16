@@ -217,7 +217,7 @@ h6 {
   }
 
   h5 {
-    font-size: 1.5em
+    font-size: 2em
   }
 
   h6 {
@@ -245,7 +245,7 @@ h6 {
   }
 
   h5 {
-    font-size: 1.25em
+    font-size: 2.25em
   }
 
   h6 {
@@ -1345,6 +1345,34 @@ footer {
 
 /* download page */
 
+.dl-mobile, .dl-desk {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  min-width: 150px!important;
+  color: white;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.dl-mobile {
+  background-color: #017ea7;
+  border-color: #017ea7;
+}
+
+.dl-mobile:hover {
+  color: #017ea7;
+  background-color: transparent;
+}
+
+.dl-desk {
+  background-color: #103558;
+  border-color: #103558;
+}
+
+.dl-desk:hover {
+  color: #103558;
+  background-color: transparent;
+}
 
 .dl-top {
   color: white;
@@ -1494,8 +1522,6 @@ ol ol li:last-child {margin-bottom:0;}
     padding-bottom: 15px;
 }
 
-
-
 .tweet-btn {
   background-color: #107ea7;
   color: white;
@@ -1506,7 +1532,42 @@ ol ol li:last-child {margin-bottom:0;}
 }
 
 
+.meme-img {
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: auto;
+}
 
+.top-caption,
+.bottom-caption {
+  font-family: Impact, sans-serif;
+  color: #fff !IMPORTANT;
+  text-shadow: #000000 0px 0px 8px;
+  -webkit-text-stroke: 2px black;
+  text-transform: uppercase;
+  text-align: center;
+}
 
+.top-caption {
+  top: 10px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
 
+.bottom-caption {
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.error-button {
+  color: #103558;
+  min-width: 225px;
+  max-width: 260px;
+  padding: 10px;
+  border: #103558 solid 3px;
+}
 
