@@ -138,14 +138,14 @@ h4 {
 }
 
 h5 {
-  font-size: 1.25em
+  font-size: 1.25em;
 }
 
 h6 {
   font-size: 1em;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 576px) and (max-width: 767px) {
   h1 {  
   font-size: 2.5em;
   }
@@ -163,7 +163,7 @@ h6 {
   }
 
   h5 {
-    font-size: 1.5em
+    font-size: 1.5em;
   }
 
   h6 {
@@ -171,9 +171,9 @@ h6 {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 991px) {
   h1 {  
-  font-size: 2.75em;
+    font-size: 2.75em;
   }
 
   h2 {
@@ -189,7 +189,7 @@ h6 {
   }
 
   h5 {
-    font-size: 1.75em
+    font-size: 1.75em;
   }
 
   h6 {
@@ -197,7 +197,7 @@ h6 {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1199px) {
   h1 {  
     font-size: 3.25em;
     padding-top: 5px;
@@ -217,7 +217,7 @@ h6 {
   }
 
   h5 {
-    font-size: 2em
+    font-size: 2em;
   }
 
   h6 {
@@ -237,19 +237,19 @@ h6 {
   }
 
   h3 {
-    font-size: 2.75em;
-  }
-
-  h4 {
     font-size: 2.5em;
   }
 
+  h4 {
+    font-size: 2em;
+  }
+
   h5 {
-    font-size: 2.25em
+    font-size: 1.75em;
   }
 
   h6 {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 }
 
@@ -696,7 +696,7 @@ landing page section *****************************************************
 .video-ul {
   position: absolute;
   width:100vw;
-  height: 91vh;
+  height: 93vh;
   overflow: hidden;
   z-index: -2;
 }
@@ -710,7 +710,7 @@ landing page section *****************************************************
 }
 
 .lp-l {
-  height: 91vh;
+  height: 93vh;
   color: white;
 }
 
@@ -719,32 +719,6 @@ landing page section *****************************************************
   margin-left: .5em;
   text-align: left!important;
 }
-
-
-.lp h1,
-.lp h2,
-.lp h3,
-.lp h4,
-.lm-links h2 {
-  opacity: .9
-}
-
-.lp h1 {  
-  font-size: 2em;
-}
-
-.lp h2 {
-  font-size: 1.75em;
-}
-
-.lp h3 {
-  font-size: 1.25em;
-}
-
-.lp h4 {
-  font-size: 1em;
-}
-
 
 .rdl-button,
 .lm-button,
@@ -773,7 +747,6 @@ landing page section *****************************************************
 }
 
 .lp-r {
-  height: 100vh;
   color: white;
   background-color: #103558;
 }
@@ -813,6 +786,12 @@ landing page section *****************************************************
   z-index: 3;
 }
 
+@media (min-width: 992px) {
+  .lm-buttons {
+    display: flex;
+    flex-direction: row;
+  }
+}
 
 .lp-filler {
   height: 11vh;
@@ -850,7 +829,6 @@ landing page section *****************************************************
 
 .lm-links {
   color: white;
-  display: none;
   background-color: #017ea7;
 }
 
@@ -871,33 +849,6 @@ landing page section *****************************************************
   .lm-button {
     margin-right: auto;
     margin-left: auto!important;
-  }
-
-  .lp h1 {
-    font-size: 2.25rem;
-  }
-
-  .lp h2 {
-    font-size: 2rem;
-  }
-}
-
-
-@media (min-width: 768px) {
-  .lp h1 {
-    font-size: 2.5rem;
-  }
-
-  .lp h2 {
-    font-size: 2.25rem;
-  }
-
-  .lp h3 {
-    font-size: 1.5rem;
-  }
-
-  .lp h4 {
-    font-size: 1.25rem;
   }
 
 }
@@ -936,16 +887,8 @@ landing page section *****************************************************
     max-width: 750px;
   }
 
-  .lp h1 {
-    font-size: 2.75rem;
-  }
-
-  .lp h2 {
-    font-size: 2.5rem;
-  }
-
   .lp-r {
-    height: 91vh;
+    height: 93vh;
     justify-content: center!important;
   }
 
@@ -1571,3 +1514,52 @@ ol ol li:last-child {margin-bottom:0;}
   border: #103558 solid 3px;
 }
 
+.countdown .col-1,
+.countdown .col-2,
+.countdown .col-3,
+.countdown .col-12 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.cstate {
+  border: #017ea7 solid 3px;
+  padding: 5px;
+  max-width: 300px;
+  background: #017ea7;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: 0px;
+  opacity: .8;
+}
+
+.cstate p {
+  font-size: .75em!important;
+}
+
+
+.cdnum {
+  border: white solid 3px;
+  padding-bottom: 1em;
+  max-width: 600px;
+  padding-top: .25em;
+  padding-right: 1.75em;
+}
+
+.nstate {
+  max-width: 500px;
+  margin-top: 10vh;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.nstate h3, 
+.nstate h4,
+.nstate h2 {
+  font-weight: 200!important;
+  letter-spacing: 2px;
+}
+
+.cdr {
+  width: 3px;
+}
