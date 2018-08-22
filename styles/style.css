@@ -1405,10 +1405,15 @@ footer {
 .rdl-button-coin,
 .tweet-button {
   padding: 5px;
-  width: 200px;
+  width: 230px;
   color: white;
   background-color: #017ea7;
-  border: #017ea7 solid 2px;
+  border: #white solid 2px;
+}
+
+.coins-pg {
+  background-color: #103558;
+  color: white;
 }
 
 .coins-dl{
@@ -1429,7 +1434,7 @@ footer {
   margin:10px 0 6px 2em; /* Give each list item a left margin to make room for the numbers */
   padding:4px 8px; /* Add some spacing around the content */
   list-style:none; /* Disable the normal item numbering */
-  border-top:1.5px solid #ffb400;
+  border-top:.5px solid white;
 }
 
 .coins-dir ol > li:before {
@@ -1456,12 +1461,6 @@ footer {
 li ol,
 li ul {margin-top:6px;}
 ol ol li:last-child {margin-bottom:0;}
-
-
-.coins-tweet {
-  color: #107ea7;
-}
-
 
 .ticker {
   font-size: 0.8em;
