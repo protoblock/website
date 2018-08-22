@@ -1420,6 +1420,11 @@ footer {
   text-decoration: underline;
 } 
 
+.coins-dir .col-12 {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
 .coins-dir h4 {
   margin-top: 7px;
 }
@@ -1460,7 +1465,22 @@ footer {
 }
 li ol,
 li ul {margin-top:6px;}
-ol ol li:last-child {margin-bottom:0;}
+.coins-dir ol li:last-child {
+  border-bottom: .5px solid white;
+}
+
+.coin-cong {
+  max-width: 450px;
+  margin-left: auto!important;
+  margin-right: auto!important;
+  background-color: #017ea7;
+  border: white solid 2px;
+}
+
+.coins-dir h6,
+.coin-cong h6 {
+  letter-spacing: 1px!important;
+}
 
 .ticker {
   font-size: 0.8em;
