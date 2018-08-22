@@ -121,33 +121,36 @@ p, i, span, a {
   letter-spacing: .5px;
 }
 
+
+
+/*
 h1 {  
-  font-size: 2.25em;
+  font-size: 2.5em;
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 2.25em;
 }
 
 h3 {
-  font-size: 1.75em;
+  font-size: 2em;
 }
 
 h4 {
-  font-size: 1.5em;
+  font-size: 1.75em;
 }
 
 h5 {
-  font-size: 1.25em;
+  font-size: 1.5em;
 }
 
 h6 {
-  font-size: 1em;
+  font-size: 1.25em;
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
   h1 {  
-  font-size: 2.5em;
+    font-size: 2.5em;
   }
 
   h2 {
@@ -193,15 +196,13 @@ h6 {
   }
 
   h6 {
-    font-size: 1.5em;
+    font-size: 1.25em;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
   h1 {  
-    font-size: 3.25em;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    font-size: 3em;
   }
 
   h2 {
@@ -209,7 +210,7 @@ h6 {
   }
 
   h3 {
-    font-size: 2.5em;
+    font-size: 2.25em;
   }
 
   h4 {
@@ -227,9 +228,7 @@ h6 {
 
 @media (min-width: 1200px) {
   h1 {  
-    font-size: 3.5em;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    font-size: 3.25em;
   }
 
   h2 {
@@ -241,17 +240,17 @@ h6 {
   }
 
   h4 {
-    font-size: 2em;
+    font-size: 2.25em;
   }
 
   h5 {
-    font-size: 1.75em;
+    font-size: 2em;
   }
 
   h6 {
     font-size: 1.5em;
   }
-}
+} */
 
 a,
 a:hover {
@@ -715,7 +714,8 @@ landing page section *****************************************************
 }
 
 .tagline,
-.tagline2 {
+.tagline2,
+.desc-lp {
   margin-left: .5em;
   text-align: left!important;
 }
@@ -751,7 +751,10 @@ landing page section *****************************************************
 .lp-r {
   color: white;
   background-color: #103558;
+  min-height: 93vh;
+  justify-content: center!important;
 }
+
 
 .e-vid {
   overflow: hidden;
@@ -840,11 +843,27 @@ landing page section *****************************************************
   max-width: 960px;
 }
 
+.desc-lp p {
+  font-weight: 200!important;
+  font-size: 13px!important;
+}
+
 /* center at sm to md screens */
 @media (min-width: 576px) {
   .tagline,
   .tagline2 {
+    max-width: 600px;
+  }
+  .desc-lp {
+    max-width: 450px;
+  }
+
+  .tagline,
+  .tagline2,
+  .desc-lp {
     text-align: center!important;
+    margin-right: auto!important;
+    margin-left: auto!important;
   }
   
   .rdl-button,
@@ -855,51 +874,51 @@ landing page section *****************************************************
 
 }
 
-@media (max-width: 992px) {
-  .lp-r {
-    background-image: linear-gradient(to bottom, #103558, #10395d, #113d62, #114267, #11466c);
-  }
-}
-
 /* align right at lg screens */
 @media (min-width: 992px) {
 
   .bg-vid {
     opacity: .15;
   }
+
+  .tagline {
+    max-width: 450px;
+  }
+
+  .tagline2,
+  .desc-lp {
+    max-width: 350px;
+  }
+
   .tagline,
-  .tagline2 {
+  .tagline2,
+  .desc-lp  {
     text-align: right!important;
-    margin-right: 1.5em;
+    margin-right: 1.5em!important;
+    margin-left: auto!important;
     padding-left: 1.5em;
   }
   
   .rdl-button,
-  .sb-button {
+  .lm-button {
     margin-right: 1.5em;
     margin-left: auto;
     min-width: 300px;
   }
 
-  .sb-button {
+  .lm-button {
     display: block;  
+  }
+
+  .lp-r-in {
+  max-width: 750px;
+  margin-left: 0px;
+  padding-top: 5vh;
   }
 
   .exp-video {
     max-width: 750px;
   }
-
-  .lp-r {
-    height: 93vh;
-    justify-content: center!important;
-  }
-
-  .lm-button,
-  .lm {
-    display: none;
-  }
-
-
 
   .exp-video {
     padding-right: 3em;
@@ -920,7 +939,8 @@ landing page section *****************************************************
 
 
   .tagline,
-  .tagline2 {
+  .tagline2,
+  .desc-lp {
     margin-left: 2.5em;
   }
 }
@@ -1532,7 +1552,6 @@ ol ol li:last-child {margin-bottom:0;}
   margin-top: 15px;
   margin-left: auto;
   margin-right: 0px;
-  opacity: .8;
 }
 
 .cstate p {
@@ -1543,23 +1562,30 @@ ol ol li:last-child {margin-bottom:0;}
 .cdnum {
   border: white solid 3px;
   padding-bottom: 1em;
-  max-width: 600px;
-  padding-top: .25em;
+  max-width: 500px;
+  padding-top: .5em;
   padding-right: 1.75em;
 }
 
 .nstate {
   max-width: 500px;
-  margin-top: 10vh;
+}
+
+.cdin {
+  max-width: 400px;
+}
+
+.nstate, 
+.cdin {
   margin-right: auto;
   margin-left: auto;
 }
 
-.nstate h3, 
-.nstate h4,
-.nstate h2 {
-  font-weight: 200!important;
-  letter-spacing: 2px;
+@media (max-width: 767px) {
+
+  .nstate h4 {
+    font-size: 1.25em;
+  }
 }
 
 .cdr {
