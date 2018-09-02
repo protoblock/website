@@ -968,6 +968,30 @@ landing page section *****************************************************
   }
 }
 
+/* right side */
+.lp-r {
+  color: white;
+  background-color: #103558;
+  justify-content: center!important;
+}
+.explainer {
+  width: 90vw;
+  height: auto;
+  padding-bottom: 3em;
+}
+@media (min-width: 992px) {
+  .lp-r {
+    height: 93vh;
+  }
+  .e-vid {
+    margin-left: 1.5em;
+    margin-right: auto;
+  }
+  .explainer {
+    width: 50vw;
+  }
+}
+
 
 /* 
 
