@@ -791,7 +791,6 @@ landing page section *****************************************************
   height: 11vh;
 }
 
-.exp-video,
 .cs-msg {
   min-width: 280px;
   max-width: 65vw;
@@ -1213,10 +1212,6 @@ FAQ ************************************************
   height: auto;
 }
 
-
-video {
-  pointer-events: none;
-}
 
 
 /* core section */
