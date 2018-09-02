@@ -748,17 +748,6 @@ landing page section *****************************************************
   display: none;
 }
 
-.lp-r {
-  color: white;
-  background-color: #103558;
-  min-height: 93vh;
-  justify-content: center!important;
-}
-
-
-.e-vid {
-  overflow: hidden;
-}
 
 .cs-msg {
   position: absolute;
@@ -910,12 +899,6 @@ landing page section *****************************************************
     display: block;  
   }
 
-  .lp-r-in {
-  max-width: 750px;
-  margin-left: 0px;
-  padding-top: 5vh;
-  }
-
   .exp-video {
     max-width: 750px;
   }
@@ -951,9 +934,6 @@ landing page section *****************************************************
     margin-top: 3em!important;
   }
 
-  .e-vid {
-    margin-bottom: 8vh;
-  }
 
   .what-is {
     margin-bottom: 5vh;
