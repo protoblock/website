@@ -98,7 +98,7 @@ function setButtons(stringer){
   else {
     $('#resp-download').attr("href",DLLInk);
   }
-  $('#theOS').text(text('Download now - ' + stringer))
+  $('#theOS').text(('Download now - ' + stringer))
   $('#theOS').attr("href",DLLInk)
 }
 
