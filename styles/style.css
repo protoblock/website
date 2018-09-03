@@ -393,14 +393,14 @@ ul {
 
 /* coins button */
 .coin-button-top {
-  color: #ffb400;
-  border-color: #ffb400;
+  color: white;
+  border-color: white;
 }
 
 /* download button */
 .dl-button-top {
-  color: white;
-  border-color: white;
+  color: #ffb400;
+  border-color: #ffb400;  
 }
 
 /* social media buttons */
