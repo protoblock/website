@@ -910,6 +910,24 @@ footer {
   }
 }
 
+/**********************************************************************/
+/* leaderboard */
+.leaderboard {
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.leadercards {
+  color: #103558;
+}
+.leadercards .list-group-item {
+  margin-bottom: 1em;
+  min-width: 240px;
+  width: 35vw;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 
