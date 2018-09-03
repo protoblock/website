@@ -7,9 +7,19 @@
 /* repeated html elements */
 /* repeated custom protoblock elements */
 /* navbar */
+
 /* landing page */
 /* why protoblock */
 /* not fantasy */
+/* platform */
+/* join */
+/* tech */
+/* fbit */
+/* learn more */
+
+/* footer */
+
+/* ticker */
 
 /**********************************************************************/
 /* colors reference
@@ -169,7 +179,7 @@ ul {
   .third-title {
     font-size: 14px!important;
   }
-  main .container {
+  .index .container {
     margin-top: 2.5em;
     margin-bottom: 2.5em;
   }
@@ -179,7 +189,7 @@ ul {
   .second-title {
     font-size: 24px!important;
   }
-  main .container {
+  .index .container {
     margin-top: 5em;
     margin-bottom: 5em;
   }
@@ -809,9 +819,6 @@ ul {
   padding: 1em;
 }
 
-
-
-
 /**********************************************************************/
 /* learn more */
 .wp-button,
@@ -885,11 +892,23 @@ footer {
   background-color: transparent;
 }
 
+/**********************************************************************/
+/* ticker */
+.table,
+.table th,
+.table td,
+.holder b {
+  font-weight: 300;
+  font-size: 13px;
+}
 
-
-
-
-
+@media (min-width: 992px) {
+  .playertable {
+    height: 500px;
+    overflow-y: scroll;
+    padding: 0.5em!important;
+  }
+}
 
 
 

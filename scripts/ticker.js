@@ -143,9 +143,9 @@ function parseRight(d){
     + "</td><td>" + d[0].lastsize
     + "</td></tr>"
   )
-  $('#volHolder').append("<h3 style='color:#333!important; font-size:1.5em; text-align: center;'><b>Volume: </b>" + d[0].volume + "<h3>")
-  $('#openHolder').append("<h3 style='color:#333!important; font-size:1.5em; text-align: center;'><b>Move from open: </b>"+ d[0].change + "<h3>")
-  $('#resultsHolder').append("<h3 style='color:#333!important; font-size:1.5em; text-align: center;'><b>Expected Results:</b> "+ d[0].price + "<h3>")
+  $('#volHolder').append("<p><b>Volume: </b>" + d[0].volume + "<h3>")
+  $('#openHolder').append("<p><b>Move from open: </b>"+ d[0].change + "<h3>")
+  $('#resultsHolder').append("<p><b>Expected Results:</b> "+ d[0].price + "<h3>")
 
 
 
@@ -186,7 +186,7 @@ function parseLeftTable(d){
 
         playerInView = d[0].symbol
         $('#rightTitle').append("\
-          <h2 style='color:#333!important; text-align: center;'><b>"
+          <h5><b>"
           + d[0].firstname + " " +  d[0].lastname + " (" +  team  + ", " + d[0].pos + ")"  + " </b></h2>")
     }
 
@@ -202,7 +202,7 @@ function parseLeftTable(d){
 
         if ($_GET['symbol'] == d[i].symbol && isFirst){
           $('#rightTitle').append("\
-             <h2 style='color:#333!important; text-align: center;'><b>"
+             <h5><b>"
              + d[i].firstname + " " +  d[i].lastname + " (" +  team   + ", " + d[i].pos + ")"  + " </b></h2>");
 
         }
@@ -250,7 +250,7 @@ $( document ).ready(function(){
         // console.log( $('#firstRowPlayer' ,this).attr( 'alt' ) );
         var playerAtGlance = $('#firstRowPlayer' ,this).attr( 'alt' )
         $('#rightTitle').append("\
-            <h2 style='color:#333!important; text-align: center;'><b>"
+            <h5><b>"
             + playerAtGlance + " </b></h2>");
 
 
