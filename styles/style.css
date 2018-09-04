@@ -115,9 +115,6 @@ h5, h6, a {
 p, i, span {
   letter-spacing: .5px;
 }
-p {
-  font-size: 13px!important;
-}
 a,
 a:hover {
   color: inherit;
@@ -128,7 +125,6 @@ ul {
   padding: 0px!important;
   list-style: none;
 }
-
 
 /**********************************************************************/
 /* repeated custom protoblock elements */
@@ -437,6 +433,9 @@ ul {
 
 /**********************************************************************/
 /* landing page */
+.index p {
+  font-size: 13px!important;
+}
 
 .lp {
   z-index: -3;
@@ -623,7 +622,8 @@ ul {
 .notfantasy .small-title-box,
 .nf-pic,
 .tech-pic,
-.tech-text {
+.tech-text,
+.faqpage {
   margin-left: auto;
   margin-right: auto;
   padding-right: 10px;
@@ -1016,4 +1016,63 @@ footer {
 }
 .vote-text {
   max-width: 750px;
+}
+
+/**********************************************************************/
+/* faq */
+.faqpage {
+  max-width: 750px;
+}
+.faqpage p {
+  font-size: 15px!important;
+}
+.faq-item {
+  padding-bottom: .5em;
+}
+
+.faq-title {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+.faq-title p {
+  padding-left: .5em;
+  padding-right: .5em;
+}
+
+.faq-content p{
+  padding-left: .5em;
+  padding-right: .5em;
+}
+
+.faq-items li{
+  list-style: none;
+}
+
+.faq-title {
+  font-size: 1.25em;
+}
+
+.faq-title .fas {
+  transition: .3s transform ease-in-out;
+  color: #bbdcdd;
+}
+.faq-title .collapsed .fas {
+  transform: rotate(90deg);
+}
+
+.tour-img {
+  display: none!important;
+}
+
+@media (min-width: 576px) { 
+  .faq-content p {
+    padding-left: 2.25em;
+  }
+}
+
+@media (min-width: 768px) {
+  .tour-img {
+    display: block!important;
+  }
 }
