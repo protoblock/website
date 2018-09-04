@@ -1076,3 +1076,40 @@ footer {
     display: block!important;
   }
 }
+
+/**********************************************************************/
+/* error */
+.meme-img {
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: auto;
+}
+ .top-caption,
+.bottom-caption {
+  font-family: Impact, sans-serif;
+  color: #fff !IMPORTANT;
+  text-shadow: #000000 0px 0px 8px;
+  -webkit-text-stroke: 2px black;
+  text-transform: uppercase;
+  text-align: center;
+}
+ .top-caption {
+  top: 10px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+ .bottom-caption {
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+ .error-button {
+  color: #bbdcdd;
+  min-width: 225px;
+  max-width: 260px;
+  padding: 10px;
+  border: #bbdcdd solid 3px;
+}
