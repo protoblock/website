@@ -20,6 +20,11 @@
 /* footer */
 
 /* ticker */
+/* leaderboard */
+/* download page */
+/* coins */
+/* vote */
+/* faq */
 
 /**********************************************************************/
 /* colors reference
@@ -863,6 +868,11 @@ footer {
 .email-form-ft,
 .email-btn-ft {
   padding: 7px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .email-form-ft {
   min-width: 280px;
@@ -890,6 +900,15 @@ footer {
 }
 .sm-icon-lg i:hover {
   background-color: transparent;
+}
+.list-inline-item:not(:last-child) {
+  margin-right: 0!important;
+}
+@media (min-width: 576px) {
+  .email-form-ft,
+  .email-btn-ft {
+    display: inline-flex!important;
+  }
 }
 
 /**********************************************************************/
@@ -960,3 +979,41 @@ footer {
   }
 }
 
+/**********************************************************************/
+/* coins */
+.coins-dir .col-12 {
+  padding-left: 0!important;
+  padding-right: 0!important;
+}
+.rdl-button-coin,
+.tweet-button {
+
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #effbf9;
+}
+.rdl-button-coin {
+  width: 250px;
+}
+.tweet-button {
+  width: 140px;
+}
+
+/**********************************************************************/
+/* vote */
+.vote-box {
+  height: 1600px;
+  overflow: visible;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.vote-embed {
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+.vote-text {
+  max-width: 750px;
+}
