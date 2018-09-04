@@ -25,7 +25,7 @@ contact@protoblock.com
   <meta name="wot-verification" content="f21923b4364041de3dc2">
 
   <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Muli:200,300,400,600|Open+Sans:200,300,400,600" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Muli:200,300,400,600|Open+Sans:200,300,400,500" rel="stylesheet" type="text/css">
   <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
 
@@ -40,17 +40,14 @@ contact@protoblock.com
   <script src="/scripts/bootstrap.min.js" type="text/javascript"></script>
   <script src="/scripts/download.js" type="text/javascript"></script>
   <script src="/scripts/app.js"></script>
-  <!--script src="/scripts/countdown.js"></script-->
 
   <!-- Google Tracker -->
   <div id='theTracker'></div>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-76493526-1"></script>
 </head>
 <body>
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg justify-content-center text-monospace text-uppercase">
-  <a class="navbar-brand d-flex w-50 mr-auto toplogo" href="/index.html">
+  <a class="navbar-brand d-flex w-50 mr-auto" href="/index.html">
     <img class="toplogoimg">
   </a>
 
@@ -62,27 +59,27 @@ contact@protoblock.com
 
     <ul class="navbar-nav w-100 justify-content-center">
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle text-nowrap" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Live Data Feed</a>
+        <a class="nav-link dropdown-toggle text-nowrap" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Live Data Feed</span></a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="/pages/ticker.html">Ticker</a>
-          <a class="dropdown-item" href="/pages/leaderboard.html">Leaderboard</a>
+          <a class="dropdown-item" href="/pages/ticker.html"><span>Ticker</span></a>
+          <a class="dropdown-item" href="/pages/leaderboard.html"><span>Leaderboard</span></a>
         </div>
       </li>
 
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle text-nowrap" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
+        <a class="nav-link dropdown-toggle text-nowrap" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Resources</span></a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item text-nowrap" target="_blank" href="/docs/whitepaper-2014.pdf">White Paper</a>
-          <a class="dropdown-item text-nowrap" target="_blank" href="/PlayGuide.pdf">Play Guide</a>
+          <a class="dropdown-item text-nowrap" target="_blank" href="/docs/whitepaper-2014.pdf"><span>White Paper</span></a>
+          <a class="dropdown-item text-nowrap" target="_blank" href="/PlayGuide.pdf"><span>Play Guide</span></a>
         </div>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="#faq">FAQ</a>
+        <a class="nav-link" href="/pages/faq.html"><span>FAQ</span></a>
       </li>
 
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle text-nowrap" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Community</a>
+        <a class="nav-link dropdown-toggle text-nowrap" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Community</span></a>
         <div class="dropdown-menu text-nowrap text-center list-inline my-1" aria-labelledby="navbarDropdown">
           <ul>
             <li class="list-inline-item p-1">
@@ -110,7 +107,7 @@ contact@protoblock.com
     <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
       <li class="nav-item">
         <button type="button" class="pb-button coin-button-top">
-          <a class="text-uppercase text-nowrap" href="/coins/">Get Coins</a>
+          <a class="text-uppercase text-nowrap" href="/coins/"><span>Get Coins</span></a>
         </button>        
       </li>
     </ul>
@@ -118,7 +115,7 @@ contact@protoblock.com
     <ul class="nav navbar-nav ml-auto w-100 justify-content-end dl-button-top-box">
       <li class="nav-item mx-3">
         <button type="button" class="pb-button dl-button-top">
-          <a class="text-uppercase" href="/pages/downloads.html">Download</a>
+          <a class="text-uppercase" href="/pages/downloads.html"><span>Download</span></a>
         </button>        
       </li>
     </ul>
@@ -128,12 +125,12 @@ contact@protoblock.com
 <!-- End Navigation -->
 
 <!-- Main Body--> 
-<main>
+<main class="index">
 <!-- Landing Page -->
 <div class="container-fluid lp">
 <!-- Video Underlay -->
-<div class="row v-underlay">
-  <div class="video-ul d-flex justify-content-center align-items-center">
+<div class="row">
+  <div class="d-flex justify-content-center align-items-center video-ul">
     <div class="video-box">
       <video class="bg-vid" muted autoplay loop>
         <source src="/video/Final.webm" type="video/webm">
@@ -146,102 +143,47 @@ contact@protoblock.com
 <!-- Landing Page Content -->
 <div class="row centervh">
 
-<div class="col-12 col-lg-5 lp-l d-flex flex-column justify-content-center"">
-  <div class="text-left text-uppercase my-3 tagline">
-    <h3 class="text-uppercase">Democratizing</h3>
-    <h3 class="text-uppercase text-nowrap">fantasy sports</h3>
-    <h4 class="text-uppercase">since 2014</h4>
-  </div>
+<div class="col-12 col-lg-5 d-flex flex-column justify-content-center lp-l">
   <div class="text-left text-uppercase my-2 tagline">
-    <h5>The Original</h5>
-    <h5>Football Blockchain</h5>
+    <h5>The Original<br/>Football Blockchain</h5>
   </div>
+
+  <div class="text-left text-uppercase my-3 tagline">
+    <h3 class="text-uppercase">Democratizing<br/>fantasy sports<br/>since 2014</h3>
+  </div>
+  
   <div class="text-left my-2 desc-lp">
     <p class="">Turn your knowledge of American football into cryptocurrency. Claim your fantasy name and watch it climb up the leaderboard. Mine FantasyBits by predicting NFL players’ fantasy performance. Bet for or against individual players on daily or season-long contracts.</p>
   </div>
-  <div class="pb-button rdl-button my-2 text-center">
+  <div class="pb-button my-3 text-center rdl-button">
     <a class="text-uppercase" id='resp-download'></a>
   </div>
-  <div class="pb-button lm-button my-2 text-center">
-    <a class="text-uppercase text-nowrap" target="_blank" href="/docs/whitepaper-2014.pdf">Read our Whitepaper</a>
+  <div class="my-2 text-center e-button">
+<!-- AWEBER FORM -->
+  <div class="aweber centervh">
+    <form method="post" accept-charset="UTF-8" action="https://www.aweber.com/scripts/addlead.pl" >
+      <div id="af-form-451745103">
+        <div id="af-body-451745103">
+          <input type="hidden" name="meta_web_form_id" value="451745103"/>
+          <input type="hidden" name="meta_split_id" value=""/>
+          <input type="hidden" name="listname" value="awlist4263557"/>
+          <input type="hidden" name="redirect" value="" id="redirect_f432f02a3ee39813b8f1bdd555ecae3d"/>
+          <input type="hidden" name="meta_adtracking" value="My_Web_Form"/>
+          <input type="hidden" name="meta_message" value="1"/>
+          <input type="hidden" name="meta_required" value="email"/>
+          <input type="hidden" name="meta_tooltip" value=""/>
+        </div>
+      </div>
+      <div class="aweber-form">
+        <input class="text-uppercase email-form" placeholder=" Enter Your Email" id="awf_field-82128068" type="text" name="email" value="" tabindex="501" onfocus=" if (this.value == '') { this.value = ''; }" onblur="if (this.value == '') { this.value='';}"><br/>
+        <input class="my-3 text-center text-uppercase pb-button email-btn" type="submit" name="submit" value="Subscribe to Newsletter">
+      </div>
+    </form>
+  </div>
+<!-- End AWEBER FORM -->
   </div>
   <div class="lp-filler"></div>
 </div>
-<!-- Explainer Video --
-<div class="col-12 col-lg-7 lp-r countdown pb-3" id="exp-vid">
-
-  /*
-  <div class="cstate text-uppercase mb-3">
-    <p>Current State: Off Season</p>
-    <p>Upcoming Transition: 53-Man Roster</p>
-    <p>Next State: In Season</p>
-  </div>
-  
-  <div class="lp-r-in">
-  
-  
-
-
-  <div class="container cdnum text-center text-uppercase mt-5 mb-4">
-  <div class="row d-flex flex-nowrap">
-    <div class="col-3 ">
-      <h1 id="days"></h1>
-    </div>  
-    <div class="col-1 "></div>
-    <div class="col-2 ">
-      <h1 id="hours"></h1>
-    </div>
-    <div class="col-1 ">
-      <h1>:</h1>
-    </div>
-    <div class="col-2 ">
-      <h1 id="minutes"></h1>
-    </div>
-    <div class="col-1 ">
-      <h1>:</h1>
-    </div>
-    <div class="col-2 ">
-      <h1 id="seconds"></h1>
-    </div>
-  </div>
-  <div class="row d-flex flex-nowrap">
-    <div class="col-3 ">
-      <p>Days</p>
-    </div>  
-    <div class="col-1 "></div>
-    <div class="col-2 ">
-      <p>Hours</p>
-    </div>
-    <div class="col-1 "></div>
-    <div class="col-2 ">
-      <p>Mins</p>
-    </div>
-    <div class="col-1 "></div>
-    <div class="col-2 ">
-      <p>Secs</p>
-    </div>
-  </div>
-  </div>
-
-  <div class="container cdtext text-center py-3">
-  <div class="row d-flex">
-    <div class="col-12 cdin text-center text-uppercase">
-      <h6>Until 53 Man Roster Transition and Start of the 2018 NFL Season.</h6>
-    </div>
-  </div>
-  </div>
-
-  <div class="nstate my-4 text-center">
-    <h4 class="pt-3">WEEK 1 STARTS SEPT 1</h4>
-    <h4 class="text-uppercase px-3">Make your Projections and Earn Fantasybits</h4>
-  </div>
-  
-  </div>
-
-</div>
-</div>
-</div>
--->
 <!-- Explainer Video -->
 <div class="col-12 col-lg-7 lp-r countdown centerv" id="exp-vid">
 
@@ -258,530 +200,229 @@ contact@protoblock.com
 
 </div>
 </div>
+<!-- End Landing Page -->
+<!-- Why Protoblock -->
+<div class="container pt-5 pb-1 why">
 
-<!-- Learn More Links -->
-<div class="container-fluid">
-<div class="row lm-links">
-  <div class="col-12 lm-linkc py-5">
-    <h2 class="text-uppercase text-center pt-2 pb-5">Learn More</h2>
-    <div class="lm-buttons text-center pb-2">
-      <div class="pb-button md-button mt-2">
-        <a class="text-uppercase text-nowrap" target="_blank" href="https://medium.com/@jaybny/on-proof-of-skill-6af149f45ce8">Medium Post</a>
-      </div>
-      <div class="pb-button wp-button mt-2">
-        <a class="text-uppercase text-nowrap" target="_blank" href="/docs/whitepaper-2014.pdf">White paper</a>
-      </div>
-      <div class="pb-button pg-button mt-2">
-        <a class="text-uppercase text-nowrap" target="_blank" href="/docs/PlayGuide.pdf">Play Guide</a>
-      </div>
+<div class="row my-5">
+  <div class="col-12">
+    <div class="text-center title-box">
+    <div class="small-title-box">
+      <h6 class="first-title">Why Protoblock?</h6>
+    </div>
+    <div class="big-title-box">
+      <h4 class="second-title">We're replacing traditional fantasy platforms with a fantasy football utopia</h4>
+    </div>
+    <div class="small-title-box">
+      <p class="third-title">(sports betting) + (blockchain) + (crypto)<br/>= protoblock</p>
+    </div>
     </div>
   </div>
 </div>
+
+<div class="row my-5">
+
+  <div class="col-12 col-md-6 col-xl-3 why-box">
+    <div class="why-img-box why-img-token my-4">
+      <img class="img-fluid why-img" src="/images/dark-circle.png">
+    </div>
+    <div class="why-title">
+      <h3 class="text-uppercase">Tokenizing</h3>
+    </div>
+    <div class="why-subtitle">
+      <p class="text-uppercase">Your Passion for Football</p>
+    </div>
+    <div class="why-content my-3">
+      <ul>
+        <li>
+          <p><i class="fas fa-check"></i> PPR points generate FantasyBits.</p>
+        </li>
+        <li>
+          <p><i class="fas fa-check"></i> Earn FantasyBits with Projection accuracy - risk free.</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="col-12 col-md-6 col-xl-3 why-box">
+    <div class="why-img-box why-img-mon my-4">
+      <img class="img-fluid why-img" src="/images/yellow-circle.png">
+    </div>
+    <div class="why-title">
+      <h3 class="text-uppercase">Monetizing</h3>
+    </div>
+    <div class="why-subtitle">
+      <p class="text-uppercase">All Fantasy Football Skill</p>
+    </div>
+    <div class="why-content my-3">
+      <ul>
+        <li>
+          <p><i class="fas fa-check"></i> Trade long or short fantasy football forward contracts.</p>
+        </li>
+        <li>
+          <p><i class="fas fa-check"></i> Hedge early round draft picks. Short season-long busts and sleepers.</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="col-12 col-md-6 col-xl-3 why-box">
+    <div class="why-img-box why-img-demo my-4">
+      <img class="img-fluid why-img" src="/images/white-circle.png">
+    </div>
+    <div class="why-title">
+      <h3 class="text-uppercase">Democratizing</h3>
+    </div>
+    <div class="why-subtitle">
+      <p class="text-uppercase">Fantasy Sports Celebrity</p>
+    </div>
+    <div class="why-content my-3">
+      <ul>
+        <li>
+          <p><i class="fas fa-check"></i> Accuracy rankings for all - anyone with skill can climb the leaderboard</p>
+        </li>
+        <li>
+          <p><i class="fas fa-check"></i> No self-promotion necessary</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="col-12 col-md-6 col-xl-3 why-box">
+    <div class="why-img-box why-img-cr my-4">
+      <img class="img-fluid why-img" src="/images/light-circle.png">
+    </div>
+    <div class="why-title">
+      <h3 class="text-uppercase">Creating</h3>
+    </div>
+    <div class="why-subtitle">
+      <p class="text-uppercase">a Player-Owned Platform</p>
+    </div>
+    <div class="why-content my-3">
+      <ul>
+        <li>
+          <p><i class="fas fa-check"></i> Do you like IDP, dynasty, auction, 2QB, super-flex, DFS? We will build it for 2019 Season. Vote <a target="_blank" href="/vote/index.html">here</a>.</p>
+        </li>
+        <li>
+          <p><i class="fas fa-check"></i> No fees, 100% payouts</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+
 </div>
+
+</div>
+<!-- End Why Protoblock -->
+
+<!-- Platform -->
+<div class="container pt-5 pb-1 pf">
+
+<div class="row my-4">
+  <div class="col-12">
+    <div class="text-center title-box">
+    <div class="small-title-box">
+      <h6 class="first-title">New-Age Platforms</h6>
+    </div>
+    <div class="big-title-box">
+      <h4 class="second-title">Play fantasy football the way it was meant to be played.</h4>
+    </div>
+    <div class="small-title-box">
+      <p class="third-title">player controlled and owned</p>
+    </div>
+    </div>
+  </div>
 </div>
 
-<!-- App Slider -->
-<div class="container-fluid app-slider">
-<div class="row py-5">
-  <div class="col-12 text-center text-uppercase my-4">
-    <h1>Protoblock Products</h1>
-  </div>
+<div class="row my-3">
+  <div class="col-12 col-md-6 my-2 text-center">
+    <img class="img-fluid" src="/images/screenshots/mobile-app.png">
 
-<!-- App Slider Menu -->
-  <div class="col-12 my-3">
-  <div class="as-menu-box ">
-  <ul class="nav d-flex flex-row justify-content-around" id="pills-tab" role="tablist">
-    <li class="nav-item">
-      <a class="as-pill active" id="as-mobile-tab" data-toggle="pill" href="#as-mobile" role="tab" aria-controls="as-mobile" aria-selected="true">
-        <img class="as-menu as-mobile-img" src="/images/dark-circle.png">
-      </a>
-    </li>
+    <h5 class="text-uppercase pf-title my-1">Light Mobile Client</h5>
+    <p class="text-uppercase pf-subtitle">for playing on the go</p>
 
-    <li class="nav-item">
-      <a class="as-pill" id="as-desk-tab" data-toggle="pill" href="#as-desk" role="tab" aria-controls="as-desk" aria-selected="false">
-        <img class="as-menu as-desk-img" src="/images/white-circle.png">
-      </a>
-    </li>
-
-    <li class="nav-item">
-      <a class="as-pill" id="as-web-tab" data-toggle="pill" href="#as-web" role="tab" aria-controls="as-web" aria-selected="false">
-        <img class="as-menu as-web-img" src="/images/yellow-circle.png">
-      </a>
-    </li>
-  </ul>
-  </div>
-  </div>
-
-<!-- App Slider Content -->
-  <div class="col-12 my-2">
-  <div class="tab-content as-content-box" id="pills-tabContent">
-
-  <div class="tab-pane fade show active " id="as-mobile" role="tabpanel" aria-labelledby="as-mobile-tab">
-  <div class="container-fluid">
-  <div class="row">
-    <div class="col-12 col-md-6 my-2">
-      <img class='img-fluid' src='/images/screenshots/mobile-app.png'>
+    <div class="pf-list my-3">
+      <p>make projections</p>
+      <p>place trades</p>
+      <p>access game schedules</p>
+      <p>access fantasy data</p>
     </div>
-
-    <div class="col-12 col-md-6 my-2">
-      <h3 class="as-title my-3">Light Mobile Client</h3>
-
-      <p class="my-3">The Protoblock mobile apps for Android and iOS provide a convenient way to play the Projections Game and access to fantasy data and projection data information.</p>
-
-      <div class="as-buttons my-3">
-        <div class="pb-button text-nowrap my-2">
-          <a href='https://play.google.com/store/apps/details?id=org.proto.protoblock'>Google Play</a>
-        </div>
-        <div class="pb-button text-nowrap my-2">
-          <a href='https://itunes.apple.com/us/app/protoblock-2016/id1133758199?ls=1&mt=8'>iTunes Store</a>
-        </div>           
-      </div> 
-    </div>
-  </div>
-  </div>
-  </div>
-
-  <div class="tab-pane fade" id="as-desk" role="tabpanel" aria-labelledby="as-desk-tab">
-  <div class="container-fluid">
-  <div class="row">
-    <div class="col-12 col-md-6 my-2">
-      <img class='img-fluid' src='/images/screenshots/desktop-app.png'>
-    </div>
-
-    <div class="col-12 col-md-6 my-2">
-      <h3 class="as-title my-3">Desktop Full Node</h3>
-
-      <p class="my-3">The Protoblock desktop apps are full-featured dashboard nodes providing extensive access to all games and associated information.</p>
-
-      <div class="as-buttons my-3">
-          <div class="pb-button text-nowrap my-2">
-          <a href='/Downloads/Windows/64/protoblock.exe'>Windows</a>
-        </div>
-        <div class="pb-button text-nowrap my-2">
-          <a href='/Downloads/MacOS/64/protoblock.dmg'>MacOSX</a>              
-        </div>
-      </div>                
-    </div>
-  </div>
-  </div>
-  </div>
-
-  <div class="tab-pane fade" id="as-web" role="tabpanel" aria-labelledby="as-web-tab">
-  <div class="container-fluid">
-  <div class="row">
-    <div class="col-12 col-md-6 my-2">
-      <img class='img-fluid' src='/images/screenshots/web-app-temp.png'>
-    </div>
-
-    <div class="col-12 col-md-6 my-2">
-      <h3 class="as-title my-3">Live Data Feed</h3>
-
-      <p>The ticker and the leaderboard steam live data from the Protoblock blockchain. The Ticker reflects the price quotes for the Fantasy Smart Contracts in the DEX. Follow @prototicker to stay on top of the latest price changes. The leaderboard reflects current overall projection leaders.</p>
-
-      <div class="as-buttons my-3">
-        <div class="pb-button text-nowrap my-2">
-          <a href='/pages/ticker.html'>Ticker</a>
-        </div>
-        <div class="pb-button text-nowrap my-2">
-          <a href='https://twitter.com/prototicker'>@prototicker</a>              
-        </div>
-        <div class="pb-button text-nowrap my-2">
-          <a href='/pages/leaderboard.html'>Leaderboard</a>
-        </div>
+    
+    <div class="my-3 pf-buttons">
+      <div class="text-nowrap my-2 pb-button pf-button">
+        <a href='https://play.google.com/store/apps/details?id=org.proto.protoblock'>Google Play</a>
+      </div>
+      <div class="text-nowrap my-2 pb-button pf-button">
+        <a href='https://itunes.apple.com/us/app/protoblock-2016/id1133758199?ls=1&mt=8'>iTunes Store</a>
       </div>           
+    </div> 
+  </div>
+
+  <div class="col-12 col-md-6 my-2 text-center">
+    <img class="img-fluid" src="/images/screenshots/desktop-app.png">
+
+    <h5 class="text-uppercase pf-title my-1">Desktop Full Node</h5>
+    <p class="text-uppercase pf-subtitle">everything you could possibly want</p>
+
+    <div class="pf-list my-3">
+      <p>view the block explorer</p>
+      <p>import/export projections</p>
+      <p>access projections of all players</p>
+      <p>manage your account</p>
+      <p>transfer FantasyBits</p>
     </div>
 
-  </div>
-  </div>
-  </div>
-  </div>
-  </div>
-
-</div>
-</div>
-
-<!-- Tour -->
-<div class="container-fluid tour">
-<div class="row pt-5 text-center">
-  <div class="col-12 my-4 text-uppercase">
-    <h1>Quick Tour</h1>
-  </div>
-</div>
-
-
-<div class="row pb-5">
-<div class="col-12 my-4">
-<div class="accordion" id="tour">
-<ul class="tour-items">
-
-  <li class="tour-item">
-  <div class="tour-title">
-    <a class="collapsed d-flex ceneterv" href="#tour-o" data-toggle="collapse" aria-expanded="true" aria-controls="tour-o">
-      <div class="m-3 centerv">
-        <i class="fas fa-circle"></i>
+    <div class="my-3 pf-buttons">
+      <div class="text-nowrap my-2 pb-button pf-button">
+        <a href='/Downloads/Windows/64/protoblock.exe'>Windows</a>
       </div>
-      <div class="m-3 text-uppercase">
-        <h5 class="">Overview</h5>
+      <div class="text-nowrap my-2 pb-button pf-button">
+        <a href='/Downloads/MacOS/64/protoblock.dmg'>MacOSX</a>              
       </div>
-    </a>
-  </div>
-
-  <div id="tour-o" class="tour-content collapse" aria-labelledby="tour-o" data-parent="#tour">
-  <div class="container-fluid">
-  <div class="row">
-    <div class="col-12 col-md-6 tour-text">
-      <p class="my-2">Protoblock is a decentralized public blockchain for sports fans created by sports fans and powered by sports fans. The blockchain is owned and fully controlled by the community.</p>
-
-      <h5 class="tour-stitle my-3">Coin Generation & Distribution</h5>
-
-      <p class="my-2">100 FantasyBit coins are generated per 1 PPR point during each NFL game. 100% of generated coins are distributed to users based on projection accuracy.</p>
-    </div>
-
-    <div class="col-12 col-md-6 tour-img p-3">
-      <img class='img-thumbnail' src='/images/screenshots/tour-overview.png'>
-    </div>
-  </div>
-  </div>
-  </div>
-  </li>
-  <li class="tour-item">
-  <div class="tour-title">
-    <a class="collapsed d-flex ceneterv" href="#tour-prj" data-toggle="collapse" aria-expanded="true" aria-controls="tour-prj">
-      <div class="m-3 centerv">
-        <i class="fas fa-circle"></i>
-      </div>
-      <div class="m-3 text-uppercase">
-        <h5 class="">Projections</h5>
-      </div>      
-    </a>
-  </div>
-
-  <div id="tour-prj" class="tour-content collapse" aria-labelledby="tour-prj" data-parent="#tour">
-  <div class="container-fluid">
-  <div class="row">
-    <div class="col-12 col-md-6 tour-text">
-      <h5 class="tour-stitle my-3">fantasy skill</h5>
-
-      <p class="my-2">This is where your Fantasy Skill shines. Anyone can make projections before the kickoff any NFL game, but only those with real skill will rise to the top of the leaderboard.</p>
-
-      <div class="tour-buttons my-2">
-        <div class="pb-button text-nowrap my-3">
-          <a href='/pages/leaderboard.html'>Leaderboard</a>
-        </div>         
-      </div> 
-    </div>
-
-    <div class="col-12 col-md-6 tour-img p-3">
-      <img class='img-thumbnail' src='/images/screenshots/tour-projections.png'>
-    </div>
-      
-  </div>
-  </div>
-  </div>
-  </li>
-
-  <li class="tour-item">
-  <div class="tour-title">
-    <a class="collapsed d-flex ceneterv" href="#tour-tr" data-toggle="collapse" aria-expanded="true" aria-controls="tour-tr">
-      <div class="m-3 centerv">
-        <i class="fas fa-circle"></i>
-      </div>
-      <div class="m-3 text-uppercase">
-        <h5 class="">Trading Game</h5>
-      </div>      
-    </a>
-  </div>
-
-  <div id="tour-tr" class="tour-content collapse" aria-labelledby="tour-tr" data-parent="#tour">
-  <div class="container-fluid">
-  <div class="row">
-
-    <div class="col-12 col-md-6 tour-text">
-      <h5 class="tour-stitle my-3">Trade Individual Players</h5>
-
-      <p class="my-2">Bet on or against any NFL player on the 53-Man Roster on Weekly or Season-Long Contracts.</p>
-
-      <h5 class="tour-stitle my-3">Hedge Your Bets</h5>
-
-      <p class="my-2">Hedge your large-stake Fantasy Football line-ups on Protoblock.</p>
-    </div>
-
-    <div class="col-12 col-md-6 tour-img p-3">
-      <img class='img-thumbnail' src='/images/screenshots/tour-trading.png'>
-    </div>
-      
-  </div>
-  </div>
-  </div>
-  </li>
-
-  <li class="tour-item">
-  <div class="tour-title">
-    <a class="collapsed d-flex ceneterv" href="#tour-tck" data-toggle="collapse" aria-expanded="true" aria-controls="tour-tck">
-      <div class="m-3 centerv">
-        <i class="fas fa-circle"></i>
-      </div>
-      <div class="m-3 text-uppercase">
-        <h5 class="">Ticker</h5>
-      </div>
-    </a>
-  </div>
-
-  <div id="tour-tck" class="tour-content collapse" aria-labelledby="tour-tck" data-parent="#tour">
-  <div class="container-fluid">
-  <div class="row">
-
-    <div class="col-12 col-md-6 tour-text">
-      <p class="my-2">Get the latest news on every NFL player based on market price changes.</p>
-
-      <p class="my-2">Follow @Prototicker to get the latest news right on your Twitter feed.</p>
-
-      <div class="tour-buttons my-2">
-        <div class="pb-button text-nowrap my-3">
-          <a href='pages/ticker.html'>Ticker</a>
-        </div>
-        <div class="pb-button text-nowrap my-3">
-          <a href='https://twitter.com/prototicker'>@prototicker</a>
-        </div>          
-      </div> 
-    </div>
-
-    <div class="col-12 col-md-6 tour-img p-3">
-      <img class='img-thumbnail' src='/images/screenshots/tour-ticker.png'>        
-    </div>
-  </div>
-  </div>
-  </div>
-  </li>
-
-  <li class="tour-item">
-  <div class="tour-title">
-    <a class="collapsed d-flex ceneterv" href="#tour-wa" data-toggle="collapse" aria-expanded="true" aria-controls="tour-wa">
-      <div class="m-3 centerv">
-        <i class="fas fa-circle"></i>
-      </div>
-      <div class="m-3 text-uppercase">
-        <h5 class="">Wallet</h5>
-      </div>      
-    </a>
-  </div>
-
-  <div id="tour-wa" class="tour-content collapse" aria-labelledby="tour-wa" data-parent="#tour">
-  <div class="container-fluid">
-  <div class="row">
-
-    <div class="col-12 col-md-6 tour-text">
-      <p class="my-2">Check your FantasyBit balance and transfer FantasyBits using Protoblock Name Search.</p>
-    </div>
-
-    <div class="col-12 col-md-6 tour-img p-3">
-      <img class='img-thumbnail' src='/images/screenshots/tour-wallet.png'>        
-    </div>
-  </div>
-  </div>
-  </div>
-  </li>
-
-  <li class="tour-item">
-  <div class="tour-title">
-    <a class="collapsed d-flex ceneterv" href="#tour-be" data-toggle="collapse" aria-expanded="true" aria-controls="tour-be">
-      <div class="m-3 centerv">
-        <i class="fas fa-circle"></i>
-      </div>
-      <div class="m-3 text-uppercase">
-        <h5 class="">Block Explorer</h5>
-      </div>      
-    </a>
-  </div>
-
-  <div id="tour-be" class="tour-content collapse" aria-labelledby="tour-be" data-parent="#tour">
-  <div class="container-fluid">
-  <div class="row">
-
-    <div class="col-12 col-md-6 tour-text">
-      <p class="my-2">You can explore the entire blockchain, confirm transactions, and check the latest activities on Protoblock.</p>
-    </div>
-
-    <div class="col-12 col-md-6 tour-img p-3">
-      <img class='img-thumbnail' src='/images/screenshots/tour-block.png'>        
-    </div>
-  </div>
-  </div>
-  </div>
-  </li>
-
-  <li class="tour-item">
-  <div class="tour-title">
-    <a class="collapsed d-flex ceneterv" href="#tour-co" data-toggle="collapse" aria-expanded="true" aria-controls="tour-co">
-      <div class="m-3 centerv">
-        <i class="fas fa-circle"></i>
-      </div>
-      <div class="m-3 text-uppercase">
-        <h5 class="">Community</h5>
-      </div>      
-    </a>
-  </div>
-
-  <div id="tour-co" class="tour-content collapse" aria-labelledby="tour-co" data-parent="#tour">
-  <div class="container-fluid">
-  <div class="row">
-  <div class="col-12 my-3 tour-text text-center">
-    <h5 class="tour-stitle my-3">A Place for Every Interest</h5>
-
-  <div class="col-12 my-3 tour-text">
-    <ul class="list-inline">
-      <li class="list-inline-item p-2">
-        <a class="sm-drop sm-icon-t" target="_blank" href="https://t.me/protoblock"><i class="fab fa-telegram-plane text-center"></i></a>
-      </li>
-      <li class="list-inline-item p-2">
-        <a class="sm-drop sm-icon-t" target="_blank" href="https://www.reddit.com/r/Protoblock/"><i class="fab fa-reddit-alien text-center"></i></a>
-      </li>
-      <li class="list-inline-item p-2">
-        <a class="sm-drop sm-icon-t" target="_blank" href="https://twitter.com/protoblock"><i class="fab fa-twitter text-center"></i></a>
-      </li>
-      <li class="list-inline-item p-2">
-        <a class="sm-drop sm-icon-t" target="_blank" href="https://github.com/protoblock/"><i class="fab fa-github-alt text-center"></i></a>
-      </li>
-      <li class="list-inline-item p-2">
-        <a class="sm-drop sm-icon-t" target="_blank" href="https://www.youtube.com/c/protoblock"><i class="fab fa-youtube text-center"></i></a>
-      </li>
-      <li class="list-inline-item p-2">
-        <a class="sm-drop sm-icon-t" target="_blank" href="https://www.facebook.com/protoblock/"><i class="fab fa-facebook-f text-center"></i></a>
-      </li>
-    </ul>
-  </div>
-
-  </div>
-  </div>
-  </div>
-  </li>
-
-  <li class="tour-item">
-  <div class="tour-title">
-    <a class="collapsed d-flex ceneterv" href="#tour-f" data-toggle="collapse" aria-expanded="true" aria-controls="tour-f">
-      <div class="m-3 centerv">
-        <i class="fas fa-circle"></i>
-      </div>
-      <div class="m-3 text-uppercase">
-        <h5 class="">Future Development</h5>
-      </div>      
-    </a>
-  </div>
-
-  <div id="tour-f" class="tour-content collapse" aria-labelledby="tour-f" data-parent="#tour">
-  <div class="container-fluid">
-  <div class="row">
-
-    <div class="col-12 col-md-6 tour-text">
-      <h5 class="tour-stitle my-3">Coming Soon</h5>
-
-      <p class="my-2">White Paper Ver. 2</p>
-      <p class="my-2">Web Application Updates</p>
-      <p class="my-2">Atomic Bitcoin Exchange</p>
-
-    </div>
-
-    <div class="col-12 col-md-6 tour-img p-3">
-      <img class='img-thumbnail' src='/artwork/download/download-1.jpg'>        
-    </div>
-  </div>
-  </div>
-  </div>
-  </li>
-
-</ul>
-</div>
-</div>
-</div>
-</div>
-
-<!-- FAQ -->
-<div class="container-fluid faq" id="faq">
-<div class="row pt-5 text-center">
-  <div class="col-12 my-4 text-uppercase">
-    <h1>Frequently Asked Questions</h1>
+    </div>                
   </div>
 </div>
 
-<div class="row pb-5">
-<div class="col-12 my-4">
-<div class="accordion" id="faq">
-<ul class="faq-items">
-
-  <li class="faq-item">
-    <div class="faq-title">
-      <a class="collapsed centerv" href="#faq-1" data-toggle="collapse" aria-expanded="true" aria-controls="faq-1">
-        <p><i class="fas fa-chevron-up"></i> What is Protoblock?</p>
-      </a>
-    </div>
-    <div id="faq-1" class="faq-content collapse" aria-labelledby="faqt-1" data-parent="#faq">
-      <p>Protoblock is a public blockchain driven by decentralized consensus on professional sports results. Protoblock offers a platform for monetizing professional sports knowledge by making projections and trading forwards contracts. Protoblock harnesses the value of knowledge by combining blockchain technology, professional sports, and futures trading.</p>
-    </div>
-  </li>
-
-  <li class="faq-item">
-    <div class="faq-title">
-      <a class="collapsed centerv" href="#faq-2" data-toggle="collapse" aria-expanded="true" aria-controls="faq-2">
-        <p><i class="fas fa-chevron-up"></i> What is blockchain technology?</p>
-      </a>
-    </div>
-    <div id="faq-2" class="faq-content collapse" aria-labelledby="faqt-2" data-parent="#faq">
-      <p>To put it simply, blockchain technology solves the impossible problem of reaching distributed consensus named The Byzantine Generals Problem proposed by computer scientists in 1982. Geographically distributed generals are unable to reach consensus on the time of attack on an enemy city without a centralized authority (AKA oracle) in an event of a traitor among them. A successful case of blockchain is the ability to agree on ‘the time’ without an oracle to ‘announce’ the time. Instead, the generals would be able to communicate with each other through messengers and agree on the time, even if there was a traitor among them. Blockchain technology solves this problem probabilistically with a consensus algorithm, called Proof-of-Work.</p>
-    </div>
-  </li>
-
-  <li class="faq-item">
-   <div class="faq-title">
-      <a class="collapsed centerv" href="#faq-3" data-toggle="collapse" aria-expanded="true" aria-controls="faq-3">
-        <p><i class="fas fa-chevron-up"></i> How does professional sports work with blockchain technology?</p>
-      </a>
-    </div>
-    <div id="faq-3" class="faq-content collapse" aria-labelledby="faqt-3" data-parent="#faq">
-      <p>In the case of Proof-of-Work, the network comes to a distributed consensus by using SHA-256. Once the needle in the haystack is found, anyone can independently verify its legitimacy by putting it through SHA-256. Protoblock replaces SHA-256 with professional sports. Users make projections on professional sports and the generation and distribution of token is based on the results of the game. Once the game ends, anyone can watch the game and independently verify the results without a centralized authority. The results of the game is comparable to SHA-256 output. Similar to SHA-256, the security of the blockchain relies on the fact that the output, or the result, cannot be predicted easily in professional sports. In Proof-of-Work system, more computing power means you have a better chance at finding the output. In Proof-of-Skill system, more professional sports knowledge means you have a better chance at accurately predicting the results. We consider this knowledge ‘skill,’ hence the name, Proof-of-Skill.</p>
-      <p>By using professional sports, Protoblock provides an energy-saving alternative to Proof-of-Work systems. In addition, the reliability of professional sports has been demonstrated. Not only has humanity been coming to consensus about the results of professional sports results since the Roman times, the phenomenon of professional sports has already been harnessed by the 70-Billion Fantasy Football industry since the 1960s. Billions of dollars have been distributed according to the rules of each league based on the results of the game without an centralized authority. Protoblock is modernizing the industry by utilizing blockchain technology.</p>
-    </div>
-  </li>
-
-  <li class="faq-item">
-    <div class="faq-title">
-      <a class="collapsed centerv" href="#faq-4" data-toggle="collapse" aria-expanded="true" aria-controls="faq-4">
-        <p><i class="fas fa-chevron-up"></i> Why is it necessary for Protoblock to use blockchain technology?</p>
-      </a>
-    </div>
-    <div id="faq-4" class="faq-content collapse" aria-labelledby="faqt-4" data-parent="#faq">
-      <p>Distributed network protects against vulnerabilities of having an oracle. Since there is no head to cut off, the network is resilient against attacks and traitors. Fantasy Football community already reflects a distributed network, as many leagues exist without a central authority.</p>
-    </div>
-  </li>
-<!--
-  <li class="faq-item">
-    <div class="faq-title">
-      <a class="collapsed centerv" href="#faq-5" data-toggle="collapse" aria-expanded="true" aria-controls="faq-5">
-        <p><i class="fas fa-chevron-up"></i> What are forwards contracts?</p>
-      </a>
-    </div>
-    <div id="faq-5" class="faq-content collapse" aria-labelledby="faqt-5" data-parent="#faq">
-      <p>A forwards contract is a smart contract, with two parties. The Writer and the Holder. The one who writes the contact, does this by “Selling” to to the “Buyer” who will hold it till expiration.</p>
-      <p>At expiration the Buyer must pay the Seller Fantasybit and the Seller must deliver the asset detailed in the Forwards contract. In our case, the contract are “cash” settled, so the asset is Fantasybits.</p>
-    </div>
-  </li>
-
-  <li class="faq-item">
-    <div class="faq-title">
-      <a class="collapsed centerv" href="#faq-6" data-toggle="collapse" aria-expanded="true" aria-controls="faq-6">
-        <p><i class="fas fa-chevron-up"></i> How are forwards contracts same or different than stock trading?</p>
-      </a>
-    </div>
-    <div id="faq-6" class="faq-content collapse" aria-labelledby="faqt-6" data-parent="#faq">
-      <p>When you buy a stock you are actually buying something and have to pay for it up front. Even when you get margin, you are still borrowing to pay for the stock. With Forwards, there is nothing to buy, you are just agreeing to make a transaction in the future. No margin is required, only a good faith deposit.</p>
-      <p>Another difference is that the Seller is Forards is not technically “Shorting”, he is just on the side of the contract that agrees to sell something in the future at a price we agree on now. Going long and going short with forwards, are exactly the same.</p>
-    </div>
-  </li>
--->
-</ul>
-  
 </div>
+<!-- End Platform -->
+
+<!-- Learn More -->
+<div class="container py-5 lmore">
+<div class="row my-4 ">
+  <div class="col-12">
+    <div class="text-center title-box">
+    <div class="small-title-box">
+      <h6 class="first-title">Resources</h6>
+    </div>
+    <div class="big-title-box">
+      <h4 class="second-title">Learn more about our innovative technolgy and how to play</h4>
+    </div>
+    <div class="small-title-box">
+      <p class="third-title">whitepaper v2 coming soon</p>
+    </div>
+    </div>
+  </div>
 </div>
-</div>
+
+<div class="row lmorebox text-center py-4 mb-5">
+
+  <div class="col-12 col-md-4 my-2">
+    <div class="pb-button md-button">
+      <a class="text-uppercase text-nowrap" target="_blank" href="https://medium.com/@jaybny/on-proof-of-skill-6af149f45ce8">Medium Post</a>
+    </div>
+  </div>
+
+  <div class="col-12 col-md-4 my-2">
+    <div class="pb-button wp-button">
+      <a class="text-uppercase text-nowrap" target="_blank" href="/docs/whitepaper-2014.pdf">Whitepaper</a>
+    </div>
+  </div>
+
+  <div class="col-12 col-md-4 my-2">
+    <div class="pb-button pg-button">
+      <a class="text-uppercase text-nowrap" target="_blank" href="/docs/PlayGuide.pdf">Play Guide</a>
+    </div>
+  </div>
 
 </div>
 
@@ -793,70 +434,69 @@ contact@protoblock.com
 
 <!-- Footer -->
 <footer class="footer" id="footer">
-<div class="container">
-  <div class="row centerh py-3">
-    
-    <div class="col-12 my-3">
-      <h3>Join The First Decentralized</h3>
-      <h3>Fantasy Football Community</h3>
-    </div>
+<div class="container py-5 footerbox">
 
-    <div class="col-12 my-3">
-      <div class="email-text centervh my-1 px-3 pb-3">
-        <h6>Subscribe to our newsletter to stay updated</h6>
-      </div>
+  <div class="row centerh py-4">
+    
+  <div class="col-12 my-3">
+    <div class="email-text">
+      <h4 class="text-uppercase text-center">Let's stay in touch</h4>
+    </div>
+  </div>
 
 <!-- AWEBER FORM -->
-      <div class="aweber centervh">
-        <form method="post" accept-charset="UTF-8" action="https://www.aweber.com/scripts/addlead.pl" >
-          <div id="af-form-451745103">
-            <div id="af-body-451745103">
-              <input type="hidden" name="meta_web_form_id" value="451745103"/>
-              <input type="hidden" name="meta_split_id" value=""/>
-              <input type="hidden" name="listname" value="awlist4263557"/>
-              <input type="hidden" name="redirect" value="" id="redirect_f432f02a3ee39813b8f1bdd555ecae3d"/>
-              <input type="hidden" name="meta_adtracking" value="My_Web_Form"/>
-              <input type="hidden" name="meta_message" value="1"/>
-              <input type="hidden" name="meta_required" value="email"/>
-              <input type="hidden" name="meta_tooltip" value=""/>
-            </div>
-          </div>
-          <div class="aweber-form">
-            <input class="text email-form text-uppercase" placeholder=" Enter Your Email" id="awf_field-82128068" type="text" name="email" value="" tabindex="501" onfocus=" if (this.value == '') { this.value = ''; }" onblur="if (this.value == '') { this.value='';}"><br/>
-            <input class="pb-button email-btn my-3 text-uppercase" type="submit" name="submit" value="Subscribe">
-          </div>
-        </form>
-      </div> 
-    </div>
-
-    <div class="col-12 my-3 px-2">
-      <ul class="list-inline">
-        <li class="list-inline-item p-2">
-          <a class="sm-drop sm-icon-lg" target="_blank" href="https://t.me/protoblock"><i class="fab fa-telegram-plane text-center"></i></a>
-        </li>
-        <li class="list-inline-item p-2">
-          <a class="sm-drop sm-icon-lg" target="_blank" href="https://www.reddit.com/r/Protoblock/"><i class="fab fa-reddit-alien text-center"></i></a>
-        </li>
-        <li class="list-inline-item p-2">
-          <a class="sm-drop sm-icon-lg" target="_blank" href="https://twitter.com/protoblock"><i class="fab fa-twitter text-center"></i></a>
-        </li>
-        <li class="list-inline-item p-2">
-          <a class="sm-drop sm-icon-lg" target="_blank" href="https://github.com/protoblock/"><i class="fab fa-github-alt text-center"></i></a>
-        </li>
-        <li class="list-inline-item p-2">
-          <a class="sm-drop sm-icon-lg" target="_blank" href="https://www.youtube.com/c/protoblock"><i class="fab fa-youtube text-center"></i></a>
-        </li>
-        <li class="list-inline-item p-2">
-          <a class="sm-drop sm-icon-lg" target="_blank" href="https://www.facebook.com/protoblock/"><i class="fab fa-facebook-f text-center"></i></a>
-        </li>
-      </ul>
-    </div>
+  <div class="col-12 my-3">
+  <div class="aweber centervh">
+    <form method="post" accept-charset="UTF-8" action="https://www.aweber.com/scripts/addlead.pl" >
+      <div id="af-form-451745103">
+        <div id="af-body-451745103">
+          <input type="hidden" name="meta_web_form_id" value="451745103"/>
+          <input type="hidden" name="meta_split_id" value=""/>
+          <input type="hidden" name="listname" value="awlist4263557"/>
+          <input type="hidden" name="redirect" value="" id="redirect_f432f02a3ee39813b8f1bdd555ecae3d"/>
+          <input type="hidden" name="meta_adtracking" value="My_Web_Form"/>
+          <input type="hidden" name="meta_message" value="1"/>
+          <input type="hidden" name="meta_required" value="email"/>
+          <input type="hidden" name="meta_tooltip" value=""/>
+        </div>
+      </div>
+      <div class="aweber-form-ft">
+        <input class="text email-form-ft text-uppercase" placeholder=" Enter Your Email" id="awf_field-82128068" type="text" name="email" value="" tabindex="501" onfocus=" if (this.value == '') { this.value = ''; }" onblur="if (this.value == '') { this.value='';}">
+        <input class="pb-button email-btn-ft my-3 text-uppercase" type="submit" name="submit" value="Subscribe">
+      </div>
+    </form>
+  </div> 
+  </div>
+<!-- End AWEBER FORM -->
+<!-- Social Media -->
+  <div class="col-12 my-4 smed">
+    <ul class="list-inline text-center">
+      <li class="list-inline-item p-2">
+        <a class="sm-drop sm-icon-lg" target="_blank" href="https://t.me/protoblock"><i class="fab fa-telegram-plane text-center"></i></a>
+      </li>
+      <li class="list-inline-item p-2">
+        <a class="sm-drop sm-icon-lg" target="_blank" href="https://www.reddit.com/r/Protoblock/"><i class="fab fa-reddit-alien text-center"></i></a>
+      </li>
+      <li class="list-inline-item p-2">
+        <a class="sm-drop sm-icon-lg" target="_blank" href="https://twitter.com/protoblock"><i class="fab fa-twitter text-center"></i></a>
+      </li>
+      <li class="list-inline-item p-2">
+        <a class="sm-drop sm-icon-lg" target="_blank" href="https://github.com/protoblock/"><i class="fab fa-github-alt text-center"></i></a>
+      </li>
+      <li class="list-inline-item p-2">
+        <a class="sm-drop sm-icon-lg" target="_blank" href="https://www.youtube.com/c/protoblock"><i class="fab fa-youtube text-center"></i></a>
+      </li>
+      <li class="list-inline-item p-2">
+        <a class="sm-drop sm-icon-lg" target="_blank" href="https://www.facebook.com/protoblock/"><i class="fab fa-facebook-f text-center"></i></a>
+      </li>
+    </ul>
+  </div>
+<!-- End Social Media -->
   </div>
 
 </div>
 </footer>
 <!-- End Footer -->
-
 
 </body>
 </html>
