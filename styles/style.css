@@ -540,7 +540,7 @@ ul {
 /* align right at lg screens */
 @media (min-width: 992px) {
   .video-ul {
-    margin-left: -50px;
+    margin-left: -15vw;
   }
   .bg-vid {
     opacity: .15!important;
