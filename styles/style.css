@@ -929,5 +929,34 @@ footer {
   margin-right: auto;
 }
 
+/**********************************************************************/
+/* download page */
+.dlpage {
+  max-width: 960px;
+}
 
+.dlpage .img-fluid {
+  width: 100%;
+  max-width: 360px;
+}
+
+.dlp-button {
+  width: 180px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #effbf9;
+}
+
+@media (min-width: 768px) {
+  .dlp-buttons {
+    display: flex;
+    justify-content: center;
+  }
+  .dlp-button {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+}
 
