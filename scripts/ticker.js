@@ -143,12 +143,10 @@ function parseRight(d){
     + "</td><td>" + d[0].lastsize
     + "</td></tr>"
   )
+
   $('#volHolder').append("<p><b>Volume: </b>" + d[0].volume + "<h3>")
   $('#openHolder').append("<p><b>Move from open: </b>"+ d[0].change + "<h3>")
-  $('#resultsHolder').append("<p><b>Expected Results:</b> "+ d[0].price + "<h3>")
-
-
-
+  $('#resultsHolder').append("<p><b>" + (d[0].symbol.slice(-1) == "s" ? "ROW" : ("Week " + d[0].symbol.slice(-1) )) +  " Expected Results:</b> "+ d[0].price + "<h3>")
 }
 
 
@@ -209,6 +207,7 @@ function parseLeftTable(d){
         $('#leftTable').append("\
                 <tr id='playerToFocus' alt='" +d[i].symbol+ "'>\
                     <td id='firstRowPlayer' alt='"+d[i].firstname + " " +  d[i].lastname + " (" +  team  + ", " + d[i].pos + ")" +"'>"+ d[i].firstname + " " +  d[i].lastname + " ( " +  team   + ", " + d[i].pos + " ) </td>\
+                    <td>"+ d[i].symbol+" </td>\
                     <td>"+ d[i].last+" </td>\
                     <td>"+ d[i].volume+" </td>\
                     <td>"+ d[i].change+" </td>\
