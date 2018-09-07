@@ -449,7 +449,7 @@ nav a {
 .video-ul {
   position: absolute;
   width:100vw;
-  min-height: 93vh;
+  min-height: 95vh;
   overflow: hidden;
   z-index: -2;
 }
@@ -464,14 +464,14 @@ nav a {
 }
 .bg-vid {
   min-width: 100%;
-  min-height: 93vh;
+  min-height: 95vh;
   width: auto;
   opacity: .25;
 }
 
 /* left side */
 .lp-l {
-  min-height: 93vh;
+  min-height: 95vh;
 }
 .tagline,
 .desc-lp {
@@ -548,7 +548,7 @@ nav a {
   }
   .bg-vid {
     opacity: .15!important;
-    height: 93vh;
+    height: 95vh;
   }
   .tagline {
     max-width: 450px;
@@ -597,7 +597,7 @@ nav a {
 }
 @media (min-width: 992px) {
   .lp-r {
-    height: 93vh;
+    height: 95vh;
   }
   .e-vid {
     margin-left: 1.5em;
