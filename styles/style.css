@@ -822,7 +822,7 @@ nav a {
 .techbox i {
   color: white;
 }
-th {
+.techbox th {
   background-color: white;
   border-left: white solid 3px;
   border-top: white solid 3px;
