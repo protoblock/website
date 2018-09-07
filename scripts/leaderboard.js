@@ -134,7 +134,7 @@ function parseAward(d){
     $('#toLeader').append("\
         <div id='pnlPlayerName' class='list-group-item btn btn-raised' alt='"+d.data[i].PLAYERID +"' week='"+ d.data[i].WEEK +"' team='"+d.data[i].TEAM + "'  >\
           <div class='row-picture'>\
-            <img class='circle' src='/artwork/inhouse/teams/"+ d.data[i].TEAM +".PNG' alt='icon'>\
+            <img class='circle team-img' src='/artwork/inhouse/teams/"+ d.data[i].TEAM +".PNG' alt='icon'>\
           </div>\
           <div class='row-content'>\
             <h5 class='list-group-item-heading'>\
