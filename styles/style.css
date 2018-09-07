@@ -200,9 +200,9 @@ ul {
 /* navbar */
 
 .toplogoimg {
-  margin-top: .5em;
-  margin-bottom: .5em;
-  height: 1.75em;
+  margin-top: .25em;
+  margin-bottom: .25em;
+  height: 1.5em;
   vertical-align: center !important;
   content:  url("../images/logo-whiteflat-500.png");
 }
@@ -429,6 +429,10 @@ ul {
 }
 .sm-icon i:hover {
   background-color: rgb(255,255,255);
+}
+
+nav a {
+  font-size: 13px;
 }
 
 /**********************************************************************/
@@ -811,7 +815,72 @@ ul {
 }
 /**********************************************************************/
 /* tech */
+.img-cchart {
+  width: 30px;
+  padding: 5px;
+}
+.techbox i {
+  color: white;
+}
+th {
+  background-color: white;
+  border-left: white solid 3px;
+  border-top: white solid 3px;
 
+}
+.topleftcell {
+  background-color: transparent!important;
+  border-top: none!important;
+  border-left: none!important;
+}
+.greenbox,
+.redbox {
+  text-align: center;
+  border-left: white solid 3px;
+  border-top: white solid 3px;
+  border-bottom: white solid 3px;
+  padding: 3px 1px;
+  opacity: .9;
+}
+.greenbox {
+  background-color: green;
+}
+.redbox {
+  background-color: red;
+}
+.fbcell {
+  border-right: 3px solid #ffb400!important;
+  border-left: 3px solid #ffb400!important;
+}
+.fbcelltop {
+  border-top: 3px solid #ffb400!important;
+}
+.fbcellbot {
+  border-bottom: 3px solid #ffb400!important;
+}
+.category{
+  width: 100px;
+  border-left: white solid 3px;
+  border-top: white solid 3px;
+  border-bottom: white solid 3px;
+  padding: 7px;
+}
+@media (max-width: 576px) {
+  .g2, .g3 {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .g3 {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .category {
+    width: auto;
+    white-space: nowrap;
+  }
+}
 /**********************************************************************/
 /* fbit */
 .fbitpbox {
@@ -999,6 +1068,17 @@ footer {
 }
 .tweet-button {
   width: 140px;
+}
+ .coin-cong {
+  max-width: 450px;
+  margin-left: auto!important;
+  margin-right: auto!important;
+  background-color: #017ea7;
+  border: white solid 2px;
+}
+ .coins-dir h6,
+.coin-cong h6 {
+  letter-spacing: 0.5px!important;
 }
 
 /**********************************************************************/
