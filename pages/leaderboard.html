@@ -130,17 +130,19 @@ contact@protoblock.com
 
 <div class="container pt-4 pb-5 leaderboard">
 <div class="row my-5">
-  <div class="col-12 text-center text-uppercase">
-    <h2>
+  <div class="col-12 text-center">
+    <h2 class=" text-uppercase">
       <script type="text/javascript">
         document.write(new Date().getFullYear());
       </script>
       <a href="/pages/leaderboard.html"> Leaderboard</a>
     </h2>
+    <h5 class="pt-3" id='fnPlayerInFocus'></h5>
+    <h5 id='headerSubText'></h5>
   </div>
 </div>
 
-<div class="row my-4">
+<div class="row mt-4 mb-3">
 <div class="col-12 col-lg-6">
   <form id='pickers' role="form">
   <div class="form-group px-2">
@@ -149,7 +151,7 @@ contact@protoblock.com
   </div>
   </form>
 </div>
-
+<!-- Position Selection NOT WORKING 
 <div class="col-12 col-lg-6">
   <form id='pickers' role="form">
   <div class="form-group px-2">
@@ -158,18 +160,18 @@ contact@protoblock.com
   </div>
   </form>
 </div>
-
-<div class="col-12">
-  <div class="form-group py-3 px-2">
+-->
+<div class="col-12 col-lg-6 d-flex flex-row">
+  <div class="form-group pt-3 px-2 align-self-end ld-search">
     <input id="searchinput" class="form-control" type="search" placeholder="Search Leaderboard..."></input>
   </div>
 </div>
 </div>
 
-<div class="row my-4 px-2 text-center leadercards">
+<div class="row px-2 leadercards">
   <div class="col-12">
     <img class="uil-ripple img-responsive" id='loader' src="/images/ripple.svg">
-    <div id="toLeader" class="list-group"></div>
+    <div id="toLeader"></div>
   </div>
 </div>
 </div>

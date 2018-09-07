@@ -1004,22 +1004,69 @@ footer {
   max-width: 750px;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
+}
+.ld-search {
+  width: 100%;
 }
 .leadercards {
   color: #103558;
 }
 .leadercards .list-group-item {
-  margin-bottom: 1em;
-  min-width: 240px;
-  width: 35vw;
-  max-width: 500px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 1em;
+  color: white;
+  border: white solid 3px!important;
+  background-color: #254c6b;
 }
 .team-img {
   max-width: 150px;
 }
-
+.lb-player h5,
+.lb-player h6 {
+  padding-bottom: .25em;
+}
+.circle-img,
+.team-img {
+  width: 50px;
+}
+.lb-award {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.back-button {
+  color: white;
+  border: white solid 3px;
+  background-color: #254c6b;
+  width: 100px;
+  margin-left: auto;
+  margin-right: 0;
+  margin-bottom: 1em;
+}
+@media (min-width: 768px) {
+  .lb-player {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  .item-div-3,
+  .item-div-1,
+  .lb-left {
+    text-align: left!important;
+    display: flex!important;
+    flex-direction: row!important;
+    justify-content: space-between!important;
+    align-items: center!important;
+  }
+  .item-div-3,
+  .lb-left {
+    justify-content: space-between!important;
+  }
+  .item-div-1 {
+    justify-content: start!important;
+  }
+}
 /**********************************************************************/
 /* download page */
 .dlpage {

@@ -26,6 +26,7 @@
     var REFREASHTYPE = 0
     var defaultWeek = REFREASHTYPE === 0 ?  'all weeks' : 'any week'
     var week=defaultWeek
+    var realweek=0
 
     // var APIRunning=false
     var awardsCall;
@@ -36,6 +37,10 @@ function getCurrentWeek(){
         console.log(data)
         var item = JSON.stringify(data.contents)
         var list = JSON.parse(item)
+        console.log(item)
+        console.log(list)
+        console.log(list.week)
+        realweek=list.week
         return list.week
     })
 }
@@ -45,17 +50,24 @@ function parseLevelThree(d){
   //$('#fnPlayerInFocus').text(d.data[0].FIRST + " " +d.data[0].LAST + " Result: "+d.data[0].RESULT  );
   for (var i=0; i < d.data.length; i ++) {
     $('#toLeader').append("\
-      <div class='list-group-item btn btn-raised'>\
-        <div class='row-picture'>\
-          <img class='circle' src='https://raw.githubusercontent.com/google/material-design-icons/master/action/ios/ic_account_circle.imageset/ic_account_circle_3x.png' alt='icon'>\
-        </div>\
-          <div class='row-content'>\
-            <h5 class='list-group-item-heading'>\
-            <span id='theName'>"+d.data[i].FANTASYNAME+"</span>\
-            </h5>\
-            <h6 class='list-group-item-text'>Projection: "+d.data[i].PROJECTION + " Award: "+d.data[i].AWARD +"</h6>\
-          </div>\
-        </div>"
+    <ul class='list-group list-group-flush'>\
+    <li class='list-group-item'>\
+    <div class='item-div-3'>\
+      <div class='lb-left'>\
+      <div class='lb-pic'>\
+        <img class='circle-img m-2' src='https://raw.githubusercontent.com/google/material-design-icons/master/action/ios/ic_account_circle.imageset/ic_account_circle_3x.png' alt='icon'>\
+      </div>\
+      <div class='lb-player'>\
+        <h5 class='lb-heading' id='theName'>"+d.data[i].FANTASYNAME+"</h5>\
+        <h6 class='lb-text'>Projection: "+d.data[i].PROJECTION + "</h6>\
+      </div>\
+      </div>\
+      <div class='lb-award'centervh>\
+        <h6 class='lb-text'>Award: "+d.data[i].AWARD +"</h6>\
+      </div>\
+    </div>\
+    </li>\
+    </ul>"
     );
   $('#loader').hide();
 }
@@ -77,7 +89,7 @@ function fillLevelThree(){
 
     //Back Button
     $("#backButton").remove();
-    $("#toLeader").prepend("<a href='#' id='backButton'>Back</a>");
+    $("#toLeader").prepend("<div class='pb-button back-button p-2'><a href='#' id='backButton'>Back</a></div>");
     $('#backButton').click(function(){
       refillAwards();
     });
@@ -90,15 +102,23 @@ function fillLevelThree(){
 function parseLeaderboard(d){
   for (var i in d) {
     $('#toLeader').append("\
-      <div id='fnPlayerName' class='list-group-item btn btn-raised'>\
-        <div class='row-picture'>\
-          <img class='circle' src='https://raw.githubusercontent.com/google/material-design-icons/master/action/ios/ic_account_circle.imageset/ic_account_circle_3x.png' alt='icon'>\
-        </div>\
-        <div class='row-content'><h5 class='list-group-item-heading'>\
-          <span id='theName'>"+d[i].name+"</span>\
-          <h5><h6 id='score' class='list-group-item-text'>"+d[i].score+"</h6></h5>\
-        </div>\
-      </div>"
+    <ul class='list-group list-group-flush'>\
+    <li class='list-group-item'>\
+    <div id='fnPlayerName' class='item-div-3'>\
+      <div class='lb-left'>\
+      <div class='lb-pic'>\
+        <img class='circle-img m-2' src='https://raw.githubusercontent.com/google/material-design-icons/master/action/ios/ic_account_circle.imageset/ic_account_circle_3x.png' alt='icon'>\
+      </div>\
+      <div class='lb-player'>\
+        <h5 class='lb-heading' id='theName'>"+d[i].name+"</h5>\
+      </div>\
+      </div>\
+      <div class='lb-award'centervh>\
+        <h6 class='lb-text' id='score'> Skill: "+d[i].score+"</h6>\
+      </div>\
+    </div>\
+    </li>\
+    </ul>"
     );
   }
   $('#loader').hide();
@@ -132,18 +152,27 @@ function getLeaderBoard(ur){
 function parseAward(d){
   for (var i=0; i < d.data.length; i ++) {
     $('#toLeader').append("\
-        <div id='pnlPlayerName' class='list-group-item btn btn-raised' alt='"+d.data[i].PLAYERID +"' week='"+ d.data[i].WEEK +"' team='"+d.data[i].TEAM + "'  >\
-          <div class='row-picture'>\
-            <img class='circle team-img' src='/artwork/inhouse/teams/"+ d.data[i].TEAM +".PNG' alt='icon'>\
-          </div>\
-          <div class='row-content'>\
-            <h5 class='list-group-item-heading'>\
-            <span id='theName'>"+d.data[i].FIRSTNAME+ " " +d.data[i].LASTNAME+ " Week " + d.data[i].WEEK + "</span>\
-            </h5>\
-            <h6 class='list-group-item-text'>Projection: "+d.data[i].PROJECTION + " Result: "+d.data[i].RESULT +"</h6>\
-            <h6 id='playerHelper' pos='"+ d.data[i].POS+"' res='"+d.data[i].RESULT+"' >Award: "+d.data[i].AWARD+"</h6>\
-          </div>\
-        </div>"
+    <div id='pnlPlayerName' alt='"+d.data[i].PLAYERID +"' week='"+ d.data[i].WEEK +"' team='"+d.data[i].TEAM + "' >\
+    <ul class='list-group list-group-flush'>\
+    <li class='list-group-item'>\
+    <div class='item-div-3'>\
+      <div class='lb-left'>\
+      <div class='lb-pic'>\
+        <img class='team-img m-2' src='/artwork/inhouse/teams/"+ d.data[i].TEAM +".PNG' alt='icon'>\
+      </div>\
+      <div class='lb-player'>\
+        <h6 class='lb-heading' id='theName'>"+d.data[i].FIRSTNAME+ " " +d.data[i].LASTNAME+ " [Week " + d.data[i].WEEK + "]</h6>\
+        <h6 class='lb-text'>Projection: "+d.data[i].PROJECTION + "</h6>\
+        <h6 class='lb-text'>Result: "+d.data[i].RESULT +"</h6>\
+      </div>\
+      </div>\
+      <div class='lb-award'centervh>\
+        <h6 id='playerHelper' pos='"+ d.data[i].POS+"' res='"+d.data[i].RESULT+"' >Award: "+d.data[i].AWARD+"</h6>\
+      </div>\
+    </div>\
+    </li>\
+    </ul>\
+    </div>"
     );
   }
   $('#loader').hide();
@@ -174,38 +203,37 @@ function refillAwards(){
         var item = JSON.stringify(data.contents)
         var list = JSON.parse(item)
         parseAward(list);
+      })
 
-        //Back Button
-        $("#backButton").remove();
-        $("#toLeader").prepend("<a href='#' id='backButton'>Back</a>");
-        $('#backButton').click(function(){
-          fillLeaderboard();
-          fillPickers();
-          //fillPickers();
-        });
-
-    })
+    //Back Button
+    $("#backButton").remove();
+    $("#toLeader").prepend("<div class='pb-button back-button p-2'><a href='#' id='backButton'>Back</a></div>");
+    $('#backButton').click(function(){
+      fillLeaderboard();
+    });
 }
 
 
 
 function fillPickers(){
 
+  getCurrentWeek(); 
   $("#backButton").remove();
 
   checkDefaultWeek();
   $('#selWeek').empty();
   $('#selPos').empty();
-  for (var i=1; i<=16;i++ ){
-    if (i !== 16){
-      $('#selWeek').append('<option>'+i+'</option>')
-    }else{
-      $('#selWeek').append('<option>'+defaultWeek+'</option>')
-    }
+  //TODO: Jay Lena fix! 
+  for (var i=1; i<=1;i++ ){  
+    $('#selWeek').append('<option>'+i+'</option>')
   }
+  $('#selWeek').append('<option>'+defaultWeek+'</option>')
   // for (var i=0; i < postions.length;i++){
   //  $('#selPos').append('<option>'+postions[i]+'</option>')
   // }
+
+  console.log("lena education " + realweek)
+
 
   $('#selPos').val('all positions');
   $('#selWeek').val(defaultWeek);
@@ -293,7 +321,7 @@ $( document ).ready(function(){
   $('#toLeader').on('click','#fnPlayerName',function() {
       fnName = $('#theName',this).text();
       levelTwoName = 'Fantasy Name: ' + fnName;
-      levelTwoSubhead = "Skill: " + $('#score',this).text();
+      levelTwoSubhead = "" + $('#score',this).text();
 
       REFREASHTYPE = 1;
       // resetPickers();
