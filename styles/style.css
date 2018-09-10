@@ -595,6 +595,15 @@ nav a {
   height: auto;
   padding-bottom: 3em;
 }
+.embed-responsive-16by9::before {
+  padding-top: 40%!important;
+}
+
+@media (min-width: 576px) {
+  .embed-responsive-16by9::before {
+    padding-top: 47.5%!important;
+  }
+}
 @media (min-width: 992px) {
   .lp-r {
     height: 95vh;
@@ -605,6 +614,11 @@ nav a {
   }
   .explainer {
     width: 50vw;
+  }
+}
+@media (min-width: 1200px) {
+  .embed-responsive-16by9::before {
+    padding-top: 50%!important;
   }
 }
 
