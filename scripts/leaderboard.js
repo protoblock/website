@@ -224,15 +224,13 @@ function fillPickers(){
   $('#selWeek').empty();
   $('#selPos').empty();
   //TODO: Jay Lena fix! 
-  for (var i=1; i<=1;i++ ){  
+  for (var i=1; i<=2;i++ ){  
     $('#selWeek').append('<option>'+i+'</option>')
   }
   $('#selWeek').append('<option>'+defaultWeek+'</option>')
   // for (var i=0; i < postions.length;i++){
   //  $('#selPos').append('<option>'+postions[i]+'</option>')
   // }
-
-  console.log("lena education " + realweek)
 
 
   $('#selPos').val('all positions');
