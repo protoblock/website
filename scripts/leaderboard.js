@@ -58,7 +58,7 @@ function parseLevelThree(d){
         <img class='circle-img m-2' src='https://raw.githubusercontent.com/google/material-design-icons/master/action/ios/ic_account_circle.imageset/ic_account_circle_3x.png' alt='icon'>\
       </div>\
       <div class='lb-player'>\
-        <h5 class='lb-heading' id='theName'>"+d.data[i].FANTASYNAME+"</h5>\
+        <h5 class='lb-heading'><span id='theName'>"+d.data[i].FANTASYNAME+"</span></h5>\
         <h6 class='lb-text'>Projection: "+d.data[i].PROJECTION + "</h6>\
       </div>\
       </div>\
@@ -110,7 +110,7 @@ function parseLeaderboard(d){
         <img class='circle-img m-2' src='https://raw.githubusercontent.com/google/material-design-icons/master/action/ios/ic_account_circle.imageset/ic_account_circle_3x.png' alt='icon'>\
       </div>\
       <div class='lb-player'>\
-        <h5 class='lb-heading' id='theName'>"+d[i].name+"</h5>\
+        <h5 class='lb-heading'><span id='theName'>"+d[i].name+"</span></h5>\
       </div>\
       </div>\
       <div class='lb-award'centervh>\
@@ -148,7 +148,6 @@ function getLeaderBoard(ur){
 
 
 
-
 function parseAward(d){
   for (var i=0; i < d.data.length; i ++) {
     $('#toLeader').append("\
@@ -161,7 +160,7 @@ function parseAward(d){
         <img class='team-img m-2' src='/artwork/inhouse/teams/"+ d.data[i].TEAM +".PNG' alt='icon'>\
       </div>\
       <div class='lb-player'>\
-        <h6 class='lb-heading' id='theName'>"+d.data[i].FIRSTNAME+ " " +d.data[i].LASTNAME+ " [Week " + d.data[i].WEEK + "]</h6>\
+        <h6 class='lb-heading'><span id='theName'>"+d.data[i].FIRSTNAME+ " " +d.data[i].LASTNAME+ " [Week " + d.data[i].WEEK + "]</span></h6>\
         <h6 class='lb-text'>Projection: "+d.data[i].PROJECTION + "</h6>\
         <h6 class='lb-text'>Result: "+d.data[i].RESULT +"</h6>\
       </div>\
