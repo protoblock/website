@@ -13,7 +13,7 @@
 
     var postion='all positions'
     var postions=['QB','RB','WR','TE','K','DEF','all positions']
-    var ApiUrl='/scripts/php/simple.php?url=https://158.222.102.83:4545/'
+    var ApiUrl='/php/simple.php?url=https://158.222.102.83:4545/'
     var fnName = ''
     var playerIdInFocus, playerIdInFocusWeek;
     var levelOneUrl;
@@ -45,14 +45,16 @@ function parseLevelThree(d){
 	//$('#fnPlayerInFocus').text(d.data[0].FIRST + " " +d.data[0].LAST + " Result: "+d.data[0].RESULT  );
 	for (var i=0; i < d.data.length; i ++) {
 		$('#toLeader').append("\
-			<div class='list-group-item d-flex justify-content-between align-items-center'>\
-				<span class='badge'>\
+			<div class='list-group-item btn btn-raised'>\
+				<div class='row-picture'>\
 					<img class='circle' src='https://raw.githubusercontent.com/google/material-design-icons/master/action/ios/ic_account_circle.imageset/ic_account_circle_3x.png' alt='icon'>\
-				</span>\
+				</div>\
+					<div class='row-content'>\
 						<h4 class='list-group-item-heading'>\
 						<span id='theName'>"+d.data[i].FANTASYNAME+"</span>\
 						</h4>\
 						<p class='list-group-item-text'>Projection: "+d.data[i].PROJECTION + " Award: "+d.data[i].AWARD +"</p>\
+					</div>\
 				</div>"
 		);
 	$('#loader').hide();
@@ -88,12 +90,14 @@ function fillLevelThree(){
 function parseLeaderboard(d){
 	for (var i in d) {
 		$('#toLeader').append("\
-			<div class='list-group-item d-flex justify-content-center align-items-center'>\
-        <span class='badge'>\
+			<div id='fnPlayerName' class='list-group-item btn btn-raised'>\
+				<div class='row-picture'>\
 					<img class='circle' src='https://raw.githubusercontent.com/google/material-design-icons/master/action/ios/ic_account_circle.imageset/ic_account_circle_3x.png' alt='icon'>\
-				</span>\
-					<span id='theName'>"+d[i].name+"\
-					</h4><p id='score' class='list-group-item-text'>"+d[i].score+"</p></h4>\</span>\
+				</div>\
+				<div class='row-content'><h4 class='list-group-item-heading'>\
+					<span id='theName'>"+d[i].name+"</span>\
+					</h4><p id='score' class='list-group-item-text'>"+d[i].score+"</p></h4>\
+				</div>\
 			</div>"
 		);
 	}
@@ -130,7 +134,7 @@ function parseAward(d){
 		$('#toLeader').append("\
 				<div id='pnlPlayerName' class='list-group-item btn btn-raised' alt='"+d.data[i].PLAYERID +"' week='"+ d.data[i].WEEK +"' team='"+d.data[i].TEAM + "'  >\
 					<div class='row-picture'>\
-						<img class='circle' src='/images/teams/"+ d.data[i].TEAM +".PNG' alt='icon'>\
+						<img class='circle' src='/artwork/inhouse/teams/"+ d.data[i].TEAM +".PNG' alt='icon'>\
 				 	</div>\
 					<div class='row-content'>\
 						<h4 class='list-group-item-heading'>\
