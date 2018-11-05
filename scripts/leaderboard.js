@@ -223,7 +223,7 @@ function fillPickers(){
   $('#selWeek').empty();
   $('#selPos').empty();
   //TODO: Jay Lena fix! 
-  for (var i=1; i<=7;i++ ){  
+  for (var i=1; i<=9;i++ ){  
     $('#selWeek').append('<option>'+i+'</option>')
   }
   $('#selWeek').append('<option>'+defaultWeek+'</option>')

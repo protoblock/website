@@ -13,7 +13,7 @@ contact@protoblock.com
 -->
 <html>
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
+      <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-76493526-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -23,15 +23,13 @@ contact@protoblock.com
     gtag('config', 'UA-76493526-1');
   </script>
 
-  <link rel="canonical" href="http://protoblock.com/download.html"/>
-
   <meta charset="utf-8">
   <meta content="IE=edge" http-equiv="X-UA-Compatible">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="google-site-verification" content="7rZRzwP4OghEFh8wjcM2I59-RMs8sqMa7CjXrm3NexY">
 
   <link rel="shortcut icon" href="/images/logolittle-square-500.png">
-  <title>Download Protoblock</title>
+  <title>Leaderboard - Protoblock</title>
   <meta name="description" content="Protoblock is a blockchain community driven by NFL statistics and a new consensus algorithm, Proof of Skill.">
   <meta name="keywords" content="proof of skill, fantasy football, fantasy football mobile app, blockchain, bitcoin, proof of stake, daily fantasy sports, trading">
   <meta name="wot-verification" content="f21923b4364041de3dc2">
@@ -47,10 +45,12 @@ contact@protoblock.com
   <link href="/styles/style.css" rel="stylesheet" type="text/css">
 
   <!-- JS  -->
-  <script src="/scripts/jquery-3.3.1.min.js"></script>
+  <script src="/scripts/jquery-3.3.1.min.js" type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
+  <script src="/scripts/leaderboard.js" type="text/javascript"></script>
+  <script src="/scripts/bootstrap-list-filter.js" type="text/javascript"></script>
   <script src="/scripts/popper.min.js"></script>
   <script src="/scripts/bootstrap.min.js" type="text/javascript"></script>
-  <script src="/scripts/download.js" type="text/javascript"></script>
   <script src="/scripts/app.js"></script>
 
   <!-- Google Tracker -->
@@ -59,7 +59,7 @@ contact@protoblock.com
 <body>
 <!-- Navigation -->
 <nav class="navbar navbar-dark navbar-expand-lg justify-content-center text-monospace text-uppercase">
-  <a class="navbar-brand d-flex w-50 mr-auto" href="/">
+  <a class="navbar-brand d-flex w-50 mr-auto" href="/index.html">
     <img class="toplogoimg">
   </a>
 
@@ -79,7 +79,7 @@ contact@protoblock.com
       </li>
 
       <li class="nav-item">
-        <a class="nav-link text-nowrap" target="_blank" href="/PlayGuide.pdf"><span>Quick Start</span></a>
+        <a class="nav-link text-nowrap" href="/PlayGuide.pdf"><span>Quick Start</span></a>
       </li>
 
       <!--li class="nav-item dropdown">
@@ -91,7 +91,7 @@ contact@protoblock.com
       </li>-->
 
       <li class="nav-item">
-        <a class="nav-link" target="_blank" href="http://blog.protoblock.com"><span>Blog</span></a>
+        <a class="nav-link" href="http://blog.protoblock.com"><span>Blog</span></a>
       </li>
 
       <li class="nav-item dropdown">
@@ -140,71 +140,54 @@ contact@protoblock.com
   </div>
 </nav>
 <!-- End Navigation -->
-
 <!-- Main Body--> 
 <main>
-<div class="container pt-4 pb-5 dlpage">
 
+<div class="container pt-4 pb-5 leaderboard">
 <div class="row my-5">
-  <div class="col-12 text-center text-uppercase">
-    <h1>Download</h1>
+  <div class="col-12 text-center">
+    <h2 class=" text-uppercase">
+      <a href="/pages/leaderboard.html">2018 Leaderboard</a>
+    </h2>
+    <h5 class="pt-3" id='fnPlayerInFocus'></h5>
+    <h5 id='headerSubText'></h5>
   </div>
 </div>
 
-<div class="row my-3">
-  <div class="col-12 col-md-6 my-2 text-center">
-    <h5 class="text-uppercase pf-title my-1 py-2">Light Mobile Client</h5>
-
-    <div class="my-3 dlp-buttons">
-      <div class="text-nowrap my-2 pb-button dlp-button">
-        <a href='https://play.google.com/store/apps/details?id=org.proto.protoblock'>Google Play</a>
-      </div>
-
-      <div class="text-nowrap my-2 pb-button dlp-button">
-        <a href='https://itunes.apple.com/us/app/protoblock-2016/id1133758199?ls=1&mt=8'>iTunes Store</a>
-      </div>
-    </div>  
-
-    <img class="img-fluid" src="/images/screenshots/mobile-app.png">
-    
-    <p class="text-uppercase pf-subtitle">for playing on the go</p>
-
-    <div class="pf-list my-3">
-      <p>make projections</p>
-      <p>place trades</p>
-      <p>access game schedules</p>
-      <p>access fantasy data</p>
-    </div>
-  </div> 
-
-  <div class="col-12 col-md-6 my-2 text-center">
-    <h5 class="text-uppercase pf-title my-1 py-2">Desktop Full Node</h5>
-
-    <div class="my-3 dlp-buttons">
-      <div class="text-nowrap my-2 pb-button dlp-button">
-        <a href='/Downloads/Windows/64/protoblock.exe'>Windows</a>
-      </div>
-      <div class="text-nowrap my-2 pb-button dlp-button">
-        <a href='/Downloads/MacOS/64/protoblock.dmg'>MacOSX</a>              
-      </div>
-    </div>
-
-    <img class="img-fluid" src="/images/screenshots/desktop-app.png">
-
-    <p class="text-uppercase pf-subtitle">everything you could possibly want</p>
-
-    <div class="pf-list my-3">
-      <p>view the block explorer</p>
-      <p>import/export projections</p>
-      <p>access projections of all players</p>
-      <p>manage your account</p>
-      <p>transfer FantasyBits</p>
-    </div>                    
+<div class="row mt-4 mb-3">
+<div class="col-12 col-lg-6">
+  <form id='pickers' role="form">
+  <div class="form-group px-2">
+    <label for="sel1" class="p-2"><h6 class="text-nowrap">WEEK FILTER</h6></label><br/>
+    <select class="form-control" id="selWeek"></select>
   </div>
-
+  </form>
+</div>
+<!-- Position Selection NOT WORKING 
+<div class="col-12 col-lg-6">
+  <form id='pickers' role="form">
+  <div class="form-group px-2">
+    <label for="sel1" class="p-2"><h6 class="text-nowrap">SORT BY POSITION</h6></label>
+    <select class="form-control" id="selPos"></select>
+  </div>
+  </form>
+</div>
+-->
+<div class="col-12 col-lg-6 d-flex flex-row">
+  <div class="form-group pt-3 px-2 align-self-end ld-search">
+    <input id="searchinput" class="form-control" type="search" placeholder="Search Leaderboard..."></input>
+  </div>
+</div>
 </div>
 
+<div class="row px-2 leadercards">
+  <div class="col-12">
+    <img class="uil-ripple img-responsive" id='loader' src="/images/ripple.svg">
+    <div id="toLeader"></div>
+  </div>
 </div>
+</div>
+
 </main>
 <!-- End Main Body -->
 
@@ -273,6 +256,7 @@ contact@protoblock.com
 </div>
 </footer>
 <!-- End Footer -->
+
 
 </body>
 </html>
