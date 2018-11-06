@@ -146,7 +146,7 @@ function parseRight(d){
 
   $('#volHolder').append("<p><b>Volume: </b>" + d[0].volume + "<h3>")
   $('#openHolder').append("<p><b>Move from open: </b>"+ d[0].change + "<h3>")
-  $('#resultsHolder').append("<p><b>" + (d[0].symbol.slice(-1) == "s" ? "ROW" : ("Week " + d[0].symbol.slice(-1) )) +  " Expected Results:</b> "+ d[0].price + "<h3>")
+  $('#resultsHolder').append("<p><b>" + (d[0].symbol.slice(-1) == "s" ? "ROW" : ("Week " + d[0].symbol.slice(-2) )) +  " Expected Results:</b> "+ d[0].price + "<h3>")
 }
 
 
