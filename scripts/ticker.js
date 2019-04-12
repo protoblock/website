@@ -203,13 +203,14 @@ function parseLeftTable(d){
 
         if ($_GET['symbol'] == d[i].symbol && isFirst){
           $('#rightTitle').append("\
-             <h5><b>"
+              <h5><b>"
              + d[i].firstname + " " +  d[i].lastname + " (" +  team   + ", " + d[i].pos + ")"  + " </b></h2>");
 
         }
         $('#leftTable').append("\
                 <tr id='playerToFocus' alt='" +d[i].symbol+ "'>\
-                    <td id='firstRowPlayer' alt='"+d[i].firstname + " " +  d[i].lastname + " (" +  team  + ", " + d[i].pos + ")" +"'>"+ d[i].firstname + " " +  d[i].lastname + " ( " +  team   + ", " + d[i].pos + " ) </td>\
+                    <td id='firstRowPlayer'" + 'alt="'+ d[i].firstname + " " +  d[i].lastname + " (" +  team  + ", " + d[i].pos + ")" +'">'+ 
+                                                    d[i].firstname + " " +  d[i].lastname + " (" +  team  + ", " + d[i].pos + ") </td>\
                     <td>"+ d[i].symbol+" </td>\
                     <td>"+ d[i].last+" </td>\
                     <td>"+ d[i].volume+" </td>\
@@ -251,8 +252,7 @@ $( document ).ready(function(){
 
         // console.log( $('#firstRowPlayer' ,this).attr( 'alt' ) );
         var playerAtGlance = $('#firstRowPlayer' ,this).attr( 'alt' )
-        $('#rightTitle').append("\
-            <h5><b>"
+        $('#rightTitle').append("<h5><b>"
             + playerAtGlance + " </b></h2>");
 
 
