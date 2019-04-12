@@ -13,13 +13,23 @@ contact@protoblock.com
 -->
 <html>
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-76493526-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-76493526-1');
+  </script>
+
   <meta charset="utf-8">
   <meta content="IE=edge" http-equiv="X-UA-Compatible">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="google-site-verification" content="7rZRzwP4OghEFh8wjcM2I59-RMs8sqMa7CjXrm3NexY">
 
   <link rel="shortcut icon" href="/images/logolittle-square-500.png">
-  <title>Protoblock - Proof of Skill</title>
+  <title>Download Protoblock</title>
   <meta name="description" content="Protoblock is a blockchain community driven by NFL statistics and a new consensus algorithm, Proof of Skill.">
   <meta name="keywords" content="proof of skill, fantasy football, fantasy football mobile app, blockchain, bitcoin, proof of stake, daily fantasy sports, trading">
   <meta name="wot-verification" content="f21923b4364041de3dc2">
@@ -47,7 +57,7 @@ contact@protoblock.com
 <body>
 <!-- Navigation -->
 <nav class="navbar navbar-dark navbar-expand-lg justify-content-center text-monospace text-uppercase">
-  <a class="navbar-brand d-flex w-50 mr-auto" href="/index.html">
+  <a class="navbar-brand d-flex w-50 mr-auto" href="/">
     <img class="toplogoimg">
   </a>
 
@@ -59,27 +69,32 @@ contact@protoblock.com
 
     <ul class="navbar-nav w-100 justify-content-center">
       <li class="nav-item">
-        <a class="nav-link" href="/pages/ticker.html"><span>Ticker</span></a>
+        <a class="nav-link" href="/ticker.html"><span>Ticker</span></a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="/pages/leaderboard.html"><span>Leaderboard</span></a>
+        <a class="nav-link" href="/leaderboard.html"><span>Leaders</span></a>
       </li>
 
-      <li class="nav-item dropdown">
+      <li class="nav-item">
+        <a class="nav-link text-nowrap" target="_blank" href="/PlayGuide.pdf"><span>Quick Start</span></a>
+      </li>
+
+      <!--li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle text-nowrap" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Resources</span></a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item text-nowrap" target="_blank" href="/docs/whitepaper-2014.pdf"><span>White Paper</span></a>
           <a class="dropdown-item text-nowrap" target="_blank" href="/PlayGuide.pdf"><span>Play Guide</span></a>
         </div>
-      </li>
+      </li>-->
 
       <li class="nav-item">
-        <a class="nav-link" href="/pages/faq.html"><span>FAQ</span></a>
+        <a class="nav-link" target="_blank" href="http://blog.protoblock.com"><span>Blog</span></a>
       </li>
 
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle text-nowrap" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Community</span></a>
+        <a class="nav-link dropdown-toggle text-nowrap" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Social</span></a>
+        
         <div class="dropdown-menu text-nowrap text-center list-inline my-1" aria-labelledby="navbarDropdown">
           <ul>
             <li class="list-inline-item p-1">
@@ -115,7 +130,7 @@ contact@protoblock.com
     <ul class="nav navbar-nav ml-auto w-100 justify-content-end dl-button-top-box">
       <li class="nav-item mx-3">
         <button type="button" class="pb-button dl-button-top">
-          <a class="text-uppercase" href="/pages/downloads.html"><span>Download</span></a>
+          <a class="text-uppercase" href="/download.html"><span>Download</span></a>
         </button>        
       </li>
     </ul>
@@ -136,31 +151,6 @@ contact@protoblock.com
 
 <div class="row my-3">
   <div class="col-12 col-md-6 my-2 text-center">
-    <h5 class="text-uppercase pf-title my-1 py-2">Light Mobile Client</h5>
-
-    <div class="my-3 dlp-buttons">
-      <div class="text-nowrap my-2 pb-button dlp-button">
-        <a href='https://play.google.com/store/apps/details?id=org.proto.protoblock'>Google Play</a>
-      </div>
-
-      <div class="text-nowrap my-2 pb-button dlp-button">
-        <a href='https://itunes.apple.com/us/app/protoblock-2016/id1133758199?ls=1&mt=8'>iTunes Store</a>
-      </div>
-    </div>  
-
-    <img class="img-fluid" src="/images/screenshots/mobile-app.png">
-    
-    <p class="text-uppercase pf-subtitle">for playing on the go</p>
-
-    <div class="pf-list my-3">
-      <p>make projections</p>
-      <p>place trades</p>
-      <p>access game schedules</p>
-      <p>access fantasy data</p>
-    </div>
-  </div> 
-
-  <div class="col-12 col-md-6 my-2 text-center">
     <h5 class="text-uppercase pf-title my-1 py-2">Desktop Full Node</h5>
 
     <div class="my-3 dlp-buttons">
@@ -174,20 +164,78 @@ contact@protoblock.com
 
     <img class="img-fluid" src="/images/screenshots/desktop-app.png">
 
-    <p class="text-uppercase pf-subtitle">everything you could possibly want</p>
-
-    <div class="pf-list my-3">
-      <p>view the block explorer</p>
-      <p>import/export projections</p>
-      <p>access projections of all players</p>
-      <p>manage your account</p>
-      <p>transfer FantasyBits</p>
-    </div>                    
+    <p  class="text-justify"> The Protoblock desktop apps are full-featured dashboard nodes providing extensive access to all games and associated information. </p>
   </div>
 
+  <div class="col-12 col-md-6 my-2 text-center">
+    <h5 class="text-uppercase pf-title my-1 py-2">Light Mobile Client</h5>
+    <div class="my-3 dlp-buttons">
+      <div class="text-nowrap my-2 pb-button dlp-button">
+        <a href='https://play.google.com/store/apps/details?id=org.proto.protoblock'>Google Play</a>
+      </div>
+
+      <div class="text-nowrap my-2 pb-button dlp-button">
+        <a href='https://itunes.apple.com/us/app/protoblock-2016/id1133758199?ls=1&mt=8'>iTunes Store</a>
+      </div>
+    </div>  
+
+    <img class="img-fluid" src="/images/screenshots/mobile-app.png">
+    
+    <p class="text-justify">The Protoblock mobile apps for Android and iOS provide a convenient way to play</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-12 pb-button">
+    <h2 class="text-center ext-nowrap">Check out our <a class="ahover" href="/Protoblock-Quick-Start-Guide.pdf">Play Guide</a> to get started</h2>
+  </div>
+</div>
+
+<div class="row my-3">
+  <div class="col-12 col-md-6">
+    <h3 class=".third-title pb-1">Projections Game Overview</h3>
+    <h5 class=".second-title pb-1">Week 1 through 16 each NFL season</h5>
+    <br/>
+    <p>Each week Protoblock players compete by making direct projections for any/all NFL players prior to kickoffs.  It’s free to play. There’s no drafting and each week is a new game.</p>
+    <p>As each NFL game is scored, 100 ƑɃs are generated by each PPR fantasy point and automatically distributed to Protoblock Players based on accuracy.</p>
+    <p>It’s easy to earn ƑɃs, but only real NFL fantasy expertise can rise up the Leaderboard with consistent skilled projections.</p>
+    <p>Protoblock is a fair and open game platform that is decentralized in a way that makes every Protoblock player an owner through the ƑɃ blockchain coin distribution system.</p>
+  </div>
+  <div class="col-12 col-md-6">
+    <h3 class="text-center pb-1">Trading Game Overview</h3>
+    <h5 class="text-center pb-1">Season-Long & Year-Long Contracts</h5>
+    <br/>
+    <p class="pb-2">Now you can use ƑɃ to play leveraged positions on idividual NFL players' PPR scoring for each week, directly with other Protoblock players.</p>
+    <h4>Sell Overrated Players</h4>
+    <p>If you believe a specific NFL player is overrated you can sell or ‘short’ a player and earn 100 ƑɃs for every PPR point result under the strike price. </p>
+
+    <h4>Buy Underrated Players</h4>
+    <p>If an NFL player is underrated you can Buy or ‘long’ a player and earn 100 ƑɃs per every PPR point result over the contract price.</p>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="pb-div"></div>
+</div>
+
+
+
+<div class="row mb-4">
+  <div class="col-12">
+    <h3>Protoblock Innovation</h3>
+    <br/>
+    <p>The core invention that enables the new Protoblock game platforms is the ƑɃ Fantasybit cryptocurrency based on proof-of-skill,  which in this case is NFL fantasy projection skill. </p>
+
+    <p>Cryptocurrency is the term for ultra-secure blockchain token technology made famous by Bitcoin.  Protoblock is a fair and open game platform that is decentralized in a way that makes every Protoblock player an owner through the ƑɃ coin distribution system. </p>
+
+    <p>ƑɃ were developed on blockchain to be a durable coin ready to be exchanged. And because it is based on the traditions of NFL fantasy football - it avoids issues other coins have had with 'bots and random numbers.</p>
+  </div>
 </div>
 
 </div>
+
+
 </main>
 <!-- End Main Body -->
 

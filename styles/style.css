@@ -1012,6 +1012,13 @@ footer {
   }
 }
 
+@media (min-width: 992px) {
+  .resulttable {
+    padding: 0.5em!important;
+  }
+}
+
+
 /**********************************************************************/
 /* leaderboard */
 .leaderboard {

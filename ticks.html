@@ -154,19 +154,20 @@ contact@protoblock.com
   </div>
 </div>
 
-<div class="row my-5">
+<div class="row my-3">
 
 <div class="col-12 col-lg-6 text-center">
-  <div class="playername py-3">
+  <div class="playername py-2">
     <div id='rightTitle'></div>
   </div>
 
-  <div class="result py-1">
-    <div id='resultsHolder' class="table-responsive"></div>
+  <div class="result py-0">
+    <!--div id='resultsHolder' class="table-responsive"></div-->
+    <div id='resultsHolder'></div>
   </div>
 
 
-  <div class="resulttable pt-3">
+  <div class="resulttable py-1">
     <table class="table table-condensed table-striped table-hover">
       <thead>
         <tr>
@@ -180,43 +181,47 @@ contact@protoblock.com
       </thead>
       <tbody id='upsideRow'></tbody>
     </table>
-  </div>
+  
 
-  <div class="container-fluid holder py-2">
-  <div class="row">
-    <div class='col-12 col-md-6 ' id='volHolder'></div>
-    <div class='col-12 col-md-6 ' id='openHolder'></div>
-  </div>
-  </div>
+    <div class="container-fluid holder py-2">
+      <div class="row">
+        <div class='col-12 col-md-6 ' id='volHolder'></div>
+        <div class='col-12 col-md-6 ' id='openHolder'></div>
+      </div>
+    </div>
 
-  <div class="resultgraph py-3">
-    <div id="chartContainer">
-      <canvas style='background: rgb(16, 53, 88) ;width:100%' id="canvas" ></canvas>
+    <div class="resultgraph py-3">
+      <div id="chartContainer">
+        <canvas style='background: rgb(16, 53, 88) ;width:100%' id="canvas" ></canvas>
+      </div>
     </div>
   </div>
 </div>
 
 <div class="col-12 col-lg-6 text-center">
-<div class="tickerinfo py-3">
-  <p>Click contract below for latest quotes</p>
-</div>
-
-<div class="playertable py-3">
-  <div class='table-responsive'>
-    <table class="table" id='upSideTable'>
-      <thead>
-        <tr>
-          <th>Player Names</th>
-          <th>Symbol</th>
-          <th>Price</th>
-          <th>Volume</th>
-          <th>Change</th>
-        </tr>
-      </thead>
-      <tbody id='leftTable'></tbody>
-    </table>
+  <div class="playername py-2">
+    <br>
   </div>
-</div>
+  <div class="tickerinfo py-0">
+    <p>Click contract below for latest quotes</p>
+  </div>
+
+  <div class="playertable py-1">
+    <div class='table-responsive'>
+      <table class="table" id='upSideTable'>
+        <thead>
+          <tr>
+            <th>Player Names</th>
+            <th>Symbol</th>
+            <th>Price</th>
+            <th>Volume</th>
+            <th>Change</th>
+          </tr>
+        </thead>
+        <tbody id='leftTable'></tbody>
+      </table>
+    </div>
+  </div>
 </div>
 
 </div>
