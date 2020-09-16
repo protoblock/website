@@ -55,7 +55,7 @@ function parseLevelThree(d){
     <div class='item-div-3'>\
       <div class='lb-left'>\
       <div class='lb-pic'>\
-        <img class='circle-img m-2' src='https://raw.githubusercontent.com/google/material-design-icons/master/action/ios/ic_account_circle.imageset/ic_account_circle_3x.png' alt='icon'>\
+        <img class='circle-img m-2' src='/images/ic_account_circle_3x.png' alt='icon'>\
       </div>\
       <div class='lb-player'>\
         <h5 class='lb-heading'><span id='theName'>"+d.data[i].FANTASYNAME+"</span></h5>\
@@ -107,7 +107,7 @@ function parseLeaderboard(d){
     <div id='fnPlayerName' class='item-div-3'>\
       <div class='lb-left'>\
       <div class='lb-pic'>\
-        <img class='circle-img m-2' src='https://raw.githubusercontent.com/google/material-design-icons/master/action/ios/ic_account_circle.imageset/ic_account_circle_3x.png' alt='icon'>\
+        <img class='circle-img m-2' src='/images/ic_account_circle_3x.png' alt='icon'>\
       </div>\
       <div class='lb-player'>\
         <h5 class='lb-heading'><span id='theName'>"+d[i].name+"</span></h5>\
