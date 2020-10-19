@@ -146,8 +146,8 @@ function parseRight(d){
 
   $('#volHolder').append("<p><b>Volume: </b>" + d[0].volume + "<h3>")
   $('#openHolder').append("<p><b>Change: </b>"+ d[0].change + "<h3>")
-  $('#resultsHolder').append("<p><b>" + (d[0].symbol.slice(-1) == "s" ? ( "20" + d[0].symbol.slice(-3,-1) + " Total ") : ("Week " + d[0].symbol.slice(-2) ) )
-                            +  "Fantasy Points:</b> "+ d[0].price + "<h3>")
+  $('#resultsHolder').append("<p><b>" + (d[0].symbol.slice(-1) == "s" ? ( "20" + d[0].symbol.slice(-3,-1) + " Total ") : ("Week: " + d[0].symbol.slice(-2) ) )
+                            +  " Fantasy Points:</b> "+ d[0].price + "<h3>")
 
    //(d[0].symbol.slice(-1) == "s" ? "ROW" : ("Week " + d[0].symbol.slice(-2) )) +  " Expected Results:</b> "+ d[0].price + "<h3>")
 }
