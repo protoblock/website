@@ -86,10 +86,9 @@ button:focus{
 	outline:none!important;
 }
 
-
-
-
-
+input[name=email]{
+	padding: 6px 10px
+}
 
 #playerCard #playerName{
 /*     color: #464448; */
